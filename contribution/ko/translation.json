@@ -1,4 +1,44 @@
 {
+	"BattlePassTimeLimitedInfoModal": {
+		"button": {
+			"eng": "Close",
+			"trans": "닫기"
+		},
+		"endDate": {
+			"desc": {
+				"eng": "This battle track will end at ${date}, and you will not be able purchase it after this date.",
+				"trans": "이 배틀 트랙은 ${date}에 종료되며, 이 날짜 이후에는 구매할 수 없습니다."
+			},
+			"title": {
+				"eng": "Track End Date",
+				"trans": "트랙 종료일"
+			}
+		},
+		"maxDays": {
+			"desc1": {
+				"eng": "battle track will remain available for unlock and redeem daily ${days} days after your first login date (${firstDay}), regardless of the end date.",
+				"trans": "배틀 트랙은 첫 로그인 날짜(${firstDay})로부터 ${days}일 후까지 잠금 해제 및 교환 가능합니다. 종료 날짜와는 상관없이 매일 이용 가능합니다."
+			},
+			"desc2": {
+				"eng": "Once the redeemable days are over, you will not be able to unlock or redeem the rewards anymore. so make sure you login and redeem your rewards before the redeemable days are over.",
+				"trans": "교환 가능한 날짜가 지나면 더 이상 보상을 해제하거나 교환할 수 없습니다. 따라서 교환 가능한 날짜가 지나기 전에 로그인하여 보상을 교환하십시오."
+			},
+			"title": {
+				"eng": "Redeemable Days",
+				"trans": "교환 가능한 날들"
+			}
+		},
+		"trackDuration": {
+			"desc": {
+				"eng": "This battle track is a ${days} days track. by unlocking this track, you will unlock the current period of the track. and you will be able to unlock it again if its still available in the next period.",
+				"trans": "이 전투 트랙은 ${days}일 트랙입니다. 이 트랙을 잠금 해제하면 현재 트랙의 기간을 잠금 해제할 수 있습니다. 그리고 다음 기간에도 사용 가능하다면 다시 잠금 해제할 수 있습니다."
+			},
+			"title": {
+				"eng": "Battle Track duration",
+				"trans": "전투 추적 지속 시간"
+			}
+		}
+	},
 	"CrewTip": {
 		"tip1": {
 			"eng": "Looks like one or more of your mercenary is low level, you should level them up to match your level using ${item1} and ${item2}",
@@ -34,6 +74,32 @@
 			"title": {
 				"eng": "Sofa tables",
 				"trans": "소파 테이블"
+			}
+		}
+	},
+	"RecipeType": {
+		"container": {
+			"title": {
+				"eng": "Containers",
+				"trans": "상자"
+			}
+		},
+		"containerKey": {
+			"title": {
+				"eng": "Container Keys",
+				"trans": "상자 열쇠"
+			}
+		},
+		"others": {
+			"title": {
+				"eng": "Others",
+				"trans": "기타"
+			}
+		},
+		"upgrades": {
+			"title": {
+				"eng": "Upgrade Materials",
+				"trans": "업그레이드 재료"
 			}
 		}
 	},
@@ -177,6 +243,72 @@
 			"trans": "이 능력은 단일 대상으로, 이러한 종류의 능력은 일반적으로 다중 대상 능력보다 강력하지만, 여러 적에 대해서는 효과가 떨어질 수 있습니다."
 		}
 	},
+	"accountPage": {
+		"createdDate": {
+			"eng": "Created on ${date}",
+			"trans": "${date}에 생성됨"
+		},
+		"deleteAccount": {
+			"confirm": {
+				"placeholder": {
+					"eng": "Enter \"${DELETE}\" here to confirm",
+					"trans": "여기 \"${DELETE}\"를 입력하여 확인하세요"
+				},
+				"title": {
+					"eng": "Type \"${delete}\" to confirm",
+					"trans": "\"${delete}\"를 입력하여 확인하세요"
+				}
+			},
+			"confirmError": {
+				"eng": "You must type \"${delete}\" to confirm",
+				"trans": "\"${delete}\"를 입력하여 확인해야 합니다"
+			},
+			"eng": "Delete Account",
+			"title": {
+				"eng": "Danger Zone",
+				"trans": "위험 지역"
+			},
+			"trans": "계정 삭제",
+			"warning": {
+				"eng": "This action is irreversible and will permanently delete your account and all associated data. Proceed with caution.",
+				"trans": "이 작업은 되돌릴 수 없으며 귀하의 계정과 모든 관련 데이터가 영구적으로 삭제됩니다. 신중하게 진행하세요."
+			}
+		},
+		"linkApple": {
+			"success": {
+				"eng": "Account successfully linked with Apple Account",
+				"trans": "Apple 계정과 성공적으로 연결되었습니다"
+			}
+		},
+		"linkEmail": {
+			"failed": {
+				"eng": "Failed to link account: ${error}",
+				"trans": "계정 연결 실패: ${error}"
+			},
+			"success": {
+				"eng": "Account successfully linked with email",
+				"trans": "계정이 이메일과 성공적으로 연결되었습니다"
+			}
+		},
+		"linkError": {
+			"alreadyInUse": {
+				"eng": "Cannot link account with this credential because it is already associated with another account",
+				"trans": "이 자격 증명으로 계정을 연결할 수 없습니다. 이미 다른 계정과 연결되어 있습니다"
+			}
+		},
+		"linkGoogle": {
+			"success": {
+				"eng": "Account successfully linked with Google Account",
+				"trans": "계정이 Google 계정과 성공적으로 연결되었습니다"
+			}
+		}
+	},
+	"alertModal": {
+		"ok": {
+			"eng": "OK",
+			"trans": "확인"
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -200,6 +332,12 @@
 			"displayName": {
 				"eng": "Downtown Apartment",
 				"trans": "중심가 아파트"
+			}
+		},
+		"chat": {
+			"cleared": {
+				"eng": "Apartment chat has been cleared.",
+				"trans": "아파트 채팅이 삭제되었습니다."
 			}
 		},
 		"enter": {
@@ -245,6 +383,12 @@
 			}
 		},
 		"rental": {
+			"notPaid": {
+				"title": {
+					"eng": "Apartment rental fee ${amount} has not been paid and your apartment has been removed",
+					"trans": "아파트 임대료 ${amount}이 미납되어 아파트가 제거되었습니다"
+				}
+			},
 			"paid": {
 				"title": {
 					"eng": "Apartment rental fee ${amount} has been deducted from your account",
@@ -254,7 +398,29 @@
 		}
 	},
 	"apartmentPage": {
+		"clearChat": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "취소"
+			},
+			"confirm": {
+				"eng": "clear chat",
+				"trans": "채팅 지우기"
+			},
+			"title": {
+				"eng": "Clear Chat",
+				"trans": "채팅 지우기"
+			},
+			"warning": {
+				"eng": "This will permanently delete all messages in your apartment chat. This action cannot be undone.",
+				"trans": "이 동작은 아파트 채팅의 모든 메시지를 영구적으로 삭제합니다. 복원할 수 없습니다."
+			}
+		},
 		"kitchenButton": {
+			"error": {
+				"eng": "You must be the owner of the apartment to access the kitchen",
+				"trans": "해당 아파트의 주인만이 주방에 들어갈 수 있습니다"
+			},
 			"title": {
 				"eng": "kitchen",
 				"trans": "주방"
@@ -280,6 +446,24 @@
 				"trans": "온라인으로 이용 가능한 아파트를 확인하세요"
 			}
 		},
+		"options": {
+			"clearChat": {
+				"eng": "clear chat",
+				"error": {
+					"eng": "The owner of this apartment must add you as a friend for you to send messages in this apartment.",
+					"trans": "이 아파트의 주인이 귀하를 친구로 추가해야만 메시지를 보낼 수 있습니다."
+				},
+				"trans": "채팅 지우기"
+			},
+			"terminateLease": {
+				"eng": "terminate lease",
+				"trans": "계약 해지"
+			},
+			"title": {
+				"eng": "Apartment Options",
+				"trans": "아파트 설정"
+			}
+		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -293,6 +477,24 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "아파트 보기"
+		},
+		"terminateLease": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "취소"
+			},
+			"confirm": {
+				"eng": "terminate lease",
+				"trans": "계약 해지"
+			},
+			"title": {
+				"eng": "Terminate Lease",
+				"trans": "리스 청산"
+			},
+			"warning": {
+				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
+				"trans": "이걸로 아파트 임대 계약은 즉시 파기. 환불은 없다."
+			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -329,10 +531,58 @@
 			"trans": "지금 빌리기"
 		}
 	},
+	"appProductType": {
+		"premium5": {
+			"tag": {
+				"eng": "Popular",
+				"trans": "인기"
+			}
+		},
+		"premium6": {
+			"tag": {
+				"eng": "Best Value",
+				"trans": "가성비 최고"
+			}
+		}
+	},
 	"appleLogin": {
 		"button": {
 			"eng": "Sign in with Apple",
 			"trans": "애플로 로그인하기"
+		}
+	},
+	"arrestPlayerModal": {
+		"cancel": {
+			"eng": "ABORT",
+			"trans": "취소"
+		},
+		"confirm": {
+			"eng": "EXECUTE ARREST",
+			"trans": "체포 실행"
+		},
+		"description": {
+			"arrestReward": {
+				"eng": "If you arrest a wanted player, you will receive rewards from ACPD",
+				"trans": "수배된 플레이어를 체포하면 ACPD로부터 보상을 받게 됩니다."
+			},
+			"eng": "You are about to arrest a wanted criminal.",
+			"trans": "수배자를 체포할 예정입니다."
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "Lv. ${level}"
+		},
+		"targetLabel": {
+			"eng": "WANTED CRIMINAL",
+			"trans": "추적 중인 범죄자"
+		},
+		"title": {
+			"eng": "ARREST WARRANT",
+			"trans": "체포 영장"
+		},
+		"wantedLevel": {
+			"eng": "WANTED LVL ${level}",
+			"trans": "사건 레벨 ${level}"
 		}
 	},
 	"attackBar": {
@@ -355,6 +605,48 @@
 		"instruction": {
 			"eng": "hold and release to attack",
 			"trans": "누르다가 놓아서 공격"
+		}
+	},
+	"attackPlayerModal": {
+		"cancel": {
+			"eng": "STAND DOWN",
+			"trans": "중지하라"
+		},
+		"confirm": {
+			"eng": "MUG PLAYER",
+			"trans": "강도 플레이어"
+		},
+		"description": {
+			"attackNonHostile": {
+				"eng": "You will be marked as Hostile for attacking non-hostile players",
+				"trans": "비적대 플레이어를 공격하면 적대자로 표시됩니다."
+			},
+			"attackNoneWanted": {
+				"eng": "You will be wanted by the ACPD for attacking a player thats not wanted",
+				"trans": "원하지 않는 플레이어를 공격하면 ACPD에 의해 체포됩니다."
+			},
+			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
+			"trans": "적대적 전투를 시작합니다. 이 행동은 되돌릴 수 없습니다."
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "Lv. ${level}"
+		},
+		"riskWarning": {
+			"eng": "HIGH RISK OPERATION",
+			"trans": "고위험 작전"
+		},
+		"targetLabel": {
+			"eng": "TARGET",
+			"trans": "타겟"
+		},
+		"title": {
+			"eng": "INITIATE COMBAT",
+			"trans": "전투 시작"
+		},
+		"wantedLevel": {
+			"eng": "WANTED",
+			"trans": "타겟"
 		}
 	},
 	"attribute": {
@@ -399,6 +691,12 @@
 			}
 		}
 	},
+	"auth": {
+		"loggingIn": {
+			"eng": "Logging in...",
+			"trans": "로그인 중..."
+		}
+	},
 	"autoCalibrationPage": {
 		"calibrate": {
 			"eng": "Start Auto Calibration",
@@ -411,6 +709,10 @@
 		"destroyChance": {
 			"eng": "Destroy chance:",
 			"trans": "파괴 확률:"
+		},
+		"lastRepairUsed": {
+			"eng": "used ${count} ${repairItem} for repair",
+			"trans": "${count}개의 ${repairItem}을(를) 수리에 사용했습니다"
 		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
@@ -432,9 +734,93 @@
 			"eng": "Success chance:",
 			"trans": "성공 확률:"
 		},
+		"tipv2": {
+			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.\\nKeep in mind that this process will automatically repair your equipment with ${repairItem}.",
+			"trans": "아이템을 자동으로 교정하고 수리하며, 이 과정은 아이템이 성공적으로 한 번 교정되거나 프로세스를 중단하시면 멈춥니다.\\n기억하십시오: 이 프로세스는 ${repairItem}을 사용해 장비를 자동으로 수리합니다."
+		}
+	},
+	"autoFarm": {
+		"interrupt": {
+			"eng": "Interrupt",
+			"trans": "중단"
+		},
+		"level": {
+			"eng": "Gathering Zone:",
+			"trans": "채집 구역:"
+		},
+		"rewards": {
+			"eng": "Gathered Rewards",
+			"trans": "모은 보상"
+		},
+		"rush": {
+			"eng": "Rush",
+			"trans": "돌진"
+		},
+		"start": {
+			"eng": "Start",
+			"trans": "시작"
+		},
 		"tip": {
-			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
-			"trans": "아이템을 자동으로 교정하고 수리하며, 한 번 성공적으로 교정되거나 프로세스를 중지할 때까지 계속 교정합니다."
+			"eng": "You can unlock higher gathering zones by clearing ${difficulty} strongholds, the zone level is capped at your character level.",
+			"trans": "${difficulty} 아지트를 클리어하면 더 높은 채집 구역을 잠금 해제할 수 있으며, 구역 레벨은 캐릭터 레벨에 따라 제한됩니다."
+		},
+		"title": {
+			"eng": "Auto Gather Progress",
+			"trans": "자동 수집 진행 상황"
+		}
+	},
+	"autoResetPage": {
+		"complete": {
+			"eng": "Auto reset success!",
+			"trans": "자동 재설정 성공!"
+		},
+		"error": {
+			"duplicateTraits": {
+				"eng": "You cannot select the same trait more than once",
+				"trans": "같은 특성을 한 번 이상 선택할 수 없습니다"
+			},
+			"emptyTraits": {
+				"eng": "You must select a prefix for each slot",
+				"trans": "각 슬롯에 접두사를 선택해야 합니다"
+			}
+		},
+		"expectedChance": {
+			"eng": "The expected chance for this specific combination of prefixes is ${percentFrom}% ~ ${percentTo}%",
+			"trans": "이 특정 접두사 조합의 예상 확률은 ${percentFrom}% ~ ${percentTo}%입니다"
+		},
+		"reset": {
+			"eng": "Reset",
+			"trans": "재설정"
+		},
+		"resources": {
+			"title": {
+				"eng": "Resources",
+				"trans": "자원"
+			}
+		},
+		"selectShard": {
+			"label": {
+				"eng": "Prefix ${index}",
+				"trans": "접두사 ${index}"
+			},
+			"title": {
+				"eng": "Select shard",
+				"trans": "샤드 선택하기"
+			}
+		},
+		"selectTraits": {
+			"title": {
+				"eng": "Select traits",
+				"trans": "특성 선택하기"
+			}
+		},
+		"stop": {
+			"eng": "Stop",
+			"trans": "그만해주세요"
+		},
+		"tip": {
+			"eng": "The chances of rolling traits is exactly the same as manually re-rolling, this is just a automatic re-roll feature for convenience.",
+			"trans": "특성을 굴릴 확률은 수동으로 다시 굴리는 것과 정확히 동일합니다. 이것은 편의를 위한 자동 재굴림 기능일 뿐입니다."
 		}
 	},
 	"backgroundTask": {
@@ -471,6 +857,14 @@
 		"inProgress": {
 			"eng": "Task in progress...",
 			"trans": "진행 중인 작업..."
+		},
+		"instantFinish": {
+			"eng": "Finish Now",
+			"trans": "지금 끝내기"
+		},
+		"instantFinishConfirmTitle": {
+			"eng": "Finish task now?",
+			"trans": "지금 작업을 완료하시겠습니까?"
 		}
 	},
 	"backgroundTaskPage": {
@@ -622,6 +1016,118 @@
 		}
 	},
 	"battlePass": {
+		"april": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21일간 매일 다양한 보상을 받고, 22일째 되는 날에는 ${itemName}까지!"
+			},
+			"subtitle": {
+				"eng": "Battle Pass",
+				"trans": "배틀 패스"
+			},
+			"title": {
+				"eng": "Cyber April",
+				"trans": "사이버 에이프릴"
+			}
+		},
+		"christmas": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21일 동안 매일 다양한 보상을 받으며, 22일째에는 최대 ${itemName}을(를) 받으세요"
+			},
+			"subtitle": {
+				"eng": "Christmas Rewards",
+				"trans": "크리스마스 보상"
+			},
+			"title": {
+				"eng": "Merry Mysteries",
+				"trans": "메리 미스테리"
+			}
+		},
+		"crystal": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21일 동안 매일 다양한 보상을 받으세요. 그리고 22일에는 최대 ${itemName}을(를) 받을 수 있습니다"
+			},
+			"subtitle": {
+				"eng": "Battle Track",
+				"trans": "전투 추적"
+			},
+			"title": {
+				"eng": "Shardlight Crystal",
+				"trans": "샤드라이트 크리스탈"
+			}
+		},
+		"halloween": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21일 동안 매일 다양한 보상을 받고, 22일째에는 최대 ${itemName}을(를) 받으세요"
+			},
+			"subtitle": {
+				"eng": "halloween Package",
+				"trans": "할로윈 패키지"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "배틀 패스"
+			}
+		},
+		"july": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21일 동안 매일 다양한 보상을 받고, 22일째에는 최대 ${itemName}을(를) 받으세요"
+			},
+			"subtitle": {
+				"eng": "July Package",
+				"trans": "7월 패키지"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "배틀 패스"
+			}
+		},
+		"june": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "매일 다양한 보상을 받아 21일 동안, 그리고 22일째에는 최대 ${itemName}까지 받을 수 있습니다"
+			},
+			"subtitle": {
+				"eng": "June Package",
+				"trans": "6월 패키지"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "배틀 패스"
+			}
+		},
+		"lunar": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21일 동안 매일 다양한 보상을 받으세요. 그리고 22일에는 최대 ${itemName}을(를) 받을 수 있습니다"
+			},
+			"subtitle": {
+				"eng": "Golden Blessings",
+				"trans": "황금 축복"
+			},
+			"title": {
+				"eng": "Lunar Bliss",
+				"trans": "달의 황홀함"
+			}
+		},
+		"may": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "매일 다양한 보상을 21일 동안 받고, 22일째에는 최대 ${itemName}까지 받을 수 있습니다"
+			},
+			"subtitle": {
+				"eng": "Battle Pass",
+				"trans": "배틀 패스"
+			},
+			"title": {
+				"eng": "Vector Force Assault",
+				"trans": "벡터 포스 어썰트"
+			}
+		},
 		"mercEnhancer": {
 			"description": {
 				"eng": "Receive free ${item} every day",
@@ -647,6 +1153,82 @@
 				"eng": "Unleash Power",
 				"trans": "힘 해방"
 			}
+		},
+		"november": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21일 동안 매일 다양한 보상을 받고, 22일째에는 최대 ${itemName}을(를) 받으세요"
+			},
+			"subtitle": {
+				"eng": "November Package",
+				"trans": "11월 패키지"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "배틀 패스"
+			}
+		},
+		"sakura": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "매일 다양한 보상을 21일 동안 받고, 22일째에는 최대 ${itemName}까지 받을 수 있습니다"
+			},
+			"subtitle": {
+				"eng": "Neon Bloom",
+				"trans": "네온 블룸"
+			},
+			"title": {
+				"eng": "Sakura Byte",
+				"trans": "사쿠라 바이트"
+			}
+		},
+		"september": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21일 동안 매일 다양한 보상을 받고, 22일째에는 최대 ${itemName}을(를) 받으세요"
+			},
+			"subtitle": {
+				"eng": "september Package",
+				"trans": "9월 패키지"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "배틀 패스"
+			}
+		},
+		"standard": {
+			"pass0": {
+				"name": {
+					"eng": "free",
+					"trans": "무료"
+				}
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "기본"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "고급"
+				}
+			}
+		},
+		"summer": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21일 동안 매일 다양한 보상을 받고, 22일째에는 최대 ${itemName}을(를) 받으세요"
+			},
+			"subtitle": {
+				"eng": "summer Package",
+				"trans": "여름 패키지"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "배틀 패스"
+			}
 		}
 	},
 	"battlePassOverlay": {
@@ -661,6 +1243,14 @@
 		"days": {
 			"eng": "Day ${num}",
 			"trans": "${num}일"
+		},
+		"daysRemaining": {
+			"eng": "${days} days remaining",
+			"trans": "${days}일 남음"
+		},
+		"endsIn": {
+			"eng": "purchasable till ${date}",
+			"trans": "${date}까지 구매 가능"
 		},
 		"item": {
 			"claimed": {
@@ -678,23 +1268,40 @@
 			"unclaimed": {
 				"eng": "Claim",
 				"trans": "수령"
+			},
+			"unlock": {
+				"eng": "Unlock",
+				"trans": "잠금 해제"
 			}
 		},
 		"itemStillPending": {
 			"eng": "This item is still pending. Please wait until the next refresh.",
 			"trans": "이 아이템은 아직 수령 대기 중입니다. 다음 새로고침까지 기다려주세요."
 		},
+		"redeemableWindow": {
+			"eng": "${days} days redeemable window",
+			"trans": "보상을 얻을 수 있는 일자 ${days}일"
+		},
 		"timeToNextRefresh": {
 			"eng": "Time to next refresh",
-			"trans": "다음 새로고침까지 남은 시간",
-			"vars": []
+			"trans": "다음 새로고침까지 남은 시간"
 		},
 		"unlock": {
 			"eng": "Unlock",
 			"trans": "잠금 해제"
 		}
 	},
+	"battlePassSmall": {
+		"discount": {
+			"eng": "Discount",
+			"trans": "할인"
+		}
+	},
 	"battlePassUnlockModal": {
+		"details": {
+			"eng": "Battle Pass Details",
+			"trans": "배틀 패스 상세 정보"
+		},
 		"unlockBattlePass": {
 			"eng": "Unlock ${tier} Battle Pass",
 			"trans": "${tier} 배틀 패스 해제하기"
@@ -706,6 +1313,16 @@
 		"unlockNow": {
 			"eng": "Unlock Now",
 			"trans": "지금 해제하기"
+		}
+	},
+	"blockedPlayerListPage": {
+		"noBlockedPlayers": {
+			"eng": "No blocked players",
+			"trans": "차단된 플레이어 없음"
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "차단 해제"
 		}
 	},
 	"buff": {
@@ -735,6 +1352,12 @@
 			"name": {
 				"eng": "Daily Free Bundle",
 				"trans": "일일 무료 번들"
+			}
+		},
+		"freeHideoutLocator": {
+			"name": {
+				"eng": "Free Hideout Locator",
+				"trans": "은신처 위치 추적기 무료"
 			}
 		},
 		"itemUpgradeDeal": {
@@ -828,8 +1451,7 @@
 			},
 			"title": {
 				"eng": "Your name is \"${name}\"?",
-				"trans": "당신의 이름은 \"${name}\"이(가) 맞나요?",
-				"vars": []
+				"trans": "당신의 이름은 \"${name}\"이(가) 맞나요?"
 			}
 		},
 		"createButton": {
@@ -848,15 +1470,91 @@
 		}
 	},
 	"chat": {
+		"channel": {
+			"clan": {
+				"eng": "Clan",
+				"trans": "클랜"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "글로벌"
+			},
+			"local": {
+				"eng": "Local",
+				"trans": "로컬"
+			},
+			"private": {
+				"eng": "Private",
+				"trans": "사적인"
+			},
+			"system": {
+				"eng": "System",
+				"trans": "시스템"
+			}
+		},
+		"error": {
+			"levelRestriction1": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "글로벌 채팅을 보내려면 최소 레벨 ${level}이어야 합니다."
+			},
+			"levelRestriction2": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "글로벌 채팅을 보내려면 최소 레벨 ${level}이어야 합니다."
+			},
+			"link": {
+				"eng": "Links are not allowed in messages",
+				"trans": "메시지에 링크를 넣을 수 없습니다"
+			},
+			"tooLong": {
+				"eng": "Message is too long",
+				"trans": "글자 수 초과!"
+			}
+		},
+		"imageView": {
+			"close": {
+				"eng": "close",
+				"trans": "닫기"
+			}
+		},
 		"inputPlaceholder": {
 			"eng": "Type a message...",
 			"trans": "메시지를 입력하세요..."
+		},
+		"mention": {
+			"title": {
+				"eng": "${sender} has mentioned you",
+				"trans": "${sender}님이 당신을 언급했습니다"
+			}
+		},
+		"sendImage": {
+			"eng": "Send Image",
+			"trans": "이미지 보내기"
+		}
+	},
+	"chatMessageModal": {
+		"gangNotFound": {
+			"eng": "Gang not found",
+			"trans": "갱을 찾을 수 없습니다"
 		}
 	},
 	"chatPreview": {
 		"noMessage": {
 			"eng": "no message",
 			"trans": "메시지 없음"
+		}
+	},
+	"chirp": {
+		"chat": {
+			"eng": "Chat",
+			"trans": "채팅"
+		},
+		"global": {
+			"eng": "global",
+			"trans": "글로벌"
+		},
+		"regional": {
+			"eng": "regional",
+			"trans": "지역적"
 		}
 	},
 	"chooseEquipmentSlotModal": {
@@ -904,13 +1602,27 @@
 			"eng": "Image updated successfully",
 			"trans": "이미지가 성공적으로 업데이트되었습니다"
 		},
+		"notice": {
+			"prefix": {
+				"eng": "Notice:",
+				"trans": "공지:"
+			}
+		},
 		"notification": {
 			"collapsed": {
+				"body": {
+					"eng": "Your gang has collapsed due to lack of resources and funds.",
+					"trans": "갱이 자원과 자금 부족으로 붕괴되었습니다."
+				},
 				"title": {
 					"eng": "Your gang has collapsed!",
 					"trans": "당신의 갱이 붕괴되었습니다!"
 				}
 			}
+		},
+		"requestSent": {
+			"eng": "Request sent successfully",
+			"trans": "요청이 성공적으로 전송되었습니다"
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -980,6 +1692,12 @@
 			"eng": "Funds",
 			"trans": "자금"
 		},
+		"gang": {
+			"members": {
+				"eng": "${amount} members",
+				"trans": "${amount}명의 회원"
+			}
+		},
 		"joinButton": {
 			"eng": "Join",
 			"trans": "가입하기"
@@ -987,6 +1705,16 @@
 		"leaveClan": {
 			"eng": "leave gang",
 			"trans": "갱에서 나가기"
+		},
+		"leaveClanModal": {
+			"description": {
+				"eng": "Are you sure you want to leave this gang?",
+				"trans": "정말 이 갱을 떠나시겠어요?"
+			},
+			"title": {
+				"eng": "Leave gang",
+				"trans": "갱을 나가다"
+			}
 		},
 		"makePrivate": {
 			"eng": "Make Private",
@@ -1014,9 +1742,23 @@
 			"eng": "There is no motto set for this gang yet",
 			"trans": "이 갱단에는 아직 모토가 설정되지 않았습니다"
 		},
+		"noticeModal": {
+			"description": {
+				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
+				"trans": "공지 게시 시 ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}이(가) 소요됩니다."
+			},
+			"title": {
+				"eng": "Post gang notice",
+				"trans": "갱단 공지 게시"
+			}
+		},
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "갱원 목록"
+		},
+		"postNoticeButton": {
+			"eng": "Post Notice",
+			"trans": "공지 게시"
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1043,6 +1785,28 @@
 		"unavailable": {
 			"eng": "This gang is unavailable",
 			"trans": "이 갱은 사용할 수 없습니다"
+		}
+	},
+	"clanImagePage": {
+		"bannerImage": {
+			"description": {
+				"eng": "Banner image will be displayed on the territory banner, recommended size is ${ratio}",
+				"trans": "배너 이미지는 영역 배너에 표시되며, 권장 크기는 ${ratio}입니다"
+			},
+			"title": {
+				"eng": "Banner Image",
+				"trans": "배너 이미지"
+			}
+		},
+		"mainImage": {
+			"description": {
+				"eng": "Main image will be displayed on the gang page, recommended size is ${ratio}",
+				"trans": "메인 이미지는 갱 페이지에 표시되며, 권장 크기는 ${ratio}입니다"
+			},
+			"title": {
+				"eng": "Main Image",
+				"trans": "메인 이미지"
+			}
 		}
 	},
 	"clanPlayer": {
@@ -1100,6 +1864,38 @@
 		}
 	},
 	"clanSearchPage": {
+		"noClan": {
+			"ConfirmJoinButton": {
+				"description": {
+					"eng": "Are you sure you want to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "\"${name}\"라는 이름과 \"${tag}\"라는 태그를 가진 갱에 가입하시겠습니까?"
+				},
+				"title": {
+					"eng": "Join",
+					"trans": "참여하기"
+				}
+			},
+			"joinButton": {
+				"title": {
+					"eng": "Join Gang",
+					"trans": "갱에 가입하기"
+				}
+			},
+			"requestButton": {
+				"description": {
+					"eng": "Are you sure you want to send a request to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "\"${name}\"라는 이름과 \"${tag}\" 태그로 갱 가입 요청을 보내시겠습니까?"
+				},
+				"title": {
+					"eng": "Send Request",
+					"trans": "요청 보내기"
+				}
+			},
+			"title": {
+				"eng": "No gang found",
+				"trans": "갱을 찾을 수 없습니다"
+			}
+		},
 		"searchBox": {
 			"title": {
 				"eng": "Gang name",
@@ -1128,29 +1924,35 @@
 		}
 	},
 	"collectedLoreNotes": {
-		"description": {
-			"eng": "You have collected ${collected} of ${total} lore notes.",
-			"trans": "당신은 ${total}개 중 ${collected}개의 로어 노트를 수집했습니다."
-		},
 		"noNotes": {
 			"eng": "You have not collected any lore notes yet.",
 			"trans": "아직 로어 노트를 수집하지 않았습니다."
+		},
+		"progressBar": {
+			"title": {
+				"eng": "Notes Collected",
+				"trans": "수집한 노트"
+			},
+			"unit": {
+				"eng": "Lore Notes",
+				"trans": "로어 노트"
+			}
 		},
 		"title": {
 			"eng": "Collected Lore Notes",
 			"trans": "수집된 로어 노트"
 		}
 	},
+	"comatEnemyList": {
+		"scaledLevel": {
+			"eng": "scaled Lv. ${level}",
+			"trans": "스케일 Lv.${level}"
+		}
+	},
 	"combatHandler": {
-		"engagePlayerPopup": {
-			"description": {
-				"eng": "Are you sure you want to attack this player?",
-				"trans": "이 플레이어를 공격하시겠습니까?"
-			},
-			"title": {
-				"eng": "Attack Player",
-				"trans": "플레이어 공격하기"
-			}
+		"arrestPlayerError": {
+			"eng": "This player has already been arrested",
+			"trans": "이 플레이어는 이미 체포되었습니다."
 		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
@@ -1207,6 +2009,24 @@
 			"trans": "${enemyName}이(가) ${player}을(를) 공격하여 ${damage}데미지를 입혔습니다"
 		}
 	},
+	"common": {
+		"close": {
+			"eng": "Close",
+			"trans": "닫기"
+		},
+		"error": {
+			"eng": "Error loading investigation data",
+			"trans": "조사 데이터를 불러오는 중 오류가 발생했습니다."
+		},
+		"loading": {
+			"eng": "Loading...",
+			"trans": "로딩 중…"
+		},
+		"retry": {
+			"eng": "Retry",
+			"trans": "다시 시도"
+		}
+	},
 	"compactRewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${amount} control on territory",
@@ -1258,6 +2078,34 @@
 			"title": {
 				"eng": "Reconnecting to mainframe... (${attempt})",
 				"trans": "메인프레임에 재연결 중입니다... (${attempt}번 시도 중)"
+			}
+		},
+		"resuming": {
+			"description1": {
+				"eng": "Establishing connection to mainframe.",
+				"trans": "메인프레임에 연결 중입니다"
+			},
+			"description2": {
+				"eng": "All systems nominal, please standby...",
+				"trans": "모든 시스템이 정상 상태입니다. 잠시만 기다려 주세요..."
+			},
+			"title": {
+				"eng": "Connecting to server...",
+				"trans": "서버 연결 중..."
+			}
+		},
+		"updating": {
+			"description1": {
+				"eng": "Updating system, please standby...",
+				"trans": "시스템 업데이트 중입니다, 잠시만 기다려주세요..."
+			},
+			"description2": {
+				"eng": "This will not consume network data.",
+				"trans": "이것은 네트워크 데이터를 소비하지 않습니다."
+			},
+			"title": {
+				"eng": "Server Updating...",
+				"trans": "서버 업데이트 중..."
 			}
 		}
 	},
@@ -1335,21 +2183,29 @@
 	},
 	"crafting": {
 		"craftModal": {
+			"cancel": {
+				"eng": "Cancel",
+				"trans": "취소"
+			},
 			"title": {
 				"eng": "Select Amount",
 				"trans": "수량 선택"
 			}
+		},
+		"tip": {
+			"eng": "You can also craft directly from your inventory",
+			"trans": "인벤토리에서 직접 제작할 수도 있습니다"
+		},
+		"title": {
+			"eng": "Crafting",
+			"trans": "제작"
 		}
 	},
 	"createGang": {
-		"confirmModal": {
-			"description": {
-				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\" and tag \"${tag}\"?",
-				"trans": "\"${name}\" 이름과 \"${tag}\" 태그를 가진 갱을 생성하시겠습니까?"
-			},
+		"createButton": {
 			"title": {
-				"eng": "Create gang",
-				"trans": "갱 생성"
+				"eng": "Create New Gang",
+				"trans": "새 갱 만들기"
 			}
 		},
 		"createGangButton": {
@@ -1361,12 +2217,6 @@
 		"description": {
 			"eng": "Create your own gang and invite your friends to join!",
 			"trans": "자신만의 갱을 만들고 친구들을 초대해 가입하세요!"
-		},
-		"fullJoinButton": {
-			"title": {
-				"eng": "Members full",
-				"trans": "멤버가 가득 찼습니다"
-			}
 		},
 		"gangNameInput": {
 			"title": {
@@ -1380,34 +2230,12 @@
 				"trans": "갱단 태그"
 			}
 		},
-		"joinButton": {
-			"title": {
-				"eng": "Join",
-				"trans": "참여하기"
-			}
-		},
-		"joinExistingClanButton": {
-			"title": {
-				"eng": "Join existing gang",
-				"trans": "기존 갱에 가입하기"
-			}
-		},
 		"title": {
 			"eng": "Create new gang",
 			"trans": "새로운 갱을 만들기"
 		}
 	},
 	"crewTab": {
-		"detailModal": {
-			"detail": {
-				"eng": "view details",
-				"trans": "세부 정보 보기"
-			},
-			"remove": {
-				"eng": "Remove from crew",
-				"trans": "크루에서 제거하기"
-			}
-		},
 		"selectPopup": {
 			"title": {
 				"eng": "Select mercenary",
@@ -1436,6 +2264,16 @@
 			"name": {
 				"eng": "Netcoin",
 				"trans": "넷코인"
+			}
+		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device that can be used to locate hidden hideouts.",
+				"trans": "은신처를 찾는 데 사용할 수 있는 장치."
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "은신처 위치 추적기"
 			}
 		},
 		"mercExpCurrency": {
@@ -1493,6 +2331,20 @@
 		"noDailyQuests": {
 			"eng": "No daily quests available",
 			"trans": "일일 퀘스트를 할 수 없습니다"
+		}
+	},
+	"dailyReward": {
+		"refresh": {
+			"noti": {
+				"body": {
+					"eng": "Today's Daily Reward Awaits! Log in and Claim Your Reward Now! 🌟",
+					"trans": "오늘의 데일리 보상이 준비되어 있습니다! 지금 로그인하고 보상을 받으세요! 🌟"
+				},
+				"title": {
+					"eng": "Grab Your Daily Reward!",
+					"trans": "매일 보상을 받으세요!"
+				}
+			}
 		}
 	},
 	"dailyRewardPopup": {
@@ -1617,6 +2469,38 @@
 			"trans": "캐릭터 삭제"
 		}
 	},
+	"desktopLayout": {
+		"rightSidebar": {
+			"clanChatDescription": {
+				"eng": "Gang chat is only available when you are in a gang.",
+				"trans": "갱에 있을 때만 갱 채팅을 사용할 수 있습니다."
+			},
+			"notAvailable": {
+				"eng": "Not Available",
+				"trans": "이용 불가"
+			}
+		}
+	},
+	"desktopRightSidebar": {
+		"channel": {
+			"chirp": {
+				"eng": "Chirp",
+				"trans": "Chirp"
+			},
+			"clan": {
+				"eng": "Gang Chat",
+				"trans": "갱톡"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "글로벌"
+			},
+			"mail": {
+				"eng": "Mail",
+				"trans": "메일"
+			}
+		}
+	},
 	"dismantle": {
 		"error": {
 			"notIdle": {
@@ -1635,6 +2519,50 @@
 		"dismantleButton": {
 			"eng": "Dismantle",
 			"trans": "분해하기"
+		}
+	},
+	"displayShelf": {
+		"confirmUnlock": {
+			"eng": "Unlock Slot ${i}?",
+			"trans": "슬롯 ${i}을(를) 해금하시겠습니까?"
+		},
+		"empty": {
+			"eng": "Empty",
+			"trans": "비었음"
+		},
+		"error": {
+			"lowLevel": {
+				"eng": "You need to reach level ${level}",
+				"trans": "${level} 레벨에 도달해야 해요"
+			},
+			"noMoney": {
+				"eng": "Not enough ${currency}",
+				"trans": "${currency}가 부족합니다"
+			}
+		},
+		"locked": {
+			"eng": "Locked",
+			"trans": "잠긴"
+		},
+		"selectItem": {
+			"eng": "Select Item",
+			"trans": "아이템 선택"
+		},
+		"slot": {
+			"eng": "Slot ${i}",
+			"trans": "슬롯 ${i}"
+		},
+		"title": {
+			"eng": "Display Shelf",
+			"trans": "디스플레이 칸반"
+		},
+		"unlockHint": {
+			"eng": "Click a locked slot to unlock (Lv ${level} + ${price} ${currency})",
+			"trans": "잠긴 슬롯을 클릭하여 해제하세요 (레벨 ${level} + ${price} ${currency})"
+		},
+		"unlockReqFull": {
+			"eng": "Requires Level ${level} and ${price} ${currency}",
+			"trans": "레벨 ${level} 및 ${price} ${currency}가 필요합니다"
 		}
 	},
 	"drawMercAnimation": {
@@ -1704,6 +2632,18 @@
 			"enemyInRoom2": {
 				"eng": "You cannot perform this action while there are enemies nearby",
 				"trans": "주변에 적이 있을 때는 이 동작을 수행할 수 없습니다"
+			},
+			"failedToLoadAssets": {
+				"eng": "Failed to load assets: ${error}",
+				"trans": "자산 로드 실패: ${error}"
+			},
+			"maxLootLevelDifference": {
+				"eng": "You cannot loot this chest because your level is too high",
+				"trans": "당신의 레벨이 너무 높아서 이 상자를 획득 할 수 없습니다"
+			},
+			"noKey": {
+				"eng": "This chest is locked. Find a key to open it!",
+				"trans": "이 상자는 잠겨 있습니다. 열쇠를 찾아서 열어보세요!"
 			}
 		},
 		"type": {
@@ -1737,6 +2677,10 @@
 		"close": {
 			"eng": "Close",
 			"trans": "닫기"
+		},
+		"resultTitle": {
+			"eng": "Result",
+			"trans": "결과"
 		}
 	},
 	"dungeonEffect": {
@@ -1824,17 +2768,21 @@
 				"trans": "아지트"
 			}
 		},
+		"inventoryButton": {
+			"title": {
+				"eng": "Inventory",
+				"trans": "인벤토리"
+			}
+		},
 		"levelSelect": {
 			"label": {
 				"eng": "level",
 				"trans": "레벨"
 			}
 		},
-		"manageInventoryButton": {
-			"title": {
-				"eng": "Manage Inventory",
-				"trans": "인벤토리 관리"
-			}
+		"loading": {
+			"eng": "Connecting to lobby...",
+			"trans": "로비에 연결 중..."
 		},
 		"playerModal": {
 			"kick": {
@@ -1869,6 +2817,10 @@
 		"ready": {
 			"eng": "Ready",
 			"trans": "준비 완료"
+		},
+		"socialButton": {
+			"eng": "social",
+			"trans": "소셜"
 		},
 		"territoryGang": {
 			"eng": "Strongholds created by member of ${gangName} in this district will receive extra buff",
@@ -1947,6 +2899,10 @@
 				"eng": "Public strongholds",
 				"trans": "공개된 아지트"
 			}
+		},
+		"notEnoughResources": {
+			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
+			"trans": "자원이 충분하지 않습니다. 대신 ${difficulty}을(를) 시도해보세요, ${error}"
 		}
 	},
 	"dungeonUI": {
@@ -1969,17 +2925,17 @@
 			}
 		},
 		"invNoHealing": {
-			"cancel": {
-				"eng": "Continue",
-				"trans": "계속"
-			},
 			"confirm": {
-				"eng": "purchase",
-				"trans": "구매"
+				"eng": "Continue",
+				"trans": "계속하기"
 			},
 			"message": {
-				"eng": "Seems like your are running low on heals, purchase some to bring it to strongholds.",
-				"trans": "회복제가 부족해 보입니다. 아지트에 가지고 가기 위해 구매해주세요."
+				"eng": "Seems like your are running low on healing items such as ${item1} or ${item2}\\nIt's recommended to purchase some from ${npc} before entering strongholds",
+				"trans": "${item1} 또는 ${item2}와 같은 치료 아이템이 부족한 것 같네요.\\n아지트에 들어가기 전에 ${npc}에서 구매하는 것이 좋습니다"
+			},
+			"purchase": {
+				"eng": "purchase",
+				"trans": "구매"
 			},
 			"title": {
 				"eng": "low healing items",
@@ -2029,14 +2985,96 @@
 			}
 		}
 	},
+	"emoji": {
+		"angry": {
+			"displayName": {
+				"eng": "Angry",
+				"trans": "빡침"
+			}
+		},
+		"eyes": {
+			"displayName": {
+				"eng": "Eyes",
+				"trans": "눈"
+			}
+		},
+		"fire": {
+			"displayName": {
+				"eng": "Fire",
+				"trans": "발사"
+			}
+		},
+		"heart": {
+			"displayName": {
+				"eng": "Love",
+				"trans": "러브"
+			}
+		},
+		"potato": {
+			"displayName": {
+				"eng": "Potato",
+				"trans": "허접"
+			}
+		},
+		"sad": {
+			"displayName": {
+				"eng": "Sad",
+				"trans": "우울"
+			}
+		},
+		"thumbsup": {
+			"displayName": {
+				"eng": "Like",
+				"trans": "좋아요"
+			}
+		},
+		"worship": {
+			"displayName": {
+				"eng": "worship",
+				"trans": "숭배"
+			}
+		},
+		"wow": {
+			"displayName": {
+				"eng": "Wow",
+				"trans": "대박"
+			}
+		}
+	},
+	"enemyEvent": {
+		"description": {
+			"eng": "This event triggers rarely when you are exploring and fighting enemies",
+			"trans": "이 이벤트는 탐험하고 적과 싸울 때 드물게 발생합니다"
+		},
+		"startMinigame": {
+			"eng": "Unlock",
+			"trans": "잠금 해제하기"
+		},
+		"title": {
+			"eng": "Encounter Event",
+			"trans": "조우 이벤트"
+		},
+		"unlockDescription": {
+			"eng": "Receive reward by solving the minigame",
+			"trans": "미니게임을 해결하여 보상을 받으세요"
+		},
+		"unlockTitle": {
+			"eng": "unlock",
+			"trans": "잠금 해제"
+		}
+	},
 	"enemyTabContent": {
-		"addEnemy": {
-			"eng": "Add Enemies",
-			"trans": "적 추가"
+		"addToEnemyList": {
+			"eng": "Add To Enemy List",
+			"trans": "적 목록에 추가"
 		},
 		"attack": {
 			"eng": "Attack",
 			"trans": "공격"
+		},
+		"enemiesList": {
+			"eng": "Enemies List",
+			"trans": "적 리스트"
 		},
 		"removeEnemy": {
 			"eng": "Remove Enemy",
@@ -2196,9 +3234,9 @@
 		}
 	},
 	"errorBoundary": {
-		"description": {
-			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer at ${email}",
-			"trans": "오류 보고서가 개발자에게 전송되었습니다. \\n만약 이 오류가 계속 발생한다면, ${email}으로 개발자에게 연락해주세요"
+		"description1": {
+			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer",
+			"trans": "오류 리포트가 개발자에게 전송되었습니다.\n문제가 지속되면 개발자에게 문의해주세요."
 		},
 		"restart": {
 			"eng": "Restart",
@@ -2217,6 +3255,20 @@
 				"eng": "Update Received",
 				"trans": "업데이트 받음"
 			}
+		}
+	},
+	"eventTopUpRewardsBanner": {
+		"rewards": {
+			"eng": "Rewards:",
+			"trans": "보상:"
+		},
+		"subtitle": {
+			"eng": "Available during: ${events}",
+			"trans": "사용 가능한 기간: ${events}"
+		},
+		"title": {
+			"eng": "Event Top-Up Bonus",
+			"trans": "이벤트 토업 보너스"
 		}
 	},
 	"feedbackPopup": {
@@ -2291,11 +3343,267 @@
 			"trans": "첫 충전 시 두 배"
 		}
 	},
+	"followLottery": {
+		"error": {
+			"invalidPrimeTargetIndex": {
+				"eng": "Invalid prime target index",
+				"trans": "유효하지 않은 프라임 타겟 인덱스"
+			},
+			"noPrimeTargetSelected": {
+				"eng": "Please select a prime target first",
+				"trans": "먼저 주요 목표를 선택하세요"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient ${currency}",
+				"trans": "${currency}가 부족합니다."
+			}
+		},
+		"mail": {
+			"normalWin": {
+				"eng": "You received: ${normalItem} from the ${lotteryType} Follow-Up Lottery. Better luck next time! The reward will be sent to your apartment.",
+				"trans": "${lotteryType} 추첨에서 ${normalItem}을(를) 획득했습니다. 다음 기회에 다시 도전해 보세요! 보상은 아파트로 발송됩니다."
+			},
+			"primeWin": {
+				"eng": "Congratulations! You won the Prime Target: ${primeItem} from the ${lotteryType} Follow-Up Lottery, plus a bonus: ${normalItem}! The rewards will be sent to your apartment.",
+				"trans": "축하합니다! ${lotteryType} 추첨에서 ${primeItem}을(를) 당첨받았습니다. 추가 보상으로 ${normalItem}도 함께 드립니다. 상품을 아파트로 발송해드리겠습니다."
+			}
+		}
+	},
+	"followUpLottery": {
+		"animation": {
+			"analyzing": {
+				"eng": "ANALYZING TARGET",
+				"trans": "타겟 분석 중"
+			},
+			"calculatingTitle": {
+				"eng": "CALCULATING PRIME...",
+				"trans": "프라임 계산 중..."
+			},
+			"completeTitle": {
+				"eng": "RESULTS ARE IN!",
+				"trans": "결과가 나왔습니다!"
+			},
+			"primeNotWon": {
+				"eng": "No prime target this time, chance will be higher next roll!",
+				"trans": "이번 회차에는 주요 표적이 없습니다. 다음 회차에 확률이 높아질 것입니다!"
+			},
+			"primeWon": {
+				"eng": "PRIME TARGET ACQUIRED!",
+				"trans": "주 표적 확보!"
+			},
+			"title": {
+				"eng": "ROLLING...",
+				"trans": "진행 중..."
+			}
+		},
+		"cyberCache": {
+			"displayName": {
+				"eng": "Cyber Cache",
+				"trans": "사이버 캐시"
+			},
+			"subtitle": {
+				"eng": "Advanced tech rewards await",
+				"trans": "고급 기술 보상이 기다리고 있습니다"
+			}
+		},
+		"description": {
+			"eng": "Follow-Up Lottery",
+			"trans": "후속 추첨"
+		},
+		"error": {
+			"periodEnded": {
+				"eng": "The lottery period has ended. Please select a target again.",
+				"trans": "추첨 기간이 종료되었습니다. 다시 대상자를 선택해 주세요."
+			},
+			"selectTargetFirst": {
+				"eng": "Please select a prime target first!",
+				"trans": "주 타겟을 먼저 선택하세요!"
+			}
+		},
+		"info": {
+			"currentChance": {
+				"eng": "Prime Chance",
+				"trans": "황금 기회"
+			},
+			"reset": {
+				"eng": "The lottery period has ended and was reset.",
+				"trans": "추첨 기간이 종료되고 재설정되었습니다."
+			},
+			"resetIn": {
+				"eng": "Resets In",
+				"trans": "초 후 리셋"
+			}
+		},
+		"main": {
+			"currentTarget": {
+				"eng": "Current Prime Target",
+				"trans": "현재 주목표"
+			},
+			"guaranteedRewards": {
+				"eng": "Guaranteed Rewards",
+				"trans": "확정 보상"
+			},
+			"roll": {
+				"eng": "ROLL",
+				"trans": "굴리기"
+			},
+			"selectPrimeTarget": {
+				"eng": "Select Prime Target",
+				"trans": "주 타겟 선택"
+			},
+			"targetSelected": {
+				"eng": "Target Selected",
+				"trans": "표적 선택됨"
+			},
+			"tierProgress": {
+				"eng": "TIER PROGRESS",
+				"trans": "등급 진전"
+			}
+		},
+		"preRoll": {
+			"desc": {
+				"eng": "Prizes will be selected from the pool below. Good luck.",
+				"trans": "아래 풀에서 상품을 추첨합니다. 행운을 빕니다."
+			},
+			"normalPrizes": {
+				"eng": "Normal Prize Pool",
+				"trans": "기본 보상 풀"
+			},
+			"primeTarget": {
+				"eng": "Your Prime Target",
+				"trans": "당신의 주요 타겟"
+			},
+			"title": {
+				"eng": "PREPARE TO ROLL",
+				"trans": "준비"
+			}
+		},
+		"prompt": {
+			"selectTarget": {
+				"eng": "Select a Prime Target below to begin.",
+				"trans": "아래의 주요 표적을 선택하세요."
+			}
+		},
+		"resetConfirm": {
+			"afterReset": {
+				"eng": "After Reset",
+				"trans": "리셋 후"
+			},
+			"currentProgress": {
+				"eng": "Current Progress",
+				"trans": "현재 진행도"
+			},
+			"description": {
+				"eng": "You can choose a new Prime Target after resetting, but you will lose your current progress.",
+				"trans": "초기화 후 새로운 프리마 타겟을 선택할 수 있지만, 현재 진행 상황을 잃게 됩니다."
+			},
+			"title": {
+				"eng": "Reset Prime Target?",
+				"trans": "주 목표 리셋"
+			}
+		},
+		"result": {
+			"continue": {
+				"eng": "CONTINUE",
+				"trans": "계속"
+			},
+			"desc": {
+				"eng": "Data decrypted. Contents are as follows:",
+				"trans": "데이터를 해독했습니다. 내용은 아래와 같습니다:"
+			},
+			"title": {
+				"eng": "PRIZE ACQUIRED",
+				"trans": "보상 획득"
+			}
+		},
+		"selectTarget": {
+			"description": {
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "이 아이템을 주 타겟으로 설정할까요?"
+			},
+			"description2": {
+				"eng": "You cannot change your prime target once selected until the next reset (${time})",
+				"trans": "선택한 주 목표는 다음 리셋(${time})까지 변경할 수 없습니다"
+			},
+			"error": {
+				"eng": "Failed to select target. Please try again.",
+				"trans": "대상을 선택하지 못했습니다. 다시 시도해 주세요."
+			},
+			"title": {
+				"eng": "Select Prime Target",
+				"trans": "주 타겟 선택"
+			}
+		},
+		"tip": {
+			"explain": {
+				"eng": "Select your prime prize. Each roll increases the chance of winning the selected target prize. click here for more information.",
+				"trans": "주요 보상을 선택하세요. 각 회전마다 선택한 대상 보상의 당첨 확률이 증가합니다. 더 자세한 정보는 여기를 클릭하세요."
+			}
+		}
+	},
+	"followUpLotteryBanner": {
+		"primeTargets": {
+			"eng": "Rewards:",
+			"trans": "보상"
+		}
+	},
+	"followUpLotteryNormalRewards": {
+		"additional": {
+			"eng": "Normal rewards are ALWAYS given in addition to any Prime Target wins",
+			"trans": "노멀 보상은 프라임 타겟 승리 외에 추가로 항상 지급됩니다"
+		},
+		"close": {
+			"eng": "UNDERSTOOD",
+			"trans": "알겠습니다"
+		},
+		"description": {
+			"eng": "Drop rates for normal rewards from ${lotteryName}",
+			"trans": "${lotteryName}의 일반 보상 드롭률"
+		},
+		"dropRates": {
+			"eng": "Drop Chances",
+			"trans": "드롭 확률"
+		},
+		"guarantee": {
+			"eng": "100% chance to receive one normal reward per roll",
+			"trans": "한 번의 회당 일반 보상을 100% 확률로 획득합니다."
+		},
+		"random": {
+			"eng": "Item is randomly selected based on the chance shown below",
+			"trans": "아래 확률에 따라 아이템이 무작위로 선택됩니다"
+		},
+		"title": {
+			"eng": "Normal Rewards",
+			"trans": "일반 보상"
+		}
+	},
+	"forgotPasswordPopup": {
+		"enterEmail": {
+			"eng": "Enter your email to reset your password. an reset link will be sent to your email.",
+			"trans": "비밀번호를 재설정하려면 이메일을 입력하세요. 재설정 링크가 귀하의 이메일로 전송됩니다."
+		},
+		"forgotPassword": {
+			"eng": "Forgot Password",
+			"trans": "비밀번호를 잊으셨나요?"
+		},
+		"send": {
+			"eng": "Send Reset Link",
+			"trans": "재설정 링크 전송"
+		}
+	},
 	"friend": {
 		"error": {
 			"addNotFound": {
 				"eng": "Player not found.",
 				"trans": "플레이어를 찾을 수 없습니다."
+			},
+			"maxEnemyLimit": {
+				"eng": "You have reached the maximum number of enemies.",
+				"trans": "최대 적 수 제한입니다."
+			},
+			"maxLimit": {
+				"eng": "You have reached the maximum number of friends.",
+				"trans": "친구 수가 가득 찼습니다."
 			},
 			"removeNotFound": {
 				"eng": "Player not found.",
@@ -2305,15 +3613,13 @@
 		"remove": {
 			"success": {
 				"eng": "You have removed ${friendName} from your friends list.",
-				"trans": "당신의 친구 목록에서 ${friendName}을(를) 삭제했습니다.",
-				"vars": []
+				"trans": "당신의 친구 목록에서 ${friendName}을(를) 삭제했습니다."
 			}
 		},
 		"removeEnemy": {
 			"success": {
 				"eng": "You have removed ${playerName} from your enemy list.",
-				"trans": "당신의 적 목록에서 ${playerName}을(를) 제거했습니다.",
-				"vars": []
+				"trans": "당신의 적 목록에서 ${playerName}을(를) 제거했습니다."
 			}
 		}
 	},
@@ -2330,6 +3636,10 @@
 			"eng": "Add Friend",
 			"trans": "친구 추가"
 		},
+		"friendsList": {
+			"eng": "Friends List",
+			"trans": "친구 목록"
+		},
 		"removeFriend": {
 			"eng": "Remove Friend",
 			"trans": "친구 삭제"
@@ -2337,6 +3647,56 @@
 		"viewProfile": {
 			"eng": "View Profile",
 			"trans": "프로필 보기"
+		}
+	},
+	"gameEventType": {
+		"april": {
+			"eng": "April",
+			"trans": "4월"
+		},
+		"august": {
+			"eng": "August",
+			"trans": "8월"
+		},
+		"chineseNewYear": {
+			"eng": "Chinese New Year",
+			"trans": "중국 설날"
+		},
+		"christmas": {
+			"eng": "Christmas",
+			"trans": "크리스마스"
+		},
+		"crystal": {
+			"eng": "Crystal",
+			"trans": "크리스탈"
+		},
+		"halloween": {
+			"eng": "Halloween",
+			"trans": "할로윈"
+		},
+		"july": {
+			"eng": "July",
+			"trans": "7월"
+		},
+		"june": {
+			"eng": "June",
+			"trans": "6월"
+		},
+		"may": {
+			"eng": "May",
+			"trans": "May"
+		},
+		"sakura": {
+			"eng": "Sakura",
+			"trans": "사쿠라"
+		},
+		"september": {
+			"eng": "September",
+			"trans": "9월"
+		},
+		"thanksgiving": {
+			"eng": "Thanksgiving",
+			"trans": "추수감사절"
 		}
 	},
 	"gang": {
@@ -2378,6 +3738,22 @@
 				}
 			}
 		},
+		"invite": {
+			"error": {
+				"globalCooldown": {
+					"eng": "You can only send clan invites every ${minutes} minutes",
+					"trans": "클랜 초대는 ${minutes}분마다 한 번만 보낼 수 있습니다."
+				},
+				"playerCooldown": {
+					"eng": "You can only send an invite to this player every ${hours} hour(s)",
+					"trans": "이 플레이어에게는 ${hours}시간마다 초대할 수 있습니다."
+				}
+			},
+			"restricted": {
+				"eng": "You cannot send gang invites now",
+				"trans": "지금은 갱 초대를 보낼 수 없습니다."
+			}
+		},
 		"inviteSent": {
 			"eng": "A invite has been sent to ${playerName}",
 			"trans": "${playerName}에게 초대장이 전송되었습니다"
@@ -2410,6 +3786,16 @@
 				"trans": "갱 이름은 최소 ${minLength}자 이상이어야 합니다"
 			}
 		},
+		"notice": {
+			"notEnoughMoney": {
+				"eng": "Not enough Eurodollars",
+				"trans": "유로달러가 부족합니다."
+			},
+			"success": {
+				"eng": "Notice posted successfully",
+				"trans": "공지 게시가 완료되었습니다."
+			}
+		},
 		"requestJoin": {
 			"mail": {
 				"eng": "Hi, I would love to join your gang! ${request}",
@@ -2424,6 +3810,10 @@
 			"invalidCharacters": {
 				"eng": "The gang tag must only contain letters and numbers",
 				"trans": "갱 태그는 문자와 숫자만 포함해야 합니다"
+			},
+			"moderation": {
+				"eng": "The tag contains inappropriate content: ${type}",
+				"trans": "태그에 부적절한 내용이 포함되어 있습니다: ${type}"
 			},
 			"tooLong": {
 				"eng": "The gang tag must be at most ${maxLength} characters long",
@@ -2441,6 +3831,38 @@
 			"trans": "구글로 로그인하기"
 		}
 	},
+	"guestLinkModal": {
+		"cancel": {
+			"eng": "Later",
+			"trans": "나중에"
+		},
+		"description": {
+			"eng": "Please link your account to finish signing up to use this feature",
+			"trans": "이 기능을 사용하려면 계정을 연결하여 가입을 완료하세요"
+		},
+		"linkAccount": {
+			"eng": "Finish Sign up",
+			"trans": "가입 완료"
+		},
+		"premiumPurchase": {
+			"eng": "To prevent accidental lost of your top-up, please finish signing up so you may login to your account at any time",
+			"trans": "우발적인 충전 손실을 방지하기 위해, 가입 절차를 완료하여 언제든지 계정에 로그인할 수 있도록 해주세요"
+		},
+		"tip": {
+			"eng": "You are welcome to use a fake email as your account email if you have privacy concerns",
+			"trans": "개인 정보 보호에 대한 우려가 있다면 가짜 이메일을 계정 이메일로 사용하셔도 됩니다"
+		},
+		"title": {
+			"eng": "Functionality not available for guest accounts",
+			"trans": "게스트 계정에서는 이 기능을 사용할 수 없습니다"
+		}
+	},
+	"guestLoginButton": {
+		"title": {
+			"eng": "Guest Login",
+			"trans": "게스트 로그인"
+		}
+	},
 	"healthSacrificePopup": {
 		"activateButton": {
 			"description": {
@@ -2454,6 +3876,10 @@
 		}
 	},
 	"hitlist": {
+		"loading": {
+			"eng": "Loading bounties...",
+			"trans": "현상금 정보를 로드 중..."
+		},
 		"noBounties": {
 			"eng": "No bounties available",
 			"trans": "사냥 대상이 없습니다"
@@ -2551,6 +3977,82 @@
 			}
 		}
 	},
+	"instantDungeon": {
+		"locationNotCleared2": {
+			"eng": "To raid gang hideout at level ${playerLevel}, you must clear the level ${levelNeeded} ${difficulty} difficulty stronghold first, you can unlock higher level strongholds by clearing ${difficulty} strongholds a level below it.",
+			"trans": "레벨 ${playerLevel}에서 갱의 은신처를 습격하려면, ${difficulty} 난이도의 아지트를 먼저 클리어해야 합니다. ${difficulty} 아지트를 한 단계 낮은 레벨에서 클리어하면 더 높은 레벨의 아지트를 잠금 해제할 수 있습니다."
+		}
+	},
+	"instantDungeonDisplay": {
+		"fastDungeonButton": {
+			"description": {
+				"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+				"trans": "${item} 또는 ${item2}의 비용으로 빠르고 즉각적인 갱단 은신처 습격"
+			},
+			"title": {
+				"eng": "Raid Hideout",
+				"trans": "레이드 은신처"
+			}
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "레이드 시작"
+		}
+	},
+	"instantDungeonHandler": {
+		"selectAmountModal": {
+			"subtitle": {
+				"eng": "Cost Requirements",
+				"trans": "비용 요구 사항"
+			},
+			"title": {
+				"eng": "How many repeats?",
+				"trans": "반복 횟수"
+			}
+		}
+	},
+	"instantDungeonPage": {
+		"advanced": {
+			"badge": {
+				"eng": "Bonus",
+				"trans": "보너스"
+			},
+			"banner": {
+				"eng": "Increased EXP and Loot",
+				"trans": "경험치와 전리품 획득량 증가"
+			}
+		},
+		"costs": {
+			"eng": "Costs",
+			"trans": "비용"
+		},
+		"description": {
+			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+			"trans": "${item} 또는 ${item2} 비용으로 빠르고 즉각적인 갱단 은신처 습격"
+		},
+		"levelDisplay": {
+			"title": {
+				"eng": "level ${level}",
+				"trans": "레벨 ${level}"
+			}
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "보상"
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "레이드 시작"
+		},
+		"title": {
+			"eng": "Raid Hideout",
+			"trans": "레이드 은신처"
+		},
+		"type": {
+			"eng": "Type",
+			"trans": "타입"
+		}
+	},
 	"insufficientItemModal": {
 		"insufficientCurrency": {
 			"eng": "Insufficient ${name}",
@@ -2621,6 +4123,338 @@
 					}
 				}
 			}
+		}
+	},
+	"investigation": {
+		"abandon": {
+			"eng": "Abandon",
+			"trans": "포기"
+		},
+		"abandonConfirm": {
+			"confirm": {
+				"eng": "Abandon",
+				"trans": "포기"
+			},
+			"message": {
+				"eng": "Are you sure you want to abandon this case? All collected clues will be lost and you'll need to start over with a new case.",
+				"trans": "이 사건을 포기하시겠습니까? 수집한 모든 단서는 사라지며 새 사건으로 다시 시작해야 합니다."
+			},
+			"title": {
+				"eng": "Abandon Investigation?",
+				"trans": "조사를 포기하시겠습니까?"
+			}
+		},
+		"abandonFailed": {
+			"eng": "Failed to abandon investigation. Please try again.",
+			"trans": "조사 중단에 실패했습니다. 다시 시도하세요."
+		},
+		"abandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "조사가 중단되었습니다. 언제든 새 사건을 시작하세요."
+		},
+		"acknowledgeFailure": {
+			"eng": "ACKNOWLEDGE",
+			"trans": "확인"
+		},
+		"allCluesCollected": {
+			"eng": "ALL CLUES COLLECTED",
+			"trans": "모든 단서 수집 완료"
+		},
+		"analysisComplete": {
+			"eng": "ANALYSIS COMPLETE",
+			"trans": "분석 완료"
+		},
+		"analysisResult": {
+			"eng": "ANALYSIS RESULT",
+			"trans": "분석 결과"
+		},
+		"analyzingEvidence": {
+			"eng": "ANALYZING EVIDENCE...",
+			"trans": "증거 분석 중…"
+		},
+		"caseId": {
+			"eng": "Case ${id}",
+			"trans": "케이스 ${id}"
+		},
+		"caseResolved": {
+			"eng": "ACPD Case Resolved",
+			"trans": "ACPD 사건 해결"
+		},
+		"caseSolved": {
+			"eng": "Investigation solved! ${caseName}",
+			"trans": "수사 완료! ${caseName}"
+		},
+		"caseStatus": {
+			"eng": "CASE STATUS",
+			"trans": "사건 상태"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "닫기"
+		},
+		"closed": {
+			"eng": "CLOSED - FAILED",
+			"trans": "닫힘 - 실패"
+		},
+		"clueCollected": {
+			"eng": "Clue discovered: ${clueName}",
+			"trans": "단서 발견: ${clueName}"
+		},
+		"clueFound": {
+			"eng": "CLUE DISCOVERED",
+			"trans": "단서 발견"
+		},
+		"collectedClues": {
+			"eng": "Collected Clues",
+			"trans": "수집된 단서"
+		},
+		"continue": {
+			"eng": "Continue",
+			"trans": "계속"
+		},
+		"contradictoryElements": {
+			"eng": "Multiple contradictory elements detected in the proposed verdict.",
+			"trans": "제안된 판단에 모순되는 요소가 여러 개 감지되었습니다."
+		},
+		"correctVerdict": {
+			"eng": "Your deduction was correct. The truth has been uncovered.",
+			"trans": "추론이 정확했습니다. 진실이 밝혀졌습니다."
+		},
+		"deliverVerdict": {
+			"eng": "Deliver Your Verdict",
+			"trans": "판단 제출"
+		},
+		"errorCode": {
+			"eng": "ERROR CODE",
+			"trans": "오류 코드"
+		},
+		"errorLoadingClue": {
+			"eng": "Error loading clue",
+			"trans": "힌트 불러오기 실패"
+		},
+		"evidence": {
+			"eng": "Evidence",
+			"trans": "증거"
+		},
+		"evidenceAcquired": {
+			"eng": "Evidence Logged - ACPD Database",
+			"trans": "증거 기록됨 - 아클라이트시 경찰서 데이터베이스"
+		},
+		"evidenceMismatch": {
+			"eng": "The submitted conclusion does not align with available evidence patterns.",
+			"trans": "제출된 결론이 사용 가능한 증거 패턴과 일치하지 않습니다."
+		},
+		"goToVerdict": {
+			"eng": "Go to verdict ${num}",
+			"trans": "판결 ${num}으로 이동"
+		},
+		"imageUnavailable": {
+			"eng": "Image Unavailable",
+			"trans": "이미지 사용 불가"
+		},
+		"investigationAbandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "조사가 중단되었습니다. 언제든 새 사건을 시작하세요."
+		},
+		"investigationClosed": {
+			"eng": "Investigation terminated. Case file closed. Evidence confiscated.",
+			"trans": "조사가 종료되었습니다. 사건 파일이 닫혔습니다. 증거가 압수되었습니다."
+		},
+		"investigationStatus": {
+			"eng": "INVESTIGATION STATUS",
+			"trans": "조사 현황"
+		},
+		"moreCluesNeeded": {
+			"eng": "Continue exploring to find more clues...",
+			"trans": "계속 탐험해서 더 많은 단서를 찾으세요."
+		},
+		"needMoreClues": {
+			"short": {
+				"eng": "Find more clues in dungeons",
+				"trans": "던전에서 더 많은 단서를 찾아보세요."
+			}
+		},
+		"newCase": {
+			"eng": "New Case",
+			"trans": "새 케이스"
+		},
+		"noActiveCase": {
+			"header": {
+				"eng": "ACPD INVESTIGATION TERMINAL",
+				"trans": "아클라이트시 경찰서 조사 터미널"
+			},
+			"intelBody1": {
+				"eng": "This console activates automatically once you capture your first clue.",
+				"trans": "첫 단서를 확보하면 이 콘솔이 자동으로 활성화됩니다."
+			},
+			"intelBody2": {
+				"eng": "Track the entire case from here—clues, summaries, and final verdict submission.",
+				"trans": "여기에서 사건 전체를 추적하세요 — 단서, 요약 및 최종 판결 제출."
+			},
+			"intelHeader": {
+				"eng": "INTEL DISPATCH",
+				"trans": "정보 전송"
+			},
+			"requirement": {
+				"eng": "4 clues required per case",
+				"trans": "각 사건에 4개의 단서가 필요합니다."
+			},
+			"statusInline": {
+				"eng": "Case Slot Open • Permit required to submit verdict",
+				"trans": "사건 슬롯 개방 • 판결 제출 시 허가 필요"
+			},
+			"timelineAcquire": {
+				"desc": {
+					"eng": "Stronghold investigation points feed clues directly into this console.",
+					"trans": "아지트 조사 포인트가 이 콘솔에 단서를 직접 전달합니다."
+				},
+				"eng": "Acquire Intel",
+				"trans": "정보 확보"
+			},
+			"timelineAssemble": {
+				"desc": {
+					"eng": "Collect all four clues to unlock the verdict authorization rail.",
+					"trans": "모든 4개의 단서를 수집해 판결 승인 레일을 잠금 해제하세요."
+				},
+				"eng": "Assemble Evidence",
+				"trans": "증거 수집"
+			},
+			"timelineSubmit": {
+				"desc": {
+					"eng": "Spend one Investigation Access Permit to commit your conclusion.",
+					"trans": "조사 접근 허가증 1개를 사용해 결론을 확정하세요."
+				},
+				"eng": "Deliver Verdict",
+				"trans": "판결 내리기"
+			},
+			"tipBody": {
+				"eng": "Tap to open the Investigation field manual and review how cases operate.",
+				"trans": "탭하면 조사 현장 매뉴얼을 열고 사건 진행 방식을 확인하세요."
+			},
+			"tipTitle": {
+				"eng": "Need a briefing?",
+				"trans": "브리핑이 필요하신가요?"
+			},
+			"totalSolved": {
+				"eng": "Solved dossiers: ${count}",
+				"trans": "해결한 파일: ${count}"
+			}
+		},
+		"noActiveInvestigation": {
+			"eng": "You have no active investigation to abandon.",
+			"trans": "포기할 수 있는 진행 중인 조사가 없습니다."
+		},
+		"noCasesAvailable": {
+			"eng": "No investigations available",
+			"trans": "조사 항목이 없습니다."
+		},
+		"noChoices": {
+			"eng": "No choices available",
+			"trans": "선택지가 없습니다"
+		},
+		"noSolvedCases": {
+			"eng": "No solved cases yet",
+			"trans": "아직 해결된 사건이 없습니다."
+		},
+		"notAllCluesCollected": {
+			"eng": "You must collect all clues before solving the case.",
+			"trans": "사건을 해결하기 전에 모든 단서를 수집하세요."
+		},
+		"processingVerdict": {
+			"eng": "PROCESSING VERDICT...",
+			"trans": "판단 처리 중..."
+		},
+		"readyToSolve": {
+			"eng": "You have all the evidence. Review your findings and solve the case.",
+			"trans": "모든 증거를 확보했습니다. 결과를 검토하고 사건을 해결하세요."
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "보상"
+		},
+		"selectChoice": {
+			"eng": "Please select a conclusion",
+			"trans": "결론을 선택하세요"
+		},
+		"solveCasesHint": {
+			"eng": "Complete investigations to see them here",
+			"trans": "조사를 마치고 여기에서 확인하세요"
+		},
+		"solved": {
+			"eng": "Solved ${time}",
+			"trans": "완료 ${time}"
+		},
+		"solvedCases": {
+			"description": {
+				"eng": "Review completed cases and revisit final reports.",
+				"trans": "완료된 사건을 검토하고 최종 보고서를 다시 확인하세요."
+			},
+			"header": {
+				"eng": "Solved Investigations Registry",
+				"trans": "해결된 조사 목록"
+			},
+			"solved": {
+				"eng": "solved",
+				"trans": "해결됨"
+			}
+		},
+		"submit": {
+			"eng": "Submit Verdict",
+			"trans": "판결 제출"
+		},
+		"submitError": {
+			"eng": "Failed to submit verdict. Please try again.",
+			"trans": "판단 전송에 실패했습니다. 다시 시도하세요."
+		},
+		"submitVerdict": {
+			"eng": "Submit Your Verdict",
+			"trans": "판단 제출"
+		},
+		"systemPrefix": {
+			"eng": "SYS",
+			"trans": "시스템"
+		},
+		"terminalFooter": {
+			"eng": "ARCLIGHT CITY INVESTIGATION BUREAU // CLASSIFIED",
+			"trans": "아크라이트 시티 수사국 // 기밀"
+		},
+		"terminalHeader": {
+			"eng": "ACPD INVESTIGATION ANALYSIS SYSTEM",
+			"trans": "ACPD 수사 분석 시스템"
+		},
+		"theStory": {
+			"eng": "The Full Story",
+			"trans": "전체 스토리"
+		},
+		"verdictImage": {
+			"eng": "Verdict ${num} investigation image",
+			"trans": "판단 ${num} 조사 이미지"
+		},
+		"verdictRejected": {
+			"eng": "VERDICT REJECTED",
+			"trans": "판결 거부됨"
+		}
+	},
+	"investigationPendingModal": {
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "현재 조사의 모든 증거를 수집했습니다. 새 사건을 시작하기 전 이 사건을 마무리하세요."
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "ACPD 사건 해결 준비 완료"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "계속 탐험"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "증거 수집 완료"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "조사 로그에서 증거를 검토하고 사건을 해결하세요."
 		}
 	},
 	"item": {
@@ -2734,13 +4568,37 @@
 			"eng": "quantity ${amount}",
 			"trans": "수량 ${amount}"
 		},
+		"availableDuringEvent": {
+			"description": {
+				"eng": "Available during ${event}, after the event has ended this item will be automatically removed",
+				"trans": "${event} 동안 사용 가능하며, 이벤트가 종료되면 이 아이템은 자동으로 제거됩니다"
+			},
+			"title": {
+				"eng": "Event Item",
+				"trans": "이벤트 아이템"
+			}
+		},
 		"destroyed": {
 			"eng": "destroyed",
 			"trans": "파괴됨"
 		},
+		"expireTime": {
+			"description": {
+				"eng": "This item will expire at ${date} (${timeToExpire})",
+				"trans": "이 아이템은 ${date} (${timeToExpire})에 만료됩니다"
+			},
+			"title": {
+				"eng": "Expire Time: ${time}",
+				"trans": "만료 시간: ${time}"
+			}
+		},
 		"notTradable": {
 			"eng": "Not tradable",
 			"trans": "거래 불가"
+		},
+		"strongholdOnly": {
+			"eng": "Stronghold Only Item",
+			"trans": "아지트 전용 아이템"
 		},
 		"useTitle": {
 			"eng": "Use",
@@ -2778,6 +4636,10 @@
 				"trans": "속성 데미지"
 			}
 		},
+		"cantCraftInInventory": {
+			"eng": "You cannot craft while you have a temporary inventory open",
+			"trans": "임시 인벤토리가 열려 있는 동안에는 제작할 수 없습니다"
+		},
 		"cantDiscardEquipped": {
 			"eng": "You can't discard equipped items",
 			"trans": "장착한 아이템은 버릴 수 없습니다"
@@ -2787,11 +4649,11 @@
 			"trans": "잠금된 아이템은 버릴 수 없습니다"
 		},
 		"cantDismantleEquipped": {
-			"eng": "You can\\'t dismantle equipped items",
-			"trans": "장착한 아이템은 분해할 수 없습니다"
+			"eng": "You can't dismantle equipped items",
+			"trans": "장착된 아이템은 분해할 수 없습니다."
 		},
 		"cantDismantleLocked": {
-			"eng": "You can\\'t dismantle locked items",
+			"eng": "You can't dismantle locked items",
 			"trans": "잠긴 아이템은 분해할 수 없습니다"
 		},
 		"diff": {
@@ -2844,6 +4706,12 @@
 			"eng": "Move To Inventory",
 			"trans": "인벤토리로 이동"
 		},
+		"saleCreditChip": {
+			"useAction": {
+				"eng": "Trade with ${npcName}",
+				"trans": "${npcName}님과(와) 거래하기"
+			}
+		},
 		"unequip": {
 			"eng": "Unequip",
 			"trans": "장착 해제"
@@ -2865,6 +4733,12 @@
 		"noChanges": {
 			"eng": "No changes",
 			"trans": "변경 사항 없음"
+		}
+	},
+	"itemDisplay": {
+		"expire": {
+			"eng": "Expires ${duration}",
+			"trans": "유효기간 ${duration}"
 		}
 	},
 	"itemInbox": {
@@ -3000,13 +4874,25 @@
 			"eng": "Enemy drop",
 			"trans": "적 드롭"
 		},
+		"eventDrop": {
+			"eng": "${eventName} event drop",
+			"trans": "${eventName} 이벤트 드랍"
+		},
+		"intelligenceContract": {
+			"eng": "Intelligence Contract",
+			"trans": "지능 계약"
+		},
 		"levelReward": {
-			"eng": "Drop from Level Reward Container (${itemName})",
-			"trans": "레벨 보상 상자에서 드롭(${itemName})"
+			"eng": "Drop from ${itemName}",
+			"trans": "${itemName}에서 드롭"
 		},
 		"levelRewardBox": {
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
 			"trans": "다양한 지역에서 ${dungeonType} 아지트를 격파"
+		},
+		"npcShop": {
+			"eng": "Purchase from ${npc}",
+			"trans": "${npc}에게서 구매"
 		},
 		"obtainedFrom": {
 			"eng": "Obtained from",
@@ -3023,6 +4909,12 @@
 		"title": {
 			"eng": "Insufficient ${itemName}",
 			"trans": "${itemName}이(가) 부족합니다"
+		},
+		"topUp": {
+			"discountAvailable": {
+				"eng": "Discount Available!",
+				"trans": "할인 중!"
+			}
 		}
 	},
 	"itemSubType": {
@@ -3298,6 +5190,16 @@
 		}
 	},
 	"itemType": {
+		"autoFarmBoost": {
+			"description": {
+				"eng": "When used during auto gather, it will increase EXP gained by ${expPercent}% and increase the reward gained by ${rewardPercent}%\\nThis will be consumed after one auto gather cycle",
+				"trans": "자동 채집 중 사용하면 경험치가 ${expPercent}% 증가하고 보상이 ${rewardPercent}% 증가합니다.\\n이 아이템은 한 번의 자동 채집 사이클 후 소모됩니다"
+			},
+			"name": {
+				"eng": "Auto Gather Boost",
+				"trans": "자동 수집 부스트"
+			}
+		},
 		"boots": {
 			"description": {
 				"eng": "A piece of equipment that protects the feet.",
@@ -3338,6 +5240,16 @@
 				"trans": "버거"
 			}
 		},
+		"cake": {
+			"description": {
+				"eng": "A sweet dessert made from flour, sugar, and eggs.",
+				"trans": "밀가루, 설탕, 계란으로 만든 달콤한 디저트."
+			},
+			"name": {
+				"eng": "Cake",
+				"trans": "케이크"
+			}
+		},
 		"calibrationShard": {
 			"description": {
 				"eng": "Universal calibration token for equipments, use to improve equipments",
@@ -3356,6 +5268,46 @@
 			"name": {
 				"eng": "Calibration Stabilizer",
 				"trans": "교정 안정 장치"
+			}
+		},
+		"christmasEliteKey": {
+			"description": {
+				"eng": "A tactical key required to unlock Noel's Elite Crate. Only available from Noel herself.",
+				"trans": "노엘의 엘리트 크레이트를 여는 전술 키. 노엘만으로 획득 가능."
+			},
+			"name": {
+				"eng": "Elite Crate",
+				"trans": "엘리트 상자"
+			}
+		},
+		"christmasLootBox": {
+			"description": {
+				"eng": "Event container that contains various rewards, can only be unlocked during December.",
+				"trans": "다양한 보상이 들어있는 이벤트 상자입니다. 12월에만 해제할 수 있습니다."
+			},
+			"name": {
+				"eng": "Christmas Container",
+				"trans": "크리스마스 상자"
+			}
+		},
+		"christmasLootBoxElite": {
+			"description": {
+				"eng": "A premium Christmas container reserved for the most valuable rewards. Only the worthy receive Noel's elite gifts.",
+				"trans": "가장 가치 있는 보상을 담은 프리미엄 크리스마스 상자. 자격을 갖춘 이들만 노엘의 엘리트 선물을 받을 수 있습니다."
+			},
+			"name": {
+				"eng": "Noel's Elite Crate",
+				"trans": "노엘의 엘리트 박스"
+			}
+		},
+		"christmasToken": {
+			"description": {
+				"eng": "A token that can be used to unlock a Christmas container.",
+				"trans": "크리스마스 컨테이너를 잠금 해제할 수 있는 토큰"
+			},
+			"name": {
+				"eng": "Christmas Token",
+				"trans": "크리스마스 토큰"
 			}
 		},
 		"clanMaintenanceResource": {
@@ -3388,6 +5340,16 @@
 				"trans": "평범한 레벨 샤드"
 			}
 		},
+		"dataCore": {
+			"description": {
+				"eng": "Military grade datacubes containing encrypted intelligence data. Highly valuable to information brokers.",
+				"trans": "군용 그레이드 데이터큐브는 암호화된 정찰 데이터를 포함합니다. 정보 브로커에겐 매우 가치가 있습니다."
+			},
+			"name": {
+				"eng": "Data Core",
+				"trans": "데이터 코어"
+			}
+		},
 		"defenseBoostBuffActivator": {
 			"description": {
 				"eng": "Deploy this buff in stronghold lobby to increase defense for all players in strongholds created by your gang members for ${minutes} minutes",
@@ -3406,6 +5368,16 @@
 			"name": {
 				"eng": "dungeon activator",
 				"trans": "던전 활성화 장치"
+			}
+		},
+		"egg": {
+			"description": {
+				"eng": "A synthetic egg, used in many dishes.",
+				"trans": "합성 계란, 다양한 요리에 사용됩니다."
+			},
+			"name": {
+				"eng": "Egg",
+				"trans": "계란"
 			}
 		},
 		"energyGun": {
@@ -3456,6 +5428,16 @@
 				"trans": "물고기"
 			}
 		},
+		"flour": {
+			"description": {
+				"eng": "A basic ingredient used in baking.",
+				"trans": "베이킹에 사용되는 기본 재료."
+			},
+			"name": {
+				"eng": "Flour",
+				"trans": "밀가루"
+			}
+		},
 		"gangControlResource": {
 			"name": {
 				"eng": "Gang Control Resource",
@@ -3466,6 +5448,16 @@
 			"description": {
 				"eng": "Use to contribute to gang territory control",
 				"trans": "갱 영역 통제에 기여하기 위해 사용하세요"
+			}
+		},
+		"gingerbreadCookie": {
+			"description": {
+				"eng": "A festive cookie that looks like a cute little man.",
+				"trans": "귀여운 작은 남자처럼 생긴 축제 쿠키."
+			},
+			"name": {
+				"eng": "Gingerbread Cookie",
+				"trans": "진저브레드 쿠키"
 			}
 		},
 		"gun": {
@@ -3508,6 +5500,26 @@
 				"trans": "헬멧"
 			}
 		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device to locate gang hideouts in the city, you can use this item to perform a quick hideout raid.",
+				"trans": "도시의 갱단 은신처를 찾는 장치로, 이 아이템을 사용하면 은신처를 빠르게 습격할 수 있습니다."
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "은신처 위치 추적기"
+			}
+		},
+		"hideoutLocator2": {
+			"description": {
+				"eng": "A device to locate major gang hideouts in the city, you can use this item to perform a quick hideout raid with higher rewards.",
+				"trans": "도시의 주요 갱단의 은신처를 찾아내는 장치로, 이 아이템을 사용하면 보상이 더 높은 은신처 급습을 빠르게 수행할 수 있습니다."
+			},
+			"name": {
+				"eng": "Advance Hideout Locator",
+				"trans": "진보적 은신처 위치 추적기"
+			}
+		},
 		"identificationShard": {
 			"description": {
 				"eng": "Use to identify unknown traits in a item",
@@ -3522,6 +5534,16 @@
 			"name": {
 				"eng": "Implant",
 				"trans": "임플란트"
+			}
+		},
+		"investigationAccessPermit": {
+			"description": {
+				"eng": "ACPD investigation system access authorization. Required to submit case verdicts. Consumed upon submission regardless of outcome.",
+				"trans": "아클라이트시 경찰서 조사 시스템 접근 인증. 사건 판결을 제출해야 합니다. 결과와 상관없이 소모됩니다."
+			},
+			"name": {
+				"eng": "Investigation Access Permit",
+				"trans": "조사 접근 허가증"
 			}
 		},
 		"itemLevelupShard": {
@@ -3682,6 +5704,16 @@
 				"trans": "신경 강화 증강장치"
 			}
 		},
+		"milk": {
+			"description": {
+				"eng": "A synthetic milk, used in many dishes.",
+				"trans": "많은 요리에 사용되는 합성 우유."
+			},
+			"name": {
+				"eng": "Milk",
+				"trans": "우유"
+			}
+		},
 		"money": {
 			"description": {
 				"eng": "EuroDollar is a widely accepted currency in the continent, used for everyday purchases and transactions.",
@@ -3756,6 +5788,26 @@
 				"trans": "접두사 주입 샤드"
 			}
 		},
+		"pumpkin": {
+			"description": {
+				"eng": "A large orange fruit, used in many dishes.",
+				"trans": "많은 요리에 사용되는 큰 오렌지색 과일."
+			},
+			"name": {
+				"eng": "Pumpkin",
+				"trans": "호박"
+			}
+		},
+		"pumpkinPie": {
+			"description": {
+				"eng": "A dessert made from pumpkin, eggs, and milk.",
+				"trans": "호박, 계란, 우유로 만든 디저트."
+			},
+			"name": {
+				"eng": "Pumpkin Pie",
+				"trans": "호박 파이"
+			}
+		},
 		"pvpProtection": {
 			"description": {
 				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
@@ -3792,6 +5844,16 @@
 			"name": {
 				"eng": "Rare Upgrade Shard",
 				"trans": "희귀한 업그레이드 샤드"
+			}
+		},
+		"redEnvelope": {
+			"description": {
+				"eng": "A traditional lunar new year gift, you can open it to receive random rewards.",
+				"trans": "전통적인 설날 선물로, 열면 무작위 보상을 받을 수 있습니다."
+			},
+			"name": {
+				"eng": "Red Envelope",
+				"trans": "빨간 봉투"
 			}
 		},
 		"repairKit": {
@@ -3836,6 +5898,16 @@
 				"trans": "반지"
 			}
 		},
+		"saleCreditChip": {
+			"description": {
+				"eng": "A special credit chip that provides discounts on sale items. Expires in ${days} days.\\nThis can be traded with Pachinko Guy",
+				"trans": "할인된 아이템에 적용되는 특별한 크레딧 칩. ${days}일 후 만료됩니다. 이 것은 핀볼 아저씨와 교환 가능합니다."
+			},
+			"name": {
+				"eng": "Sale Credit Chip",
+				"trans": "판매 크레딧 칩"
+			}
+		},
 		"sate": {
 			"description": {
 				"eng": "A traditional Indonesian dish made from skewered meat and rice.",
@@ -3876,6 +5948,36 @@
 				"trans": "블레이드"
 			}
 		},
+		"synapticEnhancer": {
+			"description": {
+				"eng": "Synaptic Enhancer injects nanobots into your bloodstream to enhance your intelligence and rate of learning.",
+				"trans": "시냅스 강화제는 당신의 혈류에 나노봇을 주입하여 지능과 학습 속도를 향상시킵니다."
+			},
+			"name": {
+				"eng": "Synaptic Enhancer",
+				"trans": "시냅틱 강화제"
+			}
+		},
+		"tacticalAccessChip": {
+			"description": {
+				"eng": "A key found within the dungeon that opens locked chests. Cannot be taken out of the stronghold.",
+				"trans": "던전에서 찾은 잠금 상자를 여는 열쇠입니다. 아지트에서는 꺼낼 수 없습니다."
+			},
+			"name": {
+				"eng": "Stronghold Chest Key",
+				"trans": "아지트 보물상자 열쇠"
+			}
+		},
+		"teaEgg": {
+			"description": {
+				"eng": "A traditional dish made from eggs boiled in tea, soy sauce, and spices.",
+				"trans": "차, 간장, 향신료로 삶은 계란으로 만든 전통 요리입니다."
+			},
+			"name": {
+				"eng": "Tea Egg",
+				"trans": "차 계란"
+			}
+		},
 		"techScrap": {
 			"description": {
 				"eng": "A piece of tech scrap.",
@@ -3884,6 +5986,26 @@
 			"name": {
 				"eng": "Tech Scrap",
 				"trans": "공학 조각"
+			}
+		},
+		"turkeyDinner": {
+			"description": {
+				"eng": "A traditional dish made from turkey meat, rice.",
+				"trans": "칠면조 고기와 밥으로 만든 전통 요리."
+			},
+			"name": {
+				"eng": "Turkey Dinner",
+				"trans": "칠면조 저녁식사"
+			}
+		},
+		"turkeyMeat": {
+			"description": {
+				"eng": "A synthetic turkey meat, can be used to craft turkey dinner.",
+				"trans": "합성 칠면조 고기로, 칠면조 저녁을 만드는 데 사용할 수 있습니다."
+			},
+			"name": {
+				"eng": "Synthetic Turkey Meat",
+				"trans": "합성 칠면조 고기"
 			}
 		},
 		"uncommonCalibrationSafety": {
@@ -3976,6 +6098,12 @@
 		}
 	},
 	"itemUpgradePage": {
+		"autoReset": {
+			"title": {
+				"eng": "Auto reset",
+				"trans": "자동 재설정"
+			}
+		},
 		"item": {
 			"title": {
 				"eng": "equipment",
@@ -4079,6 +6207,844 @@
 			"trans": "업그레이드"
 		}
 	},
+	"journalist": {
+		"anyaPetrova": {
+			"biography": {
+				"eng": "Numbers form the hidden language of our world – from the pulse of the Arclight exchange to the illicit NetCoin trails funding Black Market chrome. I am Anya Petrova, and I translate that language. My analysis cuts through the noise, revealing the systemic forces, like TaiXing's market plays, shaping Arclight City.",
+				"trans": "숫자는 세상을 움직이는 비밀 언어. 아크라이트 거래소의 흐름부터 암시장 크롬을 지원하는 불법 넷코인 거래 흔적까지. 나는 아냐 페트로바이고, 그 언어를 해독하지. 내 분석은 소음을 뚫고 진실을 드러내며, 타이싱의 시장 장악술처럼 아크라이트 시티를 좌우하지."
+			},
+			"displayName": {
+				"eng": "Anya Petrova",
+				"trans": "Anya Petrova"
+			}
+		},
+		"jackJackson": {
+			"biography": {
+				"eng": "They called me reckless dodging corpo security in the Industrial Zone. They called me obsessed documenting the leaks from BioSyn Labs Sector 7. Call me what you want, but I find the truth, even if it costs eddies or gets me on an ACPD watchlist. My name is Jack Jackson, and I bring the stories others bury.",
+				"trans": "산업 구역에서 기업 보안을 무모하게 빠져나간다고 날 불렀지. 바이오신 랩 7구역 유출을 집착적으로 기록한다고도 했고. 맘대로 불러. 하지만 난 진실을 찾아내. 에디가 털리든, ACPD 감시 명단에 오르든 상관없이. 내 이름은 잭 잭슨, 남들이 묻어버린 이야기를 세상에 드러내는 놈이다."
+			},
+			"displayName": {
+				"eng": "Jack Jackson",
+				"trans": "잭 잭슨"
+			}
+		},
+		"kaiTanaka": {
+			"biography": {
+				"eng": "Down here in the neon haze of the Lower Districts, stories unfold on street corners and in the back rooms of ripperdocs. I'm Kai Tanaka. I walk these streets, talk to the chromed-out chooms, the wired, the discarded, and bring their voices to the surface. This is life at the edge of the chrome.",
+				"trans": "네온 불빛이 자욱한 하부 구역, 길모퉁이와 리퍼닥 뒷방에서 이야기가 피어난다. 나는 카이 타나카다. 이 거리를 누비며, 크롬 떡칠이 된 녀석들, 와이어드, 버려진 자들과 대화하며 그들의 목소리를 세상에 전하지. 여기가 바로 크롬의 가장자리, 그 삶의 모습이다."
+			},
+			"displayName": {
+				"eng": "Kai Tanaka",
+				"trans": "카이 타나카"
+			}
+		},
+		"zaraKhan": {
+			"biography": {
+				"eng": "Conflict isn't just fought on battlefields; it's waged in boardrooms, data streams, and the shadow networks tangled in the PAC-FSA cold war. I am Zara Khan. With a background dissecting global threats, I provide clear-eyed analysis of the forces, from Arclight's corpo council to offshore powers, vying for control.",
+				"trans": "전쟁은 단순히 전장에서만 벌어지는 게 아닙니다. 이사회, 데이터 스트림, 그리고 PAC-FSA 냉전 속에 얽힌 그림자 네트워크에서도 벌어집니다. 저는 자라 칸입니다. 저는 세계적인 위협을 분석하는 일을 해왔습니다. 냉철한 분석으로 아크라이트의 기업 평의회부터 역외 세력까지, 통제를 위해 경쟁하는 세력들을 분석합니다."
+			},
+			"displayName": {
+				"eng": "Zara Khan",
+				"trans": "자라 칸"
+			}
+		}
+	},
+	"landingPage": {
+		"activity": {
+			"battlepass1": {
+				"eng": "${player} claimed battle pass reward",
+				"trans": "${player}은(는) 배틀패스 보상을 수령했습니다."
+			},
+			"bounty1": {
+				"eng": "$${amount} bounty was placed on ${player}'s head",
+				"trans": "$${amount} 현상금이 ${player}의 머리에 걸렸습니다."
+			},
+			"bounty2": {
+				"eng": "${player} claimed bounty",
+				"trans": "${player} 보상을 수령했습니다."
+			},
+			"daily1": {
+				"eng": "${player} completed intelligence contract",
+				"trans": "${player}님이 정보 계약을 완료했습니다."
+			},
+			"dungeon1": {
+				"eng": "${player} cleared dungeon boss",
+				"trans": "${player} 님이 던전 보스를 클리어했습니다."
+			},
+			"instant1": {
+				"eng": "Hideout raid completed",
+				"trans": "은신처 습격 완료"
+			},
+			"lottery1": {
+				"eng": "${player} won lucky draw",
+				"trans": "${player} 님이 럭키드로우에 당첨되었습니다."
+			},
+			"lottery2": {
+				"eng": "${player} won pachinko",
+				"trans": "플레이어 ${player}님이 파친코에서 승리했습니다."
+			},
+			"market1": {
+				"eng": "a item was sold on black market",
+				"trans": "아이템이 암시장에서 팔렸습니다."
+			},
+			"market3": {
+				"eng": "Market order filled: ${amount}",
+				"trans": "시장 주문이 체결되었습니다: ${amount}"
+			},
+			"mercenary1": {
+				"eng": "${player} recruited mercenary",
+				"trans": "${player}이(는) 용병을 고용했습니다."
+			},
+			"pvp1": {
+				"eng": "${player1} has mugged ${player2}",
+				"trans": "${player1}이(는) ${player2}을(를) 훔쳐갔습니다."
+			},
+			"pvp2": {
+				"eng": "${player1} has arrested ${player2}",
+				"trans": "플레이어 ${player1}이 플레이어 ${player2}를 체포했습니다."
+			},
+			"pvp3": {
+				"eng": "${player} eliminated a bounty target",
+				"trans": "${player}은(는) 보상 대상자를 제거했습니다."
+			},
+			"stock1": {
+				"eng": "Stock surged +${amount}%",
+				"trans": "주가 급등 +${amount}%"
+			},
+			"stock2": {
+				"eng": "Stock dropped -${amount}%",
+				"trans": "주가 하락 -${amount}%"
+			},
+			"territory1": {
+				"eng": "Territory war initiated",
+				"trans": "영역전쟁이 시작되었습니다"
+			},
+			"territory2": {
+				"eng": "Gang captured new territory",
+				"trans": "갱이 새 영역을 점령했습니다."
+			},
+			"territory3": {
+				"eng": "Territory defense successful",
+				"trans": "영역 방어 성공"
+			},
+			"upgrade1": {
+				"eng": "${player} upgraded their equipment to +${tier}",
+				"trans": "플레이어 ${player}의 장비를 +${tier}로 업그레이드했습니다."
+			}
+		},
+		"cta": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "앱스토어에서 다운로드"
+			},
+			"copy": {
+				"eng": "Sign in with email, Google, or guest access, rally your crew, and drop into the live shard—no paywall, no waitlist.",
+				"trans": "이메일, 구글 또는 게스트로 로그인하고 크루를 모아 라이브 샤드에 즉시 입장하세요—페이월 없이 대기열 없이."
+			},
+			"headline": {
+				"eng": "Play today on mobile or web",
+				"trans": "오늘 모바일 또는 웹에서 플레이하세요"
+			},
+			"overline": {
+				"eng": "Arclight City is live right now",
+				"trans": "아크라이트 시티가 지금 라이브 중입니다."
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "구글 플레이에서 받기"
+			},
+			"primary": {
+				"eng": "Play Now",
+				"trans": "지금 플레이"
+			}
+		},
+		"equipment": {
+			"copy": {
+				"eng": "Spend upgrade shards, calibrate, and reroll traits to dominate the battlefield.",
+				"trans": "업그레이드 파편을 사용하고, 교정하며, 특성 재굴림으로 전장을 장악하세요."
+			},
+			"heading": {
+				"eng": "Unlimited Gear Customization and Enhancement",
+				"trans": "무제한 장비 커스터마이징 및 강화"
+			},
+			"overline": {
+				"eng": "Equipment // build your loadout",
+				"trans": "장비 // 로드아웃 구성하기"
+			},
+			"tagCalibration": {
+				"eng": "Calibration increases item stats across all tiers",
+				"trans": "교정으로 모든 티어의 장비 수치가 상승합니다."
+			},
+			"tagTrait": {
+				"eng": "Reset Shards reset item stats giving you a random set of traits",
+				"trans": "리셋 샤드가 아이템 스탯을 재설정하고 무작위 특성을 부여합니다."
+			},
+			"tagUpgrade": {
+				"eng": "Upgrade shards increase item level and stats",
+				"trans": "업그레이드 파편으로 아이템 레벨과 스탯이 상승합니다."
+			}
+		},
+		"features": {
+			"advancedCrafting": {
+				"description": {
+					"eng": "Upgrade and calibrate gear",
+					"trans": "기어 업그레이드 및 교정"
+				},
+				"detailed": {
+					"eng": "Upgrade equipment to higher tiers and calibrate for better stats. Craft consumables and other items to support your adventures.",
+					"trans": "장비를 높은 티어로 업그레이드하고 더 나은 수치를 위해 교정하세요. 소모품과 기타 아이템을 제작해 모험을 지원하세요."
+				},
+				"highlight": {
+					"eng": "LEGENDARY GEAR WITHIN REACH",
+					"trans": "손에 닿는 전설 장비"
+				},
+				"title": {
+					"eng": "Equipment Upgrading",
+					"trans": "장비 업그레이드"
+				}
+			},
+			"afkTasks": {
+				"description": {
+					"eng": "Earn rewards while offline",
+					"trans": "오프라인에서도 보상을 획득하세요"
+				},
+				"detailed": {
+					"eng": "Set up automated activities and background tasks that generate resources, experience, and rewards even when you're away from the game.",
+					"trans": "자동 활동과 백그라운드 작업을 설정하면, 게임을 떠난 상태에서도 자원·경험치·보상을 얻을 수 있습니다."
+				},
+				"highlight": {
+					"eng": "PROFIT WHILE YOU SLEEP",
+					"trans": "자면서도 이익을 챙기세요"
+				},
+				"title": {
+					"eng": "Passive Income System",
+					"trans": "패시브 소득 시스템"
+				}
+			},
+			"battlePass": {
+				"description": {
+					"eng": "Earn exclusive seasonal rewards",
+					"trans": "시즌 전용 보상을 획득하세요"
+				},
+				"detailed": {
+					"eng": "Progress through free and premium seasonal tracks with missions, milestone rewards, and exclusive cosmetics. Complete challenges to unlock tier-based prizes.",
+					"trans": "무료 및 프리미엄 시즌 트랙에서 미션, 마일스톤 보상, 독점 코스튬을 수집하며 진행하세요. 챌린지를 완료하면 티어 기반 상금을 잠금 해제합니다."
+				},
+				"highlight": {
+					"eng": "SEASONS OF GLORY AWAIT YOU",
+					"trans": "영광의 시즌이 당신을 기다립니다."
+				},
+				"title": {
+					"eng": "Seasonal Progression",
+					"trans": "시즌 진행"
+				}
+			},
+			"blackMarket": {
+				"description": {
+					"eng": "Trade with other players",
+					"trans": "플레이어 간 거래"
+				},
+				"detailed": {
+					"eng": "Buy and sell items through the player-driven auction house. List your gear, place bids on others' items, and find great deals from fellow players.",
+					"trans": "플레이어 주도형 경매장을 통해 아이템을 사고팔 수 있습니다. 장비를 등록하고 다른 플레이어의 아이템에 입찰하며 좋은 거래를 찾아보세요."
+				},
+				"highlight": {
+					"eng": "PLAYER-DRIVEN ECONOMY",
+					"trans": "플레이어 주도형 경제"
+				},
+				"title": {
+					"eng": "Player Market",
+					"trans": "플레이어 마켓"
+				}
+			},
+			"bountyHunting": {
+				"description": {
+					"eng": "Place or collect bounties",
+					"trans": "현상금 등록/수집"
+				},
+				"detailed": {
+					"eng": "Place bounties on rival players or hunt down wanted targets for rewards. Track and eliminate high-value targets to collect lucrative bounties.",
+					"trans": "라이벌 플레이어에 현상금을 걸거나 보상을 위해 원하는 표적을 사냥하세요. 고가치 목표를 추적하고 제거해 수익성 높은 현상금을 획득하십시오."
+				},
+				"highlight": {
+					"eng": "BECOME THE CITY'S MOST FEARED",
+					"trans": "도시에서 가장 두려워받는 인물이 되어라"
+				},
+				"title": {
+					"eng": "Bounty Hunting",
+					"trans": "현상금 사냥"
+				}
+			},
+			"cookingSystem": {
+				"description": {
+					"eng": "Cook food for powerful buffs",
+					"trans": "강력한 버프를 위해 음식을 조리하세요"
+				},
+				"detailed": {
+					"eng": "Gather ingredients from dungeons and various tasks, then cook them in your apartment's kitchen. Prepared meals grant powerful temporary buffs to enhance your performance.",
+					"trans": "던전과 다양한 퀘스트에서 재료를 수집해 아파트 주방에서 요리하세요. 준비된 식사는 강력한 일시적 버프를 부여합니다."
+				},
+				"highlight": {
+					"eng": "MASTER CHEF OF THE STREETS",
+					"trans": "거리 요리 대가"
+				},
+				"title": {
+					"eng": "Cooking System",
+					"trans": "요리 시스템"
+				}
+			},
+			"dailyWeeklyMissions": {
+				"description": {
+					"eng": "Complete tasks for rewards",
+					"trans": "과제 완료 시 보상 지급"
+				},
+				"detailed": {
+					"eng": "Take on daily quests and weekly intelligence contracts with escalating rewards and bonuses. Earn free daily rewards by login in everyday.",
+					"trans": "일일 퀘스트와 주간 지능 계약으로 점진적 보상과 보너스를 획득하세요. 매일 로그인하면 무료 보상을 받으세요."
+				},
+				"highlight": {
+					"eng": "LOYALTY BRINGS FORTUNE",
+					"trans": "충성은 부를 가져온다."
+				},
+				"title": {
+					"eng": "Daily & Weekly Missions",
+					"trans": "일일 & 주간 미션"
+				}
+			},
+			"dungeonRaids": {
+				"description": {
+					"eng": "Explore dungeons with your friends for loot",
+					"trans": "친구와 함께 던전을 탐험해 전리품을 획득하세요."
+				},
+				"detailed": {
+					"eng": "Tackle challenging instanced dungeons with your squad or alone. Defeat powerful bosses, and claim legendary equipment and resources.",
+					"trans": "스쿼드와 함께 혹은 혼자 도전적인 인스턴스 던전을 정복하세요. 강력한 보스를 물리치고 전설 장비와 자원을 획득하세요."
+				},
+				"highlight": {
+					"eng": "EPIC LOOT FOR ELITE TEAMS",
+					"trans": "엘리트 팀을 위한 에픽 전리품"
+				},
+				"title": {
+					"eng": "Realtime Co-Op Dungeon Raids",
+					"trans": "실시간 협동 던전 레이드"
+				}
+			},
+			"globalChat": {
+				"description": {
+					"eng": "Chat with players worldwide",
+					"trans": "전 세계 플레이어와 채팅"
+				},
+				"detailed": {
+					"eng": "Join chat with real-time auto-translation across all supported languages, players worldwide meets in Arclight City",
+					"trans": "실시간 자동 번역이 가능한 모든 언어로 채팅에 참여하고, 전 세계 플레이어가 아크라이트 시티에서 만납니다."
+				},
+				"highlight": {
+					"eng": "SPEAK ANY LANGUAGE, UNDERSTOOD BY ALL",
+					"trans": "어떤 언어든 말하면, 모두가 이해합니다."
+				},
+				"title": {
+					"eng": "Borderless Communication",
+					"trans": "경계 없는 통신"
+				}
+			},
+			"heading": {
+				"eng": "What Awaits You",
+				"trans": "무엇이 당신을 기다릴까요?"
+			},
+			"mercenarySquad": {
+				"description": {
+					"eng": "Recruit and upgrade mercenaries to join your crew",
+					"trans": "용병을 영입하고 강화해 크루에 합류시키세요."
+				},
+				"detailed": {
+					"eng": "Build your squad with diverse mercenaries, each with unique stats, buffs and skills. Upgrade them and build your perfect crew.",
+					"trans": "다양한 용병으로 부대를 편성하세요. 각 인물은 독특한 스탯과 버프, 스킬을 갖추고 있습니다. 업그레이드하여 완벽한 크루를 완성하세요."
+				},
+				"highlight": {
+					"eng": "LEGENDARY CREW AT YOUR COMMAND",
+					"trans": "당신이 지휘하는 전설적 크루"
+				},
+				"title": {
+					"eng": "Mercenary Squad System",
+					"trans": "용병 스쿼드 시스템"
+				}
+			},
+			"overline": {
+				"eng": "Game Features // Core Systems",
+				"trans": "게임 기능 // 핵심 시스템"
+			},
+			"panelTitle": {
+				"eng": "Feature briefing",
+				"trans": "기능 브리핑"
+			},
+			"playerEconomy": {
+				"description": {
+					"eng": "Trade stocks of mega corporations",
+					"trans": "거대기업 주식 거래"
+				},
+				"detailed": {
+					"eng": "Invest in a realistic and unpredictable stock market reflecting real-world events and news. Buy and sell stocks of in-game mega corporations to make a profit.",
+					"trans": "실제 세계 사건과 뉴스를 반영하는 현실적이고 예측 불가능한 주식 시장에 투자하세요. 게임 내 메가기업 주식을 사고 팔아 수익을 올리세요."
+				},
+				"highlight": {
+					"eng": "CORPORATE WEALTH AWAITS",
+					"trans": "기업 부가 당신을 기다립니다."
+				},
+				"title": {
+					"eng": "Stock Market Trading",
+					"trans": "주식 거래"
+				}
+			},
+			"playerHousing": {
+				"description": {
+					"eng": "Own and customize your apartment",
+					"trans": "아파트를 소유하고 꾸미세요"
+				},
+				"detailed": {
+					"eng": "Claim your own apartment in the city complete with a personal vault and kitchen for cooking. Host visitors and create your personal cyberpunk sanctuary.",
+					"trans": "도시에서 당신만의 아파트를 확보하세요. 개인 금고와 요리용 주방이 완비되어 있습니다. 방문자를 초대하고 나만의 사이버펑크 안식처를 만들어 보세요."
+				},
+				"highlight": {
+					"eng": "YOUR SANCTUARY IN THE CITY",
+					"trans": "도시 속 당신의 은신처"
+				},
+				"title": {
+					"eng": "Player Housing",
+					"trans": "플레이어 주택"
+				}
+			},
+			"pvpCombat": {
+				"description": {
+					"eng": "Mug players or play as cops",
+					"trans": "강도 또는 경찰로 플레이"
+				},
+				"detailed": {
+					"eng": "Mug other players for their valuables or take on the role of law enforcement to arrest wanted criminals and maintain order in the city.",
+					"trans": "다른 플레이어를 털어 귀중품을 빼앗거나, 경찰 역할을 맡아 보석이 달린 범죄자를 체포하고 도시의 질서를 유지하세요."
+				},
+				"highlight": {
+					"eng": "BECOME HUNTER OR LAWMAN",
+					"trans": "사냥꾼 혹은 법관이 되기"
+				},
+				"title": {
+					"eng": "PvP Combat",
+					"trans": "PvP 전투"
+				}
+			},
+			"territoryControl": {
+				"description": {
+					"eng": "Capture districts and earn bonuses",
+					"trans": "구역을 점령하고 보너스를 획득하세요"
+				},
+				"detailed": {
+					"eng": "Compete for district control, wage gang wars, and unlock exclusive bonuses in your territory.",
+					"trans": "구역을 통제하고 갱전을 벌이며 당신의 영토에서 독점 보너스를 획득하세요."
+				},
+				"highlight": {
+					"eng": "DISTRICTS UNDER YOUR BANNER",
+					"trans": "당신의 배너 아래 구역"
+				},
+				"title": {
+					"eng": "Territory Control",
+					"trans": "영역 통제"
+				}
+			},
+			"worldEvents": {
+				"description": {
+					"eng": "Daily in-game news reports",
+					"trans": "인게임 데일리 뉴스"
+				},
+				"detailed": {
+					"eng": "Stay informed with dynamically updated news reports that gets affected by all player activities, major events, and emerging stories in the cyberpunk world. Maybe your demise will be the next headline?",
+					"trans": "플레이어 활동, 대형 이벤트, 신흥 스토리로 실시간 업데이트되는 뉴스를 확인하세요. 다음 헤드라인은 당신일지도 모릅니다."
+				},
+				"highlight": {
+					"eng": "YOUR ACTIONS MAKE HEADLINES",
+					"trans": "네 행동이 헤드라인을 차지해!"
+				},
+				"title": {
+					"eng": "Dynamic News System",
+					"trans": "동적 뉴스 시스템"
+				}
+			}
+		},
+		"hero": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "앱스토어에서 다운로드"
+			},
+			"downloadMobile": {
+				"eng": "Download mobile app",
+				"trans": "모바일 앱 다운로드"
+			},
+			"headline": {
+				"eng": "Arclight City",
+				"trans": "아크라이트 시티"
+			},
+			"liveActivityLabel": {
+				"eng": "Live activity feed",
+				"trans": "실시간 활동 피드"
+			},
+			"metrics": {
+				"bounties": {
+					"eng": "Bounties Placed",
+					"trans": "배치한 현상금"
+				},
+				"pvpKills": {
+					"eng": "Player vs Player Deaths",
+					"trans": "PVP 사망"
+				},
+				"users": {
+					"eng": "Registered Cyberpunker",
+					"trans": "등록된 사이버펑커"
+				}
+			},
+			"orPlayOnBrowser": {
+				"eng": "Or play on browser",
+				"trans": "또는 브라우저에서 플레이"
+			},
+			"overline": {
+				"eng": "Cyberpunk // TEXT-BASED MMORPG",
+				"trans": "사이버펑크 // 텍스트 기반 MMORPG"
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "구글 플레이에서 받기"
+			},
+			"primaryCta": {
+				"eng": "Play on Browser",
+				"trans": "브라우저에서 플레이"
+			},
+			"subline": {
+				"eng": "Arclight City is a vibrant city where you can explore, fight, and trade in a cyberpunk world.",
+				"trans": "아크라이트 시티는 사이버펑크 세계에서 탐험하고 전투하며 거래할 수 있는 활기찬 도시입니다."
+			}
+		},
+		"market": {
+			"copy": {
+				"eng": "Buy and sell corporate shares, monitor player-listed gear, and react to Flash Sales without leaving the dashboard.",
+				"trans": "기업 주식 거래, 플레이어가 등록한 장비 감시 및 플래시 세일 대응은 대시보드를 떠나지 않고 할 수 있습니다."
+			},
+			"headline": {
+				"eng": "Track the Mega Corporations in real time",
+				"trans": "실시간 메가기업 추적"
+			},
+			"overline": {
+				"eng": "Realtime Stock Exchange // 24/7 Live in-game Stock Market",
+				"trans": "실시간 주식 거래소 // 연중무휴 게임 내 주식시장"
+			},
+			"tag1": {
+				"eng": "Price action reacts to real-world events and news",
+				"trans": "가격 변동은 실제 사건과 뉴스에 반응합니다."
+			},
+			"tag2": {
+				"eng": "Buy and sell stocks of in-game mega corporations",
+				"trans": "인게임 메가기업 주식 거래"
+			},
+			"tag3": {
+				"eng": "Fair and unpredictable market derived on real-world data",
+				"trans": "현실 데이터를 기반으로 한 공정하고 예측이 어려운 시장"
+			},
+			"tickerTitle": {
+				"eng": "Latest Netcoin board",
+				"trans": "최신 넷코인 보드"
+			}
+		},
+		"mercenary": {
+			"chromeReaper": {
+				"promotional": {
+					"eng": "Heavy firepower meets cybernetic fury",
+					"trans": "강력한 화력과 사이버네틱 격노가 결합된다."
+				},
+				"whisper": {
+					"eng": "When stealth fails, bring the chrome. When chrome fails... you were already dead",
+					"trans": "스텔스가 실패하면 크롬을 불러라. 크롬이 실패하면… 이미 죽었어."
+				}
+			},
+			"copy": {
+				"eng": "Unlock NPC mercenaries with unique roles, level them up, and build your perfect crew for gigs and raids.",
+				"trans": "독특한 역할을 가진 NPC 용병을 잠금 해제하고, 레벨을 올려 완벽한 팀을 구성해 작업과 레이드에 활용하세요."
+			},
+			"crimsonRipper": {
+				"promotional": {
+					"eng": "Close-quarters carnage, guaranteed results",
+					"trans": "근거리 살상, 보장된 결과"
+				},
+				"whisper": {
+					"eng": "They say violence isn't the answer. They've never met my chainsaw",
+					"trans": "폭력은 답이 아니라고요. 하지만 내 전기톱을 한 번도 본 적 없겠죠."
+				}
+			},
+			"ghostNet": {
+				"promotional": {
+					"eng": "Silent ops require silent partners",
+					"trans": "스텔스 작전에는 스텔스 파트너가 필수입니다."
+				},
+				"whisper": {
+					"eng": "The shadows have eyes... and they're watching for you",
+					"trans": "그림자들은 눈이 있어요… 당신을 감시하고 있죠."
+				}
+			},
+			"gravitySniper": {
+				"promotional": {
+					"eng": "Precision firepower when it matters most",
+					"trans": "정밀 화력, 가장 필요할 때"
+				},
+				"whisper": {
+					"eng": "Distance is just a number. Death is a certainty. Get yourself a sniper",
+					"trans": "거리는 단지 숫자에 불과해. 죽음은 확실하다. 스나이퍼를 챙겨라."
+				}
+			},
+			"heading": {
+				"eng": "Recruit specialists to support your squad",
+				"trans": "전문가를 모집해 스쿼드를 지원하세요"
+			},
+			"overline": {
+				"eng": "Mercenary companions",
+				"trans": "용병 동료"
+			},
+			"shardHealer": {
+				"promotional": {
+					"eng": "Keep your crew combat-ready, 24/7",
+					"trans": "크루를 24시간 전투 준비 상태로 유지하세요."
+				},
+				"whisper": {
+					"eng": "A crew that bleeds together... needs someone who can put them back together",
+					"trans": "같이 피를 흘리는 크루는… 그들을 다시 한데 모아줄 사람이 필요하다."
+				}
+			},
+			"tag1": {
+				"eng": "Upgrade mercenaries to increase their stats",
+				"trans": "용병을 업그레이드하면 스탯이 상승합니다."
+			},
+			"tag2": {
+				"eng": "Unique abilities to synergize with your crew",
+				"trans": "크루와 시너지를 발휘하는 고유 스킬"
+			}
+		},
+		"nav": {
+			"title": {
+				"eng": "ARCLIGHT CITY",
+				"trans": "아크라이트 시티"
+			}
+		},
+		"news": {
+			"copy": {
+				"eng": "Every gang war, bounty kill, and major deal triggers real news reports. Upgrade your gear? Launch a territory raid? YOU could be on tomorrow's front page.",
+				"trans": "모든 갱전, 보상 처치, 주요 거래가 실제 뉴스에 반영됩니다. 장비 업그레이드? 영역 공략? 내일 헤드라인에 당신이 나올 수도 있어요."
+			},
+			"defaultTag": {
+				"eng": "News",
+				"trans": "뉴스"
+			},
+			"goToNews": {
+				"eng": "Go to news ${index}",
+				"trans": "뉴스 ${index}으로 이동"
+			},
+			"heading": {
+				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
+				"trans": "당신의 행동이 헤드라인을 만든다."
+			},
+			"live": {
+				"eng": "● LIVE",
+				"trans": "● 라이브"
+			},
+			"newsChannelName": {
+				"eng": "Arclight Times",
+				"trans": "아크라이트 타임스"
+			},
+			"next": {
+				"eng": "Next news",
+				"trans": "다음 뉴스"
+			},
+			"noNews": {
+				"eng": "No news available at the moment",
+				"trans": "현재 뉴스가 없습니다."
+			},
+			"overline": {
+				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
+				"trans": "실시간 세계 이벤트 // 플레이어 중심 스토리"
+			},
+			"previous": {
+				"eng": "Previous news",
+				"trans": "이전 뉴스"
+			},
+			"reportBy": {
+				"eng": "REPORT BY",
+				"trans": "작성자"
+			},
+			"tagDynamic": {
+				"eng": "Dynamic World System",
+				"trans": "동적 세계 시스템"
+			},
+			"tagPlayerDriven": {
+				"eng": "Player-Driven Stories",
+				"trans": "플레이어 주도 스토리"
+			},
+			"tagRealTime": {
+				"eng": "Real-Time Updates",
+				"trans": "실시간 업데이트"
+			}
+		},
+		"showcase": {
+			"choiceOutcome": {
+				"description": {
+					"eng": "Face critical decisions during dungeon encounters. Risk it all for rewards, play it safe, or flee—every choice has consequences.",
+					"trans": "던전 전투에서 결정이 필요합니다. 보상을 위해 모두 걸거나, 안전하게 플레이하거나, 도망치기 — 모든 선택은 결과를 낳습니다."
+				},
+				"tag": {
+					"eng": "Make your own choices",
+					"trans": "직접 선택하세요"
+				},
+				"title": {
+					"eng": "Navigate risk vs reward encounters",
+					"trans": "위험 대비 보상 전투 탐색"
+				}
+			},
+			"copy": {
+				"eng": "Real in-game screenshots showcasing tactical combat, deep lore, and endless progression",
+				"trans": "전술 전투·깊은 배경 스토리·무한 성장까지 담은 실제 게임 화면"
+			},
+			"dungeonLobby": {
+				"description": {
+					"eng": "Form parties, assign roles, and launch procedural dungeons with unique loot tables and boss encounters.",
+					"trans": "파티를 구성하고 역할을 할당한 뒤 고유 전리품 표와 보스 전투가 있는 프로시저 던전을 실행하세요."
+				},
+				"tag": {
+					"eng": "Dungeon System",
+					"trans": "던전 시스템"
+				},
+				"title": {
+					"eng": "Queue squads for instanced raids",
+					"trans": "인스턴스 레이드용 스쿼드를 대기열에 넣기"
+				}
+			},
+			"heading": {
+				"eng": "See What Awaits You in the Neon Wasteland",
+				"trans": "네온 황무지에서 무엇이 기다리고 있는지 확인해 보세요"
+			},
+			"loreCollection": {
+				"description": {
+					"eng": "Unlock narrative fragments and codex bonuses as you explore the cyberpunk world and complete missions.",
+					"trans": "사이버펑크 세계를 탐험하고 미션을 완료하면 스토리 조각과 코덱 보너스를 잠금 해제합니다."
+				},
+				"tag": {
+					"eng": "Lore System",
+					"trans": "전설 시스템"
+				},
+				"title": {
+					"eng": "Discover world lore and collectible entries",
+					"trans": "세계 전설 및 수집품 탐색"
+				}
+			},
+			"minigameRewards": {
+				"description": {
+					"eng": "Multiple minigames to unlock chests in dungeons",
+					"trans": "던전 보물함 열기용 여러 미니게임"
+				},
+				"tag": {
+					"eng": "Minigames",
+					"trans": "미니게임"
+				},
+				"title": {
+					"eng": "Skill challenges with targeted loot",
+					"trans": "목표 보상을 위한 스킬 챌린지"
+				}
+			},
+			"overline": {
+				"eng": "Game Captures",
+				"trans": "게임 캡처"
+			},
+			"turnBasedCombat": {
+				"description": {
+					"eng": "Strategic combat with hit/miss/crit mechanics, damage mitigation, build your perfect crew and loadout.",
+					"trans": "전략 전투와 명중/미스/크리티컬 메커니즘, 피해 감소 기능을 활용해 당신만의 완벽한 크루와 장비를 구축하세요."
+				},
+				"tag": {
+					"eng": "Combat System",
+					"trans": "전투 시스템"
+				},
+				"title": {
+					"eng": "Tactical turn-based encounters",
+					"trans": "전술적 턴제 전투"
+				}
+			}
+		},
+		"testimonial": {
+			"copy": {
+				"eng": "Verified players from around the world share their experiences with Arclight City",
+				"trans": "전 세계의 인증된 플레이어들이 아크라이트 시티에서 경험을 공유합니다."
+			},
+			"heading": {
+				"eng": "Verified by players worldwide",
+				"trans": "전 세계 플레이어들이 검증했습니다"
+			},
+			"label": {
+				"eng": "Google Play Review",
+				"trans": "구글 플레이 리뷰"
+			},
+			"overline": {
+				"eng": "Playstore x AppStore // trust signals",
+				"trans": "플레이스토어 x 앱스토어 // 신뢰 신호"
+			},
+			"rating": {
+				"eng": "4.9 rating on Playstore",
+				"trans": "플레이스토어 평점 4.9"
+			},
+			"reviewCount": {
+				"eng": "13k+ reviews",
+				"trans": "1만3천+ 리뷰"
+			},
+			"review_1": {
+				"quote": {
+					"eng": "I was really surprised. The graphics fit the atmosphere very well. It's a simple click-and-click game, but it packs a punch. And there's no advertising, which isn't normal these days. So, 5 🌟",
+					"trans": "정말 놀랐어요. 그래픽이 분위기에 딱 맞아요. 단순한 클릭·클릭 게임이지만 꽤 파워풀합니다. 광고 없이도 흔치 않은 점이 인상적이죠. 그래서 5 ⭐️"
+				}
+			},
+			"review_2": {
+				"quote": {
+					"eng": "A game in my favorite setting, even with customizable skins! It's fantastic. I like it. The donations aren't pushy. It's nice. There are even free gifts. Very nice. You can feel the love for the setting. I like this kind of thing :3",
+					"trans": "내가 가장 좋아하는 세계관의 게임이며, 커스터마이즈 가능한 스킨까지 제공돼요! 환상적이에요. 마음에 들어요. 기부는 부담스럽지 않아요. 좋은 편이에요. 무료 선물도 있어요. 정말 훌륭합니다. 설정에 대한 애정이 느껴집니다. 이런 걸 좋아해요 :3"
+				}
+			},
+			"review_3": {
+				"quote": {
+					"eng": "I recently started playing it, and I must say it completely captivated me. Everything is very well thought out, and so far I haven't found any bugs. I plan to dedicate many hours to this gem.",
+					"trans": "최근 시작했는데 완전히 매료돼요. 모든 것이 세심하게 설계돼 있고 지금까지 버그를 찾지 못했어요. 이 보석 같은 게임에 많은 시간을 투자할 예정입니다."
+				}
+			},
+			"review_4": {
+				"quote": {
+					"eng": "One of the truly good games on the store. A great atmosphere and a wide range of gameplay depth make it a great way to pass the time. It's also entirely in German. Keep it up!",
+					"trans": "스토어에서 가장 좋은 게임 중 하나입니다. 훌륭한 분위기와 깊이 있는 다양한 게임플레이가 시간을 보내기에 최적입니다. 전부 독일어로 제공됩니다. 계속 해보세요!"
+				}
+			},
+			"review_5": {
+				"quote": {
+					"eng": "I am enjoying this game with a great retro feel. It truly holds up to \"retro text-based graphics with captivating modern pixel art, delivering a truly unique visual experience\". Take your neuroblockers choom! I will see you in the strongholds.",
+					"trans": "레트로 분위기로 이 게임을 즐기고 있어요. 레트로 텍스트 기반 그래픽과 매력적인 현대 픽셀 아트를 완벽히 구현해 독특한 시각적 경험을 선사합니다. 신경 차단제 챔, 이 새끼야! 아지트에서 보자!"
+				}
+			},
+			"review_6": {
+				"quote": {
+					"eng": "I invested all my money in stocks and now I'm fighting homeless people over synthetic bread. And everything's great in the game 👍",
+					"trans": "나는 모든 돈을 주식에 투자했는데, 이제는 인공빵을 두고 노숙자들과 싸우고 있어요. 게임 안에서는 모두 완벽해요 👍"
+				}
+			},
+			"review_7": {
+				"quote": {
+					"eng": "This game is amazing for cyberpunk lovers.I highly recommend it.",
+					"trans": "사이버펑크 팬이라면 이 게임은 환상적입니다. 강력히 추천합니다."
+				}
+			},
+			"review_8": {
+				"quote": {
+					"eng": "it's pretty fun it's my pocket cyberpunk",
+					"trans": "꽤 재밌어, 내 포켓 사이버펑크야."
+				}
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -4126,6 +7092,50 @@
 			"name": {
 				"eng": "PvP Kills",
 				"trans": "PvP 킬"
+			}
+		},
+		"stockChirp": {
+			"name": {
+				"eng": "Chirp Shares",
+				"trans": "퀵 공유"
+			}
+		},
+		"stockCircuitbreak": {
+			"name": {
+				"eng": "Circuitbreak Shares",
+				"trans": "서킷브레이크 주식"
+			}
+		},
+		"stockMegaestate": {
+			"name": {
+				"eng": "Mega Estate Shares",
+				"trans": "메가 에스테이트 지분"
+			}
+		},
+		"stockProfit": {
+			"name": {
+				"eng": "Stock Realized Profit",
+				"trans": "주식 차익 실현"
+			}
+		}
+	},
+	"leaderboardTypes": {
+		"categories": {
+			"combat": {
+				"eng": "COMBAT",
+				"trans": "전투"
+			},
+			"economy": {
+				"eng": "ECONOMIC ",
+				"trans": "경제적인"
+			},
+			"gang": {
+				"eng": "GANG",
+				"trans": "패거리"
+			},
+			"skills": {
+				"eng": "SKILL",
+				"trans": "스킬"
 			}
 		}
 	},
@@ -4215,11 +7225,38 @@
 			}
 		}
 	},
+	"linkAccount": {
+		"description": {
+			"eng": "Make your guest account permanent to prevent accidental loss of progress.",
+			"trans": "게스트 계정을 영구적으로 만들어 진행 상황이 우연히 손실되는 것을 방지하세요."
+		},
+		"email": {
+			"description1": {
+				"eng": "You can use an fake email if you have privacy concerns",
+				"trans": "개인정보 보호에 대한 우려가 있다면 가짜 이메일을 사용할 수 있습니다"
+			},
+			"descriptionPopover": {
+				"eng": "but you will not be able to receive reset password emails, so please remember your email and password.",
+				"trans": "하지만 비밀번호 재설정 이메일을 받을 수 없으니, 이메일과 비밀번호를 꼭 기억해 주세요."
+			},
+			"title": {
+				"eng": "Email & Password",
+				"trans": "이메일 & 비밀번호"
+			}
+		},
+		"linkWithEmail": {
+			"eng": "Link with Email",
+			"trans": "이메일로 연결하기"
+		},
+		"title": {
+			"eng": "Finish Signing Up",
+			"trans": "가입 완료하기"
+		}
+	},
 	"localEnemy": {
 		"levelDisplay": {
 			"eng": "Level ${minLevel} - ${maxLevel}",
-			"trans": "레벨 ${minLevel} - ${maxLevel}",
-			"vars": []
+			"trans": "레벨 ${minLevel} - ${maxLevel}"
 		},
 		"selectLevelModal": {
 			"display": {
@@ -4243,13 +7280,11 @@
 		},
 		"level": {
 			"eng": "Level ${level}",
-			"trans": "레벨 ${level}",
-			"vars": []
+			"trans": "레벨 ${level}"
 		},
 		"levelRange": {
 			"eng": "Lv ${enemyMinLevel}-${enemyMaxLevel}",
-			"trans": "Lv ${enemyMinLevel}~${enemyMaxLevel}",
-			"vars": []
+			"trans": "Lv ${enemyMinLevel}~${enemyMaxLevel}"
 		},
 		"listHeader": {
 			"title": {
@@ -4259,8 +7294,7 @@
 		},
 		"lockedError": {
 			"eng": "You can travel to this location when you reach level ${level}, or by completing the previous level stronghold.",
-			"trans": "레벨 ${level}에 도달하거나 이전 레벨의 아지트를 완료하면 이 위치로 여행할 수 있습니다.",
-			"vars": []
+			"trans": "레벨 ${level}에 도달하거나 이전 레벨의 아지트를 완료하면 이 위치로 여행할 수 있습니다."
 		}
 	},
 	"loginFromOtherDevicePage": {
@@ -4275,6 +7309,10 @@
 	},
 	"loginPage": {
 		"emailLoginBox": {
+			"forgotPassword": {
+				"eng": "Forgot Password?",
+				"trans": "비밀번호를 잊으셨나요?"
+			},
 			"login": {
 				"eng": "Login",
 				"trans": "로그인"
@@ -4286,6 +7324,10 @@
 			"register": {
 				"eng": "Register",
 				"trans": "등록하기"
+			},
+			"registerWithEmail": {
+				"eng": "Register with Email",
+				"trans": "이메일로 등록하기"
 			}
 		},
 		"loginError": {
@@ -4295,6 +7337,18 @@
 		"loginWithEmail": {
 			"eng": "Login with Email",
 			"trans": "이메일로 로그인하기"
+		},
+		"pageDescription": {
+			"eng": "Explore the dark streets of Arclight City, a cyberpunk text-based MMORPG. Dive into a world of corporate intrigue, mercenaries, and cybernetic enhancements.",
+			"trans": "아크라이트 시티의 어두운 거리를 탐험하세요. 사이버펑크 텍스트 기반 MMORPG에 빠져들어 기업의 음모, 용병, 그리고 사이버네틱 강화의 세계로 들어가세요."
+		},
+		"pageTitle": {
+			"eng": "Arclight City - Cyberpunk Text-Based MMORPG",
+			"trans": "아크라이트 시티 - 사이버펑크 텍스트 기반 MMORPG"
+		},
+		"resetEmailSent": {
+			"eng": "Reset email sent. Check your email.",
+			"trans": "이메일 재설정이 전송되었습니다. 이메일을 확인하세요."
 		},
 		"serverUnavailable": {
 			"eng": "Server under maintenance. We are bring it back online soon.",
@@ -4307,6 +7361,10 @@
 		"unableToRegister": {
 			"eng": "Failed to register: ${error}",
 			"trans": "등록에 실패했습니다: ${error}"
+		},
+		"unableToSendResetEmail": {
+			"eng": "Failed to send reset email: ${error}",
+			"trans": "재설정 이메일 전송 실패: ${error}"
 		}
 	},
 	"loreNote": {
@@ -4315,11 +7373,175 @@
 			"trans": "새로운 로어 노트를 수집했습니다"
 		}
 	},
+	"lottery": {
+		"error": {
+			"noWin": {
+				"eng": "Almost! Better luck next time!",
+				"trans": "거의 성공했어! 다음에 더 좋은 운을 빌어봐!"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient currency, required: ${required}",
+				"trans": "통화가 부족합니다, 필요한 금액: ${required}"
+			},
+			"notEnoughItem": {
+				"eng": "Insufficient ${required}",
+				"trans": "${required}이(가) 부족합니다"
+			}
+		},
+		"winMessage": {
+			"eng": "You received ${itemName}",
+			"trans": "당신은 ${itemName}을(를) 받았습니다"
+		}
+	},
+	"lotteryAnimationPopup": {
+		"activated": {
+			"loadingBarTitle": {
+				"eng": "Receiving result...",
+				"trans": "결과 수신 중..."
+			},
+			"textList3": {
+				"eng": "Randomizing...",
+				"trans": "랜덤화 중..."
+			}
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "가까이 닫기"
+		}
+	},
+	"lotteryPage": {
+		"dropRateModal": {
+			"title": {
+				"eng": "Reward List",
+				"trans": "보상 목록"
+			}
+		},
+		"pachinkoTip": {
+			"eng": "Each round of Pachinko you will receive one of the reward from the reward list.",
+			"trans": "파친코 한 판마다 보상 목록 중 하나를 받게 됩니다."
+		},
+		"skipAnimation": {
+			"eng": "Skip Animation",
+			"trans": "애니메이션 건너뛰기"
+		}
+	},
+	"lotteryType": {
+		"pachinko": {
+			"activateVerb": {
+				"eng": "Play Pachinko",
+				"trans": "파친코를 플레이하세요"
+			},
+			"againText": {
+				"eng": "Play Again",
+				"trans": "다시 플레이하기"
+			},
+			"lostSubtitle": {
+				"eng": "Keep playing, your win awaits!",
+				"trans": "계속해서 플레이하면 승리가 기다리고 있어!"
+			},
+			"lostTitle": {
+				"eng": "So close!",
+				"trans": "거의 성공했어!"
+			},
+			"winTitle": {
+				"eng": "You won!",
+				"trans": "이겼다!"
+			}
+		}
+	},
+	"luckyDraw": {
+		"betterLuck": {
+			"eng": "BETTER LUCK NEXT TIME",
+			"trans": "다음에 luck이 있을 거예요"
+		},
+		"drawLost": {
+			"eng": "TRY AGAIN LATER",
+			"trans": "조금 후에 다시 시도해 주세요"
+		},
+		"drawWon": {
+			"eng": "SUCCESS!",
+			"trans": "성공!"
+		},
+		"expired": {
+			"eng": "EXPIRED",
+			"trans": "만료"
+		},
+		"expiresLabel": {
+			"eng": "EXPIRES: ",
+			"trans": "만료:"
+		},
+		"flashSale": {
+			"description": {
+				"eng": "Win exclusive flash sale discounts!",
+				"trans": "승리하고 전용 할인을 얻으세요!"
+			},
+			"title": {
+				"eng": "Flash Sale Lucky Draw",
+				"trans": "플래시 세일 로또"
+			}
+		},
+		"idle": {
+			"eng": "IDLE",
+			"trans": "대기"
+		},
+		"invalidType": {
+			"eng": "Invalid lucky draw type",
+			"trans": "행운의 추첨 유형이 잘못되었습니다"
+		},
+		"itemsReceived": {
+			"eng": "ITEMS RECEIVED:",
+			"trans": "아이템 수령"
+		},
+		"noRewards": {
+			"eng": "NO REWARDS THIS TIME",
+			"trans": "이번엔 보상이 없습니다"
+		},
+		"notEligible": {
+			"eng": "You are not eligible for this lucky draw",
+			"trans": "이 행운의 추첨을 참여할 수 없습니다."
+		},
+		"onCooldown": {
+			"eng": "This lucky draw is on cooldown. Try again later!",
+			"trans": "행운의 드라우가 쿨타임 중입니다. 나중에 다시 시도해 보세요."
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "처리 중…"
+		},
+		"processing1": {
+			"eng": "PROCESSING",
+			"trans": "처리 중"
+		},
+		"rewardUnlocked": {
+			"eng": "REWARD UNLOCKED!",
+			"trans": "보상 해금!"
+		},
+		"statusSuccess": {
+			"eng": "STATUS: SUCCESS",
+			"trans": "STATUS: 성공"
+		},
+		"statusUnsuccessful": {
+			"eng": "STATUS: UNSUCCESSFUL",
+			"trans": "상태: 실패"
+		},
+		"swipeToUnlock": {
+			"eng": "Swipe to initiate lucky draw",
+			"trans": "스와이프로 추첨을 시작하세요"
+		},
+		"transactionComplete": {
+			"eng": "TRANSACTION COMPLETE",
+			"trans": "거래 완료"
+		}
+	},
 	"mail": {
 		"notification": {
 			"fromPlayer": {
 				"eng": "${senderName} sent you a mail",
 				"trans": "${senderName}님이 메일을 보냈습니다"
+			},
+			"fromSystem": {
+				"eng": "You received a System Mail",
+				"trans": "시스템 메일을 받았습니다."
 			}
 		},
 		"pvpFailed1": {
@@ -4333,6 +7555,50 @@
 				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
 				"trans": "당신은 ${playerName}을(를) 노렸지만 싸움에서 패배했습니다. ${amount}을(를) 잃었습니다"
 			}
+		},
+		"system": {
+			"name": {
+				"eng": "System Message",
+				"trans": "시스템 메시지"
+			}
+		}
+	},
+	"mailDetails": {
+		"blockAndReport": {
+			"eng": "Block & Report",
+			"trans": "차단 및 신고"
+		},
+		"blockOnly": {
+			"eng": "Block Only",
+			"trans": "블록 전용"
+		},
+		"blockPlayer": {
+			"eng": "Block Player",
+			"trans": "플레이어 차단"
+		},
+		"blockPlayerConfirm": {
+			"eng": "Choose how you want to proceed with this player:",
+			"trans": "이 플레이어와 어떻게 진행할지 선택하세요."
+		},
+		"playerBlocked": {
+			"eng": "Player Blocked",
+			"trans": "플레이어 차단됨"
+		},
+		"playerBlockedMessage": {
+			"eng": "You have blocked this player. Unblock them to view messages and send new ones.",
+			"trans": "이 플레이어를 차단했습니다. 메시지 보기와 보내기 위해 차단을 해제하세요."
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "차단 해제"
+		},
+		"unblockPlayer": {
+			"eng": "Unblock Player",
+			"trans": "플레이어 차단 해제"
+		},
+		"unblockPlayerConfirm": {
+			"eng": "Are you sure you want to unblock this player?",
+			"trans": "이 플레이어의 차단을 해제하시겠습니까?"
 		}
 	},
 	"mailModule": {
@@ -4340,13 +7606,27 @@
 			"blocked": {
 				"eng": "This player cannot receive your mail at this time.",
 				"trans": "이 플레이어는 현재 당신의 메일을 받을 수 없습니다."
+			},
+			"notEnoughLevel": {
+				"eng": "You need to be at least level ${level} to initiate a mail.",
+				"trans": "레벨 ${level} 이상이어야 메일을 보낼 수 있습니다."
+			},
+			"notFriend": {
+				"eng": "This player only allows mails from players in their friend list.",
+				"trans": "이 플레이어는 친구 목록에 있는 사람만 메일을 받습니다."
 			}
+		}
+	},
+	"mailPreview": {
+		"blockedMessage": {
+			"eng": "Message hidden - player blocked",
+			"trans": "메시지 숨김 - 플레이어 차단됨"
 		}
 	},
 	"mailTab": {
 		"empty": {
-			"eng": "currently you don\\'t have any chat",
-			"trans": "현재 채팅이 없습니다"
+			"eng": "currently you don't have any chat",
+			"trans": "현재 채팅이 없습니다."
 		}
 	},
 	"mails": {
@@ -4368,6 +7648,12 @@
 				"trans": "아파트로 돌아가기"
 			}
 		},
+		"autoGather": {
+			"title": {
+				"eng": "Auto Gather",
+				"trans": "자동 수집"
+			}
+		},
 		"chirp": {
 			"title": {
 				"eng": "Chirp",
@@ -4378,6 +7664,12 @@
 			"title": {
 				"eng": "Travel [Level ${currentLevel}]",
 				"trans": "여행 [레벨 ${currentLevel}]"
+			}
+		},
+		"craft": {
+			"title": {
+				"eng": "Craft",
+				"trans": "제작"
 			}
 		},
 		"deathItemsButton": {
@@ -4459,6 +7751,48 @@
 			}
 		}
 	},
+	"maintenanceScreen": {
+		"body1": {
+			"eng": "Hello, Cyberpunkers of Arclight City!",
+			"trans": "안녕하세요, 아크라이트 시티의 사이버펑커분들!"
+		},
+		"body2": {
+			"eng": "Currently, Arclight City is undergoing maintenance to address a few unexpected issues. This is crucial for ensuring a top-notch gaming experience.",
+			"trans": "현재 아크라이트 시티는 몇 가지 예상치 못한 문제를 해결하기 위해 유지보수 중입니다. 이는 최고 수준의 게임 경험을 보장하기 위해 매우 중요한 작업입니다."
+		},
+		"body3": {
+			"eng": "🛠️ Maintenance Status",
+			"trans": "🛠️ 유지보수 상태"
+		},
+		"body4": {
+			"eng": "This maintenance is scheduled to finish in a few minutes, but I will keep you updated if that changes.",
+			"trans": "이 유지보수는 몇 분 안에 완료될 예정이지만, 상황이 바뀌면 업데이트해 드리겠습니다."
+		},
+		"body5": {
+			"eng": "The goal is to ensure that every aspect of Arclight City functions smoothly for your adventures.",
+			"trans": "목표는 여러분의 모험을 위해 아크라이트 시티의 모든 측면이 원활하게 작동하는 것을 보장하는 것입니다."
+		},
+		"body6": {
+			"eng": "I'm working diligently to address a few unexpected issues that have arisen.",
+			"trans": "몇 가지 예상치 못한 문제가 발생하여 열심히 작업 중입니다."
+		},
+		"body7": {
+			"eng": "I understand the disruption this may cause change to your gaming plans and sincerely apologize for any inconvenience. Your experience in Arclight City is incredibly important to me, and I'm committed to completing this maintenance as quickly as possible",
+			"trans": "이로 인해 여러분의 게임 계획이 변경될 수 있음을 이해하며 불편을 드려 진심으로 사과드립니다. Arclight City에서의 당신의 경험은 저에게 엄청나게 중요합니다. 그리고 저는 이 유지보수를 가능한 한 빨리 완료할 것을 약속합니다"
+		},
+		"body8": {
+			"eng": "Thank you for your patience and understanding. Your support and enthusiasm for Arclight City are what drive these efforts.",
+			"trans": "기다려주셔서 감사합니다. 아크라이트 시티에 대한 여러분의 지지와 열정이 이러한 노력의 원동력입니다."
+		},
+		"body9": {
+			"eng": "Warm regards",
+			"trans": "대단히 감사합니다"
+		},
+		"title": {
+			"eng": "🚀 Maintenance in Progress 🚀",
+			"trans": "🚀 점검 진행중 🚀"
+		}
+	},
 	"markdownFile": {
 		"afkTask": {
 			"eng": "AFK Task",
@@ -4467,6 +7801,10 @@
 		"attributes": {
 			"eng": "Attributes",
 			"trans": "속성"
+		},
+		"autoGather": {
+			"eng": "Auto Gather",
+			"trans": "자동 수집"
 		},
 		"backpack": {
 			"eng": "Backpack",
@@ -4492,17 +7830,33 @@
 			"eng": "Equipment Upgrade",
 			"trans": "장비 강화"
 		},
+		"followUpLottery": {
+			"eng": "Follow Up Lottery",
+			"trans": "후속 추첨"
+		},
 		"gangUpkeep": {
 			"eng": "Gang Upkeep",
 			"trans": "갱 유지보수"
+		},
+		"hideoutRaid": {
+			"eng": "Hideout Raid",
+			"trans": "하이드아웃 레이드"
 		},
 		"hitBounty": {
 			"eng": "Hit Bounty",
 			"trans": "현상금 사냥"
 		},
+		"intelligenceContract": {
+			"eng": "Intelligence Contract",
+			"trans": "지능 계약"
+		},
 		"inventory": {
 			"eng": "Inventory",
 			"trans": "인벤토리"
+		},
+		"investigation": {
+			"eng": "Investigation",
+			"trans": "조사"
 		},
 		"jobLevel": {
 			"eng": "Job Level",
@@ -4511,6 +7865,14 @@
 		"mercenary": {
 			"eng": "Mercenary",
 			"trans": "용병"
+		},
+		"psychosis": {
+			"eng": "Psychosis",
+			"trans": "사이버 싸이코시스"
+		},
+		"stockMarket": {
+			"eng": "Stock Market",
+			"trans": "주식 시장"
 		},
 		"territory": {
 			"eng": "Territory",
@@ -4577,7 +7939,7 @@
 			},
 			"ownerMsg": {
 				"eng": "${item} has been sold on market to the highest bidder for ${price}, you received ${afterTax} (${price} - ${tax}% tax)",
-				"trans": "${item}이(가) ${price}에 최고 입찰가로 암시장에서 판매되었습니다. 세금(${tax}%)을 제외한 ${price}을 받았습니다"
+				"trans": "${item}이(가) ${price}에 최고 입찰자에게 판매되었습니다. 세금(${tax}%)을 공제한 ${afterTax}를 받았습니다."
 			}
 		}
 	},
@@ -4939,6 +8301,12 @@
 			"trans": "유일"
 		}
 	},
+	"mercenaryImagePopup": {
+		"tierLabel": {
+			"eng": "Tier",
+			"trans": "티어"
+		}
+	},
 	"mercenaryLevelDisplay": {
 		"levelUp": {
 			"eng": "Enhance",
@@ -4957,6 +8325,10 @@
 		"hireMercenary": {
 			"eng": "Recruit Mercenaries",
 			"trans": "용병 모집"
+		},
+		"manageCrew": {
+			"eng": "Manage Crew",
+			"trans": "크루 관리하기"
 		},
 		"multiSelectOptions": {
 			"dismiss": {
@@ -5070,6 +8442,10 @@
 		}
 	},
 	"messageContainer": {
+		"block": {
+			"eng": "Block",
+			"trans": "차단"
+		},
 		"developer": {
 			"eng": "Developer",
 			"trans": "개발자"
@@ -5078,9 +8454,29 @@
 			"eng": "No messages yet",
 			"trans": "아직 메시지가 없습니다"
 		},
+		"reply": {
+			"eng": "Reply",
+			"trans": "답변하세요"
+		},
+		"replyingTo": {
+			"eng": "Replying to ${playerName}",
+			"trans": "${playerName}에게 회신합니다"
+		},
+		"report": {
+			"eng": "Report & Block",
+			"trans": "신고 및 차단"
+		},
+		"sendMail": {
+			"eng": "Send Mail",
+			"trans": "메일 보내기"
+		},
 		"system": {
 			"eng": "System",
 			"trans": "시스템"
+		},
+		"viewProfile": {
+			"eng": "View Profile",
+			"trans": "프로필 보기"
 		}
 	},
 	"messageToken": {
@@ -5105,10 +8501,368 @@
 				"eng": "Send invite?",
 				"trans": "초대를 보내시겠습니까?"
 			}
+		},
+		"joinClanRequestByMe": {
+			"button": {
+				"eng": "Request Sent",
+				"trans": "요청이 전송되었습니다"
+			}
 		}
 	},
 	"minigame": {
+		"circuitSync": {
+			"instruction": {
+				"eng": "Click when the pulse aligns with the connection point",
+				"trans": "연결 지점과 맥박이 일치할 때 클릭하세요"
+			},
+			"status": {
+				"progress": {
+					"eng": "${current}/${total} Synchronized",
+					"trans": "${current}/${total} 동기화됨"
+				},
+				"title": {
+					"eng": "System Status",
+					"trans": "시스템 상태"
+				}
+			},
+			"title": {
+				"eng": "Circuit Synchronization Required",
+				"trans": "회로 동기화 필요"
+			}
+		},
+		"codeMinigame": {
+			"accessGranted": {
+				"eng": "ACCESS GRANTED",
+				"trans": "접근 허가됨"
+			},
+			"breachProgress": {
+				"eng": "BREACH PROGRESS",
+				"trans": "침투 진행 상황"
+			},
+			"example": {
+				"eng": "Example of obfuscated code:",
+				"trans": "예시로 난독화된 코드:"
+			},
+			"instructions": {
+				"eng": "Identify and execute all obfuscated code to breach the system firewall.",
+				"trans": "모든 난독화된 코드를 식별하고 실행하여 시스템 방화벽을 우회하세요."
+			},
+			"securityBypassed": {
+				"eng": "SECURITY BYPASSED",
+				"trans": "보안 우회됨"
+			}
+		},
+		"dataNodeSync": {
+			"instructions": {
+				"eng": "Connect nodes in ascending order",
+				"trans": "노드를 오름차순으로 연결하세요"
+			},
+			"progress": {
+				"eng": "Nodes Connected: ${current}/${total}",
+				"trans": "노드 연결됨: ${current}/${total}"
+			},
+			"title": {
+				"eng": "Data Node Synchronization",
+				"trans": "데이터 노드 동기화"
+			}
+		},
+		"dialMatch": {
+			"complete": {
+				"eng": "▲ CALIBRATION COMPLETE ▲",
+				"trans": "교정 완료"
+			},
+			"dialLabel": {
+				"eng": "DIAL-${dialNumber}",
+				"trans": "${dialNumber}번 다이얼"
+			},
+			"howToPlay": {
+				"eng": "Click each dial to rotate it and match the target position",
+				"trans": "각 다이얼을 클릭하여 회전시키고 목표 위치와 일치시키세요"
+			},
+			"instructions": {
+				"eng": "CLICK DIALS TO ROTATE AND MATCH TARGET POSITIONS",
+				"trans": "다이얼을 클릭해 회전하고 목표 위치를 맞춰주세요."
+			},
+			"status": {
+				"eng": "STATUS: ${current}/${total} SYNCHRONIZED",
+				"trans": "상태: ${current}/${total} 동기화됨"
+			},
+			"statusSync": {
+				"eng": "SYNC",
+				"trans": "싱크"
+			},
+			"statusUnsync": {
+				"eng": "UNSYNC",
+				"trans": "비동기화"
+			},
+			"title": {
+				"eng": "SYSTEM CALIBRATION",
+				"trans": "시스템 교정"
+			}
+		},
+		"neonFuse": {
+			"hint": {
+				"eng": "Watch and remember the sequence...",
+				"trans": "순서를 지켜보고 기억하세요..."
+			},
+			"instruction": {
+				"eng": "Recreate the sequence. Any mistake will reset with a new pattern.",
+				"trans": "순서를 다시 만들어 보세요. 실수할 경우 새로운 패턴으로 초기화됩니다."
+			},
+			"progress": {
+				"eng": "Progress",
+				"trans": "진행 상황"
+			},
+			"sequenceIndicator": {
+				"eng": "Remember the sequence...",
+				"trans": "순서를 기억하세요..."
+			},
+			"success": {
+				"eng": "Hack successful!",
+				"trans": "해킹 성공!"
+			},
+			"successIndicator": {
+				"eng": "Access Granted",
+				"trans": "접근 허가됨"
+			},
+			"title": {
+				"eng": "Neon Fuse Hack",
+				"trans": "네온 퓨즈 해킹"
+			}
+		},
+		"neuralSignalSynchronizer": {
+			"downHint": {
+				"eng": "Down",
+				"trans": "무력화"
+			},
+			"instructions": {
+				"eng": "Keep the signal in the green zone to synchronize. Tap the UP arrow to move the signal up, and the DOWN arrow to move it down.",
+				"trans": "신호를 녹색 영역에 유지하여 동기화하세요. 신호를 위로 이동하려면 위쪽 화살표를, 아래로 이동하려면 아래쪽 화살표를 탭하세요."
+			},
+			"progressTitle": {
+				"eng": "SYNC PROGRESS",
+				"trans": "동기화 중..."
+			},
+			"signalStrength": {
+				"eng": "Signal Quality",
+				"trans": "신호 강도"
+			},
+			"status": {
+				"eng": "NEURAL SYNC STATUS",
+				"trans": "신경 동기화 상태"
+			},
+			"statusStable": {
+				"eng": "STABILIZING... ${percent}%",
+				"trans": "안정화... ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "SYNCHRONIZED",
+				"trans": "싱크 완료"
+			},
+			"statusUnstable": {
+				"eng": "UNSTABLE",
+				"trans": "불안정"
+			},
+			"subtitle": {
+				"eng": "System Access Protocol",
+				"trans": "시스템 접속 프로토콜"
+			},
+			"title": {
+				"eng": "Neural Signal Synchronizer",
+				"trans": "신경 신호 동조기"
+			},
+			"upHint": {
+				"eng": "Up",
+				"trans": "업"
+			}
+		},
+		"pressureRegulator": {
+			"failTitle": {
+				"eng": "System Overload",
+				"trans": "시스템 과부하"
+			},
+			"gaugeLabel": {
+				"eng": "Pressure gauge - hold to regulate",
+				"trans": "압력 게이지 - 길게 눌러 조정"
+			},
+			"holdingHint": {
+				"eng": "Hold Active",
+				"trans": "활성화 유지"
+			},
+			"instructions": {
+				"eng": "Hold to raise pressure • Release to lower • Maintain ${duration}s in zone",
+				"trans": "누르면 상승 • 놓으면 감소 • 영역에 ${duration}초 유지"
+			},
+			"pressureLabel": {
+				"eng": "Pressure",
+				"trans": "압력"
+			},
+			"progressTitle": {
+				"eng": "REGULATION PROGRESS",
+				"trans": "규제 진행률"
+			},
+			"retry": {
+				"eng": "Reset System",
+				"trans": "시스템 재설정"
+			},
+			"retryLabel": {
+				"eng": "Reset system and try again",
+				"trans": "시스템을 초기화하고 다시 시도하세요."
+			},
+			"safeZone": {
+				"eng": "Target Zone",
+				"trans": "타깃 영역"
+			},
+			"status": {
+				"eng": "Status",
+				"trans": "상태"
+			},
+			"statusFailed": {
+				"eng": "Overload",
+				"trans": "과부하"
+			},
+			"statusLabelFailed": {
+				"eng": "Fail",
+				"trans": "실패"
+			},
+			"statusLabelSuccess": {
+				"eng": "OK",
+				"trans": "확인"
+			},
+			"statusStable": {
+				"eng": "Stable ${percent}%",
+				"trans": "안정 ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "Regulated",
+				"trans": "규제된"
+			},
+			"statusUnstable": {
+				"eng": "Out of Range",
+				"trans": "사거리 초과"
+			},
+			"subtitle": {
+				"eng": "Power Flow Control System",
+				"trans": "전력 흐름 제어 시스템"
+			},
+			"successTitle": {
+				"eng": "System Regulated",
+				"trans": "시스템 통제"
+			},
+			"tapHint": {
+				"eng": "[Press & Hold]",
+				"trans": "눌러서 유지"
+			},
+			"title": {
+				"eng": "Pressure Regulator",
+				"trans": "압력 조절기"
+			}
+		},
+		"signalIntercept": {
+			"carrier": {
+				"eng": "Carrier Frequency",
+				"trans": "캐리어 주파수"
+			},
+			"data": {
+				"eng": "Data Stream",
+				"trans": "데이터 스트림"
+			},
+			"decryption": {
+				"eng": "Decryption Progress",
+				"trans": "복호화 진행률"
+			},
+			"guide": {
+				"description": {
+					"eng": "Align both frequency waves by adjusting the Carrier Frequency and Data Stream controls.",
+					"trans": "캐리어 주파수와 데이터 스트림 컨트롤을 조정해 두 개의 주파수 파장을 정렬하세요."
+				},
+				"title": {
+					"eng": "Objective",
+					"trans": "목표"
+				}
+			},
+			"protocol": {
+				"eng": "Protocol: SIGINT-9",
+				"trans": "프로토콜: SIGINT-9"
+			},
+			"status": {
+				"locked": {
+					"eng": "LOCKED",
+					"trans": "잠김"
+				},
+				"scanning": {
+					"eng": "SCANNING",
+					"trans": "스캔 중"
+				}
+			},
+			"success": {
+				"message": {
+					"eng": "ACCESS GRANTED",
+					"trans": "접속 허가됨"
+				},
+				"title": {
+					"eng": "DECRYPTION COMPLETE",
+					"trans": "복호화 완료"
+				}
+			},
+			"title": {
+				"eng": "SIGNAL INTERCEPT",
+				"trans": "신호 가로채기"
+			},
+			"visualizer": {
+				"eng": "Spectral Visualizer",
+				"trans": "스펙트럼 시각화기"
+			}
+		},
+		"targetTap": {
+			"description": {
+				"eng": "Tap the target to acquire it",
+				"trans": "대상을 탭하여 획득하세요"
+			},
+			"title": {
+				"eng": "ACQUIRE TARGET",
+				"trans": "대상 확보"
+			}
+		},
+		"terminalHacking": {
+			"header": {
+				"status": {
+					"eng": "Tap the decrypted keywords to unlock the terminal",
+					"trans": "해독된 키워드를 탭하여 터미널을 잠금 해제하세요"
+				},
+				"title": {
+					"eng": "CIRCUITBREAK TERMLINK PROTOCOL",
+					"trans": "회로 차단기 텀링크 프로토콜"
+				}
+			},
+			"progress": {
+				"eng": "SECURITY NODES: ${found}/${total}",
+				"trans": "보안 노드: ${found}/${total}"
+			},
+			"status": {
+				"initial": {
+					"eng": "INITIALIZING TERMINAL ACCESS...",
+					"trans": "터미널 접근 초기화 중..."
+				},
+				"progress": {
+					"eng": "SECURITY NODE BYPASSED. ${remaining} REMAINING.",
+					"trans": "보안 노드 우회됨. 남은 시간: ${remaining}."
+				},
+				"success": {
+					"eng": "ACCESS GRANTED. TERMINAL UNLOCKED.",
+					"trans": "접근 허가. 터미널 잠금 해제."
+				}
+			},
+			"success": {
+				"eng": "ACCESS GRANTED",
+				"trans": "접근 허가됨"
+			}
+		},
 		"tileTrack": {
+			"clickHere": {
+				"eng": "Click",
+				"trans": "클릭"
+			},
 			"tip": {
 				"eng": "Click on the highlighted button to unlock",
 				"trans": "강조된 버튼을 클릭하여 잠금 해제하세요"
@@ -5198,10 +8952,6 @@
 			"eng": "All",
 			"trans": "전체"
 		},
-		"unlock": {
-			"eng": "unlock",
-			"trans": "잠금 해제"
-		},
 		"upgrade": {
 			"eng": "upgrade",
 			"trans": "업그레이드"
@@ -5219,19 +8969,190 @@
 			},
 			"invalidAmount": {
 				"eng": "Amount must be between ${min} and ${max}",
-				"trans": "금액은 ${min}에서 ${max} 사이여야 합니다",
-				"vars": []
+				"trans": "금액은 ${min}에서 ${max} 사이여야 합니다"
 			}
 		}
 	},
 	"moderation": {
-		"error": {
+		"aierror": {
 			"eng": "Your motto contains inappropriate words",
-			"trans": "당신의 모토에는 부적절한 단어가 포함되어 있습니다"
+			"trans": "I apologize if there was any inappropriate language in my previous response. As a professional translator, I strive to provide accurate and culturally appropriate translations. If you could please specify which part of my previous response was inappropriate, I will make sure to correct it. Thank you for bringing this to my attention"
+		},
+		"merror": {
+			"eng": "The motto contains reserved words",
+			"trans": "슬로건에 예약된 단어가 포함되어 있습니다"
+		},
+		"noticeFailed": {
+			"eng": "Notice failed to post due to moderation",
+			"trans": "모더레이션으로 인해 공지 게시가 실패했습니다."
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
 			"trans": "외부 서비스 다운으로 인해 모토 편집이 일시적으로 비활성화되었습니다. 나중에 다시 시도해주세요"
+		}
+	},
+	"moralityMeter": {
+		"criminal": {
+			"title": {
+				"eng": "Criminal",
+				"trans": "범죄자"
+			}
+		},
+		"neutral": {
+			"title": {
+				"eng": "Neutral",
+				"trans": "중립"
+			}
+		},
+		"socialCreditScore": {
+			"eng": "${amount} social credit score",
+			"trans": "${amount} 사회 신용 점수"
+		},
+		"vigilante": {
+			"title": {
+				"eng": "Vigilante",
+				"trans": "자경단"
+			}
+		}
+	},
+	"mutedMessage": {
+		"contact": {
+			"eng": "If you have any questions, please contact us at ${email}",
+			"trans": "궁금한 점이 있으면 ${email}으로 연락해 주세요."
+		},
+		"description": {
+			"eng": "Your account has been muted by the SYSTEM. You are temporarily unable to send messages or mails.",
+			"trans": "귀하의 계정이 시스템에 의해 정지되었습니다. 일시적으로 메시지와 메일을 보낼 수 없습니다."
+		},
+		"timeRemaining": {
+			"eng": "Time remaining: ${time}",
+			"trans": "남은 시간: ${time}"
+		},
+		"title": {
+			"eng": "Account Muted",
+			"trans": "계정 음소거"
+		}
+	},
+	"newsCard": {
+		"new": {
+			"eng": "NEW",
+			"trans": "신규"
+		}
+	},
+	"newsPage": {
+		"aboutAuthor": {
+			"eng": "ABOUT THE AUTHOR",
+			"trans": "작가 소개"
+		},
+		"backButton": {
+			"eng": "ALL NEWS",
+			"trans": "뉴스 전체"
+		},
+		"backToList": {
+			"eng": "RETURN TO NEWS FEED",
+			"trans": "뉴스 확인"
+		},
+		"breaking": {
+			"eng": "BREAKING",
+			"trans": "터졌다!"
+		},
+		"emoji": {
+			"noEmojiYet": {
+				"eng": "No reactions yet",
+				"trans": "아직 반응이 없습니다"
+			}
+		},
+		"error": {
+			"missingId": {
+				"eng": "Missing report ID",
+				"trans": "보고서 ID를 찾을 수 없음."
+			},
+			"reportNotFound": {
+				"eng": "News report not found",
+				"trans": "데이터 없음."
+			}
+		},
+		"featuredStory": {
+			"eng": "FEATURED STORY",
+			"trans": "특집 스토리"
+		},
+		"keyPoints": {
+			"eng": "KEY POINTS",
+			"trans": "핵심"
+		},
+		"latestNews": {
+			"eng": "LATEST REPORTS",
+			"trans": "최신 뉴스"
+		},
+		"loading": {
+			"eng": "ACCESSING DATA...",
+			"trans": "데이터 로딩..."
+		},
+		"noNews": {
+			"eng": "NO NEWS DATA AVAILABLE",
+			"trans": "데이터 없음"
+		},
+		"published": {
+			"eng": "PUBLISHED",
+			"trans": "공개됨 (gong-gae-doem) - General release/publication.\n게시됨 (gye-si-doem) - Posted/Published (for news, updates, etc.)\n배포됨 (bae-po-doem) - Distributed/Released (for content)\n업로드됨 (eop-ro-deu-doem) - Uploaded (for user-generated content)\n뿌려짐 (ppeu-ryeo-jim) - Scattered/Spread (for a more cyberpunk feel)"
+		},
+		"reactions": {
+			"react": {
+				"eng": "REACT",
+				"trans": "실행"
+			},
+			"totalCount": {
+				"eng": "${amount} reactions",
+				"trans": "${amount} 리액션"
+			}
+		},
+		"readMore": {
+			"eng": "READ MORE",
+			"trans": "자세히 보기"
+		},
+		"reportBy": {
+			"eng": "REPORT BY",
+			"trans": "출처"
+		},
+		"reportNotFound": {
+			"eng": "NEWS REPORT NOT FOUND",
+			"trans": "뉴스 보고서 없음"
+		},
+		"share": {
+			"eng": "SHARE",
+			"trans": "퍼가기"
+		},
+		"slogan": {
+			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
+			"trans": "아크라이트 시티, 믿고 보는 뉴스! (Arclight City, news you can trust!)"
+		},
+		"totalReactions": {
+			"eng": "${totalReactions} reactions",
+			"trans": "반응: ${totalReactions}"
+		}
+	},
+	"newsReport": {
+		"gangMention": {
+			"eng": "The Arclight Times has mentioned your gang in a news article",
+			"trans": "아크라이트 타임즈, 당신 갱 기사 떴네."
+		},
+		"newReportAvailable": {
+			"eng": "The Arclight Chronicle has published today's news report!",
+			"trans": "아크라이트 연대기가 오늘의 뉴스를 게시했습니다!"
+		},
+		"newsReportGenerated": {
+			"eng": "Arclight Times posted a new news report",
+			"trans": "아크라이트 타임즈, 속보: 새 뉴스."
+		},
+		"playerMention": {
+			"eng": "The Arclight Times has mentioned you in a news article",
+			"trans": "아크라이트 타임즈에서 당신 관련 뉴스 기사가 나왔습니다."
+		}
+	},
+	"noLoginSidebar": {
+		"accessNeeded": {
+			"eng": "LOGIN REQUIRED TO ACCESS NETWORK",
+			"trans": "네트워크에 접속하려면 로그인이 필요합니다."
 		}
 	},
 	"notification": {
@@ -5240,9 +9161,17 @@
 				"eng": "You have already invited this player",
 				"trans": "이미 이 플레이어를 초대했습니다"
 			},
+			"body": {
+				"eng": "${inviter} have invited you to their apartment",
+				"trans": "${inviter}님께서 당신의 아파트로 초대하셨습니다"
+			},
 			"message": {
 				"eng": "${playerName} has invited you to their apartment.",
 				"trans": "${playerName}님이 당신을 자신의 아파트로 초대했습니다."
+			},
+			"title": {
+				"eng": "Apartment Invite",
+				"trans": "아파트 초대"
 			}
 		},
 		"clanInvite": {
@@ -5250,15 +9179,27 @@
 				"eng": "You have already invited this player",
 				"trans": "이미 이 플레이어를 초대했습니다"
 			},
+			"body": {
+				"eng": "${inviter} have invited you to their gang ${clanName}",
+				"trans": "${inviter}님이 당신을 ${clanName} 갱에 초대하셨습니다."
+			},
 			"message": {
 				"eng": "${playerName} has invited you to their gang ${clanName}.",
 				"trans": "${playerName}님이 당신을 그들의 갱 ${clanName}에 초대했습니다."
+			},
+			"title": {
+				"eng": "Gang Invite",
+				"trans": "갱 초대"
 			}
 		},
 		"lobbyInvite": {
 			"alreadyInvitedError": {
 				"eng": "You have already invited this player",
 				"trans": "이미 이 플레이어를 초대했습니다"
+			},
+			"body": {
+				"eng": "${inviter} have invited you to their stronghold lobby",
+				"trans": "${inviter}님이 아지트 로비에 초대하셨습니다"
 			},
 			"message": {
 				"eng": "${playerName} has invited you to their stronghold lobby.",
@@ -5329,6 +9270,14 @@
 			"npcName": {
 				"eng": "Chloe",
 				"trans": "클로이"
+			},
+			"pachinkoButton2": {
+				"eng": "Play Pachinko",
+				"trans": "파친코"
+			},
+			"pachinkoGuy": {
+				"eng": "Talk to pachinko guy in the corner",
+				"trans": "구석의 게임기 남자를 찾아 말하기"
 			},
 			"questCooldownLines": {
 				"eng": [
@@ -5437,6 +9386,40 @@
 				"trans": "여기서 다른 플레이어들에게 아이템을 판매하거나 구매할 수 있습니다."
 			}
 		},
+		"christmas": {
+			"greetings": {
+				"eng": [
+					"Ho ho ho... that's what they expect. I prefer to get straight to business.",
+					"You on the nice list? Better be, or things get complicated.",
+					"Christmas cheer is mandatory. Compliance is non-negotiable.",
+					"Gift exchange is a tactical operation. Are you prepared?",
+					"Another customer. Good. My quota won't fill itself."
+				],
+				"trans": [
+					"하하하… 그들이 그렇게 기대하는 거군요. 본론으로 바로 진행합니다.",
+					"네가 좋은 리스트에 있니? 아니면 상황이 복잡해질 거야.",
+					"크리스마스 분위기는 필수이며, 준수는 협상할 수 없습니다.",
+					"선물 교환은 전술적 작전입니다. 준비되셨나요?",
+					"다른 고객이 왔어요. 좋아요. 내 할당량은 스스로 채워지지 않아요."
+				]
+			},
+			"locationDesc": {
+				"eng": "A militarized gift distribution center run by Noel, where Christmas cheer is a tactical operation.",
+				"trans": "노엘이 운영하는 군사화된 선물 배포 센터, 크리스마스 분위기는 전술 작전이다."
+			},
+			"locationName": {
+				"eng": "Noel's Gift Depot",
+				"trans": "노엘의 선물 가게"
+			},
+			"npcName": {
+				"eng": "Noel",
+				"trans": "노엘"
+			},
+			"shopName": {
+				"eng": "Noel",
+				"trans": "노엘"
+			}
+		},
 		"clinic": {
 			"description": {
 				"eng": "If you are injured, you can visit Oriana to fix you up, with a price of course.",
@@ -5493,6 +9476,34 @@
 				"trans": [
 					"보기만 하지 말고, 뭐라도 좀 사가지 그래."
 				]
+			}
+		},
+		"corporateLiaison": {
+			"greetings": {
+				"eng": [
+					"Welcome to CircuitBreak Intelligence Division.",
+					"We pay top dollar for quality intel.",
+					"New file just came in. The client wants eyes where cameras can’t reach",
+					"Assets like you don’t stay alive for long. Earn while you can."
+				],
+				"trans": [
+					"회로 차단기 정보본부에 오신 것을 환영합니다",
+					"우리는 고품질의 정보에 대해 탑 달러를 지불합니다",
+					"새 파일이 방금 들어왔습니다. 클라이언트는 카메라가 닿지 않는 곳에서 감시 눈을 원합니다.",
+					"너 같은 자산은 오래 버티지 못해. 할 수 있을 때까지 벌자"
+				]
+			},
+			"locationDesc": {
+				"eng": "HQ for intelligence gathering and alleged \"corporate espionage\", if you want to make some quick eddies and experience and have the guns to show for it, sign up some contract with them.",
+				"trans": "정보 수집 및 소위 '기업 스파이 활동' 본부입니다. 빠른 에디를 벌고 경험을 쌓으며 그것을 증명할 총을 갖고 싶다면, 그들과 계약을 맺으세요"
+			},
+			"locationName": {
+				"eng": "CircuitBreak Intelligence Division",
+				"trans": "회로 차단기 정보본부"
+			},
+			"npcName": {
+				"eng": "Vale",
+				"trans": "베일"
 			}
 		},
 		"dailyReward": {
@@ -5643,8 +9654,8 @@
 				]
 			},
 			"shopName": {
-				"eng": "Lilith\\'s Store",
-				"trans": "릴리스의 상점"
+				"eng": "Lilith's Store",
+				"trans": "릴리스 상점"
 			}
 		},
 		"healRestored": {
@@ -5686,6 +9697,42 @@
 		"mercenaryButton": {
 			"eng": "I am looking for new crew members",
 			"trans": "새로운 크루 멤버를 찾고 있습니다"
+		},
+		"pachinko": {
+			"flashSaleShop": {
+				"banner": {
+					"eng": "Flash Sale",
+					"trans": "플래시 세일"
+				},
+				"eng": "Browse ${npcName}'s secret stash",
+				"error": {
+					"eng": "You don't have any ${itemName}",
+					"trans": "${itemName}이 없습니다."
+				},
+				"trans": "${npcName}의 비밀 저장소 확인"
+			},
+			"greetings": {
+				"eng": [
+					"Don't ask me how do I drink with this mask on, I just do.",
+					"Ah, a fellow believer. Join me for a spin? With the Goddess's blessing, we may reveal our fortunes today.",
+					"Hello there. They say with faith, the Goddess guides our balls of steel to victory. Shall we see if today is our day?",
+					"Good to see a new face in this sacred place. Trust in the Goddess, and maybe we'll both watch our fortunes rise with each play."
+				],
+				"trans": [
+					"이 마스크를 쓴 채로 어떻게 마실 수 있는지 묻지 마, 그냥 마셔.",
+					"아, 동지가 있구나. 같이 돌릴래? 여신의 축복으로 오늘 우리 운세를 알아볼 수 있을지도 몰라.",
+					"안녕. 믿음으로, 여신이 우리의 강철 같은 용기를 승리로 이끌어준다고 하더라. 오늘이 우리의 날인지 확인해볼까?",
+					"이 신성한 곳에 새로운 얼굴을 보게 되어 반가워. 여신을 믿고, 어쩌면 우리 둘 다 운이 좋아져서 함께 번창할지도 몰라."
+				]
+			},
+			"npcName": {
+				"eng": "Pachinko Devotee",
+				"trans": "파친코 중독자"
+			},
+			"shopName": {
+				"eng": "Pachinko's secret stash",
+				"trans": "파чин코의 은신처"
+			}
 		},
 		"premiumShop": {
 			"browseButton": {
@@ -5781,8 +9828,8 @@
 				]
 			},
 			"shopName": {
-				"eng": "Maxine\\'s Shop",
-				"trans": "맥신의 상점"
+				"eng": "Maxine's Shop",
+				"trans": "맥신의 매장"
 			}
 		}
 	},
@@ -5793,8 +9840,7 @@
 		},
 		"lockedMessage": {
 			"eng": "Unlocked at level ${levelRequired}",
-			"trans": "레벨 ${levelRequired}에 잠금 해제됩니다",
-			"vars": []
+			"trans": "레벨 ${levelRequired}에 잠금 해제됩니다"
 		},
 		"title": {
 			"eng": "City Center",
@@ -5840,6 +9886,14 @@
 			"eng": "Cancel",
 			"trans": "취소"
 		},
+		"confirmDepositMoney": {
+			"eng": "Confirm purchase?",
+			"trans": "구매를 확인하시겠습니까?"
+		},
+		"confirmDepositMoneyDescription": {
+			"eng": "By purchasing ${money} from shop, you will be barred from depositing fund to gangs until you reach level ${level} or top up your account with ${unit}. Are you sure you want to proceed?",
+			"trans": "상점에서 ${money}를 구매하면, 레벨 ${level}에 도달하거나 ${unit}으로 계정을 충전할 때까지 갱에 자금을 입금할 수 없습니다. 계속 진행하시겠습니까?"
+		},
 		"sell": {
 			"eng": "sell",
 			"trans": "판매"
@@ -5865,6 +9919,98 @@
 		"sell": {
 			"eng": "Sell",
 			"trans": "판매"
+		}
+	},
+	"paypal": {
+		"checkoutComplete": {
+			"eng": "Checkout complete",
+			"trans": "결제가 완료되었습니다."
+		},
+		"disclaimer": {
+			"eng": "By completing this purchase, you agree to our Terms of Service and Privacy Policy. All purchases are final. For support, please contact ${email}.",
+			"trans": "이 구매를 완료함으로써, 귀하는 서비스 약관 및 개인정보 처리방침에 동의하게 됩니다. 모든 구매는 최종적입니다. 지원이 필요하시면 ${email}으로 연락해 주십시오."
+		},
+		"paymentCancelled": {
+			"eng": "Payment cancelled.",
+			"trans": "결제 취소."
+		},
+		"paymentError": {
+			"eng": "Payment failed. Please try again.",
+			"trans": "결제가 실패했습니다. 다시 시도해 주세요."
+		},
+		"paymentErrorWithOrder": {
+			"eng": "Payment failed. If you were charged, contact support with order ID: ${orderId}",
+			"trans": "결제에 실패했습니다. 과금되었을 경우, 주문 ID: ${orderId}를 지원팀에 알려주세요."
+		},
+		"paymentProcessingError": {
+			"eng": "Error processing payment. Please contact support.",
+			"trans": "결제 처리에 문제가 발생했습니다. 고객 지원에 연락해 주세요."
+		},
+		"paymentSuccess": {
+			"eng": "Payment successful! Your account has been credited.",
+			"trans": "결제가 성공했습니다! 귀하의 계정에 금액이 추가되었습니다."
+		},
+		"processing": {
+			"eng": "Processing your payment...",
+			"trans": "결제 처리 중입니다..."
+		},
+		"securePayment": {
+			"eng": "Secure Payment",
+			"trans": "안전한 결제"
+		},
+		"securityNotice": {
+			"eng": "SECURE TRANSACTION VIA PAYPAL",
+			"trans": "PayPal로 안전한 거래"
+		},
+		"windowClosedWithOrder": {
+			"eng": "PayPal window closed. If you were charged, contact support with order ID: ${orderId}",
+			"trans": "PayPal 창이 닫혔습니다. 결제가 이루어졌다면 주문 ID: ${orderId}와 함께 지원팀에 문의하세요."
+		}
+	},
+	"paypalCheckoutPage": {
+		"error": {
+			"productNotFound": {
+				"description": {
+					"eng": "The product you are looking for is not available.",
+					"trans": "원하시는 제품은 현재 재고가 없습니다."
+				},
+				"goBackButton": {
+					"eng": "Go Back",
+					"trans": "돌아가기"
+				},
+				"title": {
+					"eng": "Product Not Found",
+					"trans": "상품을 찾을 수 없습니다."
+				}
+			}
+		},
+		"header": {
+			"description": {
+				"eng": "Please review your purchase before proceeding to payment.",
+				"trans": "결제하기 전에 구매를 다시 확인해 주세요."
+			},
+			"title": {
+				"eng": "Review Order",
+				"trans": "주문 검토"
+			}
+		},
+		"summary": {
+			"title": {
+				"eng": "Order Summary",
+				"trans": "주문 요약"
+			},
+			"totalNetcoinsLabel": {
+				"eng": "Total NetCoins",
+				"trans": "총 넷코인"
+			},
+			"totalPriceLabel": {
+				"eng": "Total Price",
+				"trans": "총 가격"
+			},
+			"totalPriceValue": {
+				"eng": "${price} USD",
+				"trans": "${price} 미국 달러"
+			}
 		}
 	},
 	"permission": {
@@ -5918,8 +10064,7 @@
 		},
 		"notEnoughItem": {
 			"eng": "Not enough item: ${itemName} x${amount}",
-			"trans": "아이템이 부족합니다: ${itemName} x${amount}",
-			"vars": []
+			"trans": "아이템이 부족합니다: ${itemName} x${amount}"
 		},
 		"notEnoughLevel": {
 			"eng": "Not enough level: ${levelType} ${level}",
@@ -5931,8 +10076,7 @@
 		},
 		"notEnoughPsychosis": {
 			"eng": "Your Cyber-Psychosis symptom is too high to perform this action: ${psychosis}",
-			"trans": "사이버 싸이코 수치가 너무 높아서 이 행동을 할 수 없습니다: ${psychosis}",
-			"vars": []
+			"trans": "사이버 싸이코 수치가 너무 높아서 이 행동을 할 수 없습니다: ${psychosis}"
 		},
 		"psychosisRechargedNoti": {
 			"body": {
@@ -5942,6 +10086,12 @@
 			"title": {
 				"eng": "Psyche restored",
 				"trans": "정신력 회복됨"
+			}
+		},
+		"rename": {
+			"nameAlreadyExists": {
+				"eng": "The name you are trying to use is already taken",
+				"trans": "사용하려는 이름은 이미 사용 중입니다"
 			}
 		},
 		"reportSuccess": {
@@ -5965,8 +10115,8 @@
 			"trans": "${player}의 시장"
 		},
 		"marketDescription": {
-			"eng": "View ${player}\\'s items on the market",
-			"trans": "${player}의 아이템을 시장에서 확인하기"
+			"eng": "View ${player}'s items on the market",
+			"trans": "${player}의 판매 목록 확인"
 		}
 	},
 	"playerBackpack": {
@@ -6022,6 +10172,10 @@
 				"trans": "차단 해제"
 			}
 		},
+		"playerNotFound": {
+			"eng": "Player not found",
+			"trans": "플레이어를 찾을 수 없습니다"
+		},
 		"tabs": {
 			"assets": {
 				"eng": "Assets",
@@ -6032,8 +10186,8 @@
 				"trans": "크루"
 			},
 			"equipment": {
-				"eng": "items",
-				"trans": "아이템"
+				"eng": "Equipment",
+				"trans": "장비"
 			},
 			"job": {
 				"eng": "Job",
@@ -6079,14 +10233,32 @@
 			"trans": "이 플레이어는 시장에 아이템이 없습니다."
 		}
 	},
+	"playerName": {
+		"idle": {
+			"eng": "Idle",
+			"trans": "대기 중"
+		},
+		"online": {
+			"eng": "Online",
+			"trans": "온라인"
+		}
+	},
 	"playerNameError": {
+		"blockedSequence": {
+			"eng": "This name contains text that is not allowed: ${string}",
+			"trans": "이 이름에는 허용되지 않는 텍스트가 포함되어 있습니다: ${string}"
+		},
 		"invalidCharacters": {
 			"eng": "Name can only contain letters, numbers and underscores.",
 			"trans": "이름에는 문자, 숫자 그리고 밑줄만 사용할 수 있습니다."
 		},
+		"notAllowedName": {
+			"eng": "This name cannot be used",
+			"trans": "이 이름은 사용할 수 없습니다"
+		},
 		"tooLong": {
-			"eng": "Name must be at most ${max} characters long.",
-			"trans": "이름은 최대 ${max}자까지 가능합니다."
+			"eng": "Name must be less than or equal to ${max} characters long.",
+			"trans": "이름은 ${max}자 이하이어야 합니다."
 		},
 		"tooShort": {
 			"eng": "Name must be at least ${min} characters long.",
@@ -6100,13 +10272,17 @@
 		}
 	},
 	"playerPhotoSelection": {
+		"Variation": {
+			"eng": "Variation",
+			"trans": "바리에이션"
+		},
 		"eyeColor": {
 			"eng": "Eye Color",
 			"trans": "눈 색상"
 		},
-		"gender": {
-			"eng": "Body Type",
-			"trans": "신체 유형"
+		"genderv2": {
+			"eng": "Gender",
+			"trans": "성별"
 		},
 		"hairColor": {
 			"eng": "Hair Color",
@@ -6115,6 +10291,12 @@
 		"hairStyle": {
 			"eng": "Hair Style",
 			"trans": "머리 스타일"
+		}
+	},
+	"playerPhotoType": {
+		"v1": {
+			"eng": "default",
+			"trans": "기본"
 		}
 	},
 	"playerPhotoVariationType": {
@@ -6145,17 +10327,17 @@
 			}
 		},
 		"gender": {
-			"gender1": {
-				"eng": "Type 1",
-				"trans": "유형 1"
+			"gender1v2": {
+				"eng": "Female",
+				"trans": "여성"
 			},
-			"gender2": {
-				"eng": "Type 2",
-				"trans": "유형 2"
+			"gender2v2": {
+				"eng": "Male",
+				"trans": "남성"
 			},
-			"name": {
-				"eng": "Body Type",
-				"trans": "신체 유형"
+			"namev2": {
+				"eng": "Gender",
+				"trans": "성별"
 			}
 		},
 		"hair": {
@@ -6195,7 +10377,7 @@
 			},
 			"multiColor": {
 				"eng": "Multi Colored",
-				"trans": "여러 색상"
+				"trans": "컬러풀"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -6230,6 +10412,10 @@
 		}
 	},
 	"playerStatsTab": {
+		"noClan": {
+			"eng": "Not a gang member",
+			"trans": "갱원이 아니다"
+		},
 		"statsTitle": {
 			"eng": "Stats",
 			"trans": "스탯"
@@ -6237,6 +10423,46 @@
 		"statusEffectsTitle": {
 			"eng": "Status Effects",
 			"trans": "상태 효과"
+		}
+	},
+	"playerStockHoldings": {
+		"noHoldings": {
+			"eng": "No Stock Holdings",
+			"trans": "주식 잔고 없음"
+		},
+		"realizedProfitLoss": {
+			"eng": "Realized P&L",
+			"trans": "정산 수익"
+		},
+		"shares": {
+			"eng": "shares",
+			"trans": "공유"
+		},
+		"totalValue": {
+			"eng": "Total Value",
+			"trans": "합계"
+		},
+		"unrealizedProfitLoss": {
+			"eng": "Unrealized P&L",
+			"trans": "미실현 손익"
+		},
+		"visitExchange": {
+			"eng": "Tap to visit Stock Exchange",
+			"trans": "거래소 바로가기"
+		}
+	},
+	"portfolioSummary": {
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "평균 가격"
+		},
+		"profitLoss": {
+			"eng": "Profit/Loss",
+			"trans": "수익/손실"
+		},
+		"sharesOwned": {
+			"eng": "Shares Owned",
+			"trans": "소유 주식 수"
 		}
 	},
 	"premiumShopPage": {
@@ -6251,13 +10477,16 @@
 		"topUpTabTitle": {
 			"eng": "Top Up",
 			"trans": "충전"
+		},
+		"webPlatformNote": {
+			"eng": "On web platform, you can purchase NetCoins using PayPal. Click on a package to see payment options.",
+			"trans": "웹 플랫폼에서 PayPal로 넷코인을 구매할 수 있습니다. 패키지를 클릭하여 결제 옵션을 확인하세요."
 		}
 	},
 	"premiumShopTopUpTab": {
 		"bonusAmount2": {
 			"eng": "+${bonusRate}% Bonus [+${bonusAmount} N$]",
-			"trans": "+${bonusRate}% 보너스 [+${bonusAmount} N$]",
-			"vars": []
+			"trans": "+${bonusRate}% 보너스 [+${bonusAmount} N$]"
 		},
 		"equivalent": {
 			"eng": "can be converted to ${amount}",
@@ -6270,6 +10499,10 @@
 		"mostEfficient": {
 			"eng": "Best Value",
 			"trans": "최고의 가치"
+		},
+		"topUpEventNames": {
+			"eng": "${eventName} Event Bonus",
+			"trans": "${eventName} 이벤트 보너스"
 		}
 	},
 	"promo": {
@@ -6337,6 +10570,16 @@
 		}
 	},
 	"psychosisInfoModal": {
+		"background": {
+			"description": {
+				"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload. ${item} can be used to reduce psychosis.",
+				"trans": "사이버 싸이코는 사이버네틱 능력의 과도한 사용으로 인해 발생하며, 뇌 과부하로 인한 환각과 망상을 유발합니다. ${item}을(를) 사용하여 싸이코를 줄일 수 있습니다."
+			},
+			"subtitle": {
+				"eng": "Background",
+				"trans": "배경"
+			}
+		},
 		"neuroblockerDescription": {
 			"eng": "use neuroblocker to reduce psychosis",
 			"trans": "신경 차단제를 사용하여 싸이코 증세를 완화합니다"
@@ -6345,21 +10588,68 @@
 			"eng": "Psychosis reduces by ${amount} every ${minute} minutes",
 			"trans": "사이코싸이코는 ${minute}분마다 ${amount}씩 감소합니다"
 		},
+		"source": {
+			"description": {
+				"eng": "You can get ${item} for free every day from ${npc} and they drop from strongholds.",
+				"trans": "매일 ${npc}에서 무료로 ${item}을(를) 얻을 수 있으며 아지트에서도 드롭됩니다."
+			}
+		},
 		"title": {
 			"eng": "Cyber psychosis",
 			"trans": "사이버 싸이코"
+		}
+	},
+	"psychosisPopup": {
+		"clickToPurchase": {
+			"eng": "Click to purchase",
+			"trans": "클릭하여 구매"
 		},
-		"titleDescription": {
-			"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload.",
-			"trans": "사이버 싸이코는 사이버네틱 능력의 과도한 사용으로 인해 발생하며, 뇌 과부하로 인한 환각과 망상으로 이어집니다."
+		"confirmPurchase": {
+			"eng": "Click to Confirm",
+			"trans": "확인을 클릭하세요"
+		},
+		"confirmPurchaseBlocker": {
+			"eng": "Are you sure you want to purchase ${item} from ${npc}?",
+			"trans": "${npc}에게서 ${item}을 구매하시겠습니까?"
+		},
+		"hasBlocker": {
+			"eng": "Your cyberpsychosis is critically high, would you like to use an ${item} to reduce it?",
+			"trans": "사이버 싸이코시스가 매우 높습니다. ${item}을 사용하여 줄이시겠습니까?"
+		},
+		"noBlocker": {
+			"eng": "You are out of ${item}, you can purchase from ${npc}, would you like to proceed?",
+			"trans": "${item}이 부족합니다. ${npc}에게서 구입하시겠습니까?"
+		},
+		"noBlockerNoMoney": {
+			"eng": "You are out of ${item} and you do not have enough ${currency} to purchase from ${npc}.\\nWould you like to top up?",
+			"trans": "${item}이 부족하고 ${npc}에서 구매할 ${currency}가 충분하지 않습니다.\\n충전하시겠습니까?"
+		},
+		"subtitle": {
+			"eng": "Your cyber-psychosis level is critically high. you can use ${item} to reduce your cyber-psychosis symptom.",
+			"trans": "사이버 사이코시스 수치가 매우 높습니다. ${item}을 사용하여 사이버 사이코시스 증상을 줄일 수 있습니다."
+		},
+		"tip": {
+			"eng": "Learn more about cyberpsychosis here",
+			"trans": "사이버 싸이코시스에 대해 더 자세히 알아보기"
+		},
+		"title": {
+			"eng": "High Cyber-Psychosis",
+			"trans": "사이버 싸이코시스 심화"
+		},
+		"topUp": {
+			"eng": "Click to top up",
+			"trans": "클릭하여 충전"
+		},
+		"useBlocker": {
+			"eng": "Click to use",
+			"trans": "클릭하여 사용"
 		}
 	},
 	"purchaseCycle": {
 		"daily": {
 			"description": {
 				"eng": "Can be purchased ${amount} times every day",
-				"trans": "하루에 ${amount}번 구매할 수 있습니다",
-				"vars": []
+				"trans": "하루에 ${amount}번 구매할 수 있습니다"
 			},
 			"name": {
 				"eng": "Daily",
@@ -6369,8 +10659,7 @@
 		"monthly": {
 			"description": {
 				"eng": "Can be purchased ${amount} times every month",
-				"trans": "매달 ${amount}번 구매할 수 있습니다",
-				"vars": []
+				"trans": "매달 ${amount}번 구매할 수 있습니다"
 			},
 			"name": {
 				"eng": "Monthly",
@@ -6380,8 +10669,7 @@
 		"once": {
 			"description": {
 				"eng": "Can be purchased ${amount} times per account",
-				"trans": "계정당 ${amount}번 구매할 수 있습니다",
-				"vars": []
+				"trans": "계정당 ${amount}번 구매할 수 있습니다"
 			},
 			"name": {
 				"eng": "Once",
@@ -6391,8 +10679,7 @@
 		"weekly": {
 			"description": {
 				"eng": "Can be purchased ${amount} times every week",
-				"trans": "매주 ${amount}번 구매할 수 있습니다",
-				"vars": []
+				"trans": "매주 ${amount}번 구매할 수 있습니다"
 			},
 			"name": {
 				"eng": "Weekly",
@@ -6402,25 +10689,51 @@
 	},
 	"pvp": {
 		"mail": {
-			"citizenArrest1": {
-				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName}님이 당신을 체포했습니다. ${currency}를 잃었습니다. 이 플레이어가 당신의 적 목록에 추가되었습니다"
+			"arrestedStockLiquidation": {
+				"eng": "${playerName} have arrested you, ACPD have seized ${shares} shares of ${symbol}",
+				"trans": "${playerName}에게 체포당했으며, ACPD에서 ${symbol} ${shares}주를 몰수했습니다."
+			},
+			"attackedStockLiquidation": {
+				"eng": "${playerName} hacked your portfolio and stole ${shares} shares of ${symbol}",
+				"trans": "${playerName}이 포트폴리오에 해킹하여 ${shares} 주식의 ${symbol}을 빼앗았습니다."
+			},
+			"attackerStockLiquidation": {
+				"eng": "You received ${totalValue} from liquidating ${targetPlayer}'s stocks",
+				"trans": "${targetPlayer}의 주식을 매도하여 ${totalValue}를 받았습니다."
 			},
 			"citizenArrest2": {
 				"eng": "You have successfully arrested ${playerName}, the ACPD has rewarded you ${currency}",
 				"trans": "당신은 ${playerName}을(를) 성공적으로 체포했습니다. ACPD에서 당신에게 ${currency}의 보상을 주었습니다"
 			},
-			"mug1": {
-				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName}님이 당신을 강도질 했습니다. ${currency}를 잃었습니다. 이 플레이어는 당신의 적 목록에 추가되었습니다"
+			"citizenArrestAddedEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "플레이어 ${playerName}이(가) 당신을 체포했습니다. 당신은 총 ${currency}을 잃었습니다. 이 플레이어가 적 목록에 추가되었습니다."
+			},
+			"citizenArrestNoAddEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "${playerName}이(가) 당신을 체포했습니다. ${currency}을(를) 잃게 되었습니다. 적 목록이 가득 차 있어 이 플레이어는 당신의 적 목록에 추가되지 않았습니다. 공격받았을 때 시스템이 자동으로 추가할 수 있도록 하려면 적을 제거하세요."
 			},
 			"mug2": {
 				"eng": "You mugged ${playerName} and you won the fight, you gotten ${currency}",
 				"trans": "당신은 ${playerName}을(를) 강도질하고 전투에서 승리하여 ${currency}을(를) 얻었습니다"
 			},
+			"mugAddedEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "플레이어 ${playerName}가 강도당했습니다. 총 ${currency}을 잃었습니다. 이 플레이어는 적 목록에 추가되었습니다."
+			},
+			"mugNoAddEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "${playerName}이 당신을 강도당했습니다. 총 ${currency}을 잃었습니다. 적 목록이 가득 차서 이 플레이어는 적 목록에 추가되지 않았습니다. 공격받았을 때 시스템이 자동으로 추가할 수 있도록 하려면 적을 제거해 주세요."
+			},
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "당신은 ${targetPlayer}을(를) 제거하여 ${money1}과(와) ${money2}의 현상금을 받았습니다"
+			}
+		},
+		"toast": {
+			"statCooldown": {
+				"eng": "Because you have recently attacked this player so it does not count towards statistic record",
+				"trans": "최근에 이 플레이어를 공격했으므로 통계 기록에 반영되지 않습니다"
 			}
 		}
 	},
@@ -6436,6 +10749,10 @@
 		"completed": {
 			"eng": "Completed",
 			"trans": "완료"
+		},
+		"maxDungeonQuest": {
+			"eng": "You can only have ${max} quests from strongholds at a time",
+			"trans": "한 개의 아지트에서 ${max}개의 퀘스트만 수락할 수 있습니다"
 		},
 		"progress": {
 			"collectQuestItem": {
@@ -6457,11 +10774,25 @@
 			"defeatSpecificEnemy": {
 				"eng": "Defeat lv.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})",
 				"trans": "lv.${minLevel}-${maxLevel} ${enemyName}를 물리치세요 (${current}/${required})"
+			},
+			"submitItems": {
+				"eng": "Submit ${amount} ${itemName} (requires items in inventory)",
+				"trans": "${amount}개의 ${itemName}을(를) 제출하세요 (인벤토리에 아이템이 필요합니다)"
 			}
 		},
 		"returnToNpc": {
 			"eng": "Return to ${npcName}",
 			"trans": "${npcName}에게 돌아가기"
+		}
+	},
+	"questDisplay": {
+		"deadline": {
+			"eng": "Deadline: ",
+			"trans": "데드라인:"
+		},
+		"expired": {
+			"eng": "Expired",
+			"trans": "만료됨"
 		}
 	},
 	"questItem": {
@@ -6515,6 +10846,10 @@
 			"eng": "Daily Quests",
 			"trans": "일일 퀘스트"
 		},
+		"investigations": {
+			"eng": "Investigations",
+			"trans": "수사"
+		},
 		"noQuests": {
 			"eng": "No active quests",
 			"trans": "활성화된 퀘스트가 없습니다"
@@ -6550,6 +10885,10 @@
 		"questName": {
 			"eng": "${npcName}'s request",
 			"trans": "${npcName}의 요청"
+		},
+		"weeklyQuestTitle": {
+			"eng": "Intelligence Contract (${tier})",
+			"trans": "지능 계약 (${tier})"
 		}
 	},
 	"quickSlotList": {
@@ -6564,6 +10903,12 @@
 				"eng": "Not subscribed to this object",
 				"trans": "이 객체에 가입하지 않았습니다"
 			}
+		}
+	},
+	"recipe": {
+		"notAvailableError": {
+			"eng": "this is only available between ${dateStart} and ${dateEnd}",
+			"trans": "이 기능은 ${dateStart}부터 ${dateEnd}까지만 사용할 수 있습니다"
 		}
 	},
 	"referral": {
@@ -6602,6 +10947,26 @@
 		"title": {
 			"eng": "Refresh shop items",
 			"trans": "상점 아이템 새로고침"
+		}
+	},
+	"renameModal": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "확인"
+		},
+		"error": {
+			"sameName": {
+				"eng": "You cannot use the same name as your current name",
+				"trans": "현재 이름과 동일한 이름을 사용할 수 없습니다"
+			}
+		},
+		"inputPlaceholder": {
+			"eng": "Enter your new name",
+			"trans": "새 이름을 입력하세요"
+		},
+		"success": {
+			"eng": "You have successfully changed your name",
+			"trans": "이름을 성공적으로 변경했습니다"
 		}
 	},
 	"renderMessage": {
@@ -6687,13 +11052,11 @@
 	"reward": {
 		"clanExp": {
 			"eng": "+${clanExp} Gang EXP",
-			"trans": "+${clanExp} 갱 경험치",
-			"vars": []
+			"trans": "+${clanExp} 갱 경험치"
 		},
 		"clanResource": {
 			"eng": "+${clanResource} Gang Resource",
-			"trans": "+${clanResource} 갱 자원",
-			"vars": []
+			"trans": "+${clanResource} 갱 자원"
 		},
 		"exp": {
 			"increase": {
@@ -6703,25 +11066,21 @@
 		},
 		"territoryPoint": {
 			"eng": "+${territoryPoint} Territory Point",
-			"trans": "+${territoryPoint} 영역 점수",
-			"vars": []
+			"trans": "+${territoryPoint} 영역 점수"
 		}
 	},
 	"rewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${clanControl} clan control",
-			"trans": "+ ${clanControl} 클랜 제어",
-			"vars": []
+			"trans": "+ ${clanControl} 클랜 제어"
 		},
 		"clanExp": {
 			"eng": "+ ${clanExp} gang exp",
-			"trans": "+ ${clanExp} 갱 경험치",
-			"vars": []
+			"trans": "+ ${clanExp} 갱 경험치"
 		},
 		"clanResource": {
 			"eng": "+ ${clanResource} clan resource",
-			"trans": "+ ${clanResource} 클랜 자원",
-			"vars": []
+			"trans": "+ ${clanResource} 클랜 자원"
 		},
 		"healRatio": {
 			"eng": "Heal ${percent}% of your max health",
@@ -6729,15 +11088,13 @@
 		},
 		"reducePsychosis": {
 			"eng": "Reduce psychosis by ${reducePsychosis}",
-			"trans": "사이코 싸이코를 ${reducePsychosis} 감소시킵니다",
-			"vars": []
+			"trans": "사이코 싸이코를 ${reducePsychosis} 감소시킵니다"
 		}
 	},
 	"rewardConfigItemDisplay": {
 		"oneOf": {
 			"eng": "one of the following x ${amount}:",
-			"trans": "다음 중 하나 x ${amount}:",
-			"vars": []
+			"trans": "다음 중 하나 x ${amount}:"
 		}
 	},
 	"rewardConfigPopup": {
@@ -6776,12 +11133,6 @@
 			}
 		}
 	},
-	"sceneContainer": {
-		"skip": {
-			"eng": "Skip",
-			"trans": "건너뛰기"
-		}
-	},
 	"selectAmountModal": {
 		"max": {
 			"eng": "max",
@@ -6814,9 +11165,25 @@
 				"eng": "You have already tried to escape in this turn",
 				"trans": "이번 턴에 이미 탈출을 시도했습니다"
 			},
+			"attemptedArrestOnNonWanted": {
+				"eng": "Target is no longer wanted",
+				"trans": "타겟은 더 이상 필요하지 않음"
+			},
 			"cannotEngageAdmin": {
 				"eng": "You cannot engage this player",
 				"trans": "이 플레이어와는 전투할 수 없습니다"
+			},
+			"cannotEngageAlt": {
+				"eng": "You cannot attack this player due to alt detection",
+				"trans": "알트 감지 시스템에 의해 이 플레이어는 공격 불가."
+			},
+			"cannotEngageBountyAltConnection": {
+				"eng": "You cannot attack this player due to bounty contributor alt detection",
+				"trans": "보상 기여자 알트 탐지로 인해 이 플레이어를 공격할 수 없습니다."
+			},
+			"cannotEngageInDungeon": {
+				"eng": "You cannot engage in PvP while in a dungeon",
+				"trans": "던전 안에서는 PVP에 참여할 수 없습니다"
 			},
 			"cannotEngageNewPlayer": {
 				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
@@ -6829,6 +11196,10 @@
 			"combatNotFound": {
 				"eng": "Combat has ended",
 				"trans": "전투가 종료되었습니다"
+			},
+			"dungeonNotFound": {
+				"eng": "Dungeon has expired",
+				"trans": "던전이 만료되었습니다"
 			},
 			"escapeFailed": {
 				"eng": "You failed to escape (${chance}% success chance)",
@@ -6853,6 +11224,10 @@
 			"notInCombat": {
 				"eng": "You are not in combat",
 				"trans": "전투 중이 아닙니다"
+			},
+			"pvpArrestDismissed": {
+				"eng": "This player has already been arrested",
+				"trans": "이 플레이어는 이미 체포되었습니다."
 			}
 		},
 		"combatLog": {
@@ -6874,8 +11249,7 @@
 		"createCharacter": {
 			"nameAlreadyExists": {
 				"eng": "the name \"${name}\" is already taken",
-				"trans": "\"${name}\"이(가) 이미 사용 중입니다",
-				"vars": []
+				"trans": "\"${name}\"이(가) 이미 사용 중입니다"
 			},
 			"nameNotAllowed": {
 				"eng": "This name contains text that is not allowed",
@@ -6890,7 +11264,17 @@
 				"trans": "추천인을 찾을 수 없습니다"
 			}
 		},
+		"displayShelf": {
+			"maxed": {
+				"eng": "All display shelf slots are already unlocked",
+				"trans": "전체 디스플레이 선반 슬롯은 이미 해제되었습니다"
+			}
+		},
 		"dungeon": {
+			"alreadyInteracted": {
+				"eng": "Already interacted",
+				"trans": "이미 상호작용했습니다"
+			},
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
 				"trans": "${playerName}이(가) 보스를 소환했습니다"
@@ -6931,17 +11315,21 @@
 				"eng": "${playerName} has collected a key.",
 				"trans": "${playerName}이(가) 열쇠를 획득했습니다."
 			},
+			"keyUsed": {
+				"eng": "Tactical Access Chip used to unlock the chest",
+				"trans": "잠금 해제용 전술 액세스 칩"
+			},
 			"lobbyNotFound": {
 				"eng": "Lobby not found",
 				"trans": "로비를 찾을 수 없습니다"
 			},
+			"noKey": {
+				"eng": "You need a key to open this chest",
+				"trans": "이 보물 상자를 열려면 키가 필요합니다."
+			},
 			"notEnoughPsyche": {
 				"eng": "Your psychosis is too high to enter the stronghold",
 				"trans": "당신의 사이버 싸이코가 너무 높아 아지트에 들어갈 수 없습니다"
-			},
-			"notIdle": {
-				"eng": "You cannot do this now",
-				"trans": "지금은 이 작업을 할 수 없습니다"
 			},
 			"notInDungeon": {
 				"eng": "You are not in a stronghold",
@@ -6954,6 +11342,10 @@
 			"timeSacrifice": {
 				"eng": "${player} has sacrificed ${minutes} minutes to unlock a rare chest",
 				"trans": "${player}님이 희귀한 상자를 열기 위해 ${minutes}분을 소모했습니다"
+			},
+			"tooHighLevel": {
+				"eng": "Your level is too high to interact with this",
+				"trans": "이것과 상호작용하기엔 당신의 레벨이 너무 높습니다"
 			}
 		},
 		"dungeonLobby": {
@@ -7057,16 +11449,20 @@
 				"eng": "You don't have an inventory open",
 				"trans": "인벤토리를 열지 않았습니다"
 			},
-			"onCooldown": {
-				"eng": "On cooldown",
-				"trans": "재사용 대기 중"
-			},
 			"restarting": {
 				"eng": "Server is restarting for update, please try again in a few minutes",
 				"trans": "서버가 업데이트를 위해 재시작 중입니다. 몇 분 후에 다시 시도해주세요"
 			}
 		},
 		"player": {
+			"currencyFull": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName}이 가득 찼습니다"
+			},
+			"currencyFullItem": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName}이 가득 찼습니다"
+			},
 			"itemConsumed": {
 				"eng": "Consumed ${itemName} x${amount}",
 				"trans": "${itemName}을(를) ${amount}개 소비했습니다"
@@ -7086,6 +11482,14 @@
 					"eng": "You have already accepted this quest.",
 					"trans": "이미 이 퀘스트를 수락했습니다."
 				},
+				"alreadyCompleted": {
+					"eng": "You have already completed this contract for this week",
+					"trans": "당신은 이미 이 주에 이 계약을 완료했습니다"
+				},
+				"insufficientItems": {
+					"eng": "Insufficient ${itemName} in inventory to complete quest",
+					"trans": "퀘스트를 완료하려면 인벤토리의 ${itemName}이 부족합니다"
+				},
 				"notCompleted": {
 					"eng": "Quest not completed",
 					"trans": "퀘스트 미완료"
@@ -7097,6 +11501,10 @@
 				"questNotOnCooldown": {
 					"eng": "Quest not on cooldown",
 					"trans": "퀘스트가 재사용 대기중이 아닙니다"
+				},
+				"storyNotExist": {
+					"eng": "Weekly quest is not available yet for this week",
+					"trans": "이번 주의 주간 퀘스트는 아직 이용할 수 없습니다"
 				}
 			}
 		},
@@ -7109,6 +11517,34 @@
 				"eng": "Your items have been returned to your inventory",
 				"trans": "당신의 아이템이 인벤토리로 반환되었습니다"
 			}
+		},
+		"socialMediaModule": {
+			"likeTweet": {
+				"eng": "Received ${exp} affinity exp for ${npc}",
+				"trans": "${npc}와의 상호작용으로 ${exp}의 친밀도 경험치를 획득했습니다"
+			}
+		}
+	},
+	"serverStatusDisplay": {
+		"noInternet": {
+			"message": {
+				"eng": "The app is unable to connect to the internet, please check your connection and try again",
+				"trans": "앱이 인터넷에 연결할 수 없습니다. 연결 상태를 확인하고 다시 시도해 주세요"
+			},
+			"title": {
+				"eng": "No internet connection",
+				"trans": "인터넷 연결이 없습니다"
+			}
+		},
+		"serverDown": {
+			"message": {
+				"eng": "We are working on an update, this usually takes only a few minutes.\\nThank you for your patience!",
+				"trans": "업데이트 작업 중입니다. 보통 몇 분 정도 소요됩니다.\\n기다려 주셔서 감사합니다!"
+			},
+			"title": {
+				"eng": "Server under maintenance",
+				"trans": "서버 점검 중입니다"
+			}
 		}
 	},
 	"settings": {
@@ -7116,29 +11552,57 @@
 			"eng": "Background music volume",
 			"trans": "배경 음악 볼륨"
 		},
+		"chat": {
+			"eng": "Chat",
+			"trans": "채팅"
+		},
 		"deleteCharacter": {
 			"eng": "Delete character",
 			"trans": "캐릭터 삭제"
+		},
+		"enableAttackBarPopup": {
+			"eng": "Enable Attack Bar popup",
+			"trans": "공격 바 팝업 활성화"
+		},
+		"enableAttackBarPopupDescription": {
+			"eng": "When enabled, the attack bar will move upwards when pressed, allowing you to see it clearer",
+			"trans": "활성화되면 공격 바가 눌렸을 때 위로 올라가 더 잘 보이게 됩니다"
 		},
 		"enableBackgroundMusic": {
 			"eng": "Enable background music",
 			"trans": "배경 음악 활성화"
 		},
-		"enableGangChatNotification": {
-			"eng": "Enable Gang Chat Notification",
-			"trans": "갱 채팅 알림 활성화"
+		"enableChatAnnouncement": {
+			"eng": "Enable Chat Announcement",
+			"trans": "채팅 알림 활성화"
 		},
-		"enableGlobalNotification": {
-			"eng": "Enable Global Notification",
-			"trans": "글로벌 알림 활성화"
+		"enableChatAnnouncementDescription": {
+			"eng": "Show in-game announcement when a new message is sent in the global chat",
+			"trans": "글로벌 채팅에 새 메시지가 전송되면 게임 내 알림을 표시합니다"
 		},
 		"enableInGameAnnouncement": {
 			"eng": "Enable In-Game Announcement",
 			"trans": "게임 내 공지 활성화"
 		},
+		"enableInGameAnnouncementDescription2": {
+			"eng": "Show in-game notification such as PVP event and bounty",
+			"trans": "PVP 이벤트 및 현상금과 같은 게임 내 알림 표시"
+		},
+		"enableMercenaryAnimation": {
+			"eng": "Enable Mercenary Animation",
+			"trans": "용병 애니메이션 활성화"
+		},
+		"enableMercenaryAnimationDescription": {
+			"eng": "When enabled, epic tier mercenaries will display as animation. Disable to show static images instead",
+			"trans": "활성화되면 에픽 티어 용병은 애니메이션으로 표시됩니다. 비활성화하면 대신 정지 이미지가 표시됩니다"
+		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",
 			"trans": "전력 절약 모드 활성화"
+		},
+		"enablePowerSavingModeDescription": {
+			"eng": "Disables some resource intensive effects, turn on if you experience UI slowness",
+			"trans": "리소스를 많이 사용하는 효과를 비활성화합니다. UI 속도가 느려지는 경우 활성화하세요"
 		},
 		"enableSoundEffect": {
 			"eng": "Enable sound effect",
@@ -7148,6 +11612,24 @@
 			"eng": "Enable Vibration",
 			"trans": "진동 활성화"
 		},
+		"experimentalWebGLChromakey": {
+			"eng": "Enhanced NPC Animation Performance",
+			"trans": "NPC 애니메이션 성능 향상"
+		},
+		"experimentalWebGLChromakeyDescription": {
+			"eng": "GPU-accelerated NPC animations are enabled by default. Disable this if you experience issues with NPC animations. Requires app reload to take effect",
+			"trans": "GPU 가속 NPC 애니메이션이 기본적으로 활성화되어 있습니다. NPC 애니메이션에 문제가 있으면 비활성화하세요. 변경 사항은 앱을 다시 로드해야 적용됩니다."
+		},
+		"friendMailOnly": {
+			"description": {
+				"eng": "Only allow mails from players in your friend list to mail you",
+				"trans": "친구 목록에 있는 플레이어만 메일을 받을 수 있도록 허용하세요."
+			},
+			"title": {
+				"eng": "Friend Mail Only",
+				"trans": "친구 메일만 수신"
+			}
+		},
 		"language": {
 			"eng": "Language",
 			"trans": "언어"
@@ -7155,6 +11637,72 @@
 		"languageTip": {
 			"eng": "Language translation is contributable by the community on GitHub, if you would like to make edits for your language, click here to view our GitHub repository.",
 			"trans": "GitHub 커뮤니티에서 번역에 기여할 수 있습니다. 만약 여러분의 언어로 수정하고 싶다면, 여기를 클릭해 GitHub 저장소를 확인하세요."
+		},
+		"neverShowUpdateNote": {
+			"eng": "Never show update note",
+			"trans": "업데이트 노트 표시 안 함"
+		},
+		"notification": {
+			"eng": "Notification",
+			"gangChat": {
+				"description": {
+					"eng": "Receive notification when your gang members send messages to gang chat",
+					"trans": "갱원들이 갱 채팅에 메시지를 보낼 때 알림 받기"
+				},
+				"disabled": {
+					"eng": "Gang chat notification disabled",
+					"trans": "갱 채팅 알림이 비활성화되었습니다"
+				},
+				"enabled": {
+					"eng": "Gang chat notification enabled",
+					"trans": "갱 채팅 알림이 활성화되었습니다"
+				},
+				"title": {
+					"eng": "Gang Chat",
+					"trans": "갱 채팅"
+				}
+			},
+			"global": {
+				"description": {
+					"eng": "Receive notification for general game events, such as AFK task completion, etc.",
+					"trans": "AFK 작업 완료와 같은 일반 게임 이벤트에 대한 알림 받기."
+				},
+				"title": {
+					"eng": "General Game Notification",
+					"trans": "일반 게임 알림"
+				}
+			},
+			"territoryTopGangChange": {
+				"description": {
+					"eng": "Receive notification when your gang territory has been taken over by other gangs",
+					"trans": "다른 갱에 의해 당신의 갱 영역이 점령되었을 때 알림을 받습니다"
+				},
+				"title": {
+					"eng": "Territory Top Gang Change",
+					"trans": "영역 상위 갱 변경"
+				}
+			},
+			"trans": "알림"
+		},
+		"others": {
+			"eng": "Others",
+			"trans": "기타"
+		},
+		"showOriginalChatMessage": {
+			"eng": "Show Original Chat Message",
+			"trans": "원문 보기"
+		},
+		"showOriginalChatMessageDescription": {
+			"eng": "Show original chat messages for translated chat messages",
+			"trans": "원문 보기"
+		},
+		"showTranslatedChat": {
+			"eng": "Show Translated Chat",
+			"trans": "번역 채팅 표시"
+		},
+		"showTranslatedChatDescription": {
+			"eng": "Show translated chat messages in the global chat",
+			"trans": "글로벌 채팅에서 번역 메시지 표시"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
@@ -7187,12 +11735,12 @@
 			"trans": "이 아이템을 더 이상 인벤토리에 넣을 수 없습니다"
 		},
 		"notEnoughItem": {
-			"eng": "You don\\'t have enough ${item} to purchase this item",
-			"trans": "이 아이템을 구매하기에 충분한 ${item}이(가) 없습니다"
+			"eng": "You don't have enough ${item} to purchase this item",
+			"trans": "${item}이(가) 부족해 구매할 수 없습니다."
 		},
 		"notEnoughMoney": {
-			"eng": "You don\\'t have enough ${currency} to purchase this item",
-			"trans": "이 아이템을 구매하기에 충분한 ${currency}가 없습니다"
+			"eng": "You don't have enough ${currency} to purchase this item",
+			"trans": "아이템을 사기 위해 ${currency}가 모자랍니다."
 		},
 		"purchased": {
 			"eng": "You have purchased ${amount} ${item}",
@@ -7209,10 +11757,24 @@
 			}
 		}
 	},
+	"shopItemDisplay": {
+		"discount": {
+			"eng": "Discount",
+			"trans": "할인"
+		}
+	},
 	"socialMedia": {
+		"mention": {
+			"eng": "${npc} has mentioned you in a Chirp post",
+			"trans": "${npc}가 Chirp 게시물에서 당신을 언급했습니다"
+		},
 		"noPostsYet": {
 			"eng": "No posts yet",
 			"trans": "아직 게시물이 없습니다"
+		},
+		"tweetPosted": {
+			"eng": "${npc} has posted a chirp",
+			"trans": "${npc}이(가) 치르프를 게시했습니다"
 		}
 	},
 	"socialPage": {
@@ -7254,113 +11816,233 @@
 			"eng": "Armor",
 			"trans": "방어력"
 		},
+		"armorDesc": {
+			"eng": "Increases your armor.",
+			"trans": "방어력을 증가시킵니다."
+		},
 		"autoDmg": {
 			"eng": "Auto Attack Damage",
 			"trans": "자동 공격 데미지"
+		},
+		"autoDmgDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "자동 공격의 데미지를 증가시킵니다."
 		},
 		"autoDmgMult": {
 			"eng": "Auto Attack Damage Multiplier",
 			"trans": "자동 공격 데미지 배수"
 		},
+		"autoDmgMultDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "자동 공격의 데미지를 증가시킵니다."
+		},
 		"backpackSlot": {
 			"eng": "Backpack Slot",
 			"trans": "배낭 칸"
+		},
+		"backpackSlotDesc": {
+			"eng": "Increases your maximum backpack slot.",
+			"trans": "배낭 슬롯을 최대로 늘려줍니다."
 		},
 		"blockChance": {
 			"eng": "Block Chance",
 			"trans": "방해 확률"
 		},
+		"blockChanceDesc": {
+			"eng": "Increases your chance to successfully block an attack when attempt to block.",
+			"trans": "차단을 시도할 때 공격을 성공적으로 차단할 확률을 높입니다."
+		},
 		"blockStrength": {
 			"eng": "Block Strength",
 			"trans": "방해 강도"
+		},
+		"blockStrengthDesc": {
+			"eng": "Increases the amount of damage blocked when attempt to block.",
+			"trans": "차단 시 차단한 피해량을 증가시킵니다."
 		},
 		"critChance": {
 			"eng": "Critical Chance",
 			"trans": "치명타 확률"
 		},
+		"critChanceDesc": {
+			"eng": "Increases the chance of your attacks being critical.",
+			"trans": "공격이 치명타가 될 확률을 높입니다."
+		},
 		"critDmg": {
 			"eng": "Critical Damage",
 			"trans": "치명타 피해"
+		},
+		"critDmgDesc": {
+			"eng": "Increases the damage of your critical attacks.",
+			"trans": "크리티컬 공격의 데미지를 증가시킵니다."
 		},
 		"cyberneticResistance": {
 			"eng": "Cybernetic Resistance",
 			"trans": "사이버네틱 저항력"
 		},
+		"cyberneticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using cybernetic attack.",
+			"trans": "사이버네틱 공격에 대한 적의 저항력을 증가시킵니다."
+		},
 		"damageMult": {
 			"eng": "Damage Multiplier",
 			"trans": "데미지 배수"
+		},
+		"damageMultDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "공격력을 증가시킵니다."
 		},
 		"dex": {
 			"eng": "Dexterity",
 			"trans": "민첩성"
 		},
+		"dexDesc": {
+			"eng": "Increases your dexterity attribute, which in turn increases your damage with fire arm weapons.",
+			"trans": "민첩성 속성을 증가시켜, 그로 인해 화기 무기로 입히는 피해가 증가합니다."
+		},
 		"dmg": {
 			"eng": "Damage",
 			"trans": "데미지"
+		},
+		"dmgDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "공격력을 증가시킵니다."
 		},
 		"dmgReductionFlat": {
 			"eng": "Damage Reduction",
 			"trans": "데미지 감소"
 		},
+		"dmgReductionFlatDesc": {
+			"eng": "Reduces the damage you receive.",
+			"trans": "받는 피해를 감소시킵니다."
+		},
 		"dmgResistance": {
 			"eng": "Damage Reduction",
 			"trans": "데미지 감소"
+		},
+		"dmgResistanceDesc": {
+			"eng": "Reduces the damage you receive.",
+			"trans": "받는 피해를 감소시킵니다."
 		},
 		"energyResistance": {
 			"eng": "Energy Resistance",
 			"trans": "에너지 저항력"
 		},
+		"energyResistanceDesc": {
+			"eng": "Increases your resistance against enemy using weapon.",
+			"trans": "적이 무기를 사용하여 공격할 때 저항력을 증가시킵니다."
+		},
 		"escape": {
 			"eng": "Escape Chance",
 			"trans": "탈출 확률"
+		},
+		"escapeDesc": {
+			"eng": "Increases your chance to escape from enemies.",
+			"trans": "적으로부터 도망칠 확률을 높입니다."
 		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
 			"trans": "헤드샷 배수"
 		},
+		"headshotMultDesc": {
+			"eng": "Increases the damage of your headshots attacks",
+			"trans": "헤드샷 공격의 데미지를 증가시킵니다"
+		},
 		"health": {
 			"eng": "Health",
 			"trans": "체력"
+		},
+		"healthDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "최대 체력을 증가시킵니다."
 		},
 		"healthPercent": {
 			"eng": "Health Multiplier",
 			"trans": "체력 배수"
 		},
+		"healthPercentDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "최대 체력을 증가시킵니다."
+		},
 		"int": {
 			"eng": "Intelligence",
 			"trans": "지능"
+		},
+		"intDesc": {
+			"eng": "Increases your intelligence attribute, which in turn increases your damage with energy weapons.",
+			"trans": "지능 속성을 증가시켜 에너지 무기로 입히는 피해를 증가시킵니다."
 		},
 		"inventorySlot": {
 			"eng": "Inventory Slot",
 			"trans": "인벤토리 칸"
 		},
+		"inventorySlotDesc": {
+			"eng": "Increases your maximum inventory slot.",
+			"trans": "인벤토리 슬롯을 최대로 늘려줍니다."
+		},
 		"kineticResistance": {
 			"eng": "Kinetic Resistance",
 			"trans": "키네틱 저항력"
+		},
+		"kineticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using kinetic attack.",
+			"trans": "적의 키네틱 공격에 대한 저항력을 증가시킵니다."
 		},
 		"physicalResistance": {
 			"eng": "Physical Resistance",
 			"trans": "물리 저항력"
 		},
+		"physicalResistanceDesc": {
+			"eng": "Increases your resistance against enemy using melee attack.",
+			"trans": "적의 근접 공격에 대한 저항력을 증가시킵니다."
+		},
 		"pvpDmgReceivedMult": {
 			"eng": "PvP Damage Received Multiplier",
 			"trans": "PvP 데미지 피격 배율"
+		},
+		"pvpDmgReceivedMultDesc": {
+			"eng": "Increases the damage you receive from players.",
+			"trans": "플레이어로부터 받는 피해량을 증가시킵니다."
+		},
+		"raidExpMult": {
+			"eng": "Hideout Raid EXP Multiplier",
+			"trans": "은신처 습격 경험치 배율"
+		},
+		"raidExpMultDesc": {
+			"eng": "Increases the EXP you receive from hideout raids.",
+			"trans": "은신처 습격에서 받는 경험치를 증가시킵니다."
 		},
 		"shield": {
 			"eng": "Shield",
 			"trans": "방어막"
 		},
+		"shieldDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "최대 방어막을 증가시킵니다."
+		},
 		"shieldPercent": {
 			"eng": "Shield Multiplier",
 			"trans": "방어막 배수"
+		},
+		"shieldPercentDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "최대 방어막을 증가시킵니다."
 		},
 		"str": {
 			"eng": "Strength",
 			"trans": "힘"
 		},
+		"strDesc": {
+			"eng": "Increases your strength attribute, which in turn increases your damage with melee weapons.",
+			"trans": "근접 무기로 입히는 피해량을 증가시키는 힘 속성을 강화합니다."
+		},
 		"vit": {
 			"eng": "Vitality",
 			"trans": "활력"
+		},
+		"vitDesc": {
+			"eng": "Increases your vitality attribute, which in turn increases your maximum health.",
+			"trans": "활력 속성을 증가시켜 최대 체력을 높입니다."
 		}
 	},
 	"statDiff": {
@@ -7428,6 +12110,16 @@
 				"trans": "전리품 증가"
 			}
 		},
+		"muted": {
+			"desc": {
+				"eng": "This player have been muted by the system.",
+				"trans": "이 플레이어는 시스템에 의해 음소거되었습니다."
+			},
+			"name": {
+				"eng": "Muted",
+				"trans": "뮤트"
+			}
+		},
 		"poison": {
 			"combatMsg": {
 				"eng": "${name} received ${damage} damage from poison",
@@ -7471,6 +12163,16 @@
 				"eng": "PVP Protection",
 				"trans": "PVP 보호"
 			}
+		},
+		"raidExpMult5": {
+			"desc": {
+				"eng": "Increases the EXP you receive from hideout raids by ${percent}%",
+				"trans": "은신처 습격에서 받는 경험치가 ${percent}% 증가합니다"
+			},
+			"name": {
+				"eng": "Hideout Raid EXP Multiplier V",
+				"trans": "은신처 습격 경험치 배율 V"
+			}
 		}
 	},
 	"statusEffectModal": {
@@ -7484,14 +12186,13 @@
 		},
 		"turns": {
 			"eng": "${turns} combat turns",
-			"trans": "${turns} 전투 턴",
-			"vars": []
+			"trans": "${turns} 전투 턴"
 		}
 	},
 	"statusInventory": {
 		"description": {
-			"eng": "If your backpack or inventory is full.\\nPlease remove some stuff before picking up the loots.",
-			"trans": "만약 배낭이나 인벤토리가 가득 찼다면.\\n전리품을 줍기 전에 물건을 일부 제거하세요."
+			"eng": "If your ${inv} is full or one of the item has reached its max stack limit.\\nPlease remove some stuff before picking up the loots.",
+			"trans": "만약 ${inv}이 가득 찼거나 아이템 중 하나가 최대 스택 한도에 도달했다면, 전리품을 얻기 전에 일부 아이템을 제거해 주세요."
 		},
 		"discard": {
 			"eng": "Discard",
@@ -7552,6 +12253,234 @@
 			"trans": "전리품"
 		}
 	},
+	"stock": {
+		"notEnoughMoney": {
+			"eng": "You don't have enough Eurodollar to buy purchase ${company}, current price: ${price}, needed: ${total}",
+			"trans": "충분한 유로달러가 없어 ${company}을(를) 구매할 수 없습니다. 현재 가격: ${price}, 필요 금액: ${total}."
+		},
+		"tradeCooldown": {
+			"buy": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "해당 주식은 ${cooldown}분 동안 한 번만 거래 가능합니다."
+			},
+			"sell": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "해당 주식은 ${cooldown}분 동안 한 번만 거래 가능합니다."
+			}
+		}
+	},
+	"stockExchange": {
+		"availableFunds": {
+			"eng": "Available Funds",
+			"trans": "사용 가능한 자금"
+		},
+		"buy": {
+			"eng": "Buy",
+			"trans": "사다"
+		},
+		"companyColumn": {
+			"eng": "Company",
+			"trans": "회사"
+		},
+		"confirmBuy": {
+			"eng": "Confirm Buy",
+			"trans": "구매 확인"
+		},
+		"confirmSell": {
+			"eng": "Confirm Sell",
+			"trans": "판매 확인"
+		},
+		"currentPrice": {
+			"eng": "Current Price",
+			"trans": "현재 가격"
+		},
+		"dailyChange": {
+			"eng": "24h Change",
+			"trans": "24시간 업데이트"
+		},
+		"invalidStock": {
+			"eng": "Invalid stock selected",
+			"trans": "선택한 재고가 잘못되었습니다."
+		},
+		"invested": {
+			"eng": "Total Asset Value",
+			"trans": "총 자산 가치"
+		},
+		"liveIndicator": {
+			"eng": "LIVE MARKET",
+			"trans": "라이브 마켓"
+		},
+		"loading": {
+			"eng": "Loading market data...",
+			"trans": "로딩 중... 마켓 데이터"
+		},
+		"loadingPrices": {
+			"eng": "Loading prices...",
+			"trans": "가격 로딩 중..."
+		},
+		"marketPriceWarning": {
+			"eng": "The actual price may differ slightly from the displayed price due to market spreads, timing, and demand.",
+			"trans": "실제 가격은 시장 변동, 타이밍 및 수요의 영향으로 표시된 가격과 약간 다를 수 있습니다."
+		},
+		"max": {
+			"eng": "MAX",
+			"trans": "최대"
+		},
+		"portfolioOverview": {
+			"eng": "Portfolio Overview",
+			"trans": "포트폴리오 개요"
+		},
+		"priceColumn": {
+			"eng": "Price / Change",
+			"trans": "가격 / 변경"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "처리 중..."
+		},
+		"profitLoss": {
+			"eng": "Unrealized P&L",
+			"trans": "미실현 손익"
+		},
+		"purchaseFailed": {
+			"eng": "Purchase Failed",
+			"trans": "구매 실패"
+		},
+		"purchaseFailedGeneric": {
+			"eng": "Unable to complete purchase",
+			"trans": "구매를 완료할 수 없습니다"
+		},
+		"purchaseSuccessful": {
+			"eng": "Purchase Successful",
+			"trans": "구매 성공"
+		},
+		"saleFailed": {
+			"eng": "Sale Failed",
+			"trans": "판매 실패"
+		},
+		"saleFailedGeneric": {
+			"eng": "Unable to complete sale",
+			"trans": "거래 실패"
+		},
+		"saleSuccessful": {
+			"eng": "Sale Successful",
+			"trans": "판매 성공"
+		},
+		"sell": {
+			"eng": "Sell",
+			"trans": "판매"
+		},
+		"shares": {
+			"eng": "Shares",
+			"trans": "주식"
+		},
+		"sharesOwned": {
+			"eng": "${shares} shares",
+			"trans": "${shares} 주식"
+		},
+		"stockValue": {
+			"eng": "Stock Value",
+			"trans": "주식 가치"
+		},
+		"totalCost": {
+			"eng": "Total Cost",
+			"trans": "총 비용"
+		},
+		"totalRealizedProfit": {
+			"eng": "Realized P&L",
+			"trans": "실현 손익"
+		},
+		"totalReceived": {
+			"eng": "Total Received",
+			"trans": "총 수령량"
+		},
+		"trade": {
+			"eng": "Trade",
+			"trans": "트레이드"
+		},
+		"tradeButton": {
+			"eng": "Trade",
+			"trans": "트레이드"
+		},
+		"tradingFee": {
+			"eng": "Trading Fee",
+			"trans": "거래 수수료"
+		}
+	},
+	"stockTradeModal": {
+		"sharesOwned": {
+			"eng": "Shares Owned",
+			"trans": "주식 보유량"
+		}
+	},
+	"storyListPage": {
+		"invalidPage": {
+			"eng": "Please enter a valid page number",
+			"trans": "올바른 페이지 번호를 입력해 주세요."
+		},
+		"next": {
+			"eng": "Next",
+			"trans": "다음"
+		},
+		"noStories": {
+			"eng": "No stories available",
+			"trans": "스토리가 없습니다."
+		},
+		"pageDescription": {
+			"eng": "Discover the rich lore of Arclight City. Browse our collection of cyberpunk stories set in a dystopian future of corporate control and technological revolution.",
+			"trans": "아크라이트 시티의 풍부한 로어를 발견하세요. 기업의 통제와 기술 혁명이 얽힌 디스토피아적 미래를 배경으로 한 사이버펑크 이야기 컬렉션을 둘러보세요."
+		},
+		"pageIndicator": {
+			"eng": "${current} / ${total}",
+			"trans": "${current} / 총 ${total}"
+		},
+		"pageInputAriaLabel": {
+			"eng": "Enter page number",
+			"trans": "페이지 번호를 입력해 주세요."
+		},
+		"pageInputPlaceholder": {
+			"eng": "Page #",
+			"trans": "페이지 #"
+		},
+		"pageOutOfRange": {
+			"eng": "Page number exceeds total pages",
+			"trans": "페이지 번호가 총 페이지 수를 초과했습니다."
+		},
+		"pageTitle": {
+			"eng": "Arclight City Stories - Cyberpunk Lore Collection",
+			"trans": "아크라이트 시티 이야기 - 사이버펑크 로어 모음집"
+		},
+		"previous": {
+			"eng": "Prev",
+			"trans": "이전"
+		},
+		"subtitle": {
+			"eng": "Discover the lore of the cyberpunk world",
+			"trans": "사이버펑크 세계의 로어를 탐험하세요."
+		},
+		"tapToRead": {
+			"eng": "Tap to read this story",
+			"trans": "이 스토리를 읽으려면 탭하세요."
+		},
+		"title": {
+			"eng": "Game Stories",
+			"trans": "게임 이야기"
+		}
+	},
+	"storyPage": {
+		"pageDescription": {
+			"eng": "Read the cyberpunk story ${storyTitle} from the Arclight City cyberpunk universe.",
+			"trans": "아크라이트 시티 사이버펑크 세계의 ${storyTitle} 이야기를 읽어보세요."
+		},
+		"pageTitle": {
+			"eng": "Arclight Cyberpunk Story - ${storyTitle}",
+			"trans": "아크라이트 사이버펑크 이야기 - ${storyTitle}"
+		},
+		"returnToStories": {
+			"eng": "Return to all stories",
+			"trans": "모든 이야기로 돌아가기"
+		}
+	},
 	"stringHelper": {
 		"nameError": {
 			"englishOnly": {
@@ -7588,14 +12517,21 @@
 	},
 	"task": {
 		"error": {
+			"altError": {
+				"eng": "Alternate accounts are not allowed to contribute to gang tasks",
+				"trans": "대체 계정은 갱 작업에 기여할 수 없습니다."
+			},
 			"gangRequired": {
 				"eng": "You are currently not in any gang",
 				"trans": "당신은 현재 어떤 갱에도 속해 있지 않습니다"
 			},
 			"inProgress": {
 				"eng": "Task is still in progress, remaining seconds: ${remainingSeconds}",
-				"trans": "작업이 아직 진행 중입니다, 남은 시간: ${remainingSeconds}초",
-				"vars": []
+				"trans": "작업이 아직 진행 중입니다, 남은 시간: ${remainingSeconds}초"
+			},
+			"locationNotUnlocked": {
+				"eng": "You need to unlock ${locationName} to control this territory",
+				"trans": "${locationName} 잠금 해제 시 이 영역을 통제할 수 있습니다."
 			},
 			"maxTasks": {
 				"eng": "You have reached the max amount of tasks",
@@ -7616,9 +12552,13 @@
 		},
 		"notification": {
 			"completed": {
-				"title": {
-					"eng": "Task completed",
-					"trans": "작업 완료"
+				"message2": {
+					"eng": "${count} of your AFK tasks are completed, click to claim your rewards!",
+					"trans": "${count}개의 자동 작업이 완료되었습니다. 보상을 받으려면 클릭하세요."
+				},
+				"title2": {
+					"eng": "🔔AFK Task completed",
+					"trans": "🔔자리 비움 작업 완료"
 				}
 			}
 		}
@@ -7634,6 +12574,20 @@
 			"notFound": {
 				"eng": "Territory not found",
 				"trans": "영역을 찾을 수 없습니다"
+			}
+		},
+		"message": {
+			"topClanChange": {
+				"eng": "${newTopClanName} has taken over ${territoryName}",
+				"trans": "${newTopClanName}이(가) ${territoryName}을(를) 점령했습니다"
+			},
+			"topClanChangeBody": {
+				"eng": "${newTopClanName} has overtaken one of your gang's territory",
+				"trans": "${newTopClanName}이(가) 당신의 갱 중 하나의 영역을 차지했습니다"
+			},
+			"topClanChangeTitle": {
+				"eng": "Territory lost!",
+				"trans": "영역을 잃었습니다!"
 			}
 		},
 		"resetNoti": {
@@ -7663,9 +12617,9 @@
 	},
 	"territoryDisplay": {
 		"hasTopGang": {
-			"title": {
-				"eng": "Controlled by ${name} [${tag}]",
-				"trans": "${name} [${tag}]가 지배 중"
+			"titlev2": {
+				"eng": "View Territory",
+				"trans": "영역 보기"
 			}
 		},
 		"noTopGang": {
@@ -7679,6 +12633,12 @@
 		"description": {
 			"eng": "Claim control of this territory to gain ability to deploy territorial buffs",
 			"trans": "이 영역의 통제권을 차지하여 영역 버프를 배치할 수 있는 능력을 얻으세요"
+		},
+		"gang": {
+			"controlPoints": {
+				"eng": "${amount} Control Points",
+				"trans": "${amount} 제어 포인트"
+			}
 		},
 		"gangRequired": {
 			"eng": "You must be in a gang to claim territory",
@@ -7785,28 +12745,23 @@
 		"duration": {
 			"days": {
 				"eng": "${days} days",
-				"trans": "${days}일",
-				"vars": []
+				"trans": "${days}일"
 			},
 			"hours": {
 				"eng": "${hours} hours",
-				"trans": "${hours}시간",
-				"vars": []
+				"trans": "${hours}시간"
 			},
 			"minutes": {
 				"eng": "${minutes} minutes",
-				"trans": "${minutes}분",
-				"vars": []
+				"trans": "${minutes}분"
 			},
 			"seconds": {
 				"eng": "${seconds} seconds",
-				"trans": "${seconds}초",
-				"vars": []
+				"trans": "${seconds}초"
 			},
 			"years": {
 				"eng": "${years} years",
-				"trans": "${years}년",
-				"vars": []
+				"trans": "${years}년"
 			}
 		}
 	},
@@ -7950,6 +12905,12 @@
 			"trans": "잠금 해제"
 		}
 	},
+	"traitDisplay": {
+		"unknownTrait": {
+			"eng": "This is an encrypted trait, use ${item} to decrypt and identify its true potential",
+			"trans": "이것은 암호화된 특성입니다. 해독하고 진정한 잠재력을 확인하려면 ${item}을(를) 사용하세요."
+		}
+	},
 	"travelToLocationModal": {
 		"alreadyAtLocation": {
 			"eng": "Already at location",
@@ -7992,6 +12953,26 @@
 		"autoAttack": {
 			"eng": "Click here to toggle auto combat, which will allow you to attack enemies, use ability and heal automatically.",
 			"trans": "여기를 클릭하면 자동 전투를 전환할 수 있습니다. 이를 통해 자동을 적을 공격하고 능력을 사용하고 치료할 수 있습니다."
+		},
+		"autoFarm": {
+			"eng": "click here to start the auto gathering process",
+			"trans": "여기를 클릭하여 자동 수집 프로세스를 시작하세요"
+		},
+		"autoFarm1": {
+			"eng": "You can use auto gather to gain rewards and exp passively while leaving your device on",
+			"trans": "자동 수집 기능을 사용하면 기기를 켜둔 채로 보상과 경험치를 수동으로 얻을 수 있습니다"
+		},
+		"autoFarmBoost": {
+			"eng": "Boost allow you to gain ${expPercent}% EXP and ${rewardPercent}% rewards, You can toggle to this to enable or disable boost during auto gather",
+			"trans": "부스트를 사용하면 ${expPercent}% 경험치와 ${rewardPercent}% 보상을 얻을 수 있습니다. 자동 수집 중 부스트를 활성화하거나 비활성화하려면 이 옵션을 전환할 수 있습니다"
+		},
+		"autoFarmStop": {
+			"eng": "You can click here to stop at any time.",
+			"trans": "언제든지 여기 클릭하여 중지할 수 있습니다."
+		},
+		"autoGatherRush": {
+			"eng": "Spam click here to fill the rush bar and get extra rewards!",
+			"trans": "여기를 스팸 클릭하여 러시 바를 채우고 추가 보상을 받으세요!"
 		},
 		"backToMainPage": {
 			"eng": "You can always go back to main screen from here.",
@@ -8109,6 +13090,10 @@
 			"eng": "Click here to recruit 10 new mercenaries",
 			"trans": "10명의 신규 용병을 모집하려면 여기를 클릭하세요"
 		},
+		"newsReaction": {
+			"eng": "React to news reports to receive Credits and gain points for your Corporation!",
+			"trans": "뉴스 보도에 반응하면 크레딧 획득, 기업 기여도 상승!"
+		},
 		"quest": {
 			"eng": "Click here to view your quests.",
 			"trans": "퀘스트를 확인하려면 여기를 클릭하세요."
@@ -8160,6 +13145,14 @@
 			"trans": "뒤로"
 		},
 		"characterSelect": {
+			"badgeTitle": {
+				"eng": "IDENTITY",
+				"trans": "ID"
+			},
+			"bottomBadge": {
+				"eng": "RESTRICTED ACCESS",
+				"trans": "접근 불가"
+			},
 			"createCharacter": {
 				"eng": "Create new character",
 				"trans": "새 캐릭터 생성"
@@ -8167,6 +13160,10 @@
 			"deleteCharacter": {
 				"eng": "Delete Character",
 				"trans": "캐릭터 삭제"
+			},
+			"location": {
+				"eng": "Arclight City - Character Database",
+				"trans": "아크라이트 시티 - 캐릭터 정보"
 			},
 			"noCharacters": {
 				"eng": "You have no characters",
@@ -8186,13 +13183,29 @@
 				"eng": "You already tried to escape in this turn!",
 				"trans": "이번 턴에 이미 탈출을 시도했습니다!"
 			},
+			"arresting": {
+				"eng": "ARREST",
+				"trans": "체포"
+			},
 			"autoAttackLevel": {
 				"eng": "You need to be level ${level} to use auto combat",
 				"trans": "자동 전투를 사용하려면 ${level}레벨이 되어야 합니다"
 			},
+			"criticalHealth": {
+				"eng": "Critical Health Warning",
+				"trans": "치명적인 건강 경고"
+			},
 			"escape": {
 				"eng": "escape",
 				"trans": "탈출"
+			},
+			"mugging": {
+				"eng": "MUGGING",
+				"trans": "지갑털기"
+			},
+			"round": {
+				"eng": "Round ${round}",
+				"trans": "라운드 ${round}"
 			}
 		},
 		"dungeonUI": {
@@ -8220,7 +13233,7 @@
 			}
 		},
 		"health": {
-			"eng": "health",
+			"eng": "HEALTH",
 			"trans": "체력"
 		},
 		"inventoryPage": {
@@ -8282,6 +13295,14 @@
 			}
 		},
 		"mainMenu": {
+			"account": {
+				"eng": "Account",
+				"trans": "계정"
+			},
+			"blockedPlayer": {
+				"eng": "blocked",
+				"trans": "차단됨"
+			},
 			"bugReport": {
 				"eng": "Bug Report",
 				"trans": "버그 신고"
@@ -8316,6 +13337,10 @@
 				"eng": "Gift Code",
 				"trans": "선물 코드"
 			},
+			"investigations": {
+				"eng": "Investigations",
+				"trans": "조사"
+			},
 			"leaderboard": {
 				"eng": "leaderboard",
 				"trans": "리더보드"
@@ -8327,6 +13352,16 @@
 			"logoutButton": {
 				"eng": "logout",
 				"trans": "로그아웃"
+			},
+			"logoutModal": {
+				"description": {
+					"eng": "Are you sure you want to logout?\\nLogging out will automatically cancel all your unfinished background tasks, resources used to start the tasks will be lost",
+					"trans": "로그아웃 하시겠습니까?\\n로그아웃하면 모든 미완료 백그라운드 작업이 자동으로 취소되며, 작업 시작에 사용된 자원이 손실됩니다."
+				},
+				"title": {
+					"eng": "Cancel all background tasks?",
+					"trans": "모든 백그라운드 작업을 중단하시겠습니까?"
+				}
 			},
 			"loreNotes": {
 				"eng": "lore notes",
@@ -8349,22 +13384,10 @@
 				"trans": "이 페이지는 아직 작업 중입니다"
 			}
 		},
-		"mainPage": {
-			"chatButton": {
-				"eng": "chat",
-				"trans": "채팅"
-			}
-		},
 		"misc": {
 			"equip": {
 				"eng": "Equip",
 				"trans": "장비 착용"
-			}
-		},
-		"restart": {
-			"title": {
-				"eng": "Server is restarting...",
-				"trans": "서버가 재시작 중입니다..."
 			}
 		},
 		"selectItemModal": {
@@ -8378,8 +13401,8 @@
 			}
 		},
 		"shield": {
-			"eng": "shield",
-			"trans": "방어막"
+			"eng": "SHIELD",
+			"trans": "방패"
 		},
 		"travelBack": {
 			"title": {
@@ -8389,6 +13412,10 @@
 		}
 	},
 	"uiScale": {
+		"auto": {
+			"eng": "Auto",
+			"trans": "자동"
+		},
 		"huge": {
 			"name": {
 				"eng": "Huge",
@@ -8420,6 +13447,16 @@
 			}
 		}
 	},
+	"updatingOverlay": {
+		"description": {
+			"eng": "Hello, I'm quickly updating the server to improve the game! \\nIt's normal to see a reconnect or update screen for a few seconds.🚀\\nApologies for any inconvenience and thanks for your patience.🙏",
+			"trans": "안녕하세요, 게임을 개선하기 위해 서버를 빠르게 업데이트하고 있습니다! \\n몇 초 동안 재접속 또는 업데이트 화면이 보이는 것은 정상입니다.🚀\\n불편을 드려 죄송하고, 여러분의 양해에 감사드립니다.🙏"
+		},
+		"title": {
+			"eng": "🌟 Quick Update Notice!",
+			"trans": "🌟 빠른 업데이트 알림!"
+		}
+	},
 	"upgradeBackpackPopup": {
 		"description": {
 			"eng": "Upgrade your backpack to increase the amount of items you can carry in strongholds.",
@@ -8439,8 +13476,7 @@
 	"upgradeInventoryPopup": {
 		"addedSlots": {
 			"eng": "${slots} slots (+${addedSlots})",
-			"trans": "${slots} 칸 (+${addedSlots})",
-			"vars": []
+			"trans": "${slots} 칸 (+${addedSlots})"
 		},
 		"description": {
 			"eng": "You can also upgrade your inventory space by renting a apartment",
@@ -8541,6 +13577,10 @@
 		"title": {
 			"eng": "Vault",
 			"trans": "금고"
+		},
+		"vaultSlots": {
+			"eng": "Slots ${size}",
+			"trans": "슬롯 ${size}"
 		}
 	},
 	"webHomePage": {
@@ -8574,6 +13614,38 @@
 				"trans": "싸다!!"
 			}
 		},
+		"news": {
+			"adAction": {
+				"eng": "READ NOW",
+				"trans": "지금 읽어봐"
+			},
+			"live": {
+				"eng": "LIVE",
+				"trans": "살아있음"
+			},
+			"subtitle": {
+				"eng": "Latest updates from around Arclight City",
+				"trans": "아크라이트 시티 핫이슈"
+			}
+		},
+		"stockAd": {
+			"feature1": {
+				"eng": "Minimal extraction fees - the house always wins, but barely",
+				"trans": "최소 추출 수수료 - 하우스는 항상 승리하지만, 극히 미약한 승리다"
+			},
+			"feature2": {
+				"eng": "Live market data from the corporate towers",
+				"trans": "기업 타워에서의 실시간 시장 데이터"
+			},
+			"liveIndicator": {
+				"eng": "LIVE",
+				"trans": "라이브"
+			},
+			"subtitle": {
+				"eng": "Trade corporate futures in Arclight's shadow markets.",
+				"trans": "아크라이트의 암시장에서 기업 선물을 거래하세요"
+			}
+		},
 		"wiki": {
 			"subtitle": {
 				"eng": "the free encyclopedia that anyone can edit",
@@ -8581,10 +13653,106 @@
 			}
 		}
 	},
-	"webLandingPage": {
-		"webNotAvailable": {
-			"eng": "Web version is not available yet.",
-			"trans": "웹 버전은 아직 제공되지 않습니다."
+	"webNavBar": {
+		"viewNews": {
+			"eng": "News",
+			"trans": "뉴스"
+		},
+		"viewStories": {
+			"eng": "Stories",
+			"trans": "스토리"
+		}
+	},
+	"weeklyQuest": {
+		"dataCores": {
+			"eng": "Data Cores",
+			"trans": "데이터 코어들"
+		},
+		"progress": {
+			"eng": "Mission Progress",
+			"trans": "미션 진도"
+		}
+	},
+	"weeklyQuestList": {
+		"accepted": {
+			"eng": "Contract Accepted",
+			"trans": "계약 수락됨"
+		},
+		"canSubmit": {
+			"eng": "awaiting submission",
+			"trans": "제출 대기 중"
+		},
+		"completed": {
+			"eng": "Contract Completed",
+			"trans": "계약 완료"
+		},
+		"noQuests": {
+			"eng": "New intelligence contracts will be available soon",
+			"trans": "새로운 지능 계약이 곧 이용 가능할 것입니다"
+		},
+		"notAccepted": {
+			"eng": "Contract Available",
+			"trans": "계약 가용"
+		},
+		"tip": {
+			"explanation": {
+				"eng": "Intelligence contracts are intelligence missions that reset every week base on Arclight City's dynamic geopolitical situation. You can collect ${itemName} from Hideout Raids",
+				"trans": "지능 계약들은 아크라이트 시티의 동적인 지리정치적 상황에 기반하여 매주 재설정되는 지능 미션입니다 히든아웃 레이드에서 ${itemName}을 획득할 수 있습니다"
+			}
+		},
+		"title": {
+			"eng": "Intelligence Contracts",
+			"trans": "지능 계약들"
+		}
+	},
+	"weeklyQuestPreview": {
+		"acceptContract": {
+			"eng": "Accept Contract",
+			"trans": "계약 수락"
+		},
+		"briefing": {
+			"eng": "Mission Briefing",
+			"trans": "미션 브리핑"
+		},
+		"contractAccepted": {
+			"eng": "Contract Accepted",
+			"trans": "계약 수락됨"
+		},
+		"contractCompleted": {
+			"eng": "Contract Completed",
+			"trans": "계약 완료"
+		},
+		"contractDetails": {
+			"eng": "Contract Details",
+			"trans": "계약 상세"
+		},
+		"daysRemaining": {
+			"eng": "${time} remaining",
+			"trans": "${time} 남음"
+		},
+		"submitContract": {
+			"eng": "Submit Contract",
+			"trans": "계약 제출"
+		}
+	},
+	"weeklyQuestTier": {
+		"blackOps": {
+			"name": {
+				"eng": "Black Ops Contract",
+				"trans": "블랙 오프스 컨트랙트"
+			}
+		},
+		"priority": {
+			"name": {
+				"eng": "Priority Contract",
+				"trans": "우선순위 계약"
+			}
+		},
+		"standard": {
+			"name": {
+				"eng": "Standard Contract",
+				"trans": "표준 계약"
+			}
 		}
 	},
 	"wikiPage": {
@@ -8658,6 +13826,12 @@
 			"announcement": {
 				"eng": "${playerName} tried to mug someone but failed!",
 				"trans": "${playerName}은(는) 누군가를 강도질하려 했지만 실패했습니다!"
+			}
+		},
+		"territoryControlTakeOver": {
+			"announcement": {
+				"eng": "${gang1} has taken over ${gang2} territory!",
+				"trans": "${gang1} 패거리가 ${gang2} 구역을 접수했어!"
 			}
 		},
 		"upgradedEpic": {

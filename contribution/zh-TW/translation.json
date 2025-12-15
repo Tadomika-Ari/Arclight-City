@@ -1,8 +1,48 @@
 {
+	"BattlePassTimeLimitedInfoModal": {
+		"button": {
+			"eng": "Close",
+			"trans": "關閉"
+		},
+		"endDate": {
+			"desc": {
+				"eng": "This battle track will end at ${date}, and you will not be able purchase it after this date.",
+				"trans": "此戰鬥通行證將於${date}結束，之後將無法購買。"
+			},
+			"title": {
+				"eng": "Track End Date",
+				"trans": "通行證結束日期"
+			}
+		},
+		"maxDays": {
+			"desc1": {
+				"eng": "battle track will remain available for unlock and redeem daily ${days} days after your first login date (${firstDay}), regardless of the end date.",
+				"trans": "在您首次登入日期(${firstDay})後，戰鬥通行證將保持可解鎖和兌換每日獎勵${days}天，無論結束日期為何。"
+			},
+			"desc2": {
+				"eng": "Once the redeemable days are over, you will not be able to unlock or redeem the rewards anymore. so make sure you login and redeem your rewards before the redeemable days are over.",
+				"trans": "在可兌換天數結束後，您將無法再解鎖或兌換獎勵，所以請確保在可兌換天數結束前登入並兌換您的獎勵。"
+			},
+			"title": {
+				"eng": "Redeemable Days",
+				"trans": "剩餘可兌換天數"
+			}
+		},
+		"trackDuration": {
+			"desc": {
+				"eng": "This battle track is a ${days} days track. by unlocking this track, you will unlock the current period of the track. and you will be able to unlock it again if its still available in the next period.",
+				"trans": "這個戰鬥通行證是${days}天的通行證，解鎖後您將獲得該期的獎勵。如果此通行證下一期仍可購買，您將能夠再次解鎖它。"
+			},
+			"title": {
+				"eng": "Battle Track duration",
+				"trans": "戰鬥通行證持續時間"
+			}
+		}
+	},
 	"CrewTip": {
 		"tip1": {
 			"eng": "Looks like one or more of your mercenary is low level, you should level them up to match your level using ${item1} and ${item2}",
-			"trans": "看起來你的佣兵中有一個或多個等級較低，你應該使用${item1}和${item2}來提升他們的等級，以達到與你相同的等級。"
+			"trans": "看起來你的傭兵中有一個或多個等級較低，你應該使用${item1}和${item2}來提升他們的等級，以達到與你相同的等級。"
 		}
 	},
 	"MercenaryDrawType": {
@@ -34,6 +74,32 @@
 			"title": {
 				"eng": "Sofa tables",
 				"trans": "沙發桌"
+			}
+		}
+	},
+	"RecipeType": {
+		"container": {
+			"title": {
+				"eng": "Containers",
+				"trans": "容器"
+			}
+		},
+		"containerKey": {
+			"title": {
+				"eng": "Container Keys",
+				"trans": "容器鑰匙"
+			}
+		},
+		"others": {
+			"title": {
+				"eng": "Others",
+				"trans": "其他"
+			}
+		},
+		"upgrades": {
+			"title": {
+				"eng": "Upgrade Materials",
+				"trans": "升級材料"
 			}
 		}
 	},
@@ -177,6 +243,72 @@
 			"trans": "這個能力是單一目標的，會對一個敵人使用，這種能力通常比多目標能力更強大，但對抗多個敵人時效果會較弱。"
 		}
 	},
+	"accountPage": {
+		"createdDate": {
+			"eng": "Created on ${date}",
+			"trans": "創建於${date}"
+		},
+		"deleteAccount": {
+			"confirm": {
+				"placeholder": {
+					"eng": "Enter \"${DELETE}\" here to confirm",
+					"trans": "在此輸入\"${DELETE}\"以確認"
+				},
+				"title": {
+					"eng": "Type \"${delete}\" to confirm",
+					"trans": "輸入\"${delete}\"以確認"
+				}
+			},
+			"confirmError": {
+				"eng": "You must type \"${delete}\" to confirm",
+				"trans": "您必須輸入\"${delete}\"以確認"
+			},
+			"eng": "Delete Account",
+			"title": {
+				"eng": "Danger Zone",
+				"trans": "危險區域"
+			},
+			"trans": "刪除帳號",
+			"warning": {
+				"eng": "This action is irreversible and will permanently delete your account and all associated data. Proceed with caution.",
+				"trans": "此操作不可逆，將永久刪除您的帳戶及所有相關數據。請謹慎操作。"
+			}
+		},
+		"linkApple": {
+			"success": {
+				"eng": "Account successfully linked with Apple Account",
+				"trans": "帳號已成功連結至Apple帳號"
+			}
+		},
+		"linkEmail": {
+			"failed": {
+				"eng": "Failed to link account: ${error}",
+				"trans": "無法連結帳號：${error}"
+			},
+			"success": {
+				"eng": "Account successfully linked with email",
+				"trans": "帳號已成功與電子郵件連結"
+			}
+		},
+		"linkError": {
+			"alreadyInUse": {
+				"eng": "Cannot link account with this credential because it is already associated with another account",
+				"trans": "無法使用此憑證連結帳號，因為它已與另一個帳號關聯。"
+			}
+		},
+		"linkGoogle": {
+			"success": {
+				"eng": "Account successfully linked with Google Account",
+				"trans": "帳號已成功與Google帳號連結"
+			}
+		}
+	},
+	"alertModal": {
+		"ok": {
+			"eng": "OK",
+			"trans": "好的"
+		}
+	},
 	"apartment": {
 		"apartment0": {
 			"displayName": {
@@ -200,6 +332,12 @@
 			"displayName": {
 				"eng": "Downtown Apartment",
 				"trans": "市中心公寓"
+			}
+		},
+		"chat": {
+			"cleared": {
+				"eng": "Apartment chat has been cleared.",
+				"trans": "公寓聊天已清空"
 			}
 		},
 		"enter": {
@@ -245,6 +383,12 @@
 			}
 		},
 		"rental": {
+			"notPaid": {
+				"title": {
+					"eng": "Apartment rental fee ${amount} has not been paid and your apartment has been removed",
+					"trans": "公寓租金${amount}未繳納，您的公寓已被移除。"
+				}
+			},
 			"paid": {
 				"title": {
 					"eng": "Apartment rental fee ${amount} has been deducted from your account",
@@ -254,7 +398,29 @@
 		}
 	},
 	"apartmentPage": {
+		"clearChat": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "取消"
+			},
+			"confirm": {
+				"eng": "clear chat",
+				"trans": "清除聊天"
+			},
+			"title": {
+				"eng": "Clear Chat",
+				"trans": "清除聊天"
+			},
+			"warning": {
+				"eng": "This will permanently delete all messages in your apartment chat. This action cannot be undone.",
+				"trans": "此操作將永久刪除您公寓聊天中的所有訊息，並且不可復原。"
+			}
+		},
 		"kitchenButton": {
+			"error": {
+				"eng": "You must be the owner of the apartment to access the kitchen",
+				"trans": "您必須是公寓的主人才能進入廚房"
+			},
 			"title": {
 				"eng": "kitchen",
 				"trans": "廚房"
@@ -280,6 +446,24 @@
 				"trans": "線上查看可用公寓"
 			}
 		},
+		"options": {
+			"clearChat": {
+				"eng": "clear chat",
+				"error": {
+					"eng": "The owner of this apartment must add you as a friend for you to send messages in this apartment.",
+					"trans": "這間公寓的主人必須先將你加為好友，才能在此公寓內發送訊息。"
+				},
+				"trans": "清除聊天"
+			},
+			"terminateLease": {
+				"eng": "terminate lease",
+				"trans": "結束租約"
+			},
+			"title": {
+				"eng": "Apartment Options",
+				"trans": "公寓設定"
+			}
+		},
 		"playerModal": {
 			"details": {
 				"eng": "details",
@@ -293,6 +477,24 @@
 		"purchase": {
 			"eng": "view apartments",
 			"trans": "查看公寓"
+		},
+		"terminateLease": {
+			"cancel": {
+				"eng": "cancel",
+				"trans": "取消"
+			},
+			"confirm": {
+				"eng": "terminate lease",
+				"trans": "結束租約"
+			},
+			"title": {
+				"eng": "Terminate Lease",
+				"trans": "退租"
+			},
+			"warning": {
+				"eng": "This will immediately terminate your apartment lease. You will NOT receive a refund.",
+				"trans": "注意：本操作將立即終止您的租賃。您不會收到退款。"
+			}
 		},
 		"unclaimedDeliveries": {
 			"title": {
@@ -329,10 +531,58 @@
 			"trans": "立即租借"
 		}
 	},
+	"appProductType": {
+		"premium5": {
+			"tag": {
+				"eng": "Popular",
+				"trans": "熱門"
+			}
+		},
+		"premium6": {
+			"tag": {
+				"eng": "Best Value",
+				"trans": "超值優惠"
+			}
+		}
+	},
 	"appleLogin": {
 		"button": {
 			"eng": "Sign in with Apple",
 			"trans": "使用蘋果帳號登入"
+		}
+	},
+	"arrestPlayerModal": {
+		"cancel": {
+			"eng": "ABORT",
+			"trans": "中止"
+		},
+		"confirm": {
+			"eng": "EXECUTE ARREST",
+			"trans": "執行逮捕"
+		},
+		"description": {
+			"arrestReward": {
+				"eng": "If you arrest a wanted player, you will receive rewards from ACPD",
+				"trans": "若你逮捕通緝玩家，將從 ACPD 獲得獎勵"
+			},
+			"eng": "You are about to arrest a wanted criminal.",
+			"trans": "你即將逮捕一名通緝犯。"
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "等級 ${level}"
+		},
+		"targetLabel": {
+			"eng": "WANTED CRIMINAL",
+			"trans": "通緝犯"
+		},
+		"title": {
+			"eng": "ARREST WARRANT",
+			"trans": "逮捕令"
+		},
+		"wantedLevel": {
+			"eng": "WANTED LVL ${level}",
+			"trans": "通緝等級 ${level}"
 		}
 	},
 	"attackBar": {
@@ -355,6 +605,48 @@
 		"instruction": {
 			"eng": "hold and release to attack",
 			"trans": "按住並釋放以進行攻擊"
+		}
+	},
+	"attackPlayerModal": {
+		"cancel": {
+			"eng": "STAND DOWN",
+			"trans": "遵從指令"
+		},
+		"confirm": {
+			"eng": "MUG PLAYER",
+			"trans": "搶劫玩家"
+		},
+		"description": {
+			"attackNonHostile": {
+				"eng": "You will be marked as Hostile for attacking non-hostile players",
+				"trans": "攻擊非敵對玩家將被標記為敵對"
+			},
+			"attackNoneWanted": {
+				"eng": "You will be wanted by the ACPD for attacking a player thats not wanted",
+				"trans": "你將因攻擊一名未被通緝的玩家而被ACPD通緝"
+			},
+			"eng": "You are about to engage in hostile combat. This action cannot be undone.",
+			"trans": "您即將進入敵對戰鬥。此行動無法撤回。"
+		},
+		"level": {
+			"eng": "LVL ${level}",
+			"trans": "等級 ${level}"
+		},
+		"riskWarning": {
+			"eng": "HIGH RISK OPERATION",
+			"trans": "高風險作戰"
+		},
+		"targetLabel": {
+			"eng": "TARGET",
+			"trans": "目標"
+		},
+		"title": {
+			"eng": "INITIATE COMBAT",
+			"trans": "啟動戰鬥"
+		},
+		"wantedLevel": {
+			"eng": "WANTED",
+			"trans": "通緝"
 		}
 	},
 	"attribute": {
@@ -399,6 +691,12 @@
 			}
 		}
 	},
+	"auth": {
+		"loggingIn": {
+			"eng": "Logging in...",
+			"trans": "登入中..."
+		}
+	},
 	"autoCalibrationPage": {
 		"calibrate": {
 			"eng": "Start Auto Calibration",
@@ -411,6 +709,10 @@
 		"destroyChance": {
 			"eng": "Destroy chance:",
 			"trans": "毀損機率"
+		},
+		"lastRepairUsed": {
+			"eng": "used ${count} ${repairItem} for repair",
+			"trans": "使用了${count} ${repairItem}進行修復"
 		},
 		"maxed": {
 			"eng": "Max Calibration Reached",
@@ -432,9 +734,93 @@
 			"eng": "Success chance:",
 			"trans": "成功機率:"
 		},
+		"tipv2": {
+			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.\\nKeep in mind that this process will automatically repair your equipment with ${repairItem}.",
+			"trans": "自動校準並修復您的物品，直至成功校準一次，或直到您停止流程為止。請注意，此流程將會使用${repairItem}自動修復您的裝備"
+		}
+	},
+	"autoFarm": {
+		"interrupt": {
+			"eng": "Interrupt",
+			"trans": "中斷"
+		},
+		"level": {
+			"eng": "Gathering Zone:",
+			"trans": "採集區域："
+		},
+		"rewards": {
+			"eng": "Gathered Rewards",
+			"trans": "獲得的獎勵"
+		},
+		"rush": {
+			"eng": "Rush",
+			"trans": "衝刺"
+		},
+		"start": {
+			"eng": "Start",
+			"trans": "開始"
+		},
 		"tip": {
-			"eng": "Automatically calibrate and repair your item until it have successfully calibrated it once, or if you stopped the process.",
-			"trans": "自動校準並修復您的物品，直到成功校準一次或是您手動停止。"
+			"eng": "You can unlock higher gathering zones by clearing ${difficulty} strongholds, the zone level is capped at your character level.",
+			"trans": "你可以透過清除${difficulty}地城來解鎖更高的採集區域，該區域的等級上限為你的角色等級。"
+		},
+		"title": {
+			"eng": "Auto Gather Progress",
+			"trans": "自動收集進度"
+		}
+	},
+	"autoResetPage": {
+		"complete": {
+			"eng": "Auto reset success!",
+			"trans": "自動重置成功！"
+		},
+		"error": {
+			"duplicateTraits": {
+				"eng": "You cannot select the same trait more than once",
+				"trans": "無法選擇重複的特性"
+			},
+			"emptyTraits": {
+				"eng": "You must select a prefix for each slot",
+				"trans": "每個插槽都必須選擇一個前綴詞"
+			}
+		},
+		"expectedChance": {
+			"eng": "The expected chance for this specific combination of prefixes is ${percentFrom}% ~ ${percentTo}%",
+			"trans": "此特定組合的前綴預期機率為 ${percentFrom}% ~ ${percentTo}%"
+		},
+		"reset": {
+			"eng": "Reset",
+			"trans": "重設"
+		},
+		"resources": {
+			"title": {
+				"eng": "Resources",
+				"trans": "資源"
+			}
+		},
+		"selectShard": {
+			"label": {
+				"eng": "Prefix ${index}",
+				"trans": "詞綴 ${index}"
+			},
+			"title": {
+				"eng": "Select shard",
+				"trans": "選擇碎片"
+			}
+		},
+		"selectTraits": {
+			"title": {
+				"eng": "Select traits",
+				"trans": "選擇特質"
+			}
+		},
+		"stop": {
+			"eng": "Stop",
+			"trans": "停止"
+		},
+		"tip": {
+			"eng": "The chances of rolling traits is exactly the same as manually re-rolling, this is just a automatic re-roll feature for convenience.",
+			"trans": "抽取特質的機率與手動重新抽取完全相同，這只是一個自動重新抽取的功能，以方便玩家。"
 		}
 	},
 	"backgroundTask": {
@@ -471,6 +857,14 @@
 		"inProgress": {
 			"eng": "Task in progress...",
 			"trans": "任務進行中..."
+		},
+		"instantFinish": {
+			"eng": "Finish Now",
+			"trans": "現在完成"
+		},
+		"instantFinishConfirmTitle": {
+			"eng": "Finish task now?",
+			"trans": "現在完成任務嗎？"
 		}
 	},
 	"backgroundTaskPage": {
@@ -622,6 +1016,118 @@
 		}
 	},
 	"battlePass": {
+		"april": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "連續21天每日領取不同獎勵，第22天最高可領取${itemName}"
+			},
+			"subtitle": {
+				"eng": "Battle Pass",
+				"trans": "戰鬥通行證"
+			},
+			"title": {
+				"eng": "Cyber April",
+				"trans": "Cyber April"
+			}
+		},
+		"christmas": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "可連續21天獲得各種每日獎勵，第22天更可獲得最多${itemName}"
+			},
+			"subtitle": {
+				"eng": "Christmas Rewards",
+				"trans": "聖誕節獎勵"
+			},
+			"title": {
+				"eng": "Merry Mysteries",
+				"trans": "快樂神秘"
+			}
+		},
+		"crystal": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "連續21天每日領取不同獎勵，第22天最高可領取${itemName}"
+			},
+			"subtitle": {
+				"eng": "Battle Track",
+				"trans": "戰鬥軌跡"
+			},
+			"title": {
+				"eng": "Shardlight Crystal",
+				"trans": "碎片水晶"
+			}
+		},
+		"halloween": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "每日獲得各種獎勵，持續21天，並在第22天獲得${itemName}。"
+			},
+			"subtitle": {
+				"eng": "halloween Package",
+				"trans": "萬聖節包裹"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "戰鬥通行證"
+			}
+		},
+		"july": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "每日獲得各種獎勵，持續21天，並在第22天獲得${itemName}。"
+			},
+			"subtitle": {
+				"eng": "July Package",
+				"trans": "七月包裹"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "戰鬥通行證"
+			}
+		},
+		"june": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "21 天內每天獲得各種獎勵，第 22 天可獲得最高 ${itemName} 獎勵 \n"
+			},
+			"subtitle": {
+				"eng": "June Package",
+				"trans": "六月禮包"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "戰鬥通行證"
+			}
+		},
+		"lunar": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "連續21天每日領取不同獎勵，第22天最高可領取${itemName}"
+			},
+			"subtitle": {
+				"eng": "Golden Blessings",
+				"trans": "黃金祝福"
+			},
+			"title": {
+				"eng": "Lunar Bliss",
+				"trans": "新年快樂"
+			}
+		},
+		"may": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "每日登入領取好禮，連續21天登入，第22天最高可領取${itemName}"
+			},
+			"subtitle": {
+				"eng": "Battle Pass",
+				"trans": "戰鬥通行證"
+			},
+			"title": {
+				"eng": "Vector Force Assault",
+				"trans": "原力突擊"
+			}
+		},
 		"mercEnhancer": {
 			"description": {
 				"eng": "Receive free ${item} every day",
@@ -647,6 +1153,82 @@
 				"eng": "Unleash Power",
 				"trans": "釋放力量"
 			}
+		},
+		"november": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "每日獲得各種獎勵，持續21天，並在第22天獲得${itemName}。"
+			},
+			"subtitle": {
+				"eng": "November Package",
+				"trans": "十一月包裹"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "戰鬥通行證"
+			}
+		},
+		"sakura": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "每日登入領取好禮，連續21天登入可領取${itemName}"
+			},
+			"subtitle": {
+				"eng": "Neon Bloom",
+				"trans": "霓虹綻放"
+			},
+			"title": {
+				"eng": "Sakura Byte",
+				"trans": "櫻花位元"
+			}
+		},
+		"september": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "每日獲得各種獎勵，持續21天，並在第22天獲得${itemName}。"
+			},
+			"subtitle": {
+				"eng": "september Package",
+				"trans": "九月通行證"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "戰鬥通行證"
+			}
+		},
+		"standard": {
+			"pass0": {
+				"name": {
+					"eng": "free",
+					"trans": "免費"
+				}
+			},
+			"pass1": {
+				"name": {
+					"eng": "Basic",
+					"trans": "基礎"
+				}
+			},
+			"pass2": {
+				"name": {
+					"eng": "Advanced",
+					"trans": "進階"
+				}
+			}
+		},
+		"summer": {
+			"description": {
+				"eng": "Receive various rewards daily for 21 days, and up to ${itemName} at the 22th day",
+				"trans": "每日獲得各種獎勵，持續21天，並在第22天獲得${itemName}。"
+			},
+			"subtitle": {
+				"eng": "summer Package",
+				"trans": "夏季包裝"
+			},
+			"title": {
+				"eng": "Battle Pass",
+				"trans": "戰鬥通行證"
+			}
 		}
 	},
 	"battlePassOverlay": {
@@ -662,6 +1244,14 @@
 			"eng": "Day ${num}",
 			"trans": "第${num}天"
 		},
+		"daysRemaining": {
+			"eng": "${days} days remaining",
+			"trans": "剩餘${days}天"
+		},
+		"endsIn": {
+			"eng": "purchasable till ${date}",
+			"trans": "開放購買至${date}"
+		},
 		"item": {
 			"claimed": {
 				"eng": "Claimed",
@@ -673,39 +1263,66 @@
 			},
 			"pending": {
 				"eng": "Pending",
-				"trans": "待處理"
+				"trans": "未領取"
 			},
 			"unclaimed": {
 				"eng": "Claim",
 				"trans": "領取"
+			},
+			"unlock": {
+				"eng": "Unlock",
+				"trans": "解鎖"
 			}
 		},
 		"itemStillPending": {
 			"eng": "This item is still pending. Please wait until the next refresh.",
-			"trans": "這個物品還在等待中。請等待下一次更新。"
+			"trans": "尚未開放，請等待下一次重置。"
+		},
+		"redeemableWindow": {
+			"eng": "${days} days redeemable window",
+			"trans": "可兌換期間：${days}天"
 		},
 		"timeToNextRefresh": {
 			"eng": "Time to next refresh",
-			"trans": "下次更新時間到了",
-			"vars": []
+			"trans": "下次重置時間還有"
 		},
 		"unlock": {
 			"eng": "Unlock",
 			"trans": "解鎖"
 		}
 	},
+	"battlePassSmall": {
+		"discount": {
+			"eng": "Discount",
+			"trans": "打折中!"
+		}
+	},
 	"battlePassUnlockModal": {
+		"details": {
+			"eng": "Battle Pass Details",
+			"trans": "戰鬥通行證詳情"
+		},
 		"unlockBattlePass": {
 			"eng": "Unlock ${tier} Battle Pass",
-			"trans": "解鎖${tier}級戰鬥通行證"
+			"trans": "解鎖${tier}戰鬥通行證"
 		},
 		"unlockBattlePassDescription": {
 			"eng": "Unlock this battle pass tier to make the ${tier} tier rewards available.",
-			"trans": "解鎖此戰鬥通行證層級，以獲得${tier}層級的獎勵。"
+			"trans": "解鎖此戰鬥通行證，以獲得${tier}的獎勵。"
 		},
 		"unlockNow": {
 			"eng": "Unlock Now",
 			"trans": "立即解鎖"
+		}
+	},
+	"blockedPlayerListPage": {
+		"noBlockedPlayers": {
+			"eng": "No blocked players",
+			"trans": "沒有封鎖玩家"
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "解鎖"
 		}
 	},
 	"buff": {
@@ -735,6 +1352,12 @@
 			"name": {
 				"eng": "Daily Free Bundle",
 				"trans": "每日免費禮包"
+			}
+		},
+		"freeHideoutLocator": {
+			"name": {
+				"eng": "Free Hideout Locator",
+				"trans": "免費幫派據點定位器"
 			}
 		},
 		"itemUpgradeDeal": {
@@ -828,8 +1451,7 @@
 			},
 			"title": {
 				"eng": "Your name is \"${name}\"?",
-				"trans": "您的名字是\"${name}\"？",
-				"vars": []
+				"trans": "您的名字是\"${name}\"？"
 			}
 		},
 		"createButton": {
@@ -848,15 +1470,91 @@
 		}
 	},
 	"chat": {
+		"channel": {
+			"clan": {
+				"eng": "Clan",
+				"trans": "部落"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "全球"
+			},
+			"local": {
+				"eng": "Local",
+				"trans": "本地"
+			},
+			"private": {
+				"eng": "Private",
+				"trans": "私密"
+			},
+			"system": {
+				"eng": "System",
+				"trans": "系統"
+			}
+		},
+		"error": {
+			"levelRestriction1": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "至少${level}級才能傳送全球訊息。"
+			},
+			"levelRestriction2": {
+				"eng": "You need to be at least level ${level} to send message to global.",
+				"trans": "至少${level}級才能傳送全球訊息。"
+			},
+			"link": {
+				"eng": "Links are not allowed in messages",
+				"trans": "訊息中不允許包含連結"
+			},
+			"tooLong": {
+				"eng": "Message is too long",
+				"trans": "字數上限已達"
+			}
+		},
+		"imageView": {
+			"close": {
+				"eng": "close",
+				"trans": "關閉"
+			}
+		},
 		"inputPlaceholder": {
 			"eng": "Type a message...",
 			"trans": "輸入訊息..."
+		},
+		"mention": {
+			"title": {
+				"eng": "${sender} has mentioned you",
+				"trans": "${sender} 提及你"
+			}
+		},
+		"sendImage": {
+			"eng": "Send Image",
+			"trans": "傳送圖片"
+		}
+	},
+	"chatMessageModal": {
+		"gangNotFound": {
+			"eng": "Gang not found",
+			"trans": "找不到幫派"
 		}
 	},
 	"chatPreview": {
 		"noMessage": {
 			"eng": "no message",
 			"trans": "沒有訊息。"
+		}
+	},
+	"chirp": {
+		"chat": {
+			"eng": "Chat",
+			"trans": "聊天"
+		},
+		"global": {
+			"eng": "global",
+			"trans": "全球"
+		},
+		"regional": {
+			"eng": "regional",
+			"trans": "區域"
 		}
 	},
 	"chooseEquipmentSlotModal": {
@@ -904,13 +1602,27 @@
 			"eng": "Image updated successfully",
 			"trans": "圖片更新成功"
 		},
+		"notice": {
+			"prefix": {
+				"eng": "Notice:",
+				"trans": "通知："
+			}
+		},
 		"notification": {
 			"collapsed": {
+				"body": {
+					"eng": "Your gang has collapsed due to lack of resources and funds.",
+					"trans": "由於缺乏資源與資金，你的幫派已解散。"
+				},
 				"title": {
 					"eng": "Your gang has collapsed!",
 					"trans": "您的幫派已經潰散了！"
 				}
 			}
+		},
+		"requestSent": {
+			"eng": "Request sent successfully",
+			"trans": "請求已成功發送"
 		}
 	},
 	"clanBuffDeployPopup": {
@@ -980,6 +1692,12 @@
 			"eng": "Funds",
 			"trans": "資金"
 		},
+		"gang": {
+			"members": {
+				"eng": "${amount} members",
+				"trans": "${amount} 名成員"
+			}
+		},
 		"joinButton": {
 			"eng": "Join",
 			"trans": "加入"
@@ -987,6 +1705,16 @@
 		"leaveClan": {
 			"eng": "leave gang",
 			"trans": "離開幫派"
+		},
+		"leaveClanModal": {
+			"description": {
+				"eng": "Are you sure you want to leave this gang?",
+				"trans": "您真的要退出此幫派嗎？"
+			},
+			"title": {
+				"eng": "Leave gang",
+				"trans": "離開幫派"
+			}
 		},
 		"makePrivate": {
 			"eng": "Make Private",
@@ -1014,9 +1742,23 @@
 			"eng": "There is no motto set for this gang yet",
 			"trans": "這個幫派還沒有座右銘。"
 		},
+		"noticeModal": {
+			"description": {
+				"eng": "Posting a notice will cost ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}",
+				"trans": "發布公告將耗費 ${Config.CLAN.NOTICE_POST_COST}${CurrencyType.NORMAL.getSymbol()}"
+			},
+			"title": {
+				"eng": "Post gang notice",
+				"trans": "發布幫派公告"
+			}
+		},
 		"playerListButton": {
 			"eng": "Member List",
 			"trans": "成員清單"
+		},
+		"postNoticeButton": {
+			"eng": "Post Notice",
+			"trans": "發布公告"
 		},
 		"requestToJoinButton": {
 			"eng": "Request to join",
@@ -1043,6 +1785,28 @@
 		"unavailable": {
 			"eng": "This gang is unavailable",
 			"trans": "這個幫派不可用"
+		}
+	},
+	"clanImagePage": {
+		"bannerImage": {
+			"description": {
+				"eng": "Banner image will be displayed on the territory banner, recommended size is ${ratio}",
+				"trans": "橫幅圖片將顯示在領地橫幅上，建議尺寸為${ratio}"
+			},
+			"title": {
+				"eng": "Banner Image",
+				"trans": "橫幅圖片"
+			}
+		},
+		"mainImage": {
+			"description": {
+				"eng": "Main image will be displayed on the gang page, recommended size is ${ratio}",
+				"trans": "主圖將顯示在幫派頁面上，建議尺寸為${ratio}"
+			},
+			"title": {
+				"eng": "Main Image",
+				"trans": "主圖像"
+			}
 		}
 	},
 	"clanPlayer": {
@@ -1100,6 +1864,38 @@
 		}
 	},
 	"clanSearchPage": {
+		"noClan": {
+			"ConfirmJoinButton": {
+				"description": {
+					"eng": "Are you sure you want to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "你確定要加入名為\"${name}\"，標籤為\"${tag}\"的幫派嗎？"
+				},
+				"title": {
+					"eng": "Join",
+					"trans": "加入"
+				}
+			},
+			"joinButton": {
+				"title": {
+					"eng": "Join Gang",
+					"trans": "加入幫派"
+				}
+			},
+			"requestButton": {
+				"description": {
+					"eng": "Are you sure you want to send a request to join the gang with the name \"${name}\" and tag \"${tag}\"?",
+					"trans": "您確定要發送請求加入名為\"${name}\"、標籤為\"${tag}\"的幫派嗎？"
+				},
+				"title": {
+					"eng": "Send Request",
+					"trans": "發送請求"
+				}
+			},
+			"title": {
+				"eng": "No gang found",
+				"trans": "未找到幫派"
+			}
+		},
 		"searchBox": {
 			"title": {
 				"eng": "Gang name",
@@ -1128,29 +1924,35 @@
 		}
 	},
 	"collectedLoreNotes": {
-		"description": {
-			"eng": "You have collected ${collected} of ${total} lore notes.",
-			"trans": "您已經收集了${collected}份中的${total}份背景故事。"
-		},
 		"noNotes": {
 			"eng": "You have not collected any lore notes yet.",
 			"trans": "您尚未收集到任何背景故事。"
+		},
+		"progressBar": {
+			"title": {
+				"eng": "Notes Collected",
+				"trans": "收集的筆記"
+			},
+			"unit": {
+				"eng": "Lore Notes",
+				"trans": "背景故事筆記"
+			}
 		},
 		"title": {
 			"eng": "Collected Lore Notes",
 			"trans": "已收集的背景故事"
 		}
 	},
+	"comatEnemyList": {
+		"scaledLevel": {
+			"eng": "scaled Lv. ${level}",
+			"trans": "等級已縮放 ${level}"
+		}
+	},
 	"combatHandler": {
-		"engagePlayerPopup": {
-			"description": {
-				"eng": "Are you sure you want to attack this player?",
-				"trans": "你確定要攻擊這個玩家嗎？"
-			},
-			"title": {
-				"eng": "Attack Player",
-				"trans": "攻擊玩家"
-			}
+		"arrestPlayerError": {
+			"eng": "This player has already been arrested",
+			"trans": "此玩家已被逮捕"
 		},
 		"notEnoughPsyche": {
 			"eng": "Your cyber-psychosis level is too high to engage in fights",
@@ -1207,6 +2009,24 @@
 			"trans": "${enemyName}對${player}造成${damage}點傷害"
 		}
 	},
+	"common": {
+		"close": {
+			"eng": "Close",
+			"trans": "關閉"
+		},
+		"error": {
+			"eng": "Error loading investigation data",
+			"trans": "載入調查資料失敗"
+		},
+		"loading": {
+			"eng": "Loading...",
+			"trans": "載入中…"
+		},
+		"retry": {
+			"eng": "Retry",
+			"trans": "重試"
+		}
+	},
 	"compactRewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${amount} control on territory",
@@ -1258,6 +2078,34 @@
 			"title": {
 				"eng": "Reconnecting to mainframe... (${attempt})",
 				"trans": "重新連線至主機...第 ${attempt} 次嘗試"
+			}
+		},
+		"resuming": {
+			"description1": {
+				"eng": "Establishing connection to mainframe.",
+				"trans": "正在連接主機"
+			},
+			"description2": {
+				"eng": "All systems nominal, please standby...",
+				"trans": "全部系統運作正常，請待命..."
+			},
+			"title": {
+				"eng": "Connecting to server...",
+				"trans": "連線至伺服器..."
+			}
+		},
+		"updating": {
+			"description1": {
+				"eng": "Updating system, please standby...",
+				"trans": "系統更新中，請稍候..."
+			},
+			"description2": {
+				"eng": "This will not consume network data.",
+				"trans": "這不會消耗網路流量。"
+			},
+			"title": {
+				"eng": "Server Updating...",
+				"trans": "伺服器更新中..."
 			}
 		}
 	},
@@ -1335,21 +2183,29 @@
 	},
 	"crafting": {
 		"craftModal": {
+			"cancel": {
+				"eng": "Cancel",
+				"trans": "取消"
+			},
 			"title": {
 				"eng": "Select Amount",
 				"trans": "選擇數量"
 			}
+		},
+		"tip": {
+			"eng": "You can also craft directly from your inventory",
+			"trans": "你也可以直接從你的倉庫製作物品"
+		},
+		"title": {
+			"eng": "Crafting",
+			"trans": "製作"
 		}
 	},
 	"createGang": {
-		"confirmModal": {
-			"description": {
-				"eng": "Are you sure you want to create a gang with \\nthe name \"${name}\" and tag \"${tag}\"?",
-				"trans": "你確定要建立一個名為\"${name}\"且標籤為\"${tag}\"的幫派嗎？"
-			},
+		"createButton": {
 			"title": {
-				"eng": "Create gang",
-				"trans": "建立幫派"
+				"eng": "Create New Gang",
+				"trans": "創建新幫派"
 			}
 		},
 		"createGangButton": {
@@ -1361,12 +2217,6 @@
 		"description": {
 			"eng": "Create your own gang and invite your friends to join!",
 			"trans": "建立您的幫派並邀請朋友加入。"
-		},
-		"fullJoinButton": {
-			"title": {
-				"eng": "Members full",
-				"trans": "成員滿員"
-			}
 		},
 		"gangNameInput": {
 			"title": {
@@ -1380,34 +2230,12 @@
 				"trans": "幫派標記"
 			}
 		},
-		"joinButton": {
-			"title": {
-				"eng": "Join",
-				"trans": "加入"
-			}
-		},
-		"joinExistingClanButton": {
-			"title": {
-				"eng": "Join existing gang",
-				"trans": "加入現有幫派"
-			}
-		},
 		"title": {
 			"eng": "Create new gang",
 			"trans": "建立新幫派"
 		}
 	},
 	"crewTab": {
-		"detailModal": {
-			"detail": {
-				"eng": "view details",
-				"trans": "查看詳情"
-			},
-			"remove": {
-				"eng": "Remove from crew",
-				"trans": "從隊伍中移除"
-			}
-		},
 		"selectPopup": {
 			"title": {
 				"eng": "Select mercenary",
@@ -1436,6 +2264,16 @@
 			"name": {
 				"eng": "Netcoin",
 				"trans": "網幣"
+			}
+		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device that can be used to locate hidden hideouts.",
+				"trans": "可定位隱藏據點的裝置。"
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "幫派據點定位器"
 			}
 		},
 		"mercExpCurrency": {
@@ -1493,6 +2331,20 @@
 		"noDailyQuests": {
 			"eng": "No daily quests available",
 			"trans": "沒有每日任務可用。"
+		}
+	},
+	"dailyReward": {
+		"refresh": {
+			"noti": {
+				"body": {
+					"eng": "Today's Daily Reward Awaits! Log in and Claim Your Reward Now! 🌟",
+					"trans": "今天的每日獎勵已經準備好了！立即登入並領取你的獎勵吧！🌟"
+				},
+				"title": {
+					"eng": "Grab Your Daily Reward!",
+					"trans": "領取每日獎勵吧！"
+				}
+			}
 		}
 	},
 	"dailyRewardPopup": {
@@ -1579,7 +2431,7 @@
 		"premiumCurrencyRecoverButton": {
 			"title": {
 				"eng": "Pay with ${currency}",
-				"trans": "支付${amount}${$2}"
+				"trans": "使用${currency}支付"
 			}
 		},
 		"removeItems": {
@@ -1617,6 +2469,38 @@
 			"trans": "刪除角色"
 		}
 	},
+	"desktopLayout": {
+		"rightSidebar": {
+			"clanChatDescription": {
+				"eng": "Gang chat is only available when you are in a gang.",
+				"trans": "幫派聊天只有在您是幫派成員時才可用。"
+			},
+			"notAvailable": {
+				"eng": "Not Available",
+				"trans": "不可用"
+			}
+		}
+	},
+	"desktopRightSidebar": {
+		"channel": {
+			"chirp": {
+				"eng": "Chirp",
+				"trans": "Chirp"
+			},
+			"clan": {
+				"eng": "Gang Chat",
+				"trans": "幫派聊天"
+			},
+			"global": {
+				"eng": "Global",
+				"trans": "全球"
+			},
+			"mail": {
+				"eng": "Mail",
+				"trans": "郵件"
+			}
+		}
+	},
 	"dismantle": {
 		"error": {
 			"notIdle": {
@@ -1635,6 +2519,50 @@
 		"dismantleButton": {
 			"eng": "Dismantle",
 			"trans": "拆解"
+		}
+	},
+	"displayShelf": {
+		"confirmUnlock": {
+			"eng": "Unlock Slot ${i}?",
+			"trans": "解鎖${i}號槽？"
+		},
+		"empty": {
+			"eng": "Empty",
+			"trans": "空"
+		},
+		"error": {
+			"lowLevel": {
+				"eng": "You need to reach level ${level}",
+				"trans": "你需要達到等級${level}"
+			},
+			"noMoney": {
+				"eng": "Not enough ${currency}",
+				"trans": "${currency}不夠"
+			}
+		},
+		"locked": {
+			"eng": "Locked",
+			"trans": "已鎖定"
+		},
+		"selectItem": {
+			"eng": "Select Item",
+			"trans": "選擇物品"
+		},
+		"slot": {
+			"eng": "Slot ${i}",
+			"trans": "插槽 ${i}"
+		},
+		"title": {
+			"eng": "Display Shelf",
+			"trans": "展示架"
+		},
+		"unlockHint": {
+			"eng": "Click a locked slot to unlock (Lv ${level} + ${price} ${currency})",
+			"trans": "點擊鎖定的格子即可解鎖（Lv ${level} ＋ ${price} ${currency}）"
+		},
+		"unlockReqFull": {
+			"eng": "Requires Level ${level} and ${price} ${currency}",
+			"trans": "需等級${level}及${price} ${currency}"
 		}
 	},
 	"drawMercAnimation": {
@@ -1704,6 +2632,18 @@
 			"enemyInRoom2": {
 				"eng": "You cannot perform this action while there are enemies nearby",
 				"trans": "當附近有敵人時，您無法執行此操作。"
+			},
+			"failedToLoadAssets": {
+				"eng": "Failed to load assets: ${error}",
+				"trans": "無法載入資源：${error}"
+			},
+			"maxLootLevelDifference": {
+				"eng": "You cannot loot this chest because your level is too high",
+				"trans": "你無法搜索這個寶箱，因為你的等級太高了。"
+			},
+			"noKey": {
+				"eng": "This chest is locked. Find a key to open it!",
+				"trans": "此寶箱已被鎖住。請尋找鑰匙開啟！"
 			}
 		},
 		"type": {
@@ -1737,6 +2677,10 @@
 		"close": {
 			"eng": "Close",
 			"trans": "關閉"
+		},
+		"resultTitle": {
+			"eng": "Result",
+			"trans": "結果"
 		}
 	},
 	"dungeonEffect": {
@@ -1824,17 +2768,21 @@
 				"trans": "地城"
 			}
 		},
+		"inventoryButton": {
+			"title": {
+				"eng": "Inventory",
+				"trans": "倉庫"
+			}
+		},
 		"levelSelect": {
 			"label": {
 				"eng": "level",
 				"trans": "等級"
 			}
 		},
-		"manageInventoryButton": {
-			"title": {
-				"eng": "Manage Inventory",
-				"trans": "整理裝備"
-			}
+		"loading": {
+			"eng": "Connecting to lobby...",
+			"trans": "連接到大廳中..."
 		},
 		"playerModal": {
 			"kick": {
@@ -1869,6 +2817,10 @@
 		"ready": {
 			"eng": "Ready",
 			"trans": "準備就緒"
+		},
+		"socialButton": {
+			"eng": "social",
+			"trans": "社交"
 		},
 		"territoryGang": {
 			"eng": "Strongholds created by member of ${gangName} in this district will receive extra buff",
@@ -1947,6 +2899,10 @@
 				"eng": "Public strongholds",
 				"trans": "公共地城"
 			}
+		},
+		"notEnoughResources": {
+			"eng": "You do not have enough resources, you may try ${difficulty} instead, ${error}",
+			"trans": "你沒有足夠的資源，你可以嘗試${difficulty}，${error}"
 		}
 	},
 	"dungeonUI": {
@@ -1969,17 +2925,17 @@
 			}
 		},
 		"invNoHealing": {
-			"cancel": {
+			"confirm": {
 				"eng": "Continue",
 				"trans": "繼續"
 			},
-			"confirm": {
+			"message": {
+				"eng": "Seems like your are running low on healing items such as ${item1} or ${item2}\\nIt's recommended to purchase some from ${npc} before entering strongholds",
+				"trans": "看起來你的治療物品，像是${item1}或${item2}，都快用完了\\n建議在進入地城前，先從${npc}購買一些。"
+			},
+			"purchase": {
 				"eng": "purchase",
 				"trans": "購買"
-			},
-			"message": {
-				"eng": "Seems like your are running low on heals, purchase some to bring it to strongholds.",
-				"trans": "看起來您的治療補給品有點不足，購買一些補藥到地城。"
 			},
 			"title": {
 				"eng": "low healing items",
@@ -2029,14 +2985,96 @@
 			}
 		}
 	},
+	"emoji": {
+		"angry": {
+			"displayName": {
+				"eng": "Angry",
+				"trans": "火大"
+			}
+		},
+		"eyes": {
+			"displayName": {
+				"eng": "Eyes",
+				"trans": "眼睛"
+			}
+		},
+		"fire": {
+			"displayName": {
+				"eng": "Fire",
+				"trans": "開火"
+			}
+		},
+		"heart": {
+			"displayName": {
+				"eng": "Love",
+				"trans": "愛"
+			}
+		},
+		"potato": {
+			"displayName": {
+				"eng": "Potato",
+				"trans": "洋芋"
+			}
+		},
+		"sad": {
+			"displayName": {
+				"eng": "Sad",
+				"trans": "慘"
+			}
+		},
+		"thumbsup": {
+			"displayName": {
+				"eng": "Like",
+				"trans": "讚"
+			}
+		},
+		"worship": {
+			"displayName": {
+				"eng": "worship",
+				"trans": "崇拜"
+			}
+		},
+		"wow": {
+			"displayName": {
+				"eng": "Wow",
+				"trans": "酷"
+			}
+		}
+	},
+	"enemyEvent": {
+		"description": {
+			"eng": "This event triggers rarely when you are exploring and fighting enemies",
+			"trans": "此事件在您探索和戰鬥敵人時很少觸發"
+		},
+		"startMinigame": {
+			"eng": "Unlock",
+			"trans": "解鎖"
+		},
+		"title": {
+			"eng": "Encounter Event",
+			"trans": "遭遇事件"
+		},
+		"unlockDescription": {
+			"eng": "Receive reward by solving the minigame",
+			"trans": "解謎小遊戲獲得獎勵"
+		},
+		"unlockTitle": {
+			"eng": "unlock",
+			"trans": "解鎖"
+		}
+	},
 	"enemyTabContent": {
-		"addEnemy": {
-			"eng": "Add Enemies",
-			"trans": "新增敵人"
+		"addToEnemyList": {
+			"eng": "Add To Enemy List",
+			"trans": "加入敵人名單"
 		},
 		"attack": {
 			"eng": "Attack",
 			"trans": "攻擊"
+		},
+		"enemiesList": {
+			"eng": "Enemies List",
+			"trans": "目標清單"
 		},
 		"removeEnemy": {
 			"eng": "Remove Enemy",
@@ -2196,9 +3234,9 @@
 		}
 	},
 	"errorBoundary": {
-		"description": {
-			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer at ${email}",
-			"trans": "錯誤報告已傳送給開發人員。\\n如果這個問題持續出現，請聯繫開發人員，"
+		"description1": {
+			"eng": "Error report has been sent to the developer. \\nIf this error persists, please contact the developer",
+			"trans": "出錯回報已送出給開發者。\\n如果問題還是存在，請跟開發者聯絡。"
 		},
 		"restart": {
 			"eng": "Restart",
@@ -2217,6 +3255,20 @@
 				"eng": "Update Received",
 				"trans": "更新已完成"
 			}
+		}
+	},
+	"eventTopUpRewardsBanner": {
+		"rewards": {
+			"eng": "Rewards:",
+			"trans": "獎勵："
+		},
+		"subtitle": {
+			"eng": "Available during: ${events}",
+			"trans": "適用於：${events}"
+		},
+		"title": {
+			"eng": "Event Top-Up Bonus",
+			"trans": "活動充值獎勵"
 		}
 	},
 	"feedbackPopup": {
@@ -2291,11 +3343,267 @@
 			"trans": "首儲雙倍回饋"
 		}
 	},
+	"followLottery": {
+		"error": {
+			"invalidPrimeTargetIndex": {
+				"eng": "Invalid prime target index",
+				"trans": "主要目標索引無效"
+			},
+			"noPrimeTargetSelected": {
+				"eng": "Please select a prime target first",
+				"trans": "請先選擇主要目標"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient ${currency}",
+				"trans": "${currency}不足"
+			}
+		},
+		"mail": {
+			"normalWin": {
+				"eng": "You received: ${normalItem} from the ${lotteryType} Follow-Up Lottery. Better luck next time! The reward will be sent to your apartment.",
+				"trans": "你從${lotteryType}追加抽獎中獲得了${normalItem}，下次再接再厲！獎勵將寄送至你的公寓。"
+			},
+			"primeWin": {
+				"eng": "Congratulations! You won the Prime Target: ${primeItem} from the ${lotteryType} Follow-Up Lottery, plus a bonus: ${normalItem}! The rewards will be sent to your apartment.",
+				"trans": "恭喜！你在${lotteryType}追加抽獎中獲得了首獎：${primeItem}，還有額外獎勵：${normalItem}！獎品將寄送至你的公寓。"
+			}
+		}
+	},
+	"followUpLottery": {
+		"animation": {
+			"analyzing": {
+				"eng": "ANALYZING TARGET",
+				"trans": "分析目標"
+			},
+			"calculatingTitle": {
+				"eng": "CALCULATING PRIME...",
+				"trans": "計算中..."
+			},
+			"completeTitle": {
+				"eng": "RESULTS ARE IN!",
+				"trans": "結果出爐了!"
+			},
+			"primeNotWon": {
+				"eng": "No prime target this time, chance will be higher next roll!",
+				"trans": "這次沒中首選目標，下一輪機會更大！"
+			},
+			"primeWon": {
+				"eng": "PRIME TARGET ACQUIRED!",
+				"trans": "主要目標已鎖定!"
+			},
+			"title": {
+				"eng": "ROLLING...",
+				"trans": "進行中..."
+			}
+		},
+		"cyberCache": {
+			"displayName": {
+				"eng": "Cyber Cache",
+				"trans": "資料快取"
+			},
+			"subtitle": {
+				"eng": "Advanced tech rewards await",
+				"trans": "高科技獎勵等你來拿"
+			}
+		},
+		"description": {
+			"eng": "Follow-Up Lottery",
+			"trans": "加碼抽獎"
+		},
+		"error": {
+			"periodEnded": {
+				"eng": "The lottery period has ended. Please select a target again.",
+				"trans": "抽獎時間已結束。請重新選擇目標。"
+			},
+			"selectTargetFirst": {
+				"eng": "Please select a prime target first!",
+				"trans": "請先選擇主要目標！"
+			}
+		},
+		"info": {
+			"currentChance": {
+				"eng": "Prime Chance",
+				"trans": "頂級機會"
+			},
+			"reset": {
+				"eng": "The lottery period has ended and was reset.",
+				"trans": "抽獎期間已結束並重置。"
+			},
+			"resetIn": {
+				"eng": "Resets In",
+				"trans": "倒計時重置"
+			}
+		},
+		"main": {
+			"currentTarget": {
+				"eng": "Current Prime Target",
+				"trans": "目前首要目標"
+			},
+			"guaranteedRewards": {
+				"eng": "Guaranteed Rewards",
+				"trans": "保證獎勵"
+			},
+			"roll": {
+				"eng": "ROLL",
+				"trans": "投骰子"
+			},
+			"selectPrimeTarget": {
+				"eng": "Select Prime Target",
+				"trans": "選擇主要目標"
+			},
+			"targetSelected": {
+				"eng": "Target Selected",
+				"trans": "目標已鎖定"
+			},
+			"tierProgress": {
+				"eng": "TIER PROGRESS",
+				"trans": "階級進度"
+			}
+		},
+		"preRoll": {
+			"desc": {
+				"eng": "Prizes will be selected from the pool below. Good luck.",
+				"trans": "獎品會從下面的獎池中選出。祝你走運！"
+			},
+			"normalPrizes": {
+				"eng": "Normal Prize Pool",
+				"trans": "普通獎池"
+			},
+			"primeTarget": {
+				"eng": "Your Prime Target",
+				"trans": "你的頭號目標"
+			},
+			"title": {
+				"eng": "PREPARE TO ROLL",
+				"trans": "即將滾動"
+			}
+		},
+		"prompt": {
+			"selectTarget": {
+				"eng": "Select a Prime Target below to begin.",
+				"trans": "選取下列主要目標後即可開始"
+			}
+		},
+		"resetConfirm": {
+			"afterReset": {
+				"eng": "After Reset",
+				"trans": "重置後"
+			},
+			"currentProgress": {
+				"eng": "Current Progress",
+				"trans": "當前進度"
+			},
+			"description": {
+				"eng": "You can choose a new Prime Target after resetting, but you will lose your current progress.",
+				"trans": "重置後可以選擇新的主要目標，但會失去當前進度。"
+			},
+			"title": {
+				"eng": "Reset Prime Target?",
+				"trans": "重置主要目標？"
+			}
+		},
+		"result": {
+			"continue": {
+				"eng": "CONTINUE",
+				"trans": "繼續"
+			},
+			"desc": {
+				"eng": "Data decrypted. Contents are as follows:",
+				"trans": "資料已解密，內容如下"
+			},
+			"title": {
+				"eng": "PRIZE ACQUIRED",
+				"trans": "獎勵獲得"
+			}
+		},
+		"selectTarget": {
+			"description": {
+				"eng": "Do you want to select this item as your Prime Target?",
+				"trans": "您想選擇這個物品作為您的首要目標嗎？"
+			},
+			"description2": {
+				"eng": "You cannot change your prime target once selected until the next reset (${time})",
+				"trans": "主要目標選定後，不可更改至下次重置（${time}）"
+			},
+			"error": {
+				"eng": "Failed to select target. Please try again.",
+				"trans": "無法選取目標，請重新嘗試。"
+			},
+			"title": {
+				"eng": "Select Prime Target",
+				"trans": "選擇主要目標"
+			}
+		},
+		"tip": {
+			"explain": {
+				"eng": "Select your prime prize. Each roll increases the chance of winning the selected target prize. click here for more information.",
+				"trans": "選擇你的首獎獎品。每次抽獎都會增加贏得所選目標獎品的機率。點此查看更多資訊。"
+			}
+		}
+	},
+	"followUpLotteryBanner": {
+		"primeTargets": {
+			"eng": "Rewards:",
+			"trans": "獎勵："
+		}
+	},
+	"followUpLotteryNormalRewards": {
+		"additional": {
+			"eng": "Normal rewards are ALWAYS given in addition to any Prime Target wins",
+			"trans": "普通獎勵始終會在擊敗主要目標後另行給予"
+		},
+		"close": {
+			"eng": "UNDERSTOOD",
+			"trans": "了解"
+		},
+		"description": {
+			"eng": "Drop rates for normal rewards from ${lotteryName}",
+			"trans": "${lotteryName}普通獎勵的掉落機率"
+		},
+		"dropRates": {
+			"eng": "Drop Chances",
+			"trans": "掉落機率"
+		},
+		"guarantee": {
+			"eng": "100% chance to receive one normal reward per roll",
+			"trans": "每次抽獎有100%的機率獲得一個普通獎勵"
+		},
+		"random": {
+			"eng": "Item is randomly selected based on the chance shown below",
+			"trans": "物品將依照以下機率隨機抽取"
+		},
+		"title": {
+			"eng": "Normal Rewards",
+			"trans": "普通獎勵"
+		}
+	},
+	"forgotPasswordPopup": {
+		"enterEmail": {
+			"eng": "Enter your email to reset your password. an reset link will be sent to your email.",
+			"trans": "請輸入您的電子郵件以重設密碼。重設連結將會發送到您的電子郵件。"
+		},
+		"forgotPassword": {
+			"eng": "Forgot Password",
+			"trans": "忘記密碼"
+		},
+		"send": {
+			"eng": "Send Reset Link",
+			"trans": "發送重置連結"
+		}
+	},
 	"friend": {
 		"error": {
 			"addNotFound": {
 				"eng": "Player not found.",
 				"trans": "找不到玩家。"
+			},
+			"maxEnemyLimit": {
+				"eng": "You have reached the maximum number of enemies.",
+				"trans": "敵人數量已達上限。"
+			},
+			"maxLimit": {
+				"eng": "You have reached the maximum number of friends.",
+				"trans": "你已達到好友上限。"
 			},
 			"removeNotFound": {
 				"eng": "Player not found.",
@@ -2305,15 +3613,13 @@
 		"remove": {
 			"success": {
 				"eng": "You have removed ${friendName} from your friends list.",
-				"trans": "您已從好友名單中刪除${friendName}。",
-				"vars": []
+				"trans": "您已從好友名單中刪除${friendName}。"
 			}
 		},
 		"removeEnemy": {
 			"success": {
 				"eng": "You have removed ${playerName} from your enemy list.",
-				"trans": "您已從敵人名單中移除了${playerName}。",
-				"vars": []
+				"trans": "您已從敵人名單中移除了${playerName}。"
 			}
 		}
 	},
@@ -2330,6 +3636,10 @@
 			"eng": "Add Friend",
 			"trans": "加為好友"
 		},
+		"friendsList": {
+			"eng": "Friends List",
+			"trans": "好友列表"
+		},
 		"removeFriend": {
 			"eng": "Remove Friend",
 			"trans": "移除好友"
@@ -2337,6 +3647,56 @@
 		"viewProfile": {
 			"eng": "View Profile",
 			"trans": "查看個人資料"
+		}
+	},
+	"gameEventType": {
+		"april": {
+			"eng": "April",
+			"trans": "四月"
+		},
+		"august": {
+			"eng": "August",
+			"trans": "八月"
+		},
+		"chineseNewYear": {
+			"eng": "Chinese New Year",
+			"trans": "農曆新年"
+		},
+		"christmas": {
+			"eng": "Christmas",
+			"trans": "聖誕節"
+		},
+		"crystal": {
+			"eng": "Crystal",
+			"trans": "水晶"
+		},
+		"halloween": {
+			"eng": "Halloween",
+			"trans": "萬聖節"
+		},
+		"july": {
+			"eng": "July",
+			"trans": "七月"
+		},
+		"june": {
+			"eng": "June",
+			"trans": "六月"
+		},
+		"may": {
+			"eng": "May",
+			"trans": "五月"
+		},
+		"sakura": {
+			"eng": "Sakura",
+			"trans": "櫻花"
+		},
+		"september": {
+			"eng": "September",
+			"trans": "九月"
+		},
+		"thanksgiving": {
+			"eng": "Thanksgiving",
+			"trans": "感恩節"
 		}
 	},
 	"gang": {
@@ -2378,6 +3738,22 @@
 				}
 			}
 		},
+		"invite": {
+			"error": {
+				"globalCooldown": {
+					"eng": "You can only send clan invites every ${minutes} minutes",
+					"trans": "您每隔${minutes}分鐘只能發送一次戰隊邀請"
+				},
+				"playerCooldown": {
+					"eng": "You can only send an invite to this player every ${hours} hour(s)",
+					"trans": "你每${hours}小時只能向此玩家發送邀請"
+				}
+			},
+			"restricted": {
+				"eng": "You cannot send gang invites now",
+				"trans": "您現在無法發送幫派邀請"
+			}
+		},
 		"inviteSent": {
 			"eng": "A invite has been sent to ${playerName}",
 			"trans": "已傳送邀請給${playerName}。"
@@ -2410,6 +3786,16 @@
 				"trans": "幫派名稱至少需要 ${minLength} 個字元"
 			}
 		},
+		"notice": {
+			"notEnoughMoney": {
+				"eng": "Not enough Eurodollars",
+				"trans": "歐元不足"
+			},
+			"success": {
+				"eng": "Notice posted successfully",
+				"trans": "公告已成功發布"
+			}
+		},
 		"requestJoin": {
 			"mail": {
 				"eng": "Hi, I would love to join your gang! ${request}",
@@ -2424,6 +3810,10 @@
 			"invalidCharacters": {
 				"eng": "The gang tag must only contain letters and numbers",
 				"trans": "幫派標籤只能包含字母和數字"
+			},
+			"moderation": {
+				"eng": "The tag contains inappropriate content: ${type}",
+				"trans": "標籤包含不當內容：${type}"
 			},
 			"tooLong": {
 				"eng": "The gang tag must be at most ${maxLength} characters long",
@@ -2441,6 +3831,38 @@
 			"trans": "使用Google帳號登入"
 		}
 	},
+	"guestLinkModal": {
+		"cancel": {
+			"eng": "Later",
+			"trans": "稍後"
+		},
+		"description": {
+			"eng": "Please link your account to finish signing up to use this feature",
+			"trans": "請連結您的帳號以完成註冊以使用此功能"
+		},
+		"linkAccount": {
+			"eng": "Finish Sign up",
+			"trans": "完成註冊"
+		},
+		"premiumPurchase": {
+			"eng": "To prevent accidental lost of your top-up, please finish signing up so you may login to your account at any time",
+			"trans": "為了避免意外失去您的充值，請完成註冊，以便您隨時登入您的帳戶。"
+		},
+		"tip": {
+			"eng": "You are welcome to use a fake email as your account email if you have privacy concerns",
+			"trans": "如果您有隱私顧慮，歡迎使用假電子郵件作為您的帳戶電子郵件。"
+		},
+		"title": {
+			"eng": "Functionality not available for guest accounts",
+			"trans": "來賓帳號無法使用此功能"
+		}
+	},
+	"guestLoginButton": {
+		"title": {
+			"eng": "Guest Login",
+			"trans": "訪客登入"
+		}
+	},
 	"healthSacrificePopup": {
 		"activateButton": {
 			"description": {
@@ -2449,11 +3871,15 @@
 			},
 			"title": {
 				"eng": "Activate",
-				"trans": "長按以啟動"
+				"trans": "啟動"
 			}
 		}
 	},
 	"hitlist": {
+		"loading": {
+			"eng": "Loading bounties...",
+			"trans": "載入賞金任務中..."
+		},
 		"noBounties": {
 			"eng": "No bounties available",
 			"trans": "沒有賞金可用"
@@ -2551,6 +3977,82 @@
 			}
 		}
 	},
+	"instantDungeon": {
+		"locationNotCleared2": {
+			"eng": "To raid gang hideout at level ${playerLevel}, you must clear the level ${levelNeeded} ${difficulty} difficulty stronghold first, you can unlock higher level strongholds by clearing ${difficulty} strongholds a level below it.",
+			"trans": "要突襲等級 ${playerLevel} 的幫派據點，你必須先清除等級 ${levelNeeded} ${difficulty} 難度的地城，你可以透過清除比它低一級的 ${difficulty} 地城來解鎖更高等級的地城。"
+		}
+	},
+	"instantDungeonDisplay": {
+		"fastDungeonButton": {
+			"description": {
+				"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+				"trans": "快速即時幫派據點突襲，消耗${item}或${item2}"
+			},
+			"title": {
+				"eng": "Raid Hideout",
+				"trans": "突襲據點"
+			}
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "開始突襲"
+		}
+	},
+	"instantDungeonHandler": {
+		"selectAmountModal": {
+			"subtitle": {
+				"eng": "Cost Requirements",
+				"trans": "需要消耗"
+			},
+			"title": {
+				"eng": "How many repeats?",
+				"trans": "重複幾次？"
+			}
+		}
+	},
+	"instantDungeonPage": {
+		"advanced": {
+			"badge": {
+				"eng": "Bonus",
+				"trans": "獎勵"
+			},
+			"banner": {
+				"eng": "Increased EXP and Loot",
+				"trans": "經驗值和戰利品增加"
+			}
+		},
+		"costs": {
+			"eng": "Costs",
+			"trans": "費用"
+		},
+		"description": {
+			"eng": "Quick and instant gang hideout raid with cost of ${item} or ${item2}",
+			"trans": "快速即時幫派巢穴突襲，花費${item}或${item2}"
+		},
+		"levelDisplay": {
+			"title": {
+				"eng": "level ${level}",
+				"trans": "等級 ${level}"
+			}
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "獎勵"
+		},
+		"startRaid": {
+			"eng": "Start Raid",
+			"trans": "開始突襲"
+		},
+		"title": {
+			"eng": "Raid Hideout",
+			"trans": "突襲據點"
+		},
+		"type": {
+			"eng": "Type",
+			"trans": "類型"
+		}
+	},
 	"insufficientItemModal": {
 		"insufficientCurrency": {
 			"eng": "Insufficient ${name}",
@@ -2621,6 +4123,338 @@
 					}
 				}
 			}
+		}
+	},
+	"investigation": {
+		"abandon": {
+			"eng": "Abandon",
+			"trans": "放棄"
+		},
+		"abandonConfirm": {
+			"confirm": {
+				"eng": "Abandon",
+				"trans": "放棄"
+			},
+			"message": {
+				"eng": "Are you sure you want to abandon this case? All collected clues will be lost and you'll need to start over with a new case.",
+				"trans": "你確定要放棄此案嗎？已收集的所有線索都將遺失，並且你需要重新開始一個新案件。"
+			},
+			"title": {
+				"eng": "Abandon Investigation?",
+				"trans": "放棄調查？"
+			}
+		},
+		"abandonFailed": {
+			"eng": "Failed to abandon investigation. Please try again.",
+			"trans": "放棄調查失敗。請重試。"
+		},
+		"abandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "調查已中止。您隨時可開啟新的案件。"
+		},
+		"acknowledgeFailure": {
+			"eng": "ACKNOWLEDGE",
+			"trans": "確認"
+		},
+		"allCluesCollected": {
+			"eng": "ALL CLUES COLLECTED",
+			"trans": "全部線索已收集"
+		},
+		"analysisComplete": {
+			"eng": "ANALYSIS COMPLETE",
+			"trans": "分析完成"
+		},
+		"analysisResult": {
+			"eng": "ANALYSIS RESULT",
+			"trans": "分析結果"
+		},
+		"analyzingEvidence": {
+			"eng": "ANALYZING EVIDENCE...",
+			"trans": "正在分析證據…"
+		},
+		"caseId": {
+			"eng": "CASE ID",
+			"trans": "案件編號"
+		},
+		"caseResolved": {
+			"eng": "ACPD Case Resolved",
+			"trans": "幻光市警局案件已解決"
+		},
+		"caseSolved": {
+			"eng": "Investigation solved! ${caseName}",
+			"trans": "調查已解決！${caseName}"
+		},
+		"caseStatus": {
+			"eng": "CASE STATUS",
+			"trans": "案件狀態"
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "關閉"
+		},
+		"closed": {
+			"eng": "CLOSED - FAILED",
+			"trans": "已關閉 - 失敗"
+		},
+		"clueCollected": {
+			"eng": "Clue discovered: ${clueName}",
+			"trans": "發現線索：${clueName}"
+		},
+		"clueFound": {
+			"eng": "CLUE DISCOVERED",
+			"trans": "已發現線索"
+		},
+		"collectedClues": {
+			"eng": "Collected Clues",
+			"trans": "已收集線索"
+		},
+		"continue": {
+			"eng": "Continue",
+			"trans": "繼續"
+		},
+		"contradictoryElements": {
+			"eng": "Multiple contradictory elements detected in the proposed verdict.",
+			"trans": "偵測到建議的判決中包含多個矛盾要素。"
+		},
+		"correctVerdict": {
+			"eng": "Your deduction was correct. The truth has been uncovered.",
+			"trans": "你的推斷正確。真相已被揭露。"
+		},
+		"deliverVerdict": {
+			"eng": "Deliver Your Verdict",
+			"trans": "送出判決"
+		},
+		"errorCode": {
+			"eng": "ERROR CODE",
+			"trans": "錯誤碼"
+		},
+		"errorLoadingClue": {
+			"eng": "Error loading clue",
+			"trans": "載入線索失敗"
+		},
+		"evidence": {
+			"eng": "Evidence",
+			"trans": "證據"
+		},
+		"evidenceAcquired": {
+			"eng": "Evidence Logged - ACPD Database",
+			"trans": "證據已登錄 - 幻光市警局資料庫"
+		},
+		"evidenceMismatch": {
+			"eng": "The submitted conclusion does not align with available evidence patterns.",
+			"trans": "提交的結論與現有證據模式不符。"
+		},
+		"goToVerdict": {
+			"eng": "Go to verdict ${num}",
+			"trans": "前往判決${num}"
+		},
+		"imageUnavailable": {
+			"eng": "Image Unavailable",
+			"trans": "圖片無法顯示"
+		},
+		"investigationAbandoned": {
+			"eng": "Investigation abandoned. You can start a new case anytime.",
+			"trans": "調查已被放棄。您可隨時開始新的案件。"
+		},
+		"investigationClosed": {
+			"eng": "Investigation terminated. Case file closed. Evidence confiscated.",
+			"trans": "調查結束。案卷已封存。證據已扣押。"
+		},
+		"investigationStatus": {
+			"eng": "INVESTIGATION STATUS",
+			"trans": "調查狀態"
+		},
+		"moreCluesNeeded": {
+			"eng": "Continue exploring to find more clues...",
+			"trans": "繼續探索，尋找更多線索…"
+		},
+		"needMoreClues": {
+			"short": {
+				"eng": "Find more clues in dungeons",
+				"trans": "在地牢中尋找更多線索"
+			}
+		},
+		"newCase": {
+			"eng": "New Case",
+			"trans": "新增案件"
+		},
+		"noActiveCase": {
+			"header": {
+				"eng": "ACPD INVESTIGATION TERMINAL",
+				"trans": "幻光市警局調查終端"
+			},
+			"intelBody1": {
+				"eng": "This console activates automatically once you capture your first clue.",
+				"trans": "一旦你取得第一條線索，該控制台將自動啟動。"
+			},
+			"intelBody2": {
+				"eng": "Track the entire case from here—clues, summaries, and final verdict submission.",
+				"trans": "從此追蹤整個案件—線索、摘要與最終裁決提交"
+			},
+			"intelHeader": {
+				"eng": "INTEL DISPATCH",
+				"trans": "情報派遣"
+			},
+			"requirement": {
+				"eng": "4 clues required per case",
+				"trans": "每案需四條線索"
+			},
+			"statusInline": {
+				"eng": "Case Slot Open • Permit required to submit verdict",
+				"trans": "案件槽位已開啟 • 提交裁決需持有許可證"
+			},
+			"timelineAcquire": {
+				"desc": {
+					"eng": "Stronghold investigation points feed clues directly into this console.",
+					"trans": "堡壘調查點將線索直接送進此控制台。"
+				},
+				"eng": "Acquire Intel",
+				"trans": "取得情報"
+			},
+			"timelineAssemble": {
+				"desc": {
+					"eng": "Collect all four clues to unlock the verdict authorization rail.",
+					"trans": "收集全部四個線索以解鎖判決授權軌道。"
+				},
+				"eng": "Assemble Evidence",
+				"trans": "彙整證據"
+			},
+			"timelineSubmit": {
+				"desc": {
+					"eng": "Spend one Investigation Access Permit to commit your conclusion.",
+					"trans": "花費一張調查通行證提交結論。"
+				},
+				"eng": "Deliver Verdict",
+				"trans": "宣判"
+			},
+			"tipBody": {
+				"eng": "Tap to open the Investigation field manual and review how cases operate.",
+				"trans": "點擊以開啟調查手冊並查看案件運作方式。"
+			},
+			"tipTitle": {
+				"eng": "Need a briefing?",
+				"trans": "需要簡報嗎？"
+			},
+			"totalSolved": {
+				"eng": "Solved dossiers: ${count}",
+				"trans": "已解決檔案：${count}"
+			}
+		},
+		"noActiveInvestigation": {
+			"eng": "You have no active investigation to abandon.",
+			"trans": "目前沒有可放棄的調查。"
+		},
+		"noCasesAvailable": {
+			"eng": "No investigations available",
+			"trans": "暫無調查"
+		},
+		"noChoices": {
+			"eng": "No choices available",
+			"trans": "無可選擇"
+		},
+		"noSolvedCases": {
+			"eng": "No solved cases yet",
+			"trans": "暫無已解決案例"
+		},
+		"notAllCluesCollected": {
+			"eng": "You must collect all clues before solving the case.",
+			"trans": "必須先搜集所有線索，才能解決案件。"
+		},
+		"processingVerdict": {
+			"eng": "PROCESSING VERDICT...",
+			"trans": "判定中…"
+		},
+		"readyToSolve": {
+			"eng": "You have all the evidence. Review your findings and solve the case.",
+			"trans": "你已掌握所有證據。檢視調查結果，解決此案。"
+		},
+		"rewards": {
+			"eng": "Rewards",
+			"trans": "獎勵"
+		},
+		"selectChoice": {
+			"eng": "Please select a conclusion",
+			"trans": "請選擇結論"
+		},
+		"solveCasesHint": {
+			"eng": "Complete investigations to see them here",
+			"trans": "完成調查即可在此查看"
+		},
+		"solved": {
+			"eng": "Solved ${time}",
+			"trans": "已解決 ${time}"
+		},
+		"solvedCases": {
+			"description": {
+				"eng": "Review completed cases and revisit final reports.",
+				"trans": "審查已完成的案件並重新查看最終報告"
+			},
+			"header": {
+				"eng": "Solved Investigations Registry",
+				"trans": "已解決調查紀錄"
+			},
+			"solved": {
+				"eng": "solved",
+				"trans": "已解決"
+			}
+		},
+		"submit": {
+			"eng": "Submit Verdict",
+			"trans": "提交裁決"
+		},
+		"submitError": {
+			"eng": "Failed to submit verdict. Please try again.",
+			"trans": "提交判斷失敗，請重試。"
+		},
+		"submitVerdict": {
+			"eng": "Submit Your Verdict",
+			"trans": "提交判決"
+		},
+		"systemPrefix": {
+			"eng": "SYS",
+			"trans": "系統"
+		},
+		"terminalFooter": {
+			"eng": "ARCLIGHT CITY INVESTIGATION BUREAU // CLASSIFIED",
+			"trans": "幻光之城調查局 // 機密"
+		},
+		"terminalHeader": {
+			"eng": "ACPD INVESTIGATION ANALYSIS SYSTEM",
+			"trans": "幻光市警局調查分析系統"
+		},
+		"theStory": {
+			"eng": "The Full Story",
+			"trans": "完整故事"
+		},
+		"verdictImage": {
+			"eng": "Verdict ${num} investigation image",
+			"trans": "調查裁決${num}影像"
+		},
+		"verdictRejected": {
+			"eng": "VERDICT REJECTED",
+			"trans": "判決被否決"
+		}
+	},
+	"investigationPendingModal": {
+		"allCluesCollectedMessage": {
+			"eng": "You have collected all evidence for your current investigation. Complete this case before starting a new one.",
+			"trans": "您已收集完本案所有證據。請先完成此案件，再開啟新案件。"
+		},
+		"caseReadyToSolve": {
+			"eng": "ACPD Case Ready to Solve",
+			"trans": "ACPD 案件準備好調查"
+		},
+		"continueExploring": {
+			"eng": "Continue Exploring",
+			"trans": "繼續探索"
+		},
+		"evidenceCollected": {
+			"eng": "Evidence Collected",
+			"trans": "已收集證據"
+		},
+		"solveFromInvestigationLog": {
+			"eng": "Visit your Investigation Log to review evidence and solve the case.",
+			"trans": "查看您的調查日誌以審核證據並解決案件。"
 		}
 	},
 	"item": {
@@ -2734,13 +4568,37 @@
 			"eng": "quantity ${amount}",
 			"trans": "數量 ${amount}"
 		},
+		"availableDuringEvent": {
+			"description": {
+				"eng": "Available during ${event}, after the event has ended this item will be automatically removed",
+				"trans": "在${event}期間可用，活動結束後此物品將自動移除"
+			},
+			"title": {
+				"eng": "Event Item",
+				"trans": "事件物品"
+			}
+		},
 		"destroyed": {
 			"eng": "destroyed",
 			"trans": "被摧毀的"
 		},
+		"expireTime": {
+			"description": {
+				"eng": "This item will expire at ${date} (${timeToExpire})",
+				"trans": "此物品於${date}（${timeToExpire}）失效"
+			},
+			"title": {
+				"eng": "Expire Time: ${time}",
+				"trans": "失效時間: ${time}"
+			}
+		},
 		"notTradable": {
 			"eng": "Not tradable",
 			"trans": "不可交易"
+		},
+		"strongholdOnly": {
+			"eng": "Stronghold Only Item",
+			"trans": "地城專屬物品"
 		},
 		"useTitle": {
 			"eng": "Use",
@@ -2778,6 +4636,10 @@
 				"trans": "屬性傷害"
 			}
 		},
+		"cantCraftInInventory": {
+			"eng": "You cannot craft while you have a temporary inventory open",
+			"trans": "當臨時倉庫開啟時，你無法製作物品。"
+		},
 		"cantDiscardEquipped": {
 			"eng": "You can't discard equipped items",
 			"trans": "你不能丟棄已裝備的物品"
@@ -2787,12 +4649,12 @@
 			"trans": "你不能丟棄被鎖定的物品"
 		},
 		"cantDismantleEquipped": {
-			"eng": "You can\\'t dismantle equipped items",
-			"trans": "您不能拆解已裝備的物品"
+			"eng": "You can't dismantle equipped items",
+			"trans": "已裝備的物品無法拆解"
 		},
 		"cantDismantleLocked": {
-			"eng": "You can\\'t dismantle locked items",
-			"trans": "無法拆解已上鎖的物品"
+			"eng": "You can't dismantle locked items",
+			"trans": "被鎖定的物品無法拆解"
 		},
 		"diff": {
 			"header1": {
@@ -2844,6 +4706,12 @@
 			"eng": "Move To Inventory",
 			"trans": "移至倉庫"
 		},
+		"saleCreditChip": {
+			"useAction": {
+				"eng": "Trade with ${npcName}",
+				"trans": "與${npcName}交易"
+			}
+		},
 		"unequip": {
 			"eng": "Unequip",
 			"trans": "卸下裝備"
@@ -2865,6 +4733,12 @@
 		"noChanges": {
 			"eng": "No changes",
 			"trans": "無更改。"
+		}
+	},
+	"itemDisplay": {
+		"expire": {
+			"eng": "Expires ${duration}",
+			"trans": "有效期至${duration}"
 		}
 	},
 	"itemInbox": {
@@ -2974,7 +4848,7 @@
 		},
 		"convertNetCoin": {
 			"eng": "Convert from ${netCoin}",
-			"trans": "轉換自 ${netCoin}"
+			"trans": "由${netCoin}轉換"
 		},
 		"cooking": {
 			"eng": "Cooking",
@@ -3000,13 +4874,25 @@
 			"eng": "Enemy drop",
 			"trans": "敵人掉落"
 		},
+		"eventDrop": {
+			"eng": "${eventName} event drop",
+			"trans": "${eventName} 活動掉落"
+		},
+		"intelligenceContract": {
+			"eng": "Intelligence Contract",
+			"trans": "情報合約"
+		},
 		"levelReward": {
-			"eng": "Drop from Level Reward Container (${itemName})",
-			"trans": "從等級獎勵容器(${itemName})掉落"
+			"eng": "Drop from ${itemName}",
+			"trans": "從${itemName}掉落"
 		},
 		"levelRewardBox": {
 			"eng": "Defeating ${dungeonType} strongholds in various locations",
 			"trans": "在不同地點擊敗${dungeonType}地城"
+		},
+		"npcShop": {
+			"eng": "Purchase from ${npc}",
+			"trans": "向${npc}購買"
 		},
 		"obtainedFrom": {
 			"eng": "Obtained from",
@@ -3023,6 +4909,12 @@
 		"title": {
 			"eng": "Insufficient ${itemName}",
 			"trans": "${itemName}不足"
+		},
+		"topUp": {
+			"discountAvailable": {
+				"eng": "Discount Available!",
+				"trans": "折扣優惠！"
+			}
 		}
 	},
 	"itemSubType": {
@@ -3298,6 +5190,16 @@
 		}
 	},
 	"itemType": {
+		"autoFarmBoost": {
+			"description": {
+				"eng": "When used during auto gather, it will increase EXP gained by ${expPercent}% and increase the reward gained by ${rewardPercent}%\\nThis will be consumed after one auto gather cycle",
+				"trans": "在自動採集期間使用時，將增加獲得的經驗值${expPercent}%和獲得的獎勵${rewardPercent}%\\n這將在一次自動採集循環後消耗完畢"
+			},
+			"name": {
+				"eng": "Auto Gather Boost",
+				"trans": "自動收集增益"
+			}
+		},
 		"boots": {
 			"description": {
 				"eng": "A piece of equipment that protects the feet.",
@@ -3338,6 +5240,16 @@
 				"trans": "漢堡"
 			}
 		},
+		"cake": {
+			"description": {
+				"eng": "A sweet dessert made from flour, sugar, and eggs.",
+				"trans": "用麵粉、糖和雞蛋製作的甜點。"
+			},
+			"name": {
+				"eng": "Cake",
+				"trans": "蛋糕"
+			}
+		},
 		"calibrationShard": {
 			"description": {
 				"eng": "Universal calibration token for equipments, use to improve equipments",
@@ -3356,6 +5268,46 @@
 			"name": {
 				"eng": "Calibration Stabilizer",
 				"trans": "校準穩定器"
+			}
+		},
+		"christmasEliteKey": {
+			"description": {
+				"eng": "A tactical key required to unlock Noel's Elite Crate. Only available from Noel herself.",
+				"trans": "解鎖 Noel 精英箱所需的戰術鑰匙。僅可從 Noel 本人處取得。"
+			},
+			"name": {
+				"eng": "Elite Crate",
+				"trans": "精英箱"
+			}
+		},
+		"christmasLootBox": {
+			"description": {
+				"eng": "Event container that contains various rewards, can only be unlocked during December.",
+				"trans": "12月限定的活動容器，內含各種獎勵，只能在12月解鎖。"
+			},
+			"name": {
+				"eng": "Christmas Container",
+				"trans": "聖誕節容器"
+			}
+		},
+		"christmasLootBoxElite": {
+			"description": {
+				"eng": "A premium Christmas container reserved for the most valuable rewards. Only the worthy receive Noel's elite gifts.",
+				"trans": "高級聖誕容器，專為最珍貴獎勵保留。唯有值得者才可領取諾艾爾的精英禮物。"
+			},
+			"name": {
+				"eng": "Noel's Elite Crate",
+				"trans": "諾艾爾的精英箱"
+			}
+		},
+		"christmasToken": {
+			"description": {
+				"eng": "A token that can be used to unlock a Christmas container.",
+				"trans": "可用於解鎖聖誕箱的代幣"
+			},
+			"name": {
+				"eng": "Christmas Token",
+				"trans": "聖誕代幣"
 			}
 		},
 		"clanMaintenanceResource": {
@@ -3388,6 +5340,16 @@
 				"trans": "普通升等碎片"
 			}
 		},
+		"dataCore": {
+			"description": {
+				"eng": "Military grade datacubes containing encrypted intelligence data. Highly valuable to information brokers.",
+				"trans": "軍用級數據立方體，內含加密情報數據。對資訊經紀人而言價值極高"
+			},
+			"name": {
+				"eng": "Data Core",
+				"trans": "資料核心"
+			}
+		},
 		"defenseBoostBuffActivator": {
 			"description": {
 				"eng": "Deploy this buff in stronghold lobby to increase defense for all players in strongholds created by your gang members for ${minutes} minutes",
@@ -3406,6 +5368,16 @@
 			"name": {
 				"eng": "dungeon activator",
 				"trans": "地城啟動器"
+			}
+		},
+		"egg": {
+			"description": {
+				"eng": "A synthetic egg, used in many dishes.",
+				"trans": "合成蛋，廣泛用於多種料理中。"
+			},
+			"name": {
+				"eng": "Egg",
+				"trans": "蛋"
 			}
 		},
 		"energyGun": {
@@ -3456,6 +5428,16 @@
 				"trans": "魚"
 			}
 		},
+		"flour": {
+			"description": {
+				"eng": "A basic ingredient used in baking.",
+				"trans": "烘焙中使用的基本成分。"
+			},
+			"name": {
+				"eng": "Flour",
+				"trans": "麵粉"
+			}
+		},
 		"gangControlResource": {
 			"name": {
 				"eng": "Gang Control Resource",
@@ -3466,6 +5448,16 @@
 			"description": {
 				"eng": "Use to contribute to gang territory control",
 				"trans": "貢獻幫派領地控制。"
+			}
+		},
+		"gingerbreadCookie": {
+			"description": {
+				"eng": "A festive cookie that looks like a cute little man.",
+				"trans": "一個看起來像可愛小人的節慶餅乾。"
+			},
+			"name": {
+				"eng": "Gingerbread Cookie",
+				"trans": "薑餅餅乾"
 			}
 		},
 		"gun": {
@@ -3508,6 +5500,26 @@
 				"trans": "頭盔"
 			}
 		},
+		"hideoutLocator": {
+			"description": {
+				"eng": "A device to locate gang hideouts in the city, you can use this item to perform a quick hideout raid.",
+				"trans": "城市中幫派據點的定位裝置，使用此道具可以進行快速據點突襲。"
+			},
+			"name": {
+				"eng": "Hideout Locator",
+				"trans": "幫派據點定位器"
+			}
+		},
+		"hideoutLocator2": {
+			"description": {
+				"eng": "A device to locate major gang hideouts in the city, you can use this item to perform a quick hideout raid with higher rewards.",
+				"trans": "城市中主要幫派據點的定位裝置，使用此道具可以進行快速據點突襲，並獲得更好的獎勵。"
+			},
+			"name": {
+				"eng": "Advance Hideout Locator",
+				"trans": "進階幫派據點定位器"
+			}
+		},
 		"identificationShard": {
 			"description": {
 				"eng": "Use to identify unknown traits in a item",
@@ -3522,6 +5534,16 @@
 			"name": {
 				"eng": "Implant",
 				"trans": "電馭晶片"
+			}
+		},
+		"investigationAccessPermit": {
+			"description": {
+				"eng": "ACPD investigation system access authorization. Required to submit case verdicts. Consumed upon submission regardless of outcome.",
+				"trans": "幻光市警局調查系統存取授權。必須提交案件判決。提交後即消耗，無論結果。"
+			},
+			"name": {
+				"eng": "Investigation Access Permit",
+				"trans": "調查通行證"
 			}
 		},
 		"itemLevelupShard": {
@@ -3682,6 +5704,16 @@
 				"trans": "神經升級增強器"
 			}
 		},
+		"milk": {
+			"description": {
+				"eng": "A synthetic milk, used in many dishes.",
+				"trans": "合成牛奶，廣泛用於多種菜餚中。"
+			},
+			"name": {
+				"eng": "Milk",
+				"trans": "牛奶"
+			}
+		},
 		"money": {
 			"description": {
 				"eng": "EuroDollar is a widely accepted currency in the continent, used for everyday purchases and transactions.",
@@ -3756,6 +5788,26 @@
 				"trans": "前綴注射器碎片"
 			}
 		},
+		"pumpkin": {
+			"description": {
+				"eng": "A large orange fruit, used in many dishes.",
+				"trans": "一種大型橙色水果，常用於許多菜餚中。"
+			},
+			"name": {
+				"eng": "Pumpkin",
+				"trans": "南瓜"
+			}
+		},
+		"pumpkinPie": {
+			"description": {
+				"eng": "A dessert made from pumpkin, eggs, and milk.",
+				"trans": "用南瓜、雞蛋和牛奶製作的甜點。"
+			},
+			"name": {
+				"eng": "Pumpkin Pie",
+				"trans": "南瓜派"
+			}
+		},
 		"pvpProtection": {
 			"description": {
 				"eng": "Whoever invokes the Token of Peace shall not be attacked, use this to receive ${day} day of PVP protection buff",
@@ -3792,6 +5844,16 @@
 			"name": {
 				"eng": "Rare Upgrade Shard",
 				"trans": "稀有階級碎片"
+			}
+		},
+		"redEnvelope": {
+			"description": {
+				"eng": "A traditional lunar new year gift, you can open it to receive random rewards.",
+				"trans": "傳統農曆新年禮物，開啟可獲得隨機獎勵。"
+			},
+			"name": {
+				"eng": "Red Envelope",
+				"trans": "紅包"
 			}
 		},
 		"repairKit": {
@@ -3836,6 +5898,16 @@
 				"trans": "戒指"
 			}
 		},
+		"saleCreditChip": {
+			"description": {
+				"eng": "A special credit chip that provides discounts on sale items. Expires in ${days} days.\\nThis can be traded with Pachinko Guy",
+				"trans": "可折扣專用信用晶片，${days}天後失效。可與彈珠機先生交易。"
+			},
+			"name": {
+				"eng": "Sale Credit Chip",
+				"trans": "折扣信用晶片"
+			}
+		},
 		"sate": {
 			"description": {
 				"eng": "A traditional Indonesian dish made from skewered meat and rice.",
@@ -3876,6 +5948,36 @@
 				"trans": "刀刃"
 			}
 		},
+		"synapticEnhancer": {
+			"description": {
+				"eng": "Synaptic Enhancer injects nanobots into your bloodstream to enhance your intelligence and rate of learning.",
+				"trans": "突觸增強器將納米機器人注入你的血液中，以提升你的智力和學習速度。"
+			},
+			"name": {
+				"eng": "Synaptic Enhancer",
+				"trans": "突觸增強器"
+			}
+		},
+		"tacticalAccessChip": {
+			"description": {
+				"eng": "A key found within the dungeon that opens locked chests. Cannot be taken out of the stronghold.",
+				"trans": "地牢內可開鎖寶箱的鑰匙，不能帶出堡壘。"
+			},
+			"name": {
+				"eng": "Stronghold Chest Key",
+				"trans": "地城寶箱鑰匙"
+			}
+		},
+		"teaEgg": {
+			"description": {
+				"eng": "A traditional dish made from eggs boiled in tea, soy sauce, and spices.",
+				"trans": "用茶、醬油和香料煮的傳統蛋料理。"
+			},
+			"name": {
+				"eng": "Tea Egg",
+				"trans": "茶葉蛋"
+			}
+		},
 		"techScrap": {
 			"description": {
 				"eng": "A piece of tech scrap.",
@@ -3884,6 +5986,26 @@
 			"name": {
 				"eng": "Tech Scrap",
 				"trans": "科技零件"
+			}
+		},
+		"turkeyDinner": {
+			"description": {
+				"eng": "A traditional dish made from turkey meat, rice.",
+				"trans": "用火雞肉和米飯製作的傳統菜餚。"
+			},
+			"name": {
+				"eng": "Turkey Dinner",
+				"trans": "火雞晚餐"
+			}
+		},
+		"turkeyMeat": {
+			"description": {
+				"eng": "A synthetic turkey meat, can be used to craft turkey dinner.",
+				"trans": "合成火雞肉，可用來製作火雞晚餐。"
+			},
+			"name": {
+				"eng": "Synthetic Turkey Meat",
+				"trans": "合成火雞肉"
 			}
 		},
 		"uncommonCalibrationSafety": {
@@ -3976,6 +6098,12 @@
 		}
 	},
 	"itemUpgradePage": {
+		"autoReset": {
+			"title": {
+				"eng": "Auto reset",
+				"trans": "自動重置"
+			}
+		},
 		"item": {
 			"title": {
 				"eng": "equipment",
@@ -4079,6 +6207,844 @@
 			"trans": "升級"
 		}
 	},
+	"journalist": {
+		"anyaPetrova": {
+			"biography": {
+				"eng": "Numbers form the hidden language of our world – from the pulse of the Arclight exchange to the illicit NetCoin trails funding Black Market chrome. I am Anya Petrova, and I translate that language. My analysis cuts through the noise, revealing the systemic forces, like TaiXing's market plays, shaping Arclight City.",
+				"trans": "數字構成隱藏世界的語言，從幻光交易所的脈動，到資助黑市改造的非法網幣蹤跡。我是安雅·彼得羅娃，我翻譯這種語言。我的分析能穿透雜訊，揭示塑造幻光之城的系統性力量，例如台芯的市場操作。"
+			},
+			"displayName": {
+				"eng": "Anya Petrova",
+				"trans": "安雅·彼得羅娃"
+			}
+		},
+		"jackJackson": {
+			"biography": {
+				"eng": "They called me reckless dodging corpo security in the Industrial Zone. They called me obsessed documenting the leaks from BioSyn Labs Sector 7. Call me what you want, but I find the truth, even if it costs eddies or gets me on an ACPD watchlist. My name is Jack Jackson, and I bring the stories others bury.",
+				"trans": "他們說我不要命，在工業區狂躲企業狗。他們說我著了魔，死命追著BioSyn Labs 7區的料。隨便你們怎麼叫，真相我是一定要挖出來的，就算噴錢、上了ACPD黑名單也無所謂。我叫傑克·傑克森，我挖出別人蓋起來的料。"
+			},
+			"displayName": {
+				"eng": "Jack Jackson",
+				"trans": "傑克·傑克森"
+			}
+		},
+		"kaiTanaka": {
+			"biography": {
+				"eng": "Down here in the neon haze of the Lower Districts, stories unfold on street corners and in the back rooms of ripperdocs. I'm Kai Tanaka. I walk these streets, talk to the chromed-out chooms, the wired, the discarded, and bring their voices to the surface. This is life at the edge of the chrome.",
+				"trans": "在下城區霓虹燈的迷霧中，故事在街角和義體醫生的後巷裡展開。我是田中凱。我走在這些街道上，和那些裝了義肢的夥計、改造人、被拋棄的人們交談，並將他們的心聲帶到檯面上。這就是活在邊緣的賽博生活。"
+			},
+			"displayName": {
+				"eng": "Kai Tanaka",
+				"trans": "凱・田中"
+			}
+		},
+		"zaraKhan": {
+			"biography": {
+				"eng": "Conflict isn't just fought on battlefields; it's waged in boardrooms, data streams, and the shadow networks tangled in the PAC-FSA cold war. I am Zara Khan. With a background dissecting global threats, I provide clear-eyed analysis of the forces, from Arclight's corpo council to offshore powers, vying for control.",
+				"trans": "衝突不只發生在戰場；它也蔓延到董事會、數據流，以及糾結在太平洋-自由貿易協定冷戰中的影子網絡。我是莎拉·罕。我專精於分析全球威脅，提供清晰的分析，揭示從幻光之城的企業理事會到境外勢力，爭奪控制權的各方勢力。"
+			},
+			"displayName": {
+				"eng": "Zara Khan",
+				"trans": "莎拉·罕"
+			}
+		}
+	},
+	"landingPage": {
+		"activity": {
+			"battlepass1": {
+				"eng": "${player} claimed battle pass reward",
+				"trans": "${player} 已領取戰鬥通行證獎勵"
+			},
+			"bounty1": {
+				"eng": "$${amount} bounty was placed on ${player}'s head",
+				"trans": "$${amount} 賞金已放在 ${player} 的頭上"
+			},
+			"bounty2": {
+				"eng": "${player} claimed bounty",
+				"trans": "${player}已領取賞金"
+			},
+			"daily1": {
+				"eng": "${player} completed intelligence contract",
+				"trans": "${player}已完成情報合約"
+			},
+			"dungeon1": {
+				"eng": "${player} cleared dungeon boss",
+				"trans": "${player} 已擊敗地下城BOSS"
+			},
+			"instant1": {
+				"eng": "Hideout raid completed",
+				"trans": "藏身處突襲已完成"
+			},
+			"lottery1": {
+				"eng": "${player} won lucky draw",
+				"trans": "${player} 抽中幸運獎"
+			},
+			"lottery2": {
+				"eng": "${player} won pachinko",
+				"trans": "${player} 贏了 pachinko"
+			},
+			"market1": {
+				"eng": "a item was sold on black market",
+				"trans": "物品已在黑市出售"
+			},
+			"market3": {
+				"eng": "Market order filled: ${amount}",
+				"trans": "市價單已成交：${amount}"
+			},
+			"mercenary1": {
+				"eng": "${player} recruited mercenary",
+				"trans": "${player}已招募傭兵"
+			},
+			"pvp1": {
+				"eng": "${player1} has mugged ${player2}",
+				"trans": "${player1} 已經搶奪了 ${player2}"
+			},
+			"pvp2": {
+				"eng": "${player1} has arrested ${player2}",
+				"trans": "玩家${player1}已逮捕玩家${player2}"
+			},
+			"pvp3": {
+				"eng": "${player} eliminated a bounty target",
+				"trans": "${player} 擊殺賞金目標"
+			},
+			"stock1": {
+				"eng": "Stock surged +${amount}%",
+				"trans": "股價上漲+${amount}%"
+			},
+			"stock2": {
+				"eng": "Stock dropped -${amount}%",
+				"trans": "股價下跌 -${amount}%"
+			},
+			"territory1": {
+				"eng": "Territory war initiated",
+				"trans": "領土戰爭已啟動"
+			},
+			"territory2": {
+				"eng": "Gang captured new territory",
+				"trans": "幫派佔領新領地"
+			},
+			"territory3": {
+				"eng": "Territory defense successful",
+				"trans": "領地防禦成功"
+			},
+			"upgrade1": {
+				"eng": "${player} upgraded their equipment to +${tier}",
+				"trans": "${player} 升級裝備至+${tier}"
+			}
+		},
+		"cta": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "在 App Store 下載"
+			},
+			"copy": {
+				"eng": "Sign in with email, Google, or guest access, rally your crew, and drop into the live shard—no paywall, no waitlist.",
+				"trans": "使用電子郵件、Google 或訪客登入，召集隊伍，即可進入即時伺服器——無付費牆，無等候名單。"
+			},
+			"headline": {
+				"eng": "Play today on mobile or web",
+				"trans": "今天在手機或網頁上玩"
+			},
+			"overline": {
+				"eng": "Arclight City is live right now",
+				"trans": "幻光之城現在已開放"
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "Google Play 下載"
+			},
+			"primary": {
+				"eng": "Play Now",
+				"trans": "立即遊玩"
+			}
+		},
+		"equipment": {
+			"copy": {
+				"eng": "Spend upgrade shards, calibrate, and reroll traits to dominate the battlefield.",
+				"trans": "消耗升級碎片、校準並重抽特質，主宰戰場。"
+			},
+			"heading": {
+				"eng": "Unlimited Gear Customization and Enhancement",
+				"trans": "無限裝備自訂與升級"
+			},
+			"overline": {
+				"eng": "Equipment // build your loadout",
+				"trans": "裝備 // 打造你的配備"
+			},
+			"tagCalibration": {
+				"eng": "Calibration increases item stats across all tiers",
+				"trans": "校準可提升所有等級的裝備屬性"
+			},
+			"tagTrait": {
+				"eng": "Reset Shards reset item stats giving you a random set of traits",
+				"trans": "Reset Shards 重置裝備屬性 給你隨機特質"
+			},
+			"tagUpgrade": {
+				"eng": "Upgrade shards increase item level and stats",
+				"trans": "升級碎片提升物品等級與屬性"
+			}
+		},
+		"features": {
+			"advancedCrafting": {
+				"description": {
+					"eng": "Upgrade and calibrate gear",
+					"trans": "升級並校準裝備"
+				},
+				"detailed": {
+					"eng": "Upgrade equipment to higher tiers and calibrate for better stats. Craft consumables and other items to support your adventures.",
+					"trans": "升級裝備至更高等級並校準以提升屬性。製作消耗品及其他道具，支援你的冒險。"
+				},
+				"highlight": {
+					"eng": "LEGENDARY GEAR WITHIN REACH",
+					"trans": "傳奇裝備近在咫尺"
+				},
+				"title": {
+					"eng": "Equipment Upgrading",
+					"trans": "裝備升級"
+				}
+			},
+			"afkTasks": {
+				"description": {
+					"eng": "Earn rewards while offline",
+					"trans": "離線時賺取獎勵"
+				},
+				"detailed": {
+					"eng": "Set up automated activities and background tasks that generate resources, experience, and rewards even when you're away from the game.",
+					"trans": "設定自動化活動與背景任務，即使離線也能產生資源、經驗與獎勵。"
+				},
+				"highlight": {
+					"eng": "PROFIT WHILE YOU SLEEP",
+					"trans": "睡眠中也能獲利"
+				},
+				"title": {
+					"eng": "Passive Income System",
+					"trans": "被動收入系統"
+				}
+			},
+			"battlePass": {
+				"description": {
+					"eng": "Earn exclusive seasonal rewards",
+					"trans": "獲得專屬季節獎勵"
+				},
+				"detailed": {
+					"eng": "Progress through free and premium seasonal tracks with missions, milestone rewards, and exclusive cosmetics. Complete challenges to unlock tier-based prizes.",
+					"trans": "在免費與付費季節路線中完成任務、收集里程碑獎勵及專屬外觀。完成挑戰以解鎖分級獎品。"
+				},
+				"highlight": {
+					"eng": "SEASONS OF GLORY AWAIT YOU",
+					"trans": "榮耀之季等你"
+				},
+				"title": {
+					"eng": "Seasonal Progression",
+					"trans": "賽季進度"
+				}
+			},
+			"blackMarket": {
+				"description": {
+					"eng": "Trade with other players",
+					"trans": "與其他玩家交易"
+				},
+				"detailed": {
+					"eng": "Buy and sell items through the player-driven auction house. List your gear, place bids on others' items, and find great deals from fellow players.",
+					"trans": "在玩家主導的拍賣行中買賣物品。上架裝備、投標他人商品，並從其他玩家處尋找超值交易。"
+				},
+				"highlight": {
+					"eng": "PLAYER-DRIVEN ECONOMY",
+					"trans": "玩家主導經濟"
+				},
+				"title": {
+					"eng": "Player Market",
+					"trans": "玩家市場"
+				}
+			},
+			"bountyHunting": {
+				"description": {
+					"eng": "Place or collect bounties",
+					"trans": "設定或領取賞金"
+				},
+				"detailed": {
+					"eng": "Place bounties on rival players or hunt down wanted targets for rewards. Track and eliminate high-value targets to collect lucrative bounties.",
+					"trans": "對競爭者掛賞金或狩獵通緝目標以換取報酬。追蹤並消滅高價值目標，收集豐厚賞金。"
+				},
+				"highlight": {
+					"eng": "BECOME THE CITY'S MOST FEARED",
+					"trans": "成為城中最令人畏懼的人"
+				},
+				"title": {
+					"eng": "Bounty Hunting",
+					"trans": "賞金狩獵"
+				}
+			},
+			"cookingSystem": {
+				"description": {
+					"eng": "Cook food for powerful buffs",
+					"trans": "烹飪食物，獲得強力增益"
+				},
+				"detailed": {
+					"eng": "Gather ingredients from dungeons and various tasks, then cook them in your apartment's kitchen. Prepared meals grant powerful temporary buffs to enhance your performance.",
+					"trans": "從地下城及各種任務收集食材，並在公寓廚房烹飪。料理可賦予強力暫時增益，提升你的表現。"
+				},
+				"highlight": {
+					"eng": "MASTER CHEF OF THE STREETS",
+					"trans": "街頭大廚"
+				},
+				"title": {
+					"eng": "Cooking System",
+					"trans": "烹飪系統"
+				}
+			},
+			"dailyWeeklyMissions": {
+				"description": {
+					"eng": "Complete tasks for rewards",
+					"trans": "完成任務以換取獎勵"
+				},
+				"detailed": {
+					"eng": "Take on daily quests and weekly intelligence contracts with escalating rewards and bonuses. Earn free daily rewards by login in everyday.",
+					"trans": "挑戰每日任務與每週情報合約，隨進度提升獎勵與加成。每天登入即可免費領取每日獎勵。"
+				},
+				"highlight": {
+					"eng": "LOYALTY BRINGS FORTUNE",
+					"trans": "忠誠帶來財富"
+				},
+				"title": {
+					"eng": "Daily & Weekly Missions",
+					"trans": "每日與每週任務"
+				}
+			},
+			"dungeonRaids": {
+				"description": {
+					"eng": "Explore dungeons with your friends for loot",
+					"trans": "和好友一起探索地牢，獲取戰利品"
+				},
+				"detailed": {
+					"eng": "Tackle challenging instanced dungeons with your squad or alone. Defeat powerful bosses, and claim legendary equipment and resources.",
+					"trans": "與隊伍或單獨挑戰高難度的分離副本。擊敗強力首領，並取得傳奇裝備和資源。"
+				},
+				"highlight": {
+					"eng": "EPIC LOOT FOR ELITE TEAMS",
+					"trans": "精英隊伍史詩戰利品"
+				},
+				"title": {
+					"eng": "Realtime Co-Op Dungeon Raids",
+					"trans": "即時合作地下城突襲"
+				}
+			},
+			"globalChat": {
+				"description": {
+					"eng": "Chat with players worldwide",
+					"trans": "與全球玩家聊天"
+				},
+				"detailed": {
+					"eng": "Join chat with real-time auto-translation across all supported languages, players worldwide meets in Arclight City",
+					"trans": "加入即時多語言自動翻譯聊天室，全球玩家齊聚幻光之城"
+				},
+				"highlight": {
+					"eng": "SPEAK ANY LANGUAGE, UNDERSTOOD BY ALL",
+					"trans": "說任何語言，大家都懂"
+				},
+				"title": {
+					"eng": "Borderless Communication",
+					"trans": "無邊界通訊"
+				}
+			},
+			"heading": {
+				"eng": "What Awaits You",
+				"trans": "等待著的是什麼"
+			},
+			"mercenarySquad": {
+				"description": {
+					"eng": "Recruit and upgrade mercenaries to join your crew",
+					"trans": "招募並升級傭兵，讓他們加入你的隊伍"
+				},
+				"detailed": {
+					"eng": "Build your squad with diverse mercenaries, each with unique stats, buffs and skills. Upgrade them and build your perfect crew.",
+					"trans": "用多元化的傭兵組建你的隊伍，每位都有獨特屬性、增益與技能。升級他們，打造完美隊伍。"
+				},
+				"highlight": {
+					"eng": "LEGENDARY CREW AT YOUR COMMAND",
+					"trans": "你麾下的傳奇小隊"
+				},
+				"title": {
+					"eng": "Mercenary Squad System",
+					"trans": "傭兵小隊系統"
+				}
+			},
+			"overline": {
+				"eng": "Game Features // Core Systems",
+				"trans": "遊戲特色 // 核心系統"
+			},
+			"panelTitle": {
+				"eng": "Feature briefing",
+				"trans": "功能簡介"
+			},
+			"playerEconomy": {
+				"description": {
+					"eng": "Trade stocks of mega corporations",
+					"trans": "交易大型企業股票"
+				},
+				"detailed": {
+					"eng": "Invest in a realistic and unpredictable stock market reflecting real-world events and news. Buy and sell stocks of in-game mega corporations to make a profit.",
+					"trans": "投資於真實且難以預測、能反映現實事件與新聞的股市。購買並出售遊戲內大型企業股票，賺取利潤。"
+				},
+				"highlight": {
+					"eng": "CORPORATE WEALTH AWAITS",
+					"trans": "企業財富正等著你"
+				},
+				"title": {
+					"eng": "Stock Market Trading",
+					"trans": "股市交易"
+				}
+			},
+			"playerHousing": {
+				"description": {
+					"eng": "Own and customize your apartment",
+					"trans": "擁有並客製化你的公寓"
+				},
+				"detailed": {
+					"eng": "Claim your own apartment in the city complete with a personal vault and kitchen for cooking. Host visitors and create your personal cyberpunk sanctuary.",
+					"trans": "在城市中擁有一間配備個人保險箱與廚房的公寓，招待客人並打造你的賽博朋克庇護所。"
+				},
+				"highlight": {
+					"eng": "YOUR SANCTUARY IN THE CITY",
+					"trans": "你的城市庇護所"
+				},
+				"title": {
+					"eng": "Player Housing",
+					"trans": "玩家住宅"
+				}
+			},
+			"pvpCombat": {
+				"description": {
+					"eng": "Mug players or play as cops",
+					"trans": "搶劫玩家或扮演警察"
+				},
+				"detailed": {
+					"eng": "Mug other players for their valuables or take on the role of law enforcement to arrest wanted criminals and maintain order in the city.",
+					"trans": "搶奪其他玩家的貴重物品，或擔任警員逮捕通緝犯並維持市區秩序。"
+				},
+				"highlight": {
+					"eng": "BECOME HUNTER OR LAWMAN",
+					"trans": "成為獵人或執法者"
+				},
+				"title": {
+					"eng": "PvP Combat",
+					"trans": "PvP 戰鬥"
+				}
+			},
+			"territoryControl": {
+				"description": {
+					"eng": "Capture districts and earn bonuses",
+					"trans": "佔領區域，獲得獎勵"
+				},
+				"detailed": {
+					"eng": "Compete for district control, wage gang wars, and unlock exclusive bonuses in your territory.",
+					"trans": "競逐區域控制權，展開幫派戰爭，並在你的領土中解鎖專屬獎勵。"
+				},
+				"highlight": {
+					"eng": "DISTRICTS UNDER YOUR BANNER",
+					"trans": "你旗幟下的區域"
+				},
+				"title": {
+					"eng": "Territory Control",
+					"trans": "領土控制"
+				}
+			},
+			"worldEvents": {
+				"description": {
+					"eng": "Daily in-game news reports",
+					"trans": "每日遊戲內新聞報導"
+				},
+				"detailed": {
+					"eng": "Stay informed with dynamically updated news reports that gets affected by all player activities, major events, and emerging stories in the cyberpunk world. Maybe your demise will be the next headline?",
+					"trans": "隨時掌握即時更新的新聞報導，內容因玩家行動、重大事件及新興故事而變化。也許你的覆滅將成為下一條頭條？"
+				},
+				"highlight": {
+					"eng": "YOUR ACTIONS MAKE HEADLINES",
+					"trans": "你的行動成為頭條"
+				},
+				"title": {
+					"eng": "Dynamic News System",
+					"trans": "動態新聞系統"
+				}
+			}
+		},
+		"hero": {
+			"appStore": {
+				"eng": "Download on App Store",
+				"trans": "在 App Store 下載"
+			},
+			"downloadMobile": {
+				"eng": "Download mobile app",
+				"trans": "下載手機 App"
+			},
+			"headline": {
+				"eng": "Arclight City",
+				"trans": "幻光之城"
+			},
+			"liveActivityLabel": {
+				"eng": "Live activity feed",
+				"trans": "即時活動訊息"
+			},
+			"metrics": {
+				"bounties": {
+					"eng": "Bounties Placed",
+					"trans": "已下懸賞"
+				},
+				"pvpKills": {
+					"eng": "Player vs Player Deaths",
+					"trans": "玩家對玩家死亡"
+				},
+				"users": {
+					"eng": "Registered Cyberpunker",
+					"trans": "已註冊賽博朋克"
+				}
+			},
+			"orPlayOnBrowser": {
+				"eng": "Or play on browser",
+				"trans": "或在瀏覽器上遊玩"
+			},
+			"overline": {
+				"eng": "Cyberpunk // TEXT-BASED MMORPG",
+				"trans": "賽博朋克 // 文字版MMORPG"
+			},
+			"playStore": {
+				"eng": "Get it on Google Play",
+				"trans": "Google Play 下載"
+			},
+			"primaryCta": {
+				"eng": "Play on Browser",
+				"trans": "瀏覽器遊玩"
+			},
+			"subline": {
+				"eng": "Arclight City is a vibrant city where you can explore, fight, and trade in a cyberpunk world.",
+				"trans": "幻光之城是一座熱鬧繁華的都市，你可在此探索、戰鬥與交易，體驗賽博朋克世界。"
+			}
+		},
+		"market": {
+			"copy": {
+				"eng": "Buy and sell corporate shares, monitor player-listed gear, and react to Flash Sales without leaving the dashboard.",
+				"trans": "在儀表板內買賣公司股份、監控玩家上架裝備，並即時回應閃購，無需離開。"
+			},
+			"headline": {
+				"eng": "Track the Mega Corporations in real time",
+				"trans": "即時追蹤巨型企業"
+			},
+			"overline": {
+				"eng": "Realtime Stock Exchange // 24/7 Live in-game Stock Market",
+				"trans": "即時股市 // 24/7 遊戲內實況市場"
+			},
+			"tag1": {
+				"eng": "Price action reacts to real-world events and news",
+				"trans": "價格走勢受實際事件和新聞影響"
+			},
+			"tag2": {
+				"eng": "Buy and sell stocks of in-game mega corporations",
+				"trans": "買賣遊戲內大型企業股票"
+			},
+			"tag3": {
+				"eng": "Fair and unpredictable market derived on real-world data",
+				"trans": "基於真實世界資料的公平且難以預測市場"
+			},
+			"tickerTitle": {
+				"eng": "Latest Netcoin board",
+				"trans": "最新網幣排行榜"
+			}
+		},
+		"mercenary": {
+			"chromeReaper": {
+				"promotional": {
+					"eng": "Heavy firepower meets cybernetic fury",
+					"trans": "重型火力結合電驅狂怒"
+				},
+				"whisper": {
+					"eng": "When stealth fails, bring the chrome. When chrome fails... you were already dead",
+					"trans": "潛行失敗時，裝備 Chrome；若 Chrome 也失敗…你已經沒命了。"
+				}
+			},
+			"copy": {
+				"eng": "Unlock NPC mercenaries with unique roles, level them up, and build your perfect crew for gigs and raids.",
+				"trans": "解鎖擁有獨特職能的 NPC 傭兵，升級他們並為任務與突襲組建完美隊伍。"
+			},
+			"crimsonRipper": {
+				"promotional": {
+					"eng": "Close-quarters carnage, guaranteed results",
+					"trans": "近戰血腥屠戮，保證成效"
+				},
+				"whisper": {
+					"eng": "They say violence isn't the answer. They've never met my chainsaw",
+					"trans": "有人說暴力不是答案。他們從未見過我的鏈鋸"
+				}
+			},
+			"ghostNet": {
+				"promotional": {
+					"eng": "Silent ops require silent partners",
+					"trans": "沉默行動需要沉默夥伴。"
+				},
+				"whisper": {
+					"eng": "The shadows have eyes... and they're watching for you",
+					"trans": "影子有眼睛…他們正在盯著你。"
+				}
+			},
+			"gravitySniper": {
+				"promotional": {
+					"eng": "Precision firepower when it matters most",
+					"trans": "關鍵時刻的精準火力"
+				},
+				"whisper": {
+					"eng": "Distance is just a number. Death is a certainty. Get yourself a sniper",
+					"trans": "距離只是個數字，死亡是必然。快去拿支狙擊槍吧。"
+				}
+			},
+			"heading": {
+				"eng": "Recruit specialists to support your squad",
+				"trans": "招募專家，支援你的隊伍"
+			},
+			"overline": {
+				"eng": "Mercenary companions",
+				"trans": "傭兵同伴"
+			},
+			"shardHealer": {
+				"promotional": {
+					"eng": "Keep your crew combat-ready, 24/7",
+					"trans": "確保你的隊伍全天候備戰"
+				},
+				"whisper": {
+					"eng": "A crew that bleeds together... needs someone who can put them back together",
+					"trans": "同袍共患難的團隊，需要有人把他們重新組合。"
+				}
+			},
+			"tag1": {
+				"eng": "Upgrade mercenaries to increase their stats",
+				"trans": "升級傭兵以提升其屬性"
+			},
+			"tag2": {
+				"eng": "Unique abilities to synergize with your crew",
+				"trans": "與隊伍協同的獨特技能"
+			}
+		},
+		"nav": {
+			"title": {
+				"eng": "ARCLIGHT CITY",
+				"trans": "幻光之城"
+			}
+		},
+		"news": {
+			"copy": {
+				"eng": "Every gang war, bounty kill, and major deal triggers real news reports. Upgrade your gear? Launch a territory raid? YOU could be on tomorrow's front page.",
+				"trans": "每場幫派戰、賞金殺手與重大交易都會引起真實新聞報導。升級裝備？發動領地攻擊？你可能登上明日頭版！"
+			},
+			"defaultTag": {
+				"eng": "News",
+				"trans": "新聞"
+			},
+			"goToNews": {
+				"eng": "Go to news ${index}",
+				"trans": "前往新聞${index}"
+			},
+			"heading": {
+				"eng": "YOUR ACTIONS MAKE THE HEADLINES",
+				"trans": "你的每個舉動都能登上頭條"
+			},
+			"live": {
+				"eng": "● LIVE",
+				"trans": "● 直播"
+			},
+			"newsChannelName": {
+				"eng": "Arclight Times",
+				"trans": "幻光時報"
+			},
+			"next": {
+				"eng": "Next news",
+				"trans": "下一條新聞"
+			},
+			"noNews": {
+				"eng": "No news available at the moment",
+				"trans": "暫無新聞"
+			},
+			"overline": {
+				"eng": "LIVE WORLD EVENTS // PLAYER-DRIVEN NARRATIVE",
+				"trans": "即時世界事件 // 玩家主導的敘事"
+			},
+			"previous": {
+				"eng": "Previous news",
+				"trans": "往期新聞"
+			},
+			"reportBy": {
+				"eng": "REPORT BY",
+				"trans": "報告者"
+			},
+			"tagDynamic": {
+				"eng": "Dynamic World System",
+				"trans": "動態世界系統"
+			},
+			"tagPlayerDriven": {
+				"eng": "Player-Driven Stories",
+				"trans": "玩家主導故事"
+			},
+			"tagRealTime": {
+				"eng": "Real-Time Updates",
+				"trans": "即時更新"
+			}
+		},
+		"showcase": {
+			"choiceOutcome": {
+				"description": {
+					"eng": "Face critical decisions during dungeon encounters. Risk it all for rewards, play it safe, or flee—every choice has consequences.",
+					"trans": "面對地下城遭遇時的關鍵決策。全力冒險以求獎勵、謹慎行事或逃離——每個選擇都有後果。"
+				},
+				"tag": {
+					"eng": "Make your own choices",
+					"trans": "自由選擇"
+				},
+				"title": {
+					"eng": "Navigate risk vs reward encounters",
+					"trans": "導航風險與獎勵遭遇"
+				}
+			},
+			"copy": {
+				"eng": "Real in-game screenshots showcasing tactical combat, deep lore, and endless progression",
+				"trans": "真實遊戲畫面：戰術對決、深厚世界觀與無盡進程"
+			},
+			"dungeonLobby": {
+				"description": {
+					"eng": "Form parties, assign roles, and launch procedural dungeons with unique loot tables and boss encounters.",
+					"trans": "組隊、分配角色，並啟動帶有獨特掉落表與首領遭遇的隨機生成地牢。"
+				},
+				"tag": {
+					"eng": "Dungeon System",
+					"trans": "地下城系統"
+				},
+				"title": {
+					"eng": "Queue squads for instanced raids",
+					"trans": "為實例化突襲排隊"
+				}
+			},
+			"heading": {
+				"eng": "See What Awaits You in the Neon Wasteland",
+				"trans": "探索霓虹廢土，發現等待你的驚喜"
+			},
+			"loreCollection": {
+				"description": {
+					"eng": "Unlock narrative fragments and codex bonuses as you explore the cyberpunk world and complete missions.",
+					"trans": "探索賽博朋克世界、完成任務，解鎖敘事碎片與編年誌獎勵。"
+				},
+				"tag": {
+					"eng": "Lore System",
+					"trans": "傳說系統"
+				},
+				"title": {
+					"eng": "Discover world lore and collectible entries",
+					"trans": "探索世界傳說與收藏品"
+				}
+			},
+			"minigameRewards": {
+				"description": {
+					"eng": "Multiple minigames to unlock chests in dungeons",
+					"trans": "多場迷你遊戲解鎖地下城寶箱"
+				},
+				"tag": {
+					"eng": "Minigames",
+					"trans": "小遊戲"
+				},
+				"title": {
+					"eng": "Skill challenges with targeted loot",
+					"trans": "技能挑戰：指定掉落"
+				}
+			},
+			"overline": {
+				"eng": "Game Captures",
+				"trans": "遊戲截圖"
+			},
+			"turnBasedCombat": {
+				"description": {
+					"eng": "Strategic combat with hit/miss/crit mechanics, damage mitigation, build your perfect crew and loadout.",
+					"trans": "策略戰鬥：命中/失敗/暴擊、傷害減免，打造理想隊伍與裝備。"
+				},
+				"tag": {
+					"eng": "Combat System",
+					"trans": "戰鬥系統"
+				},
+				"title": {
+					"eng": "Tactical turn-based encounters",
+					"trans": "戰術回合制遭遇"
+				}
+			}
+		},
+		"testimonial": {
+			"copy": {
+				"eng": "Verified players from around the world share their experiences with Arclight City",
+				"trans": "來自全球的已驗證玩家分享他們在幻光之城的體驗"
+			},
+			"heading": {
+				"eng": "Verified by players worldwide",
+				"trans": "由全球玩家驗證"
+			},
+			"label": {
+				"eng": "Google Play Review",
+				"trans": "Google Play 評論"
+			},
+			"overline": {
+				"eng": "Playstore x AppStore // trust signals",
+				"trans": "Google Play × Apple App Store // 信任指標"
+			},
+			"rating": {
+				"eng": "4.9 rating on Playstore",
+				"trans": "Play Store 評分 4.9"
+			},
+			"reviewCount": {
+				"eng": "13k+ reviews",
+				"trans": "13k+ 評論"
+			},
+			"review_1": {
+				"quote": {
+					"eng": "I was really surprised. The graphics fit the atmosphere very well. It's a simple click-and-click game, but it packs a punch. And there's no advertising, which isn't normal these days. So, 5 🌟",
+					"trans": "我真的很驚訝。畫面與氛圍相得益彰，雖然是簡單的點擊遊戲，但卻打得很過癮，而且沒有廣告，現在這種情況不常見。所以給5 🌟"
+				}
+			},
+			"review_2": {
+				"quote": {
+					"eng": "A game in my favorite setting, even with customizable skins! It's fantastic. I like it. The donations aren't pushy. It's nice. There are even free gifts. Very nice. You can feel the love for the setting. I like this kind of thing :3",
+					"trans": "這款遊戲符合我的最愛設定，甚至可以自訂皮膚！超讚，我很喜歡。捐贈方式不會太強迫，感覺很好。有免費禮物，真是太棒了。能體驗到對設定的熱情。我就喜歡這種風格。"
+				}
+			},
+			"review_3": {
+				"quote": {
+					"eng": "I recently started playing it, and I must say it completely captivated me. Everything is very well thought out, and so far I haven't found any bugs. I plan to dedicate many hours to this gem.",
+					"trans": "我最近開始玩這款遊戲，說實話它完全吸引了我。所有細節都設計得很周全，到目前為止，我還沒發現任何錯誤。我打算投入大量時間來享受這顆寶石。"
+				}
+			},
+			"review_4": {
+				"quote": {
+					"eng": "One of the truly good games on the store. A great atmosphere and a wide range of gameplay depth make it a great way to pass the time. It's also entirely in German. Keep it up!",
+					"trans": "商店裡最優質的遊戲之一，擁有極佳氛圍與多樣化玩法深度，是打發時間的不二選擇。整個遊戲全程使用德語，請繼續保持！"
+				}
+			},
+			"review_5": {
+				"quote": {
+					"eng": "I am enjoying this game with a great retro feel. It truly holds up to \"retro text-based graphics with captivating modern pixel art, delivering a truly unique visual experience\". Take your neuroblockers choom! I will see you in the strongholds.",
+					"trans": "我正沉浸在這款極具復古風情的遊戲中。它真實地堪稱「復古文字式圖形配合迷人現代像素藝術，帶來獨一無二的視覺體驗」。把你的神經阻斷劑拿起來，夥計！我們在堡壘見面吧。"
+				}
+			},
+			"review_6": {
+				"quote": {
+					"eng": "I invested all my money in stocks and now I'm fighting homeless people over synthetic bread. And everything's great in the game 👍",
+					"trans": "我把所有錢投進股市，現在卻跟無家可歸的人為了人造麵包打架。遊戲裡一切都很順利。"
+				}
+			},
+			"review_7": {
+				"quote": {
+					"eng": "This game is amazing for cyberpunk lovers.I highly recommend it.",
+					"trans": "這款遊戲對賽博朋克迷而言絕佳，強烈推薦。"
+				}
+			},
+			"review_8": {
+				"quote": {
+					"eng": "it's pretty fun it's my pocket cyberpunk",
+					"trans": "相當好玩，這是我的口袋賽博朋克"
+				}
+			}
+		}
+	},
 	"leaderboard": {
 		"clan": {
 			"name": {
@@ -4126,6 +7092,50 @@
 			"name": {
 				"eng": "PvP Kills",
 				"trans": "PvP 擊殺数"
+			}
+		},
+		"stockChirp": {
+			"name": {
+				"eng": "Chirp Shares",
+				"trans": "啾啾幣"
+			}
+		},
+		"stockCircuitbreak": {
+			"name": {
+				"eng": "Circuitbreak Shares",
+				"trans": "破壞者股票"
+			}
+		},
+		"stockMegaestate": {
+			"name": {
+				"eng": "Mega Estate Shares",
+				"trans": "超大地產股"
+			}
+		},
+		"stockProfit": {
+			"name": {
+				"eng": "Stock Realized Profit",
+				"trans": "已實現利潤"
+			}
+		}
+	},
+	"leaderboardTypes": {
+		"categories": {
+			"combat": {
+				"eng": "COMBAT",
+				"trans": "戰鬥"
+			},
+			"economy": {
+				"eng": "ECONOMIC ",
+				"trans": "經濟"
+			},
+			"gang": {
+				"eng": "GANG",
+				"trans": "幫派"
+			},
+			"skills": {
+				"eng": "SKILL",
+				"trans": "技能"
 			}
 		}
 	},
@@ -4215,11 +7225,38 @@
 			}
 		}
 	},
+	"linkAccount": {
+		"description": {
+			"eng": "Make your guest account permanent to prevent accidental loss of progress.",
+			"trans": "將您的訪客帳號轉為永久帳號，以防止意外丟失進度。"
+		},
+		"email": {
+			"description1": {
+				"eng": "You can use an fake email if you have privacy concerns",
+				"trans": "如果你有隱私顧慮，可以使用假電子郵件。"
+			},
+			"descriptionPopover": {
+				"eng": "but you will not be able to receive reset password emails, so please remember your email and password.",
+				"trans": "但您將無法收到重設密碼的電子郵件，因此請記住您的電子郵件和密碼。"
+			},
+			"title": {
+				"eng": "Email & Password",
+				"trans": "電子郵件與密碼"
+			}
+		},
+		"linkWithEmail": {
+			"eng": "Link with Email",
+			"trans": "用電子郵件連結"
+		},
+		"title": {
+			"eng": "Finish Signing Up",
+			"trans": "完成註冊"
+		}
+	},
 	"localEnemy": {
 		"levelDisplay": {
 			"eng": "Level ${minLevel} - ${maxLevel}",
-			"trans": "等級 ${minLevel} - ${maxLevel}",
-			"vars": []
+			"trans": "等級 ${minLevel} - ${maxLevel}"
 		},
 		"selectLevelModal": {
 			"display": {
@@ -4243,13 +7280,11 @@
 		},
 		"level": {
 			"eng": "Level ${level}",
-			"trans": "等級 ${level}",
-			"vars": []
+			"trans": "等級 ${level}"
 		},
 		"levelRange": {
 			"eng": "Lv ${enemyMinLevel}-${enemyMaxLevel}",
-			"trans": "等級 ${enemyMinLevel}-${enemyMaxLevel}",
-			"vars": []
+			"trans": "等級 ${enemyMinLevel}-${enemyMaxLevel}"
 		},
 		"listHeader": {
 			"title": {
@@ -4259,8 +7294,7 @@
 		},
 		"lockedError": {
 			"eng": "You can travel to this location when you reach level ${level}, or by completing the previous level stronghold.",
-			"trans": "當您達到等級${level}或完成前一關的地城時，您可以前往這個地點。",
-			"vars": []
+			"trans": "當您達到等級${level}或完成前一關的地城時，您可以前往這個地點。"
 		}
 	},
 	"loginFromOtherDevicePage": {
@@ -4275,6 +7309,10 @@
 	},
 	"loginPage": {
 		"emailLoginBox": {
+			"forgotPassword": {
+				"eng": "Forgot Password?",
+				"trans": "忘記密碼了？"
+			},
 			"login": {
 				"eng": "Login",
 				"trans": "登入"
@@ -4286,6 +7324,10 @@
 			"register": {
 				"eng": "Register",
 				"trans": "註冊"
+			},
+			"registerWithEmail": {
+				"eng": "Register with Email",
+				"trans": "使用電子郵件註冊"
 			}
 		},
 		"loginError": {
@@ -4295,6 +7337,18 @@
 		"loginWithEmail": {
 			"eng": "Login with Email",
 			"trans": "使用電子郵件登入"
+		},
+		"pageDescription": {
+			"eng": "Explore the dark streets of Arclight City, a cyberpunk text-based MMORPG. Dive into a world of corporate intrigue, mercenaries, and cybernetic enhancements.",
+			"trans": "探索幻光之城的黑暗街道，這是一款以文字為基礎的電驅朋克MMORPG。潛入一個充滿企業陰謀、雇傭兵和電驅增強的世界。"
+		},
+		"pageTitle": {
+			"eng": "Arclight City - Cyberpunk Text-Based MMORPG",
+			"trans": "幻光之城 - 賽博朋克文字型MMORPG"
+		},
+		"resetEmailSent": {
+			"eng": "Reset email sent. Check your email.",
+			"trans": "重設郵件已發送。請檢查您的電子郵件。"
 		},
 		"serverUnavailable": {
 			"eng": "Server under maintenance. We are bring it back online soon.",
@@ -4307,6 +7361,10 @@
 		"unableToRegister": {
 			"eng": "Failed to register: ${error}",
 			"trans": "註冊失敗：${error}"
+		},
+		"unableToSendResetEmail": {
+			"eng": "Failed to send reset email: ${error}",
+			"trans": "無法發送重置郵件：${error}"
 		}
 	},
 	"loreNote": {
@@ -4315,11 +7373,175 @@
 			"trans": "您收集到了一份新的背景故事。"
 		}
 	},
+	"lottery": {
+		"error": {
+			"noWin": {
+				"eng": "Almost! Better luck next time!",
+				"trans": "差點！下次加油！"
+			},
+			"notEnoughCurrency": {
+				"eng": "Insufficient currency, required: ${required}",
+				"trans": "貨幣不足，需要：${required}"
+			},
+			"notEnoughItem": {
+				"eng": "Insufficient ${required}",
+				"trans": "${required}不足"
+			}
+		},
+		"winMessage": {
+			"eng": "You received ${itemName}",
+			"trans": "你獲得了${itemName}"
+		}
+	},
+	"lotteryAnimationPopup": {
+		"activated": {
+			"loadingBarTitle": {
+				"eng": "Receiving result...",
+				"trans": "接收結果中..."
+			},
+			"textList3": {
+				"eng": "Randomizing...",
+				"trans": "計算隨機..."
+			}
+		},
+		"close": {
+			"eng": "Close",
+			"trans": "關閉"
+		}
+	},
+	"lotteryPage": {
+		"dropRateModal": {
+			"title": {
+				"eng": "Reward List",
+				"trans": "獎勵清單"
+			}
+		},
+		"pachinkoTip": {
+			"eng": "Each round of Pachinko you will receive one of the reward from the reward list.",
+			"trans": "每一輪彈珠台你將會從獎勵清單中獲得其中一個獎勵。"
+		},
+		"skipAnimation": {
+			"eng": "Skip Animation",
+			"trans": "跳過動畫"
+		}
+	},
+	"lotteryType": {
+		"pachinko": {
+			"activateVerb": {
+				"eng": "Play Pachinko",
+				"trans": "玩彈珠台"
+			},
+			"againText": {
+				"eng": "Play Again",
+				"trans": "再玩一次"
+			},
+			"lostSubtitle": {
+				"eng": "Keep playing, your win awaits!",
+				"trans": "再接再厲，你的勝利就在前方！"
+			},
+			"lostTitle": {
+				"eng": "So close!",
+				"trans": "差點就成功了！"
+			},
+			"winTitle": {
+				"eng": "You won!",
+				"trans": "你贏了！"
+			}
+		}
+	},
+	"luckyDraw": {
+		"betterLuck": {
+			"eng": "BETTER LUCK NEXT TIME",
+			"trans": "下次再接再厲"
+		},
+		"drawLost": {
+			"eng": "TRY AGAIN LATER",
+			"trans": "請稍後再試"
+		},
+		"drawWon": {
+			"eng": "SUCCESS!",
+			"trans": "成功！"
+		},
+		"expired": {
+			"eng": "EXPIRED",
+			"trans": "過期"
+		},
+		"expiresLabel": {
+			"eng": "EXPIRES: ",
+			"trans": "過期"
+		},
+		"flashSale": {
+			"description": {
+				"eng": "Win exclusive flash sale discounts!",
+				"trans": "贏得限時特惠折扣！"
+			},
+			"title": {
+				"eng": "Flash Sale Lucky Draw",
+				"trans": "驚喜閃賣抽獎"
+			}
+		},
+		"idle": {
+			"eng": "IDLE",
+			"trans": "空閒中"
+		},
+		"invalidType": {
+			"eng": "Invalid lucky draw type",
+			"trans": "抽獎類型無效"
+		},
+		"itemsReceived": {
+			"eng": "ITEMS RECEIVED:",
+			"trans": "所得物品："
+		},
+		"noRewards": {
+			"eng": "NO REWARDS THIS TIME",
+			"trans": "本次無獎勵"
+		},
+		"notEligible": {
+			"eng": "You are not eligible for this lucky draw",
+			"trans": "你不符合抽獎資格"
+		},
+		"onCooldown": {
+			"eng": "This lucky draw is on cooldown. Try again later!",
+			"trans": "抽獎冷卻中，請稍後再試!"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "正在處理..."
+		},
+		"processing1": {
+			"eng": "PROCESSING",
+			"trans": "處理中"
+		},
+		"rewardUnlocked": {
+			"eng": "REWARD UNLOCKED!",
+			"trans": "獎勵解鎖！"
+		},
+		"statusSuccess": {
+			"eng": "STATUS: SUCCESS",
+			"trans": "狀態：成功"
+		},
+		"statusUnsuccessful": {
+			"eng": "STATUS: UNSUCCESSFUL",
+			"trans": "狀態：失敗"
+		},
+		"swipeToUnlock": {
+			"eng": "Swipe to initiate lucky draw",
+			"trans": "滑動觸發幸運抽獎"
+		},
+		"transactionComplete": {
+			"eng": "TRANSACTION COMPLETE",
+			"trans": "交易已結束"
+		}
+	},
 	"mail": {
 		"notification": {
 			"fromPlayer": {
 				"eng": "${senderName} sent you a mail",
 				"trans": "${senderName}寄給您一封郵件"
+			},
+			"fromSystem": {
+				"eng": "You received a System Mail",
+				"trans": "收到系統郵件"
 			}
 		},
 		"pvpFailed1": {
@@ -4333,6 +7555,50 @@
 				"eng": "You tried to mug ${playerName} but you lost the fight, you lost ${amount}",
 				"trans": "你試圖搶劫${playerName}，但你輸了這場戰鬥，你損失了${amount}"
 			}
+		},
+		"system": {
+			"name": {
+				"eng": "System Message",
+				"trans": "系統訊息"
+			}
+		}
+	},
+	"mailDetails": {
+		"blockAndReport": {
+			"eng": "Block & Report",
+			"trans": "封鎖並舉報"
+		},
+		"blockOnly": {
+			"eng": "Block Only",
+			"trans": "僅封鎖"
+		},
+		"blockPlayer": {
+			"eng": "Block Player",
+			"trans": "封鎖玩家"
+		},
+		"blockPlayerConfirm": {
+			"eng": "Choose how you want to proceed with this player:",
+			"trans": "請選擇與此玩家的後續動作："
+		},
+		"playerBlocked": {
+			"eng": "Player Blocked",
+			"trans": "玩家被擋下"
+		},
+		"playerBlockedMessage": {
+			"eng": "You have blocked this player. Unblock them to view messages and send new ones.",
+			"trans": "你已封鎖此玩家。請解除封鎖以查看訊息並發送新訊息。"
+		},
+		"unblock": {
+			"eng": "Unblock",
+			"trans": "解封"
+		},
+		"unblockPlayer": {
+			"eng": "Unblock Player",
+			"trans": "解除玩家封鎖"
+		},
+		"unblockPlayerConfirm": {
+			"eng": "Are you sure you want to unblock this player?",
+			"trans": "確定要解除此玩家的封鎖嗎？"
 		}
 	},
 	"mailModule": {
@@ -4340,13 +7606,27 @@
 			"blocked": {
 				"eng": "This player cannot receive your mail at this time.",
 				"trans": "此玩家目前無法收到您的郵件。"
+			},
+			"notEnoughLevel": {
+				"eng": "You need to be at least level ${level} to initiate a mail.",
+				"trans": "需等級${level}以上方可寄信。"
+			},
+			"notFriend": {
+				"eng": "This player only allows mails from players in their friend list.",
+				"trans": "這名玩家只接受好友清單內玩家的郵件。"
 			}
+		}
+	},
+	"mailPreview": {
+		"blockedMessage": {
+			"eng": "Message hidden - player blocked",
+			"trans": "訊息隱藏 - 玩家已封鎖"
 		}
 	},
 	"mailTab": {
 		"empty": {
-			"eng": "currently you don\\'t have any chat",
-			"trans": "目前沒有聊天資訊。"
+			"eng": "currently you don't have any chat",
+			"trans": "目前沒有任何聊天"
 		}
 	},
 	"mails": {
@@ -4368,6 +7648,12 @@
 				"trans": "回到公寓"
 			}
 		},
+		"autoGather": {
+			"title": {
+				"eng": "Auto Gather",
+				"trans": "自動收集"
+			}
+		},
 		"chirp": {
 			"title": {
 				"eng": "Chirp",
@@ -4378,6 +7664,12 @@
 			"title": {
 				"eng": "Travel [Level ${currentLevel}]",
 				"trans": "前往 [等級 ${currentLevel}]"
+			}
+		},
+		"craft": {
+			"title": {
+				"eng": "Craft",
+				"trans": "合成"
 			}
 		},
 		"deathItemsButton": {
@@ -4459,6 +7751,48 @@
 			}
 		}
 	},
+	"maintenanceScreen": {
+		"body1": {
+			"eng": "Hello, Cyberpunkers of Arclight City!",
+			"trans": "嗨，幻光之城的賽博朋克們！"
+		},
+		"body2": {
+			"eng": "Currently, Arclight City is undergoing maintenance to address a few unexpected issues. This is crucial for ensuring a top-notch gaming experience.",
+			"trans": "目前，幻光之城正在進行維護以解決一系統問題。這對於確保一流的遊戲體驗至關重要。"
+		},
+		"body3": {
+			"eng": "🛠️ Maintenance Status",
+			"trans": "🛠️ 維護狀態"
+		},
+		"body4": {
+			"eng": "This maintenance is scheduled to finish in a few minutes, but I will keep you updated if that changes.",
+			"trans": "這次的維護預計在幾分鐘內完成，但如果有變動，我會隨時通知你。"
+		},
+		"body5": {
+			"eng": "The goal is to ensure that every aspect of Arclight City functions smoothly for your adventures.",
+			"trans": "我們的目標是確保幻光之城的每個方面都能順利運作，讓你的冒險更加順利。"
+		},
+		"body6": {
+			"eng": "I'm working diligently to address a few unexpected issues that have arisen.",
+			"trans": "我正在努力處理一些意外出現的問題。"
+		},
+		"body7": {
+			"eng": "I understand the disruption this may cause change to your gaming plans and sincerely apologize for any inconvenience. Your experience in Arclight City is incredibly important to me, and I'm committed to completing this maintenance as quickly as possible",
+			"trans": "我了解這可能會對你的遊戲計劃造成的干擾，並為任何不便深表歉意。你在幻光之城的遊戲體驗對我來說非常重要，我致力於盡快完成此次維護。"
+		},
+		"body8": {
+			"eng": "Thank you for your patience and understanding. Your support and enthusiasm for Arclight City are what drive these efforts.",
+			"trans": "感謝您的耐心和理解。您對幻光之城的支持和熱情是推動這些努力的動力。"
+		},
+		"body9": {
+			"eng": "Warm regards",
+			"trans": "誠摯的問候"
+		},
+		"title": {
+			"eng": "🚀 Maintenance in Progress 🚀",
+			"trans": "🚀 維護進行中 🚀"
+		}
+	},
 	"markdownFile": {
 		"afkTask": {
 			"eng": "AFK Task",
@@ -4467,6 +7801,10 @@
 		"attributes": {
 			"eng": "Attributes",
 			"trans": "屬性"
+		},
+		"autoGather": {
+			"eng": "Auto Gather",
+			"trans": "自動收集"
 		},
 		"backpack": {
 			"eng": "Backpack",
@@ -4492,17 +7830,33 @@
 			"eng": "Equipment Upgrade",
 			"trans": "裝備升級"
 		},
+		"followUpLottery": {
+			"eng": "Follow Up Lottery",
+			"trans": "跟進抽獎"
+		},
 		"gangUpkeep": {
 			"eng": "Gang Upkeep",
-			"trans": "幫派維護费用"
+			"trans": "幫派維護費用"
+		},
+		"hideoutRaid": {
+			"eng": "Hideout Raid",
+			"trans": "據點突襲"
 		},
 		"hitBounty": {
 			"eng": "Hit Bounty",
 			"trans": "擊殺賞金"
 		},
+		"intelligenceContract": {
+			"eng": "Intelligence Contract",
+			"trans": "情報合約"
+		},
 		"inventory": {
 			"eng": "Inventory",
 			"trans": "倉庫"
+		},
+		"investigation": {
+			"eng": "Investigation",
+			"trans": "調查"
 		},
 		"jobLevel": {
 			"eng": "Job Level",
@@ -4511,6 +7865,14 @@
 		"mercenary": {
 			"eng": "Mercenary",
 			"trans": "傭兵"
+		},
+		"psychosis": {
+			"eng": "Psychosis",
+			"trans": "電馭狂躁"
+		},
+		"stockMarket": {
+			"eng": "Stock Market",
+			"trans": "股市"
 		},
 		"territory": {
 			"eng": "Territory",
@@ -4939,6 +8301,12 @@
 			"trans": "獨特"
 		}
 	},
+	"mercenaryImagePopup": {
+		"tierLabel": {
+			"eng": "Tier",
+			"trans": "階層"
+		}
+	},
 	"mercenaryLevelDisplay": {
 		"levelUp": {
 			"eng": "Enhance",
@@ -4957,6 +8325,10 @@
 		"hireMercenary": {
 			"eng": "Recruit Mercenaries",
 			"trans": "招募傭兵"
+		},
+		"manageCrew": {
+			"eng": "Manage Crew",
+			"trans": "管理隊伍"
 		},
 		"multiSelectOptions": {
 			"dismiss": {
@@ -5070,6 +8442,10 @@
 		}
 	},
 	"messageContainer": {
+		"block": {
+			"eng": "Block",
+			"trans": "封鎖"
+		},
 		"developer": {
 			"eng": "Developer",
 			"trans": "開發者"
@@ -5078,9 +8454,29 @@
 			"eng": "No messages yet",
 			"trans": "暫時沒有訊息。"
 		},
+		"reply": {
+			"eng": "Reply",
+			"trans": "回覆"
+		},
+		"replyingTo": {
+			"eng": "Replying to ${playerName}",
+			"trans": "回覆${playerName}"
+		},
+		"report": {
+			"eng": "Report & Block",
+			"trans": "檢舉 & 封鎖"
+		},
+		"sendMail": {
+			"eng": "Send Mail",
+			"trans": "發送郵件"
+		},
 		"system": {
 			"eng": "System",
 			"trans": "系統"
+		},
+		"viewProfile": {
+			"eng": "View Profile",
+			"trans": "查看個人資料"
 		}
 	},
 	"messageToken": {
@@ -5105,10 +8501,368 @@
 				"eng": "Send invite?",
 				"trans": "傳送邀請？"
 			}
+		},
+		"joinClanRequestByMe": {
+			"button": {
+				"eng": "Request Sent",
+				"trans": "請求已發送"
+			}
 		}
 	},
 	"minigame": {
+		"circuitSync": {
+			"instruction": {
+				"eng": "Click when the pulse aligns with the connection point",
+				"trans": "當脈衝與連接點對齊時點擊"
+			},
+			"status": {
+				"progress": {
+					"eng": "${current}/${total} Synchronized",
+					"trans": "${current}/${total} 同步中"
+				},
+				"title": {
+					"eng": "System Status",
+					"trans": "系統狀態"
+				}
+			},
+			"title": {
+				"eng": "Circuit Synchronization Required",
+				"trans": "需要電路同步"
+			}
+		},
+		"codeMinigame": {
+			"accessGranted": {
+				"eng": "ACCESS GRANTED",
+				"trans": "存取已授權"
+			},
+			"breachProgress": {
+				"eng": "BREACH PROGRESS",
+				"trans": "突破進度"
+			},
+			"example": {
+				"eng": "Example of obfuscated code:",
+				"trans": "混淆代碼範例："
+			},
+			"instructions": {
+				"eng": "Identify and execute all obfuscated code to breach the system firewall.",
+				"trans": "識別並執行所有混淆代碼以突破系統防火牆。"
+			},
+			"securityBypassed": {
+				"eng": "SECURITY BYPASSED",
+				"trans": "安全系統已被繞過"
+			}
+		},
+		"dataNodeSync": {
+			"instructions": {
+				"eng": "Connect nodes in ascending order",
+				"trans": "按照順序點擊連接節點"
+			},
+			"progress": {
+				"eng": "Nodes Connected: ${current}/${total}",
+				"trans": "已連接節點：${current}/${total}"
+			},
+			"title": {
+				"eng": "Data Node Synchronization",
+				"trans": "數據節點同步"
+			}
+		},
+		"dialMatch": {
+			"complete": {
+				"eng": "▲ CALIBRATION COMPLETE ▲",
+				"trans": "校準已完成"
+			},
+			"dialLabel": {
+				"eng": "DIAL-${dialNumber}",
+				"trans": "旋钮-${dialNumber}"
+			},
+			"howToPlay": {
+				"eng": "Click each dial to rotate it and match the target position",
+				"trans": "依序點選各旋鈕調整至目標位置"
+			},
+			"instructions": {
+				"eng": "CLICK DIALS TO ROTATE AND MATCH TARGET POSITIONS",
+				"trans": "按下旋鈕旋轉並對準目標位置"
+			},
+			"status": {
+				"eng": "STATUS: ${current}/${total} SYNCHRONIZED",
+				"trans": "狀態: ${current}/${total} 已同步"
+			},
+			"statusSync": {
+				"eng": "SYNC",
+				"trans": "同步"
+			},
+			"statusUnsync": {
+				"eng": "UNSYNC",
+				"trans": "脫序"
+			},
+			"title": {
+				"eng": "SYSTEM CALIBRATION",
+				"trans": "系統校準"
+			}
+		},
+		"neonFuse": {
+			"hint": {
+				"eng": "Watch and remember the sequence...",
+				"trans": "觀察並記住這個序列..."
+			},
+			"instruction": {
+				"eng": "Recreate the sequence. Any mistake will reset with a new pattern.",
+				"trans": "重新創建序列。任何錯誤將會重置為新模式。"
+			},
+			"progress": {
+				"eng": "Progress",
+				"trans": "進度"
+			},
+			"sequenceIndicator": {
+				"eng": "Remember the sequence...",
+				"trans": "記住這個序列..."
+			},
+			"success": {
+				"eng": "Hack successful!",
+				"trans": "駭客入侵成功！"
+			},
+			"successIndicator": {
+				"eng": "Access Granted",
+				"trans": "訪問已授權"
+			},
+			"title": {
+				"eng": "Neon Fuse Hack",
+				"trans": "霓虹熔接駭客"
+			}
+		},
+		"neuralSignalSynchronizer": {
+			"downHint": {
+				"eng": "Down",
+				"trans": "停用"
+			},
+			"instructions": {
+				"eng": "Keep the signal in the green zone to synchronize. Tap the UP arrow to move the signal up, and the DOWN arrow to move it down.",
+				"trans": "將訊號保持在綠色區域以進行同步。點擊向上箭頭將訊號向上移動，點擊向下箭頭將其向下移動。"
+			},
+			"progressTitle": {
+				"eng": "SYNC PROGRESS",
+				"trans": "同步中"
+			},
+			"signalStrength": {
+				"eng": "Signal Quality",
+				"trans": "訊號品質"
+			},
+			"status": {
+				"eng": "NEURAL SYNC STATUS",
+				"trans": "神經連結"
+			},
+			"statusStable": {
+				"eng": "STABILIZING... ${percent}%",
+				"trans": "穩定... ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "SYNCHRONIZED",
+				"trans": "已同步"
+			},
+			"statusUnstable": {
+				"eng": "UNSTABLE",
+				"trans": "故障"
+			},
+			"subtitle": {
+				"eng": "System Access Protocol",
+				"trans": "系統通行協議"
+			},
+			"title": {
+				"eng": "Neural Signal Synchronizer",
+				"trans": "腦神經同步器"
+			},
+			"upHint": {
+				"eng": "Up",
+				"trans": "提升"
+			}
+		},
+		"pressureRegulator": {
+			"failTitle": {
+				"eng": "System Overload",
+				"trans": "系統過載"
+			},
+			"gaugeLabel": {
+				"eng": "Pressure gauge - hold to regulate",
+				"trans": "壓力表-長按以調節"
+			},
+			"holdingHint": {
+				"eng": "Hold Active",
+				"trans": "持續激活"
+			},
+			"instructions": {
+				"eng": "Hold to raise pressure • Release to lower • Maintain ${duration}s in zone",
+				"trans": "長按提升壓力 • 鬆開降低壓力 • 在區域內維持${duration}秒"
+			},
+			"pressureLabel": {
+				"eng": "Pressure",
+				"trans": "壓力"
+			},
+			"progressTitle": {
+				"eng": "REGULATION PROGRESS",
+				"trans": "調整進度"
+			},
+			"retry": {
+				"eng": "Reset System",
+				"trans": "重置系統"
+			},
+			"retryLabel": {
+				"eng": "Reset system and try again",
+				"trans": "重置系統並重新嘗試"
+			},
+			"safeZone": {
+				"eng": "Target Zone",
+				"trans": "目標區"
+			},
+			"status": {
+				"eng": "Status",
+				"trans": "狀態"
+			},
+			"statusFailed": {
+				"eng": "Overload",
+				"trans": "過載"
+			},
+			"statusLabelFailed": {
+				"eng": "Fail",
+				"trans": "失敗"
+			},
+			"statusLabelSuccess": {
+				"eng": "OK",
+				"trans": "確認"
+			},
+			"statusStable": {
+				"eng": "Stable ${percent}%",
+				"trans": "穩定 ${percent}%"
+			},
+			"statusSuccess": {
+				"eng": "Regulated",
+				"trans": "受管制"
+			},
+			"statusUnstable": {
+				"eng": "Out of Range",
+				"trans": "距離太遠"
+			},
+			"subtitle": {
+				"eng": "Power Flow Control System",
+				"trans": "電力流控制系統"
+			},
+			"successTitle": {
+				"eng": "System Regulated",
+				"trans": "系統控制"
+			},
+			"tapHint": {
+				"eng": "[Press & Hold]",
+				"trans": "長按"
+			},
+			"title": {
+				"eng": "Pressure Regulator",
+				"trans": "壓力調節器"
+			}
+		},
+		"signalIntercept": {
+			"carrier": {
+				"eng": "Carrier Frequency",
+				"trans": "載波頻率"
+			},
+			"data": {
+				"eng": "Data Stream",
+				"trans": "資料流"
+			},
+			"decryption": {
+				"eng": "Decryption Progress",
+				"trans": "解密進度"
+			},
+			"guide": {
+				"description": {
+					"eng": "Align both frequency waves by adjusting the Carrier Frequency and Data Stream controls.",
+					"trans": "調整載波頻率與資料流控制，對準兩個頻率波。"
+				},
+				"title": {
+					"eng": "Objective",
+					"trans": "目標"
+				}
+			},
+			"protocol": {
+				"eng": "Protocol: SIGINT-9",
+				"trans": "協議：SIGINT-9"
+			},
+			"status": {
+				"locked": {
+					"eng": "LOCKED",
+					"trans": "已鎖定"
+				},
+				"scanning": {
+					"eng": "SCANNING",
+					"trans": "掃描中"
+				}
+			},
+			"success": {
+				"message": {
+					"eng": "ACCESS GRANTED",
+					"trans": "存取成功"
+				},
+				"title": {
+					"eng": "DECRYPTION COMPLETE",
+					"trans": "解密完成"
+				}
+			},
+			"title": {
+				"eng": "SIGNAL INTERCEPT",
+				"trans": "訊號截獲"
+			},
+			"visualizer": {
+				"eng": "Spectral Visualizer",
+				"trans": "光譜可視化器"
+			}
+		},
+		"targetTap": {
+			"description": {
+				"eng": "Tap the target to acquire it",
+				"trans": "點擊目標以獲取它"
+			},
+			"title": {
+				"eng": "ACQUIRE TARGET",
+				"trans": "獲取目標"
+			}
+		},
+		"terminalHacking": {
+			"header": {
+				"status": {
+					"eng": "Tap the decrypted keywords to unlock the terminal",
+					"trans": "點擊已解密的關鍵字以解鎖終端機"
+				},
+				"title": {
+					"eng": "CIRCUITBREAK TERMLINK PROTOCOL",
+					"trans": "CIRCUITBREAK 連結協議"
+				}
+			},
+			"progress": {
+				"eng": "SECURITY NODES: ${found}/${total}",
+				"trans": "安全節點：${found}/${total}"
+			},
+			"status": {
+				"initial": {
+					"eng": "INITIALIZING TERMINAL ACCESS...",
+					"trans": "初始化終端機存取..."
+				},
+				"progress": {
+					"eng": "SECURITY NODE BYPASSED. ${remaining} REMAINING.",
+					"trans": "安全節點已被繞過。還剩${remaining}。"
+				},
+				"success": {
+					"eng": "ACCESS GRANTED. TERMINAL UNLOCKED.",
+					"trans": "訪問已授權。終端已解鎖。"
+				}
+			},
+			"success": {
+				"eng": "ACCESS GRANTED",
+				"trans": "存取已授權"
+			}
+		},
 		"tileTrack": {
+			"clickHere": {
+				"eng": "Click",
+				"trans": "點擊"
+			},
 			"tip": {
 				"eng": "Click on the highlighted button to unlock",
 				"trans": "點擊高亮按鈕以解鎖"
@@ -5198,10 +8952,6 @@
 			"eng": "All",
 			"trans": "全部"
 		},
-		"unlock": {
-			"eng": "unlock",
-			"trans": "解鎖"
-		},
 		"upgrade": {
 			"eng": "upgrade",
 			"trans": "升級"
@@ -5219,19 +8969,190 @@
 			},
 			"invalidAmount": {
 				"eng": "Amount must be between ${min} and ${max}",
-				"trans": "金額無效。",
-				"vars": []
+				"trans": "金額無效。"
 			}
 		}
 	},
 	"moderation": {
-		"error": {
+		"aierror": {
 			"eng": "Your motto contains inappropriate words",
-			"trans": "您的座右銘包含不適當的詞語"
+			"trans": "您的座右銘含有不適當的詞彙"
+		},
+		"merror": {
+			"eng": "The motto contains reserved words",
+			"trans": "標語含有保留字"
+		},
+		"noticeFailed": {
+			"eng": "Notice failed to post due to moderation",
+			"trans": "通知因審核失敗而未能發佈"
 		},
 		"serviceDown": {
 			"eng": "Motto editing is temporally disabled due to external service downtime, please try again later",
 			"trans": "因外部服務暫時停止，座右銘編輯功能暫時無法使用，請稍後再試。"
+		}
+	},
+	"moralityMeter": {
+		"criminal": {
+			"title": {
+				"eng": "Criminal",
+				"trans": "罪犯"
+			}
+		},
+		"neutral": {
+			"title": {
+				"eng": "Neutral",
+				"trans": "中立"
+			}
+		},
+		"socialCreditScore": {
+			"eng": "${amount} social credit score",
+			"trans": "${amount} 社會信用分數"
+		},
+		"vigilante": {
+			"title": {
+				"eng": "Vigilante",
+				"trans": "義警"
+			}
+		}
+	},
+	"mutedMessage": {
+		"contact": {
+			"eng": "If you have any questions, please contact us at ${email}",
+			"trans": "若您有任何問題，請透過 ${email} 聯絡我們"
+		},
+		"description": {
+			"eng": "Your account has been muted by the SYSTEM. You are temporarily unable to send messages or mails.",
+			"trans": "您的帳號已被系統禁言，暫時無法發送訊息或郵件。"
+		},
+		"timeRemaining": {
+			"eng": "Time remaining: ${time}",
+			"trans": "剩餘時間：${time}"
+		},
+		"title": {
+			"eng": "Account Muted",
+			"trans": "帳號已禁言"
+		}
+	},
+	"newsCard": {
+		"new": {
+			"eng": "NEW",
+			"trans": "新"
+		}
+	},
+	"newsPage": {
+		"aboutAuthor": {
+			"eng": "ABOUT THE AUTHOR",
+			"trans": "關於作者"
+		},
+		"backButton": {
+			"eng": "ALL NEWS",
+			"trans": "全部新聞"
+		},
+		"backToList": {
+			"eng": "RETURN TO NEWS FEED",
+			"trans": "回到資訊流"
+		},
+		"breaking": {
+			"eng": "BREAKING",
+			"trans": "快訊"
+		},
+		"emoji": {
+			"noEmojiYet": {
+				"eng": "No reactions yet",
+				"trans": "沒動靜"
+			}
+		},
+		"error": {
+			"missingId": {
+				"eng": "Missing report ID",
+				"trans": "報告ID未找到"
+			},
+			"reportNotFound": {
+				"eng": "News report not found",
+				"trans": "新聞報導未找到"
+			}
+		},
+		"featuredStory": {
+			"eng": "FEATURED STORY",
+			"trans": "主打故事"
+		},
+		"keyPoints": {
+			"eng": "KEY POINTS",
+			"trans": "關鍵"
+		},
+		"latestNews": {
+			"eng": "LATEST REPORTS",
+			"trans": "最新消息"
+		},
+		"loading": {
+			"eng": "ACCESSING DATA...",
+			"trans": "數據載入中..."
+		},
+		"noNews": {
+			"eng": "NO NEWS DATA AVAILABLE",
+			"trans": "訊號中斷"
+		},
+		"published": {
+			"eng": "PUBLISHED",
+			"trans": "發布"
+		},
+		"reactions": {
+			"react": {
+				"eng": "REACT",
+				"trans": "反應"
+			},
+			"totalCount": {
+				"eng": "${amount} reactions",
+				"trans": "${amount} 反應數"
+			}
+		},
+		"readMore": {
+			"eng": "READ MORE",
+			"trans": "查看更多"
+		},
+		"reportBy": {
+			"eng": "REPORT BY",
+			"trans": "BY:"
+		},
+		"reportNotFound": {
+			"eng": "NEWS REPORT NOT FOUND",
+			"trans": "系統找不到報導"
+		},
+		"share": {
+			"eng": "SHARE",
+			"trans": "分享"
+		},
+		"slogan": {
+			"eng": "YOUR TRUSTED SOURCE FOR ARCLIGHT CITY NEWS AND EVENTS",
+			"trans": "幻光之城情報站，給你最靠譜的新聞與活動！"
+		},
+		"totalReactions": {
+			"eng": "${totalReactions} reactions",
+			"trans": "`${totalReactions} 次互動`"
+		}
+	},
+	"newsReport": {
+		"gangMention": {
+			"eng": "The Arclight Times has mentioned your gang in a news article",
+			"trans": "幻光時報新聞有提到你的幫派喔！"
+		},
+		"newReportAvailable": {
+			"eng": "The Arclight Chronicle has published today's news report!",
+			"trans": "幻光紀事報已發佈今天的新聞報導！"
+		},
+		"newsReportGenerated": {
+			"eng": "Arclight Times posted a new news report",
+			"trans": "幻光時報推送了新報導。"
+		},
+		"playerMention": {
+			"eng": "The Arclight Times has mentioned you in a news article",
+			"trans": "幻光時報報導提到你了啦！"
+		}
+	},
+	"noLoginSidebar": {
+		"accessNeeded": {
+			"eng": "LOGIN REQUIRED TO ACCESS NETWORK",
+			"trans": "登入以訪問網絡"
 		}
 	},
 	"notification": {
@@ -5240,9 +9161,17 @@
 				"eng": "You have already invited this player",
 				"trans": "您已經邀請過這位玩家了"
 			},
+			"body": {
+				"eng": "${inviter} have invited you to their apartment",
+				"trans": "${inviter}邀請你去他們的公寓"
+			},
 			"message": {
 				"eng": "${playerName} has invited you to their apartment.",
 				"trans": "${playerName} 邀請您到他們的公寓。"
+			},
+			"title": {
+				"eng": "Apartment Invite",
+				"trans": "公寓邀請"
 			}
 		},
 		"clanInvite": {
@@ -5250,15 +9179,27 @@
 				"eng": "You have already invited this player",
 				"trans": "您已經邀請過這個玩家了。"
 			},
+			"body": {
+				"eng": "${inviter} have invited you to their gang ${clanName}",
+				"trans": "${inviter} 邀請你加入他們的幫派 ${clanName}"
+			},
 			"message": {
 				"eng": "${playerName} has invited you to their gang ${clanName}.",
 				"trans": "${playerName}邀請您加入他們的幫派${clanName}。"
+			},
+			"title": {
+				"eng": "Gang Invite",
+				"trans": "陣營邀請"
 			}
 		},
 		"lobbyInvite": {
 			"alreadyInvitedError": {
 				"eng": "You have already invited this player",
 				"trans": "您已經邀請過這位玩家了。"
+			},
+			"body": {
+				"eng": "${inviter} have invited you to their stronghold lobby",
+				"trans": "${inviter} 邀請你加入他們的地城大廳"
 			},
 			"message": {
 				"eng": "${playerName} has invited you to their stronghold lobby.",
@@ -5329,6 +9270,14 @@
 			"npcName": {
 				"eng": "Chloe",
 				"trans": "克蘿伊"
+			},
+			"pachinkoButton2": {
+				"eng": "Play Pachinko",
+				"trans": "玩彈珠台"
+			},
+			"pachinkoGuy": {
+				"eng": "Talk to pachinko guy in the corner",
+				"trans": "找角落的柏青哥愛好者聊天"
 			},
 			"questCooldownLines": {
 				"eng": [
@@ -5437,6 +9386,40 @@
 				"trans": "您可以在這裡將物品賣給其他玩家，或是向其他玩家購買物品。"
 			}
 		},
+		"christmas": {
+			"greetings": {
+				"eng": [
+					"Ho ho ho... that's what they expect. I prefer to get straight to business.",
+					"You on the nice list? Better be, or things get complicated.",
+					"Christmas cheer is mandatory. Compliance is non-negotiable.",
+					"Gift exchange is a tactical operation. Are you prepared?",
+					"Another customer. Good. My quota won't fill itself."
+				],
+				"trans": [
+					"哈哈哈……這正是他們所期待的。我寧願直接切入正題。",
+					"你在好人榜上嗎？一定要，否則事情會變複雜。",
+					"聖誕節歡樂是強制性的，請嚴格配合。",
+					"禮物交換是一項戰術行動。你已準備好嗎？",
+					"又有客戶了，好，我的配額不會自己補滿。"
+				]
+			},
+			"locationDesc": {
+				"eng": "A militarized gift distribution center run by Noel, where Christmas cheer is a tactical operation.",
+				"trans": "由 Noel 管理的軍事化禮物配送中心，聖誕歡樂被視為戰術行動。"
+			},
+			"locationName": {
+				"eng": "Noel's Gift Depot",
+				"trans": "Noel 的禮品倉庫"
+			},
+			"npcName": {
+				"eng": "Noel",
+				"trans": "諾艾爾"
+			},
+			"shopName": {
+				"eng": "Noel",
+				"trans": "諾艾爾"
+			}
+		},
 		"clinic": {
 			"description": {
 				"eng": "If you are injured, you can visit Oriana to fix you up, with a price of course.",
@@ -5493,6 +9476,34 @@
 				"trans": [
 					"不要光是看，買點東西。"
 				]
+			}
+		},
+		"corporateLiaison": {
+			"greetings": {
+				"eng": [
+					"Welcome to CircuitBreak Intelligence Division.",
+					"We pay top dollar for quality intel.",
+					"New file just came in. The client wants eyes where cameras can’t reach",
+					"Assets like you don’t stay alive for long. Earn while you can."
+				],
+				"trans": [
+					"歡迎來到網路安全集團情報部",
+					"我們為優質情報支付頂價",
+					"剛收到新檔案。客戶需要攝像頭無法覆蓋的監視點",
+					"像你這樣的資產活不了多久 能賺就賺"
+				]
+			},
+			"locationDesc": {
+				"eng": "HQ for intelligence gathering and alleged \"corporate espionage\", if you want to make some quick eddies and experience and have the guns to show for it, sign up some contract with them.",
+				"trans": "從事情報蒐集及涉嫌「企業間諜活動」的總部，若想快速賺點歐元與經驗值並獲得槍械，可與他們簽訂一些合約"
+			},
+			"locationName": {
+				"eng": "CircuitBreak Intelligence Division",
+				"trans": "網路安全集團情報部"
+			},
+			"npcName": {
+				"eng": "Vale",
+				"trans": "山谷"
 			}
 		},
 		"dailyReward": {
@@ -5643,7 +9654,7 @@
 				]
 			},
 			"shopName": {
-				"eng": "Lilith\\'s Store",
+				"eng": "Lilith's Store",
 				"trans": "莉莉絲商店"
 			}
 		},
@@ -5686,6 +9697,42 @@
 		"mercenaryButton": {
 			"eng": "I am looking for new crew members",
 			"trans": "我正在尋找新的隊伍成員"
+		},
+		"pachinko": {
+			"flashSaleShop": {
+				"banner": {
+					"eng": "Flash Sale",
+					"trans": "限時特賣"
+				},
+				"eng": "Browse ${npcName}'s secret stash",
+				"error": {
+					"eng": "You don't have any ${itemName}",
+					"trans": "你沒有任何 ${itemName}"
+				},
+				"trans": "檢視${npcName}的秘密收藏"
+			},
+			"greetings": {
+				"eng": [
+					"Don't ask me how do I drink with this mask on, I just do.",
+					"Ah, a fellow believer. Join me for a spin? With the Goddess's blessing, we may reveal our fortunes today.",
+					"Hello there. They say with faith, the Goddess guides our balls of steel to victory. Shall we see if today is our day?",
+					"Good to see a new face in this sacred place. Trust in the Goddess, and maybe we'll both watch our fortunes rise with each play."
+				],
+				"trans": [
+					"別問我戴著這個面具怎麼喝，我就是喝了。 \n",
+					"啊，同道中人！要不要一起來玩玩？在女神的祝福下，我們今天或許能揭開命運的奧秘。 \n",
+					"嘿，他們說只要有信仰，女神就會指引我們鋼鐵般的意志走向勝利。今天會是我們的一天嗎？讓我們拭目以待吧！ \n",
+					"歡迎來到這神聖之地，看到新面孔真令人高興。相信女神，也許我們都能在每次遊戲中看到自己的運勢上升。 \n"
+				]
+			},
+			"npcName": {
+				"eng": "Pachinko Devotee",
+				"trans": "柏青哥愛好者"
+			},
+			"shopName": {
+				"eng": "Pachinko's secret stash",
+				"trans": "派奇可的隱藏寶庫"
+			}
 		},
 		"premiumShop": {
 			"browseButton": {
@@ -5781,8 +9828,8 @@
 				]
 			},
 			"shopName": {
-				"eng": "Maxine\\'s Shop",
-				"trans": "瑪克心的商店"
+				"eng": "Maxine's Shop",
+				"trans": "瑪克心店"
 			}
 		}
 	},
@@ -5793,8 +9840,7 @@
 		},
 		"lockedMessage": {
 			"eng": "Unlocked at level ${levelRequired}",
-			"trans": "在${levelRequired}等解鎖",
-			"vars": []
+			"trans": "在${levelRequired}等解鎖"
 		},
 		"title": {
 			"eng": "City Center",
@@ -5840,6 +9886,14 @@
 			"eng": "Cancel",
 			"trans": "取消"
 		},
+		"confirmDepositMoney": {
+			"eng": "Confirm purchase?",
+			"trans": "確認購買嗎？"
+		},
+		"confirmDepositMoneyDescription": {
+			"eng": "By purchasing ${money} from shop, you will be barred from depositing fund to gangs until you reach level ${level} or top up your account with ${unit}. Are you sure you want to proceed?",
+			"trans": "購買${money}後，您將無法向幫派存入資金，直到您達到${level}級或用${unit}為您的帳戶充值。您確定要繼續嗎？"
+		},
 		"sell": {
 			"eng": "sell",
 			"trans": "出售"
@@ -5865,6 +9919,98 @@
 		"sell": {
 			"eng": "Sell",
 			"trans": "出售"
+		}
+	},
+	"paypal": {
+		"checkoutComplete": {
+			"eng": "Checkout complete",
+			"trans": "結帳已完成"
+		},
+		"disclaimer": {
+			"eng": "By completing this purchase, you agree to our Terms of Service and Privacy Policy. All purchases are final. For support, please contact ${email}.",
+			"trans": "完成此購買即表示您同意我們的服務條款及隱私政策。所有購買均為最終交易。如需支援，請聯絡${email}。"
+		},
+		"paymentCancelled": {
+			"eng": "Payment cancelled.",
+			"trans": "付款已取消。"
+		},
+		"paymentError": {
+			"eng": "Payment failed. Please try again.",
+			"trans": "付款失敗，請再試一次。"
+		},
+		"paymentErrorWithOrder": {
+			"eng": "Payment failed. If you were charged, contact support with order ID: ${orderId}",
+			"trans": "支付失敗。若您已被扣款，請聯繫客服並提供訂單編號：${orderId}"
+		},
+		"paymentProcessingError": {
+			"eng": "Error processing payment. Please contact support.",
+			"trans": "付款處理出現問題。請聯繫客服。"
+		},
+		"paymentSuccess": {
+			"eng": "Payment successful! Your account has been credited.",
+			"trans": "付款成功！您的帳戶已經入帳。"
+		},
+		"processing": {
+			"eng": "Processing your payment...",
+			"trans": "付款處理中..."
+		},
+		"securePayment": {
+			"eng": "Secure Payment",
+			"trans": "安全支付"
+		},
+		"securityNotice": {
+			"eng": "SECURE TRANSACTION VIA PAYPAL",
+			"trans": "使用PayPal進行安全交易"
+		},
+		"windowClosedWithOrder": {
+			"eng": "PayPal window closed. If you were charged, contact support with order ID: ${orderId}",
+			"trans": "付款視窗已關閉。若您被收費，請聯繫客服並提供訂單編號：${orderId}"
+		}
+	},
+	"paypalCheckoutPage": {
+		"error": {
+			"productNotFound": {
+				"description": {
+					"eng": "The product you are looking for is not available.",
+					"trans": "您要找的商品目前沒有庫存。"
+				},
+				"goBackButton": {
+					"eng": "Go Back",
+					"trans": "返回"
+				},
+				"title": {
+					"eng": "Product Not Found",
+					"trans": "找不到產品"
+				}
+			}
+		},
+		"header": {
+			"description": {
+				"eng": "Please review your purchase before proceeding to payment.",
+				"trans": "請在付款前檢查您的訂單。"
+			},
+			"title": {
+				"eng": "Review Order",
+				"trans": "檢查訂單"
+			}
+		},
+		"summary": {
+			"title": {
+				"eng": "Order Summary",
+				"trans": "訂單摘要"
+			},
+			"totalNetcoinsLabel": {
+				"eng": "Total NetCoins",
+				"trans": "總網幣"
+			},
+			"totalPriceLabel": {
+				"eng": "Total Price",
+				"trans": "總價"
+			},
+			"totalPriceValue": {
+				"eng": "${price} USD",
+				"trans": "${price} 美金"
+			}
 		}
 	},
 	"permission": {
@@ -5918,8 +10064,7 @@
 		},
 		"notEnoughItem": {
 			"eng": "Not enough item: ${itemName} x${amount}",
-			"trans": "物品不足: ${itemName} x${amount}",
-			"vars": []
+			"trans": "物品不足: ${itemName} x${amount}"
 		},
 		"notEnoughLevel": {
 			"eng": "Not enough level: ${levelType} ${level}",
@@ -5931,8 +10076,7 @@
 		},
 		"notEnoughPsychosis": {
 			"eng": "Your Cyber-Psychosis symptom is too high to perform this action: ${psychosis}",
-			"trans": "您的網路狂躁症狀太高，無法執行此操作：${psychosis}",
-			"vars": []
+			"trans": "您的網路狂躁症狀太高，無法執行此操作：${psychosis}"
 		},
 		"psychosisRechargedNoti": {
 			"body": {
@@ -5942,6 +10086,12 @@
 			"title": {
 				"eng": "Psyche restored",
 				"trans": "心智恢復"
+			}
+		},
+		"rename": {
+			"nameAlreadyExists": {
+				"eng": "The name you are trying to use is already taken",
+				"trans": "您嘗試使用的名稱已被佔用"
 			}
 		},
 		"reportSuccess": {
@@ -5965,8 +10115,8 @@
 			"trans": "${player}的市場"
 		},
 		"marketDescription": {
-			"eng": "View ${player}\\'s items on the market",
-			"trans": "查看${player}在市場上的物品"
+			"eng": "View ${player}'s items on the market",
+			"trans": "看${player}的市場商品"
 		}
 	},
 	"playerBackpack": {
@@ -6022,6 +10172,10 @@
 				"trans": "解除封鎖"
 			}
 		},
+		"playerNotFound": {
+			"eng": "Player not found",
+			"trans": "找不到玩家"
+		},
 		"tabs": {
 			"assets": {
 				"eng": "Assets",
@@ -6032,7 +10186,7 @@
 				"trans": "隊伍"
 			},
 			"equipment": {
-				"eng": "items",
+				"eng": "Equipment",
 				"trans": "裝備"
 			},
 			"job": {
@@ -6079,14 +10233,32 @@
 			"trans": "這位玩家在市場上沒有任何物品。"
 		}
 	},
+	"playerName": {
+		"idle": {
+			"eng": "Idle",
+			"trans": "閒置"
+		},
+		"online": {
+			"eng": "Online",
+			"trans": "在線"
+		}
+	},
 	"playerNameError": {
+		"blockedSequence": {
+			"eng": "This name contains text that is not allowed: ${string}",
+			"trans": "此名稱包含不允許的文字：${string}"
+		},
 		"invalidCharacters": {
 			"eng": "Name can only contain letters, numbers and underscores.",
 			"trans": "名稱只能包含字母、數字和底線。"
 		},
+		"notAllowedName": {
+			"eng": "This name cannot be used",
+			"trans": "此名稱無法使用"
+		},
 		"tooLong": {
-			"eng": "Name must be at most ${max} characters long.",
-			"trans": "名稱最多只能有${max}個字元。"
+			"eng": "Name must be less than or equal to ${max} characters long.",
+			"trans": "名稱長度必須小於或等於${max}個字元。"
 		},
 		"tooShort": {
 			"eng": "Name must be at least ${min} characters long.",
@@ -6100,13 +10272,17 @@
 		}
 	},
 	"playerPhotoSelection": {
+		"Variation": {
+			"eng": "Variation",
+			"trans": "變體"
+		},
 		"eyeColor": {
 			"eng": "Eye Color",
 			"trans": "眼睛顏色"
 		},
-		"gender": {
-			"eng": "Body Type",
-			"trans": "體型"
+		"genderv2": {
+			"eng": "Gender",
+			"trans": "性別"
 		},
 		"hairColor": {
 			"eng": "Hair Color",
@@ -6115,6 +10291,12 @@
 		"hairStyle": {
 			"eng": "Hair Style",
 			"trans": "髮型"
+		}
+	},
+	"playerPhotoType": {
+		"v1": {
+			"eng": "default",
+			"trans": "預設"
 		}
 	},
 	"playerPhotoVariationType": {
@@ -6145,17 +10327,17 @@
 			}
 		},
 		"gender": {
-			"gender1": {
-				"eng": "Type 1",
-				"trans": "類型 1"
+			"gender1v2": {
+				"eng": "Female",
+				"trans": "女性"
 			},
-			"gender2": {
-				"eng": "Type 2",
-				"trans": "類型2"
+			"gender2v2": {
+				"eng": "Male",
+				"trans": "男性"
 			},
-			"name": {
-				"eng": "Body Type",
-				"trans": "體型"
+			"namev2": {
+				"eng": "Gender",
+				"trans": "性別"
 			}
 		},
 		"hair": {
@@ -6195,7 +10377,7 @@
 			},
 			"multiColor": {
 				"eng": "Multi Colored",
-				"trans": "多彩的"
+				"trans": "炫彩"
 			},
 			"name": {
 				"eng": "Hair Color",
@@ -6230,6 +10412,10 @@
 		}
 	},
 	"playerStatsTab": {
+		"noClan": {
+			"eng": "Not a gang member",
+			"trans": "非幫派成員"
+		},
 		"statsTitle": {
 			"eng": "Stats",
 			"trans": "屬性統計"
@@ -6237,6 +10423,46 @@
 		"statusEffectsTitle": {
 			"eng": "Status Effects",
 			"trans": "狀態效果"
+		}
+	},
+	"playerStockHoldings": {
+		"noHoldings": {
+			"eng": "No Stock Holdings",
+			"trans": "尚無股票持有"
+		},
+		"realizedProfitLoss": {
+			"eng": "Realized P&L",
+			"trans": "確定損益"
+		},
+		"shares": {
+			"eng": "shares",
+			"trans": "分配"
+		},
+		"totalValue": {
+			"eng": "Total Value",
+			"trans": "總價值"
+		},
+		"unrealizedProfitLoss": {
+			"eng": "Unrealized P&L",
+			"trans": "浮動損益"
+		},
+		"visitExchange": {
+			"eng": "Tap to visit Stock Exchange",
+			"trans": "前往股市"
+		}
+	},
+	"portfolioSummary": {
+		"averageCost": {
+			"eng": "Average Cost",
+			"trans": "均價"
+		},
+		"profitLoss": {
+			"eng": "Profit/Loss",
+			"trans": "收益/損失"
+		},
+		"sharesOwned": {
+			"eng": "Shares Owned",
+			"trans": "持有股份"
 		}
 	},
 	"premiumShopPage": {
@@ -6251,13 +10477,16 @@
 		"topUpTabTitle": {
 			"eng": "Top Up",
 			"trans": "儲值"
+		},
+		"webPlatformNote": {
+			"eng": "On web platform, you can purchase NetCoins using PayPal. Click on a package to see payment options.",
+			"trans": "在網頁平台上，您可以透過PayPal購買網幣。點擊一個套餐以查看付款方式。"
 		}
 	},
 	"premiumShopTopUpTab": {
 		"bonusAmount2": {
 			"eng": "+${bonusRate}% Bonus [+${bonusAmount} N$]",
-			"trans": "+${bonusRate}% 獎勵 [+${bonusAmount} N$]",
-			"vars": []
+			"trans": "+${bonusRate}% 獎勵 [+${bonusAmount} N$]"
 		},
 		"equivalent": {
 			"eng": "can be converted to ${amount}",
@@ -6270,6 +10499,10 @@
 		"mostEfficient": {
 			"eng": "Best Value",
 			"trans": "最超值"
+		},
+		"topUpEventNames": {
+			"eng": "${eventName} Event Bonus",
+			"trans": "${eventName} 活動獎勵"
 		}
 	},
 	"promo": {
@@ -6337,6 +10570,16 @@
 		}
 	},
 	"psychosisInfoModal": {
+		"background": {
+			"description": {
+				"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload. ${item} can be used to reduce psychosis.",
+				"trans": "電馭狂躁是由於過度使用電驅能力所導致，因大腦過載而產生幻覺和妄想。${item}可以用來減輕狂躁症狀。"
+			},
+			"subtitle": {
+				"eng": "Background",
+				"trans": "背景"
+			}
+		},
 		"neuroblockerDescription": {
 			"eng": "use neuroblocker to reduce psychosis",
 			"trans": "使用神經阻斷劑減輕網路狂躁症"
@@ -6345,21 +10588,68 @@
 			"eng": "Psychosis reduces by ${amount} every ${minute} minutes",
 			"trans": "網路狂躁症每${minute}分鐘減少${amount}"
 		},
+		"source": {
+			"description": {
+				"eng": "You can get ${item} for free every day from ${npc} and they drop from strongholds.",
+				"trans": "每天你都可以從${npc}免費獲得${item}，而且它們也會從地城掉落。"
+			}
+		},
 		"title": {
 			"eng": "Cyber psychosis",
 			"trans": "網路狂躁症"
+		}
+	},
+	"psychosisPopup": {
+		"clickToPurchase": {
+			"eng": "Click to purchase",
+			"trans": "點擊購買"
 		},
-		"titleDescription": {
-			"eng": "Cyber-psychosis is caused by excessive use of cybernetic abilities, leading to hallucinations and delusions due to brain overload.",
-			"trans": "網路狂躁症是由於過度使用電馭能力所引起的，導致大腦超負荷而產生幻覺和妄想。"
+		"confirmPurchase": {
+			"eng": "Click to Confirm",
+			"trans": "點擊確認"
+		},
+		"confirmPurchaseBlocker": {
+			"eng": "Are you sure you want to purchase ${item} from ${npc}?",
+			"trans": "你確定要從${npc}購買${item}嗎？"
+		},
+		"hasBlocker": {
+			"eng": "Your cyberpsychosis is critically high, would you like to use an ${item} to reduce it?",
+			"trans": "你的電馭狂躁症過高，是否要使用${item}降低？"
+		},
+		"noBlocker": {
+			"eng": "You are out of ${item}, you can purchase from ${npc}, would you like to proceed?",
+			"trans": "${item}不足，可以向${npc}購買，是否繼續？"
+		},
+		"noBlockerNoMoney": {
+			"eng": "You are out of ${item} and you do not have enough ${currency} to purchase from ${npc}.\\nWould you like to top up?",
+			"trans": "您沒有${item}，而且您沒有足夠的${currency}向${npc}購買。\\n您要儲值嗎？"
+		},
+		"subtitle": {
+			"eng": "Your cyber-psychosis level is critically high. you can use ${item} to reduce your cyber-psychosis symptom.",
+			"trans": "你的電馭狂躁症等級極高，你可以使用${item}來降低你的電馭狂躁症狀。"
+		},
+		"tip": {
+			"eng": "Learn more about cyberpsychosis here",
+			"trans": "在此瞭解更多關於電馭狂躁症"
+		},
+		"title": {
+			"eng": "High Cyber-Psychosis",
+			"trans": "高電馭狂躁"
+		},
+		"topUp": {
+			"eng": "Click to top up",
+			"trans": "點擊充值"
+		},
+		"useBlocker": {
+			"eng": "Click to use",
+			"trans": "點擊使用"
 		}
 	},
 	"purchaseCycle": {
 		"daily": {
 			"description": {
 				"eng": "Can be purchased ${amount} times every day",
-				"trans": "每天可以購買${amount}次",
-				"vars": []
+				"trans": "每天可以購買${amount}次"
 			},
 			"name": {
 				"eng": "Daily",
@@ -6369,8 +10659,7 @@
 		"monthly": {
 			"description": {
 				"eng": "Can be purchased ${amount} times every month",
-				"trans": "每月可購買${amount}次",
-				"vars": []
+				"trans": "每月可購買${amount}次"
 			},
 			"name": {
 				"eng": "Monthly",
@@ -6380,8 +10669,7 @@
 		"once": {
 			"description": {
 				"eng": "Can be purchased ${amount} times per account",
-				"trans": "每個帳戶可購買${amount}次。",
-				"vars": []
+				"trans": "每個帳戶可購買${amount}次。"
 			},
 			"name": {
 				"eng": "Once",
@@ -6391,8 +10679,7 @@
 		"weekly": {
 			"description": {
 				"eng": "Can be purchased ${amount} times every week",
-				"trans": "每週可購買${amount}次",
-				"vars": []
+				"trans": "每週可購買${amount}次"
 			},
 			"name": {
 				"eng": "Weekly",
@@ -6402,25 +10689,51 @@
 	},
 	"pvp": {
 		"mail": {
-			"citizenArrest1": {
-				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "${playerName}已逮捕你，你損失了${currency}，此玩家已被加入至你的敵人名單"
+			"arrestedStockLiquidation": {
+				"eng": "${playerName} have arrested you, ACPD have seized ${shares} shares of ${symbol}",
+				"trans": "你已被${playerName}逮捕，ACPD查扣了${shares}股${symbol}"
+			},
+			"attackedStockLiquidation": {
+				"eng": "${playerName} hacked your portfolio and stole ${shares} shares of ${symbol}",
+				"trans": "玩家${playerName}入侵你的資產並竊取${shares}股${symbol}"
+			},
+			"attackerStockLiquidation": {
+				"eng": "You received ${totalValue} from liquidating ${targetPlayer}'s stocks",
+				"trans": "您收到${totalValue}來自${targetPlayer}的股票套現"
 			},
 			"citizenArrest2": {
 				"eng": "You have successfully arrested ${playerName}, the ACPD has rewarded you ${currency}",
 				"trans": "你已成功逮捕${playerName}，ACPD獎勵了你${currency}"
 			},
-			"mug1": {
-				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
-				"trans": "玩家${playerName} 搶劫了你，你損失了${currency}，此玩家已被加入至你的敵人名單"
+			"citizenArrestAddedEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "玩家${playerName}已將你拘捕，你被奪走了${currency}，此玩家已被加入你的敵人列表。"
+			},
+			"citizenArrestNoAddEnemy": {
+				"eng": "${playerName} have arrested you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "玩家${playerName}已將您拘捕，您失去了${currency}，您的敵人清單已滿，因此此玩家未被加入您的敵人清單，移除一名敵人，以讓系統在您遭攻擊時自動新增"
 			},
 			"mug2": {
 				"eng": "You mugged ${playerName} and you won the fight, you gotten ${currency}",
 				"trans": "你痛宰了${playerName}，贏得了戰鬥，你得到了${currency}"
 			},
+			"mugAddedEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, this player has been added to your enemies list",
+				"trans": "${playerName}搶了你，你失去了${currency}，此玩家已被加入你的敵人列表"
+			},
+			"mugNoAddEnemy": {
+				"eng": "${playerName} mugged you, you have lost ${currency}, your enemy list is full so this player has not been added to your enemies list, remove enemy to allow system to automatically add them when you were attacked",
+				"trans": "${playerName}搶劫了你，你失去了${currency}，你的敵人清單已滿，因此此玩家未被加入你的敵人清單中。請移除一名敵人，以讓系統在你遭攻擊時自動添加。"
+			},
 			"successBounty": {
 				"eng": "You received bounty of ${money1} and ${money2} for eliminating ${targetPlayer}",
 				"trans": "你因消滅${targetPlayer}而獲得${money1}和${money2}的賞金"
+			}
+		},
+		"toast": {
+			"statCooldown": {
+				"eng": "Because you have recently attacked this player so it does not count towards statistic record",
+				"trans": "由於你最近攻擊過此玩家，因此不列入統計紀錄"
 			}
 		}
 	},
@@ -6436,6 +10749,10 @@
 		"completed": {
 			"eng": "Completed",
 			"trans": "已完成"
+		},
+		"maxDungeonQuest": {
+			"eng": "You can only have ${max} quests from strongholds at a time",
+			"trans": "你一次只能從地城接受${max}個任務"
 		},
 		"progress": {
 			"collectQuestItem": {
@@ -6457,11 +10774,25 @@
 			"defeatSpecificEnemy": {
 				"eng": "Defeat lv.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})",
 				"trans": "擊敗等級.${minLevel}-${maxLevel} ${enemyName} (${current}/${required})"
+			},
+			"submitItems": {
+				"eng": "Submit ${amount} ${itemName} (requires items in inventory)",
+				"trans": "提交${amount} ${itemName}（需庫存中有該物品）"
 			}
 		},
 		"returnToNpc": {
 			"eng": "Return to ${npcName}",
 			"trans": "返回${npcName}。"
+		}
+	},
+	"questDisplay": {
+		"deadline": {
+			"eng": "Deadline: ",
+			"trans": "截止時間："
+		},
+		"expired": {
+			"eng": "Expired",
+			"trans": "過期"
 		}
 	},
 	"questItem": {
@@ -6515,6 +10846,10 @@
 			"eng": "Daily Quests",
 			"trans": "每日任務"
 		},
+		"investigations": {
+			"eng": "Investigations",
+			"trans": "調查"
+		},
 		"noQuests": {
 			"eng": "No active quests",
 			"trans": "沒有進行中的任務"
@@ -6550,6 +10885,10 @@
 		"questName": {
 			"eng": "${npcName}'s request",
 			"trans": "${npcName}的請求"
+		},
+		"weeklyQuestTitle": {
+			"eng": "Intelligence Contract (${tier})",
+			"trans": "情報合約 (${tier}階)"
 		}
 	},
 	"quickSlotList": {
@@ -6564,6 +10903,12 @@
 				"eng": "Not subscribed to this object",
 				"trans": "未訂閱此物品"
 			}
+		}
+	},
+	"recipe": {
+		"notAvailableError": {
+			"eng": "this is only available between ${dateStart} and ${dateEnd}",
+			"trans": "僅在 ${dateStart} 至 ${dateEnd} 期間開放"
 		}
 	},
 	"referral": {
@@ -6602,6 +10947,26 @@
 		"title": {
 			"eng": "Refresh shop items",
 			"trans": "刷新商店物品"
+		}
+	},
+	"renameModal": {
+		"confirm": {
+			"eng": "Confirm",
+			"trans": "確認"
+		},
+		"error": {
+			"sameName": {
+				"eng": "You cannot use the same name as your current name",
+				"trans": "您不能使用與當前名稱相同的名稱"
+			}
+		},
+		"inputPlaceholder": {
+			"eng": "Enter your new name",
+			"trans": "輸入你的新名字"
+		},
+		"success": {
+			"eng": "You have successfully changed your name",
+			"trans": "您已成功更改您的名稱"
 		}
 	},
 	"renderMessage": {
@@ -6687,13 +11052,11 @@
 	"reward": {
 		"clanExp": {
 			"eng": "+${clanExp} Gang EXP",
-			"trans": "+${clanExp} 幫派經驗值",
-			"vars": []
+			"trans": "+${clanExp} 幫派經驗值"
 		},
 		"clanResource": {
 			"eng": "+${clanResource} Gang Resource",
-			"trans": "+${clanResource} 幫派資源",
-			"vars": []
+			"trans": "+${clanResource} 幫派資源"
 		},
 		"exp": {
 			"increase": {
@@ -6703,25 +11066,21 @@
 		},
 		"territoryPoint": {
 			"eng": "+${territoryPoint} Territory Point",
-			"trans": "+${territoryPoint} 領地點數",
-			"vars": []
+			"trans": "+${territoryPoint} 領地點數"
 		}
 	},
 	"rewardConfigDisplay": {
 		"clanControl": {
 			"eng": "+ ${clanControl} clan control",
-			"trans": "+ ${clanControl}幫派控制",
-			"vars": []
+			"trans": "+ ${clanControl}幫派控制"
 		},
 		"clanExp": {
 			"eng": "+ ${clanExp} gang exp",
-			"trans": "+ 幫派經驗值 ${clanExp}",
-			"vars": []
+			"trans": "+ 幫派經驗值 ${clanExp}"
 		},
 		"clanResource": {
 			"eng": "+ ${clanResource} clan resource",
-			"trans": "+ ${clanResource}幫派資源",
-			"vars": []
+			"trans": "+ ${clanResource}幫派資源"
 		},
 		"healRatio": {
 			"eng": "Heal ${percent}% of your max health",
@@ -6729,15 +11088,13 @@
 		},
 		"reducePsychosis": {
 			"eng": "Reduce psychosis by ${reducePsychosis}",
-			"trans": "減少網路狂躁症 ${reducePsychosis}",
-			"vars": []
+			"trans": "減少網路狂躁症 ${reducePsychosis}"
 		}
 	},
 	"rewardConfigItemDisplay": {
 		"oneOf": {
 			"eng": "one of the following x ${amount}:",
-			"trans": "以下其中一個 x ${amount}:",
-			"vars": []
+			"trans": "以下其中一個 x ${amount}:"
 		}
 	},
 	"rewardConfigPopup": {
@@ -6776,12 +11133,6 @@
 			}
 		}
 	},
-	"sceneContainer": {
-		"skip": {
-			"eng": "Skip",
-			"trans": "跳過"
-		}
-	},
 	"selectAmountModal": {
 		"max": {
 			"eng": "max",
@@ -6814,9 +11165,25 @@
 				"eng": "You have already tried to escape in this turn",
 				"trans": "這回合您已經試過逃脫了"
 			},
+			"attemptedArrestOnNonWanted": {
+				"eng": "Target is no longer wanted",
+				"trans": "目標已不再被追蹤"
+			},
 			"cannotEngageAdmin": {
 				"eng": "You cannot engage this player",
 				"trans": "您無法與這位玩家互動"
+			},
+			"cannotEngageAlt": {
+				"eng": "You cannot attack this player due to alt detection",
+				"trans": "系統判定此玩家為分身，你無法攻擊。"
+			},
+			"cannotEngageBountyAltConnection": {
+				"eng": "You cannot attack this player due to bounty contributor alt detection",
+				"trans": "因為偵測到此玩家是懸賞貢獻者的替代帳號，您無法攻擊他。"
+			},
+			"cannotEngageInDungeon": {
+				"eng": "You cannot engage in PvP while in a dungeon",
+				"trans": "在地下城中無法進行PvP戰鬥"
 			},
 			"cannotEngageNewPlayer": {
 				"eng": "You cannot initiate PVP with a player that is below level ${level} and has not actively engaged in PVP",
@@ -6829,6 +11196,10 @@
 			"combatNotFound": {
 				"eng": "Combat has ended",
 				"trans": "戰鬥已結束。"
+			},
+			"dungeonNotFound": {
+				"eng": "Dungeon has expired",
+				"trans": "地下城已過期"
 			},
 			"escapeFailed": {
 				"eng": "You failed to escape (${chance}% success chance)",
@@ -6853,6 +11224,10 @@
 			"notInCombat": {
 				"eng": "You are not in combat",
 				"trans": "您不在戰鬥中。"
+			},
+			"pvpArrestDismissed": {
+				"eng": "This player has already been arrested",
+				"trans": "此玩家已遭逮捕"
 			}
 		},
 		"combatLog": {
@@ -6874,8 +11249,7 @@
 		"createCharacter": {
 			"nameAlreadyExists": {
 				"eng": "the name \"${name}\" is already taken",
-				"trans": "名稱\"${name}\"已被使用",
-				"vars": []
+				"trans": "名稱\"${name}\"已被使用"
 			},
 			"nameNotAllowed": {
 				"eng": "This name contains text that is not allowed",
@@ -6890,7 +11264,17 @@
 				"trans": "找不到推薦人"
 			}
 		},
+		"displayShelf": {
+			"maxed": {
+				"eng": "All display shelf slots are already unlocked",
+				"trans": "所有展示架格位都已經解鎖"
+			}
+		},
 		"dungeon": {
+			"alreadyInteracted": {
+				"eng": "Already interacted",
+				"trans": "已經互動"
+			},
 			"bossSummoned": {
 				"eng": "${playerName} has summoned the boss",
 				"trans": "${playerName}召喚了BOSS。"
@@ -6931,17 +11315,21 @@
 				"eng": "${playerName} has collected a key.",
 				"trans": "${playerName} 收集了一把鑰匙。"
 			},
+			"keyUsed": {
+				"eng": "Tactical Access Chip used to unlock the chest",
+				"trans": "用於解鎖箱子的戰術存取晶片"
+			},
 			"lobbyNotFound": {
 				"eng": "Lobby not found",
 				"trans": "未找到大廳"
 			},
+			"noKey": {
+				"eng": "You need a key to open this chest",
+				"trans": "你需要鑰匙才能開啟這個寶箱"
+			},
 			"notEnoughPsyche": {
 				"eng": "Your psychosis is too high to enter the stronghold",
 				"trans": "你的網路狂躁症太高，無法進入地城。"
-			},
-			"notIdle": {
-				"eng": "You cannot do this now",
-				"trans": "現在無法進行此操作。"
 			},
 			"notInDungeon": {
 				"eng": "You are not in a stronghold",
@@ -6954,6 +11342,10 @@
 			"timeSacrifice": {
 				"eng": "${player} has sacrificed ${minutes} minutes to unlock a rare chest",
 				"trans": "${player}花費${minutes}分鐘解鎖了一個稀有寶箱"
+			},
+			"tooHighLevel": {
+				"eng": "Your level is too high to interact with this",
+				"trans": "你的等級太高無法與此互動"
 			}
 		},
 		"dungeonLobby": {
@@ -7057,16 +11449,20 @@
 				"eng": "You don't have an inventory open",
 				"trans": "您沒有打開任何倉庫。"
 			},
-			"onCooldown": {
-				"eng": "On cooldown",
-				"trans": "冷卻中"
-			},
 			"restarting": {
 				"eng": "Server is restarting for update, please try again in a few minutes",
 				"trans": "伺服器正在進行更新，請稍候幾分鐘再試。"
 			}
 		},
 		"player": {
+			"currencyFull": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName}已滿"
+			},
+			"currencyFullItem": {
+				"eng": "${currencyName} is full",
+				"trans": "${currencyName}已滿"
+			},
 			"itemConsumed": {
 				"eng": "Consumed ${itemName} x${amount}",
 				"trans": "消耗 ${itemName} x${amount}"
@@ -7086,6 +11482,14 @@
 					"eng": "You have already accepted this quest.",
 					"trans": "您已經接受了這個任務。"
 				},
+				"alreadyCompleted": {
+					"eng": "You have already completed this contract for this week",
+					"trans": "你已經完成了這週的這份合約"
+				},
+				"insufficientItems": {
+					"eng": "Insufficient ${itemName} in inventory to complete quest",
+					"trans": "倉庫中的${itemName}不足以完成任務"
+				},
 				"notCompleted": {
 					"eng": "Quest not completed",
 					"trans": "任務未完成"
@@ -7097,6 +11501,10 @@
 				"questNotOnCooldown": {
 					"eng": "Quest not on cooldown",
 					"trans": "任務不在冷卻中"
+				},
+				"storyNotExist": {
+					"eng": "Weekly quest is not available yet for this week",
+					"trans": "每周任務本週尚未開放"
 				}
 			}
 		},
@@ -7109,6 +11517,34 @@
 				"eng": "Your items have been returned to your inventory",
 				"trans": "您的物品已經歸還到您的倉庫中。"
 			}
+		},
+		"socialMediaModule": {
+			"likeTweet": {
+				"eng": "Received ${exp} affinity exp for ${npc}",
+				"trans": "獲得 ${npc} 的 ${exp} 好感度經驗值"
+			}
+		}
+	},
+	"serverStatusDisplay": {
+		"noInternet": {
+			"message": {
+				"eng": "The app is unable to connect to the internet, please check your connection and try again",
+				"trans": "應用程式無法連接到網路，請檢查您的連線並再試一次。"
+			},
+			"title": {
+				"eng": "No internet connection",
+				"trans": "無法連接到網路"
+			}
+		},
+		"serverDown": {
+			"message": {
+				"eng": "We are working on an update, this usually takes only a few minutes.\\nThank you for your patience!",
+				"trans": "我們正在進行更新，這通常只需要幾分鐘。\\n感謝您的耐心等候！"
+			},
+			"title": {
+				"eng": "Server under maintenance",
+				"trans": "伺服器維護中"
+			}
 		}
 	},
 	"settings": {
@@ -7116,29 +11552,57 @@
 			"eng": "Background music volume",
 			"trans": "背景音樂音量"
 		},
+		"chat": {
+			"eng": "Chat",
+			"trans": "聊天"
+		},
 		"deleteCharacter": {
 			"eng": "Delete character",
 			"trans": "刪除角色"
+		},
+		"enableAttackBarPopup": {
+			"eng": "Enable Attack Bar popup",
+			"trans": "啟用攻擊條彈出視窗"
+		},
+		"enableAttackBarPopupDescription": {
+			"eng": "When enabled, the attack bar will move upwards when pressed, allowing you to see it clearer",
+			"trans": "啟用後，攻擊條在按下時會向上移動，讓你能更清楚地看到它。"
 		},
 		"enableBackgroundMusic": {
 			"eng": "Enable background music",
 			"trans": "啟用背景音樂"
 		},
-		"enableGangChatNotification": {
-			"eng": "Enable Gang Chat Notification",
-			"trans": "啟用幫派聊天通知"
+		"enableChatAnnouncement": {
+			"eng": "Enable Chat Announcement",
+			"trans": "啟用聊天公告"
 		},
-		"enableGlobalNotification": {
-			"eng": "Enable Global Notification",
-			"trans": "啟用全球通知"
+		"enableChatAnnouncementDescription": {
+			"eng": "Show in-game announcement when a new message is sent in the global chat",
+			"trans": "當全球聊天發送新消息時顯示遊戲內公告"
 		},
 		"enableInGameAnnouncement": {
 			"eng": "Enable In-Game Announcement",
 			"trans": "啟用遊戲公告"
 		},
+		"enableInGameAnnouncementDescription2": {
+			"eng": "Show in-game notification such as PVP event and bounty",
+			"trans": "顯示遊戲內通知，例如PVP事件和賞金活動"
+		},
+		"enableMercenaryAnimation": {
+			"eng": "Enable Mercenary Animation",
+			"trans": "啟用傭兵動畫"
+		},
+		"enableMercenaryAnimationDescription": {
+			"eng": "When enabled, epic tier mercenaries will display as animation. Disable to show static images instead",
+			"trans": "啟用時，史詩階級傭兵會以動畫形式顯示。關閉則顯示靜態圖片取而代之"
+		},
 		"enablePowerSavingMode": {
 			"eng": "Enable Power Saving Mode",
 			"trans": "啟用省電模式"
+		},
+		"enablePowerSavingModeDescription": {
+			"eng": "Disables some resource intensive effects, turn on if you experience UI slowness",
+			"trans": "禁用某些資源密集型效果，如果您遇到UI延遲，請開啟此選項。"
 		},
 		"enableSoundEffect": {
 			"eng": "Enable sound effect",
@@ -7148,6 +11612,24 @@
 			"eng": "Enable Vibration",
 			"trans": "啟用震動"
 		},
+		"experimentalWebGLChromakey": {
+			"eng": "Enhanced NPC Animation Performance",
+			"trans": "增強NPC動畫效能"
+		},
+		"experimentalWebGLChromakeyDescription": {
+			"eng": "GPU-accelerated NPC animations are enabled by default. Disable this if you experience issues with NPC animations. Requires app reload to take effect",
+			"trans": "預設已啟用 GPU 加速的 NPC 動畫。若遇到 NPC 動畫問題，請停用此功能。需重新載入應用程式才能生效。"
+		},
+		"friendMailOnly": {
+			"description": {
+				"eng": "Only allow mails from players in your friend list to mail you",
+				"trans": "僅允許好友清單中的玩家寄信給你"
+			},
+			"title": {
+				"eng": "Friend Mail Only",
+				"trans": "僅接收好友郵件"
+			}
+		},
 		"language": {
 			"eng": "Language",
 			"trans": "語言"
@@ -7155,6 +11637,72 @@
 		"languageTip": {
 			"eng": "Language translation is contributable by the community on GitHub, if you would like to make edits for your language, click here to view our GitHub repository.",
 			"trans": "語言翻譯是由社群在GitHub上共同貢獻的，如果您想要為您的語言進行編輯，請點擊此處查看我們的GitHub存儲庫。"
+		},
+		"neverShowUpdateNote": {
+			"eng": "Never show update note",
+			"trans": "永不顯示更新說明"
+		},
+		"notification": {
+			"eng": "Notification",
+			"gangChat": {
+				"description": {
+					"eng": "Receive notification when your gang members send messages to gang chat",
+					"trans": "當你的幫派成員發送訊息到幫派聊天時接收通知"
+				},
+				"disabled": {
+					"eng": "Gang chat notification disabled",
+					"trans": "幫派聊天通知已禁用"
+				},
+				"enabled": {
+					"eng": "Gang chat notification enabled",
+					"trans": "幫派聊天通知已啟用"
+				},
+				"title": {
+					"eng": "Gang Chat",
+					"trans": "幫派聊天"
+				}
+			},
+			"global": {
+				"description": {
+					"eng": "Receive notification for general game events, such as AFK task completion, etc.",
+					"trans": "接收一般遊戲事件的通知，例如掛機任務完成等。"
+				},
+				"title": {
+					"eng": "General Game Notification",
+					"trans": "遊戲通知"
+				}
+			},
+			"territoryTopGangChange": {
+				"description": {
+					"eng": "Receive notification when your gang territory has been taken over by other gangs",
+					"trans": "當你的幫派領地被其他幫派佔領時接收通知"
+				},
+				"title": {
+					"eng": "Territory Top Gang Change",
+					"trans": "領地頂尖幫派變更"
+				}
+			},
+			"trans": "通知"
+		},
+		"others": {
+			"eng": "Others",
+			"trans": "其他"
+		},
+		"showOriginalChatMessage": {
+			"eng": "Show Original Chat Message",
+			"trans": "顯示原文"
+		},
+		"showOriginalChatMessageDescription": {
+			"eng": "Show original chat messages for translated chat messages",
+			"trans": "查看翻譯訊息的原文"
+		},
+		"showTranslatedChat": {
+			"eng": "Show Translated Chat",
+			"trans": "翻譯訊息"
+		},
+		"showTranslatedChatDescription": {
+			"eng": "Show translated chat messages in the global chat",
+			"trans": "顯示翻譯過的全球聊天訊息"
 		},
 		"zoom": {
 			"eng": "UI Scaling (Experimental)",
@@ -7187,12 +11735,12 @@
 			"trans": "您的倉庫無法再存放更多此物品。"
 		},
 		"notEnoughItem": {
-			"eng": "You don\\'t have enough ${item} to purchase this item",
-			"trans": "您沒有足夠的${item}來購買這個物品"
+			"eng": "You don't have enough ${item} to purchase this item",
+			"trans": "你的${item}不夠，無法購買此商品"
 		},
 		"notEnoughMoney": {
-			"eng": "You don\\'t have enough ${currency} to purchase this item",
-			"trans": "您沒有足夠的${currency}購買此物品。"
+			"eng": "You don't have enough ${currency} to purchase this item",
+			"trans": "${currency}不足，無法購買此物品"
 		},
 		"purchased": {
 			"eng": "You have purchased ${amount} ${item}",
@@ -7209,10 +11757,24 @@
 			}
 		}
 	},
+	"shopItemDisplay": {
+		"discount": {
+			"eng": "Discount",
+			"trans": "折扣"
+		}
+	},
 	"socialMedia": {
+		"mention": {
+			"eng": "${npc} has mentioned you in a Chirp post",
+			"trans": "${npc} 再一則推文內提起了您"
+		},
 		"noPostsYet": {
 			"eng": "No posts yet",
 			"trans": "尚無貼文"
+		},
+		"tweetPosted": {
+			"eng": "${npc} has posted a chirp",
+			"trans": "${npc} 發布了一則推文"
 		}
 	},
 	"socialPage": {
@@ -7254,113 +11816,233 @@
 			"eng": "Armor",
 			"trans": "裝甲"
 		},
+		"armorDesc": {
+			"eng": "Increases your armor.",
+			"trans": "增加你的護甲。"
+		},
 		"autoDmg": {
 			"eng": "Auto Attack Damage",
 			"trans": "自動攻擊傷害"
+		},
+		"autoDmgDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "增加你的自動攻擊傷害。"
 		},
 		"autoDmgMult": {
 			"eng": "Auto Attack Damage Multiplier",
 			"trans": "自動攻擊傷害倍率"
 		},
+		"autoDmgMultDesc": {
+			"eng": "Increases the damage of your auto attacks.",
+			"trans": "增加你的自動攻擊傷害。"
+		},
 		"backpackSlot": {
 			"eng": "Backpack Slot",
 			"trans": "背包欄位"
+		},
+		"backpackSlotDesc": {
+			"eng": "Increases your maximum backpack slot.",
+			"trans": "增加背包最大格數。"
 		},
 		"blockChance": {
 			"eng": "Block Chance",
 			"trans": "格擋機率"
 		},
+		"blockChanceDesc": {
+			"eng": "Increases your chance to successfully block an attack when attempt to block.",
+			"trans": "增加你嘗試格擋時成功格擋攻擊的機率。"
+		},
 		"blockStrength": {
 			"eng": "Block Strength",
 			"trans": "格擋強度"
+		},
+		"blockStrengthDesc": {
+			"eng": "Increases the amount of damage blocked when attempt to block.",
+			"trans": "增加嘗試格擋時格擋的傷害量。"
 		},
 		"critChance": {
 			"eng": "Critical Chance",
 			"trans": "爆擊機率"
 		},
+		"critChanceDesc": {
+			"eng": "Increases the chance of your attacks being critical.",
+			"trans": "增加你的攻擊有機會變成暴擊。"
+		},
 		"critDmg": {
 			"eng": "Critical Damage",
 			"trans": "爆擊傷害"
+		},
+		"critDmgDesc": {
+			"eng": "Increases the damage of your critical attacks.",
+			"trans": "增加你的爆擊傷害。"
 		},
 		"cyberneticResistance": {
 			"eng": "Cybernetic Resistance",
 			"trans": "電馭抵抗力"
 		},
+		"cyberneticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using cybernetic attack.",
+			"trans": "增加你對使用電驅攻擊的敵人的抗性。"
+		},
 		"damageMult": {
 			"eng": "Damage Multiplier",
 			"trans": "傷害倍率"
+		},
+		"damageMultDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "增加你的攻擊傷害。"
 		},
 		"dex": {
 			"eng": "Dexterity",
 			"trans": "敏捷度"
 		},
+		"dexDesc": {
+			"eng": "Increases your dexterity attribute, which in turn increases your damage with fire arm weapons.",
+			"trans": "增加你的敏捷屬性，進而增加你使用火器武器的傷害。"
+		},
 		"dmg": {
 			"eng": "Damage",
 			"trans": "傷害"
+		},
+		"dmgDesc": {
+			"eng": "Increases the damage of your attacks.",
+			"trans": "增加你的攻擊傷害。"
 		},
 		"dmgReductionFlat": {
 			"eng": "Damage Reduction",
 			"trans": "傷害減免"
 		},
+		"dmgReductionFlatDesc": {
+			"eng": "Reduces the damage you receive.",
+			"trans": "減少你所受到的傷害。"
+		},
 		"dmgResistance": {
 			"eng": "Damage Reduction",
 			"trans": "傷害減免"
+		},
+		"dmgResistanceDesc": {
+			"eng": "Reduces the damage you receive.",
+			"trans": "減少你所受到的傷害。"
 		},
 		"energyResistance": {
 			"eng": "Energy Resistance",
 			"trans": "能量抗性"
 		},
+		"energyResistanceDesc": {
+			"eng": "Increases your resistance against enemy using weapon.",
+			"trans": "增加你對使用武器的敵人的抗性。"
+		},
 		"escape": {
 			"eng": "Escape Chance",
 			"trans": "逃脫機率"
+		},
+		"escapeDesc": {
+			"eng": "Increases your chance to escape from enemies.",
+			"trans": "增加你逃離敵人的機會。"
 		},
 		"headshotMult": {
 			"eng": "Headshot Multiplier",
 			"trans": "爆頭加成"
 		},
+		"headshotMultDesc": {
+			"eng": "Increases the damage of your headshots attacks",
+			"trans": "增加爆頭攻擊傷害"
+		},
 		"health": {
 			"eng": "Health",
 			"trans": "生命值"
+		},
+		"healthDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "增加你的最大生命值。"
 		},
 		"healthPercent": {
 			"eng": "Health Multiplier",
 			"trans": "生命值倍率"
 		},
+		"healthPercentDesc": {
+			"eng": "Increases your maximum health.",
+			"trans": "增加你的最大生命值。"
+		},
 		"int": {
 			"eng": "Intelligence",
 			"trans": "智力"
+		},
+		"intDesc": {
+			"eng": "Increases your intelligence attribute, which in turn increases your damage with energy weapons.",
+			"trans": "提升你的智力屬性，進而提升你的能量武器傷害。"
 		},
 		"inventorySlot": {
 			"eng": "Inventory Slot",
 			"trans": "倉庫欄位"
 		},
+		"inventorySlotDesc": {
+			"eng": "Increases your maximum inventory slot.",
+			"trans": "增加你的最大倉庫空間。"
+		},
 		"kineticResistance": {
 			"eng": "Kinetic Resistance",
 			"trans": "動能抗性"
+		},
+		"kineticResistanceDesc": {
+			"eng": "Increases your resistance against enemy using kinetic attack.",
+			"trans": "增加你對使用動能攻擊的敵人的抗性。"
 		},
 		"physicalResistance": {
 			"eng": "Physical Resistance",
 			"trans": "物理抗性"
 		},
+		"physicalResistanceDesc": {
+			"eng": "Increases your resistance against enemy using melee attack.",
+			"trans": "增加你對使用近戰攻擊的敵人的抗性。"
+		},
 		"pvpDmgReceivedMult": {
 			"eng": "PvP Damage Received Multiplier",
 			"trans": "PvP受到傷害倍率"
+		},
+		"pvpDmgReceivedMultDesc": {
+			"eng": "Increases the damage you receive from players.",
+			"trans": "增加你受到玩家的傷害。"
+		},
+		"raidExpMult": {
+			"eng": "Hideout Raid EXP Multiplier",
+			"trans": "藏身處突襲經驗值倍增器"
+		},
+		"raidExpMultDesc": {
+			"eng": "Increases the EXP you receive from hideout raids.",
+			"trans": "增加你從藏身處突襲中獲得的經驗值。"
 		},
 		"shield": {
 			"eng": "Shield",
 			"trans": "護盾"
 		},
+		"shieldDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "增加你的最大護盾。"
+		},
 		"shieldPercent": {
 			"eng": "Shield Multiplier",
 			"trans": "護盾倍率"
+		},
+		"shieldPercentDesc": {
+			"eng": "Increases your maximum shield.",
+			"trans": "增加你的最大護盾。"
 		},
 		"str": {
 			"eng": "Strength",
 			"trans": "力量"
 		},
+		"strDesc": {
+			"eng": "Increases your strength attribute, which in turn increases your damage with melee weapons.",
+			"trans": "提升你的力量屬性，進而提升你的近戰武器傷害。"
+		},
 		"vit": {
 			"eng": "Vitality",
 			"trans": "活力值"
+		},
+		"vitDesc": {
+			"eng": "Increases your vitality attribute, which in turn increases your maximum health.",
+			"trans": "提升你的活力屬性，進而增加你的最大生命值。"
 		}
 	},
 	"statDiff": {
@@ -7428,6 +12110,16 @@
 				"trans": "戰利品增加"
 			}
 		},
+		"muted": {
+			"desc": {
+				"eng": "This player have been muted by the system.",
+				"trans": "此玩家已被系統禁言。"
+			},
+			"name": {
+				"eng": "Muted",
+				"trans": "靜音"
+			}
+		},
 		"poison": {
 			"combatMsg": {
 				"eng": "${name} received ${damage} damage from poison",
@@ -7471,6 +12163,16 @@
 				"eng": "PVP Protection",
 				"trans": "PVP保護"
 			}
+		},
+		"raidExpMult5": {
+			"desc": {
+				"eng": "Increases the EXP you receive from hideout raids by ${percent}%",
+				"trans": "增加你從藏身處突襲中獲得的經驗值${percent}%。"
+			},
+			"name": {
+				"eng": "Hideout Raid EXP Multiplier V",
+				"trans": "藏身處突襲經驗值倍增器 V"
+			}
 		}
 	},
 	"statusEffectModal": {
@@ -7484,14 +12186,13 @@
 		},
 		"turns": {
 			"eng": "${turns} combat turns",
-			"trans": "${turns}回合戰鬥",
-			"vars": []
+			"trans": "${turns}回合戰鬥"
 		}
 	},
 	"statusInventory": {
 		"description": {
-			"eng": "If your backpack or inventory is full.\\nPlease remove some stuff before picking up the loots.",
-			"trans": "如果您的背包或者倉庫已滿，\n請在撿取戰利品之前先移除一些物品。"
+			"eng": "If your ${inv} is full or one of the item has reached its max stack limit.\\nPlease remove some stuff before picking up the loots.",
+			"trans": "如果你的${inv}已滿，或其中一項物品已達到最大堆疊限制。\\n請在拾取戰利品之前先清空一些物品。"
 		},
 		"discard": {
 			"eng": "Discard",
@@ -7552,6 +12253,234 @@
 			"trans": "戰利品"
 		}
 	},
+	"stock": {
+		"notEnoughMoney": {
+			"eng": "You don't have enough Eurodollar to buy purchase ${company}, current price: ${price}, needed: ${total}",
+			"trans": "您沒有足夠的歐元來購買${company}，當前價格：${price}，所需：${total}"
+		},
+		"tradeCooldown": {
+			"buy": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "此股票每${cooldown}分鐘限售一次"
+			},
+			"sell": {
+				"eng": "You can only sell this stock once per ${cooldown} minutes",
+				"trans": "此股票 ${cooldown} 分鐘內僅可賣出一次。"
+			}
+		}
+	},
+	"stockExchange": {
+		"availableFunds": {
+			"eng": "Available Funds",
+			"trans": "可用資金"
+		},
+		"buy": {
+			"eng": "Buy",
+			"trans": "入手"
+		},
+		"companyColumn": {
+			"eng": "Company",
+			"trans": "公司"
+		},
+		"confirmBuy": {
+			"eng": "Confirm Buy",
+			"trans": "確定購買"
+		},
+		"confirmSell": {
+			"eng": "Confirm Sell",
+			"trans": "確認出售"
+		},
+		"currentPrice": {
+			"eng": "Current Price",
+			"trans": "目前的價格"
+		},
+		"dailyChange": {
+			"eng": "24h Change",
+			"trans": "每日更新"
+		},
+		"invalidStock": {
+			"eng": "Invalid stock selected",
+			"trans": "已選取無效的庫存"
+		},
+		"invested": {
+			"eng": "Total Asset Value",
+			"trans": "總資產價值"
+		},
+		"liveIndicator": {
+			"eng": "LIVE MARKET",
+			"trans": "實時市場"
+		},
+		"loading": {
+			"eng": "Loading market data...",
+			"trans": "載入市場資料..."
+		},
+		"loadingPrices": {
+			"eng": "Loading prices...",
+			"trans": "載入價格..."
+		},
+		"marketPriceWarning": {
+			"eng": "The actual price may differ slightly from the displayed price due to market spreads, timing, and demand.",
+			"trans": "實際價格可能與顯示價格略有差異，由於市場價差、時點及需求等因素可能有所波動。"
+		},
+		"max": {
+			"eng": "MAX",
+			"trans": "最大值"
+		},
+		"portfolioOverview": {
+			"eng": "Portfolio Overview",
+			"trans": "投資組合概覽"
+		},
+		"priceColumn": {
+			"eng": "Price / Change",
+			"trans": "價格 / 兌換"
+		},
+		"processing": {
+			"eng": "Processing...",
+			"trans": "處理中"
+		},
+		"profitLoss": {
+			"eng": "Unrealized P&L",
+			"trans": "未實現損益"
+		},
+		"purchaseFailed": {
+			"eng": "Purchase Failed",
+			"trans": "購買失敗"
+		},
+		"purchaseFailedGeneric": {
+			"eng": "Unable to complete purchase",
+			"trans": "購買失敗"
+		},
+		"purchaseSuccessful": {
+			"eng": "Purchase Successful",
+			"trans": "已購買"
+		},
+		"saleFailed": {
+			"eng": "Sale Failed",
+			"trans": "賣出失敗"
+		},
+		"saleFailedGeneric": {
+			"eng": "Unable to complete sale",
+			"trans": "交易失敗"
+		},
+		"saleSuccessful": {
+			"eng": "Sale Successful",
+			"trans": "成交!"
+		},
+		"sell": {
+			"eng": "Sell",
+			"trans": "賣"
+		},
+		"shares": {
+			"eng": "Shares",
+			"trans": "股份"
+		},
+		"sharesOwned": {
+			"eng": "${shares} shares",
+			"trans": "${shares} 股份"
+		},
+		"stockValue": {
+			"eng": "Stock Value",
+			"trans": "股票價值"
+		},
+		"totalCost": {
+			"eng": "Total Cost",
+			"trans": "總價"
+		},
+		"totalRealizedProfit": {
+			"eng": "Realized P&L",
+			"trans": "已實現損益"
+		},
+		"totalReceived": {
+			"eng": "Total Received",
+			"trans": "總計收到"
+		},
+		"trade": {
+			"eng": "Trade",
+			"trans": "交易"
+		},
+		"tradeButton": {
+			"eng": "Trade",
+			"trans": "交易"
+		},
+		"tradingFee": {
+			"eng": "Trading Fee",
+			"trans": "交易費用"
+		}
+	},
+	"stockTradeModal": {
+		"sharesOwned": {
+			"eng": "Shares Owned",
+			"trans": "持有股數"
+		}
+	},
+	"storyListPage": {
+		"invalidPage": {
+			"eng": "Please enter a valid page number",
+			"trans": "請輸入有效的頁碼"
+		},
+		"next": {
+			"eng": "Next",
+			"trans": "下一頁"
+		},
+		"noStories": {
+			"eng": "No stories available",
+			"trans": "目前沒有故事可用"
+		},
+		"pageDescription": {
+			"eng": "Discover the rich lore of Arclight City. Browse our collection of cyberpunk stories set in a dystopian future of corporate control and technological revolution.",
+			"trans": "探索幻光之城的豐富背景故事。瀏覽我們的收藏，這些故事設定在一個充滿企業控制和科技革命的反烏托邦未來。"
+		},
+		"pageIndicator": {
+			"eng": "${current} / ${total}",
+			"trans": "${current} / ${total}"
+		},
+		"pageInputAriaLabel": {
+			"eng": "Enter page number",
+			"trans": "輸入頁碼"
+		},
+		"pageInputPlaceholder": {
+			"eng": "Page #",
+			"trans": "第 # 頁"
+		},
+		"pageOutOfRange": {
+			"eng": "Page number exceeds total pages",
+			"trans": "頁碼已超出總頁數"
+		},
+		"pageTitle": {
+			"eng": "Arclight City Stories - Cyberpunk Lore Collection",
+			"trans": "幻光之城故事 - 賽博朋克傳說集"
+		},
+		"previous": {
+			"eng": "Prev",
+			"trans": "上一頁"
+		},
+		"subtitle": {
+			"eng": "Discover the lore of the cyberpunk world",
+			"trans": "探索賽博朋克世界的背景故事"
+		},
+		"tapToRead": {
+			"eng": "Tap to read this story",
+			"trans": "輕觸以閱讀這個故事"
+		},
+		"title": {
+			"eng": "Game Stories",
+			"trans": "遊戲故事"
+		}
+	},
+	"storyPage": {
+		"pageDescription": {
+			"eng": "Read the cyberpunk story ${storyTitle} from the Arclight City cyberpunk universe.",
+			"trans": "請閱讀${storyTitle}，這是來自幻光之城的賽博朋克故事。"
+		},
+		"pageTitle": {
+			"eng": "Arclight Cyberpunk Story - ${storyTitle}",
+			"trans": "幻光賽博朋克故事 - ${storyTitle}"
+		},
+		"returnToStories": {
+			"eng": "Return to all stories",
+			"trans": "回到所有故事"
+		}
+	},
 	"stringHelper": {
 		"nameError": {
 			"englishOnly": {
@@ -7588,14 +12517,21 @@
 	},
 	"task": {
 		"error": {
+			"altError": {
+				"eng": "Alternate accounts are not allowed to contribute to gang tasks",
+				"trans": "另類帳號不得參加幫派任務"
+			},
 			"gangRequired": {
 				"eng": "You are currently not in any gang",
 				"trans": "您目前沒有加入任何幫派。"
 			},
 			"inProgress": {
 				"eng": "Task is still in progress, remaining seconds: ${remainingSeconds}",
-				"trans": "任務仍在進行中，剩餘時間：${remainingSeconds}秒",
-				"vars": []
+				"trans": "任務仍在進行中，剩餘時間：${remainingSeconds}秒"
+			},
+			"locationNotUnlocked": {
+				"eng": "You need to unlock ${locationName} to control this territory",
+				"trans": "你需要先解鎖${locationName}才能掌控此區域"
 			},
 			"maxTasks": {
 				"eng": "You have reached the max amount of tasks",
@@ -7616,9 +12552,13 @@
 		},
 		"notification": {
 			"completed": {
-				"title": {
-					"eng": "Task completed",
-					"trans": "任務完成"
+				"message2": {
+					"eng": "${count} of your AFK tasks are completed, click to claim your rewards!",
+					"trans": "已完成${count}項掛機任務，點擊領取獎勵！"
+				},
+				"title2": {
+					"eng": "🔔AFK Task completed",
+					"trans": "🔔掛機任務完成"
 				}
 			}
 		}
@@ -7634,6 +12574,20 @@
 			"notFound": {
 				"eng": "Territory not found",
 				"trans": "找不到領地"
+			}
+		},
+		"message": {
+			"topClanChange": {
+				"eng": "${newTopClanName} has taken over ${territoryName}",
+				"trans": "${newTopClanName}已佔領${territoryName}"
+			},
+			"topClanChangeBody": {
+				"eng": "${newTopClanName} has overtaken one of your gang's territory",
+				"trans": "${newTopClanName}已經佔領了你們幫派的一個領地"
+			},
+			"topClanChangeTitle": {
+				"eng": "Territory lost!",
+				"trans": "領地喪失！"
 			}
 		},
 		"resetNoti": {
@@ -7663,9 +12617,9 @@
 	},
 	"territoryDisplay": {
 		"hasTopGang": {
-			"title": {
-				"eng": "Controlled by ${name} [${tag}]",
-				"trans": "由${name} [${tag}]控制"
+			"titlev2": {
+				"eng": "View Territory",
+				"trans": "查看領地"
 			}
 		},
 		"noTopGang": {
@@ -7679,6 +12633,12 @@
 		"description": {
 			"eng": "Claim control of this territory to gain ability to deploy territorial buffs",
 			"trans": "控制這個領地，以獲得部署領地增益的能力。"
+		},
+		"gang": {
+			"controlPoints": {
+				"eng": "${amount} Control Points",
+				"trans": "${amount} 控制點數"
+			}
 		},
 		"gangRequired": {
 			"eng": "You must be in a gang to claim territory",
@@ -7785,28 +12745,23 @@
 		"duration": {
 			"days": {
 				"eng": "${days} days",
-				"trans": "${days} 天",
-				"vars": []
+				"trans": "${days} 天"
 			},
 			"hours": {
 				"eng": "${hours} hours",
-				"trans": "${hours} 小時",
-				"vars": []
+				"trans": "${hours} 小時"
 			},
 			"minutes": {
 				"eng": "${minutes} minutes",
-				"trans": "${minutes} 分鐘",
-				"vars": []
+				"trans": "${minutes} 分鐘"
 			},
 			"seconds": {
 				"eng": "${seconds} seconds",
-				"trans": "${seconds} 秒鐘",
-				"vars": []
+				"trans": "${seconds} 秒鐘"
 			},
 			"years": {
 				"eng": "${years} years",
-				"trans": "${years}年",
-				"vars": []
+				"trans": "${years}年"
 			}
 		}
 	},
@@ -7950,6 +12905,12 @@
 			"trans": "解鎖交易"
 		}
 	},
+	"traitDisplay": {
+		"unknownTrait": {
+			"eng": "This is an encrypted trait, use ${item} to decrypt and identify its true potential",
+			"trans": "這是加密的屬性，用${item}解鎖，看清它的真面目。"
+		}
+	},
 	"travelToLocationModal": {
 		"alreadyAtLocation": {
 			"eng": "Already at location",
@@ -7973,7 +12934,7 @@
 		},
 		"rewardDescription": {
 			"eng": "Rewards are claimed after clearing the ${difficulty} stronghold, you must participate in defeating the boss for it to count.\\nyou can only claim reward for each location once.",
-			"trans": "在清除${difficulty}地城後才能領取獎勵，你必須參與擊敗首領才能計算。\\n每個地點的獎勵只能領取一次。"
+			"trans": "在清除${difficulty}地城後才能獲得獎勵，你必須參與擊敗首領才能領取。\\n每個地點的獎勵只能領取一次。"
 		},
 		"rewardSubtitle": {
 			"eng": "raid rewards",
@@ -7992,6 +12953,26 @@
 		"autoAttack": {
 			"eng": "Click here to toggle auto combat, which will allow you to attack enemies, use ability and heal automatically.",
 			"trans": "點擊這裡以切換自動戰鬥，這將使您能夠自動攻擊敵人、使用技能和自動治療。"
+		},
+		"autoFarm": {
+			"eng": "click here to start the auto gathering process",
+			"trans": "點擊這裡開始自動採集過程"
+		},
+		"autoFarm1": {
+			"eng": "You can use auto gather to gain rewards and exp passively while leaving your device on",
+			"trans": "你可以使用自動採集來在設備開啟時被動獲得獎勵和經驗值。"
+		},
+		"autoFarmBoost": {
+			"eng": "Boost allow you to gain ${expPercent}% EXP and ${rewardPercent}% rewards, You can toggle to this to enable or disable boost during auto gather",
+			"trans": "增益讓你獲得${expPercent}%經驗值和${rewardPercent}%獎勵，你可以切換此選項以在自動採集期間啟用或禁用增益。"
+		},
+		"autoFarmStop": {
+			"eng": "You can click here to stop at any time.",
+			"trans": "你可以隨時點擊這裡停止。"
+		},
+		"autoGatherRush": {
+			"eng": "Spam click here to fill the rush bar and get extra rewards!",
+			"trans": "狂點這裡填滿衝刺條，獲得額外獎勵！"
 		},
 		"backToMainPage": {
 			"eng": "You can always go back to main screen from here.",
@@ -8109,6 +13090,10 @@
 			"eng": "Click here to recruit 10 new mercenaries",
 			"trans": "點擊這裡招募10名新傭兵。"
 		},
+		"newsReaction": {
+			"eng": "React to news reports to receive Credits and gain points for your Corporation!",
+			"trans": "點擊新聞報導，領取信用點，替你的企業衝人氣！"
+		},
 		"quest": {
 			"eng": "Click here to view your quests.",
 			"trans": "點擊這裡查看您的任務。"
@@ -8160,6 +13145,14 @@
 			"trans": "返回"
 		},
 		"characterSelect": {
+			"badgeTitle": {
+				"eng": "IDENTITY",
+				"trans": "識別碼"
+			},
+			"bottomBadge": {
+				"eng": "RESTRICTED ACCESS",
+				"trans": "權限不足"
+			},
 			"createCharacter": {
 				"eng": "Create new character",
 				"trans": "創建新角色"
@@ -8167,6 +13160,10 @@
 			"deleteCharacter": {
 				"eng": "Delete Character",
 				"trans": "刪除角色"
+			},
+			"location": {
+				"eng": "Arclight City - Character Database",
+				"trans": "幻光之城 - 角色資料庫"
 			},
 			"noCharacters": {
 				"eng": "You have no characters",
@@ -8186,13 +13183,29 @@
 				"eng": "You already tried to escape in this turn!",
 				"trans": "您在這回合已經試過逃脫了！"
 			},
+			"arresting": {
+				"eng": "ARREST",
+				"trans": "逮捕"
+			},
 			"autoAttackLevel": {
 				"eng": "You need to be level ${level} to use auto combat",
 				"trans": "自動戰鬥需要等級 ${level}"
 			},
+			"criticalHealth": {
+				"eng": "Critical Health Warning",
+				"trans": "生命危急警告"
+			},
 			"escape": {
 				"eng": "escape",
 				"trans": "逃脫"
+			},
+			"mugging": {
+				"eng": "MUGGING",
+				"trans": "搶劫"
+			},
+			"round": {
+				"eng": "Round ${round}",
+				"trans": "第${round}回合"
 			}
 		},
 		"dungeonUI": {
@@ -8220,8 +13233,8 @@
 			}
 		},
 		"health": {
-			"eng": "health",
-			"trans": "生命值"
+			"eng": "HEALTH",
+			"trans": "生命"
 		},
 		"inventoryPage": {
 			"equipmentTab": {
@@ -8282,6 +13295,14 @@
 			}
 		},
 		"mainMenu": {
+			"account": {
+				"eng": "Account",
+				"trans": "帳號"
+			},
+			"blockedPlayer": {
+				"eng": "blocked",
+				"trans": "封鎖"
+			},
 			"bugReport": {
 				"eng": "Bug Report",
 				"trans": "錯誤回報"
@@ -8316,6 +13337,10 @@
 				"eng": "Gift Code",
 				"trans": "優惠碼"
 			},
+			"investigations": {
+				"eng": "Investigations",
+				"trans": "調查"
+			},
 			"leaderboard": {
 				"eng": "leaderboard",
 				"trans": "排行榜"
@@ -8327,6 +13352,16 @@
 			"logoutButton": {
 				"eng": "logout",
 				"trans": "登出"
+			},
+			"logoutModal": {
+				"description": {
+					"eng": "Are you sure you want to logout?\\nLogging out will automatically cancel all your unfinished background tasks, resources used to start the tasks will be lost",
+					"trans": "您確定要登出嗎？\\n登出將自動取消您所有未完成的背景任務，啟動這些任務所使用的資源將會損失。"
+				},
+				"title": {
+					"eng": "Cancel all background tasks?",
+					"trans": "要取消所有背景任務嗎？"
+				}
 			},
 			"loreNotes": {
 				"eng": "lore notes",
@@ -8349,22 +13384,10 @@
 				"trans": "頁面開發中"
 			}
 		},
-		"mainPage": {
-			"chatButton": {
-				"eng": "chat",
-				"trans": "聊天"
-			}
-		},
 		"misc": {
 			"equip": {
 				"eng": "Equip",
 				"trans": "裝備"
-			}
-		},
-		"restart": {
-			"title": {
-				"eng": "Server is restarting...",
-				"trans": "伺服器正在重新啟動..."
 			}
 		},
 		"selectItemModal": {
@@ -8378,7 +13401,7 @@
 			}
 		},
 		"shield": {
-			"eng": "shield",
+			"eng": "SHIELD",
 			"trans": "護盾"
 		},
 		"travelBack": {
@@ -8389,6 +13412,10 @@
 		}
 	},
 	"uiScale": {
+		"auto": {
+			"eng": "Auto",
+			"trans": "自動"
+		},
 		"huge": {
 			"name": {
 				"eng": "Huge",
@@ -8420,6 +13447,16 @@
 			}
 		}
 	},
+	"updatingOverlay": {
+		"description": {
+			"eng": "Hello, I'm quickly updating the server to improve the game! \\nIt's normal to see a reconnect or update screen for a few seconds.🚀\\nApologies for any inconvenience and thanks for your patience.🙏",
+			"trans": "嗨，我正在快速更新伺服器以改善遊戲！\\n在幾秒鐘內看到重新連接或更新畫面是正常的。🚀\\n抱歉造成任何不便，感謝您的耐心。🙏"
+		},
+		"title": {
+			"eng": "🌟 Quick Update Notice!",
+			"trans": "🌟 快速更新通知！"
+		}
+	},
 	"upgradeBackpackPopup": {
 		"description": {
 			"eng": "Upgrade your backpack to increase the amount of items you can carry in strongholds.",
@@ -8439,8 +13476,7 @@
 	"upgradeInventoryPopup": {
 		"addedSlots": {
 			"eng": "${slots} slots (+${addedSlots})",
-			"trans": "${slots}個欄位（+${addedSlots}）",
-			"vars": []
+			"trans": "${slots}個欄位（+${addedSlots}）"
 		},
 		"description": {
 			"eng": "You can also upgrade your inventory space by renting a apartment",
@@ -8541,6 +13577,10 @@
 		"title": {
 			"eng": "Vault",
 			"trans": "保險箱"
+		},
+		"vaultSlots": {
+			"eng": "Slots ${size}",
+			"trans": "欄位 ${size}"
 		}
 	},
 	"webHomePage": {
@@ -8574,6 +13614,38 @@
 				"trans": "超值價格！！"
 			}
 		},
+		"news": {
+			"adAction": {
+				"eng": "READ NOW",
+				"trans": "速看"
+			},
+			"live": {
+				"eng": "LIVE",
+				"trans": "實況"
+			},
+			"subtitle": {
+				"eng": "Latest updates from around Arclight City",
+				"trans": "幻光之城週邊快訊"
+			}
+		},
+		"stockAd": {
+			"feature1": {
+				"eng": "Minimal extraction fees - the house always wins, but barely",
+				"trans": "最低的提煉費用 - 賭場永遠有優勢，但極小"
+			},
+			"feature2": {
+				"eng": "Live market data from the corporate towers",
+				"trans": "來自企業大樓的即時市場數據"
+			},
+			"liveIndicator": {
+				"eng": "LIVE",
+				"trans": "實時"
+			},
+			"subtitle": {
+				"eng": "Trade corporate futures in Arclight's shadow markets.",
+				"trans": "在幻光的暗市中交易企業期貨。"
+			}
+		},
 		"wiki": {
 			"subtitle": {
 				"eng": "the free encyclopedia that anyone can edit",
@@ -8581,10 +13653,106 @@
 			}
 		}
 	},
-	"webLandingPage": {
-		"webNotAvailable": {
-			"eng": "Web version is not available yet.",
-			"trans": "網頁版尚未推出。"
+	"webNavBar": {
+		"viewNews": {
+			"eng": "News",
+			"trans": "新聞"
+		},
+		"viewStories": {
+			"eng": "Stories",
+			"trans": "故事"
+		}
+	},
+	"weeklyQuest": {
+		"dataCores": {
+			"eng": "Data Cores",
+			"trans": "資料核心"
+		},
+		"progress": {
+			"eng": "Mission Progress",
+			"trans": "任務進度"
+		}
+	},
+	"weeklyQuestList": {
+		"accepted": {
+			"eng": "Contract Accepted",
+			"trans": "合約已接受"
+		},
+		"canSubmit": {
+			"eng": "awaiting submission",
+			"trans": "等待提交"
+		},
+		"completed": {
+			"eng": "Contract Completed",
+			"trans": "合約完成"
+		},
+		"noQuests": {
+			"eng": "New intelligence contracts will be available soon",
+			"trans": "新情報合約即將推出"
+		},
+		"notAccepted": {
+			"eng": "Contract Available",
+			"trans": "合約可用"
+		},
+		"tip": {
+			"explanation": {
+				"eng": "Intelligence contracts are intelligence missions that reset every week base on Arclight City's dynamic geopolitical situation. You can collect ${itemName} from Hideout Raids",
+				"trans": "情報合約是每週根據幻光之城的動態地緣政治形勢重置的情報任務 你可以從據點突擊中收集${itemName}"
+			}
+		},
+		"title": {
+			"eng": "Intelligence Contracts",
+			"trans": "情報合約"
+		}
+	},
+	"weeklyQuestPreview": {
+		"acceptContract": {
+			"eng": "Accept Contract",
+			"trans": "接受合約"
+		},
+		"briefing": {
+			"eng": "Mission Briefing",
+			"trans": "任務簡報"
+		},
+		"contractAccepted": {
+			"eng": "Contract Accepted",
+			"trans": "合約已接受"
+		},
+		"contractCompleted": {
+			"eng": "Contract Completed",
+			"trans": "合約已完成"
+		},
+		"contractDetails": {
+			"eng": "Contract Details",
+			"trans": "合約詳情"
+		},
+		"daysRemaining": {
+			"eng": "${time} remaining",
+			"trans": "${time} 剩餘"
+		},
+		"submitContract": {
+			"eng": "Submit Contract",
+			"trans": "提交合約"
+		}
+	},
+	"weeklyQuestTier": {
+		"blackOps": {
+			"name": {
+				"eng": "Black Ops Contract",
+				"trans": "黑色行動合約"
+			}
+		},
+		"priority": {
+			"name": {
+				"eng": "Priority Contract",
+				"trans": "優先合約"
+			}
+		},
+		"standard": {
+			"name": {
+				"eng": "Standard Contract",
+				"trans": "標準合約"
+			}
 		}
 	},
 	"wikiPage": {
@@ -8658,6 +13826,12 @@
 			"announcement": {
 				"eng": "${playerName} tried to mug someone but failed!",
 				"trans": "${playerName}試圖搶劫某人，但失敗了！"
+			}
+		},
+		"territoryControlTakeOver": {
+			"announcement": {
+				"eng": "${gang1} has taken over ${gang2} territory!",
+				"trans": "${gang1} 抄了 ${gang2} 的場！"
 			}
 		},
 		"upgradedEpic": {
